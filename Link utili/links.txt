@@ -1,0 +1,24 @@
+---- LIBRERIE ----
+-SimpleHtmlDom: http://simplehtmldom.sourceforge.net/manual.htm
+-ParseCsv: https://github.com/parsecsv/parsecsv-for-php
+
+---- CRAWLER ----
+Api Google per la Custom Search
+
+	Formato output: https://developers.google.com/custom-search/json-api/v1/reference/cse/list#response
+	Search api reference: 	https://developers.google.com/custom-search/docs/topical
+							https://developers.google.com/custom-search/json-api/v1/using_rest
+
+---- PAROLE ASSOCIATE ----
+
+Tools utili per trovare le parole associate ad un determinato termine inserito. Per le categorie
+
+
+-In inglese:
+	http://wordassociations.net/
+	http://semantic-link.com/
+
+-In italiano:
+	http://keywordtool.io/
+	http://corpora.informatik.uni-leipzig.de/
+	http://it.wikipedia.org/w/index.php?title=Speciale:PuntanoQui/Musica&namespace=0&limit=50

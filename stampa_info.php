@@ -50,13 +50,14 @@
 
 	function stampaElenco($elenco){
 		foreach($elenco as $site){
-			echo "<h1>".$site['nome']."</h1>";
+			echo '<div itemscope itemtype="http://schema.org/Organization">';
+			echo "<h1 itemprop='name'>".$site['nome']."</h1>";
 			echo "<ul>";
-			echo "<li>Link: ".$site['link']."</li>";
+			echo "<li>Link: <span itemprop='sameAs'>".$site['link']."</span></li>";
 			echo "<li>Categoria: <ul>";
 			if(array_key_exists("categoria",$site)){
 				foreach ($site['categoria'] as $cat){
-					echo "<li>".$cat."</li>";
+					echo "<li><span itemprop='description'>".$cat."</span></li>";
 				}
 			}
 			else{
@@ -66,7 +67,7 @@
 			echo "<li>Email:<ul> ";
 			if(array_key_exists("email",$site)){
 				foreach ($site['email'] as $e){
-					echo"<li>".$e."</li>";
+					echo"<li><span itemprop='email'>".$e."</span></li>";
 				}
 			}
 			else{
@@ -76,17 +77,22 @@
 			echo "<li>Numeri telefonici:<ul> ";
 			if(array_key_exists("numero",$site)){
 				foreach ($site['numero'] as $n){
-					echo"<li>".$n."</li>";
+					echo"<li><span itemprop='telephone'>".$n."</span></li>";
 				}
 			}
 			else{
 				echo "<li>Nessun contatto telefonico</li>";
 			}
 			echo "</ul></li>";
-			echo "<li>Citta': ";
+			echo "<li itemprop='address' itemscope itemtype='http://http://schema.org/PostalAddress'>Citta': ";
 			if(array_key_exists("luogo",$site)){
-				if(array_key_exists("comune",$site['luogo']))
-					echo $site['luogo']['comune']." (".$site['luogo']['provincia'].") </li>";
+				if(array_key_exists("comune",$site['luogo'])){
+					echo '<span itemprop="addressLocality">'.$site['luogo']['comune'].'</span> ('.$site["luogo"]["provincia"].') , ';
+					echo '<span itemprop="postalCode">'.$site["luogo"]["cap"].'</span> - ';
+					echo '<span itemprop="addressRegion">'.$site["luogo"]["regione"].'</span> ';
+					echo '(<span itemprop="addressCountry">IT</span>)';
+				}
+					//echo $site['luogo']['comune']." (".$site['luogo']['provincia'].") </li>";
 			}
 			else{
 				echo "Impossibile determinare le informazioni relative al luogo</li>";
@@ -238,7 +244,7 @@
 		preg_match_all('/\s\d{2}[01589]\d{2}\s/i',$content,$indirizzi); 
 		$sito['luogo'] = array();
 		foreach($indirizzi[0] as $ind) { 
-		$sito['luogo']['cap'] = $ind;
+			$sito['luogo']['cap'] = $ind;
 			$c = new parseCSV();
 			$c->delimiter =";";
 			$c->parse('src/listacomuni.csv');
@@ -253,12 +259,14 @@
 					if(intval($cap_pre) == intval($ind_pre)){
 						$sito['luogo']['comune'] = $row['Comune'];
 						$sito['luogo']['provincia'] = $row['Provincia'];
+						$sito['luogo']['regione'] = $row['Regione'];
 						continue 2;
 					}
 				}
 				else if(intval($cap) == intval($ind)){
 					$sito['luogo']['comune'] = $row['Comune'];
 					$sito['luogo']['provincia'] = $row['Provincia'];
+					$sito['luogo']['regione'] = $row['Regione'];
 					continue 2;
 				}
 			}
