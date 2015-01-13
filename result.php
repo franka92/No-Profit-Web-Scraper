@@ -44,10 +44,8 @@
 			JSONstring = JSON.stringify(JSONelenco);
 			var s = "esamina_siti.php?valori="+encodeURIComponent(JSONstring);
 			document.getElementById("content").innerHTML += "<br>"+s;
-			//document.getElementById("hidden_form")[0].setAttribute("action", "file.php?valori="+encodeURIComponent(JSONstring));
 			$("#hidden_form").attr("action","esamina_siti.php?valori="+encodeURIComponent(JSONstring));
 			$("#sub_hidden").trigger("click");
-			//document.getElementById("hidden_form").submit();
 			 /*$.ajax({
 					url: "file.php?valori="+encodeURIComponent(JSONstring),
 					type: "POST",

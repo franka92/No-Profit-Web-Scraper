@@ -115,12 +115,10 @@
 				$search_for = array();
 				$r = checkForCategory($result, $found = array(), $search_for);
 				if ($r != null){
-					//echo "<h1>".$dominio ."</h1><br>";
 					$sito['categoria'] = array();
 				}					
 				foreach($r as $content){
 					array_push($sito['categoria'],$content);
-					//echo "Categoria: ".$content."<br>";
 				}
 				$html = file_get_html($link);
 				
@@ -142,17 +140,12 @@
 									$link_contatti = $dominio . $link_contatti;
 								}
 							}
-														
-							//echo $link_contatti.":<br>";
 							if($link_contatti != ""){
-								//$info_trovate = findContactInformation($link_contatti);
 								$sito = findContactInformation($link_contatti,$sito);
 							}	
 							else{
 								echo "<br> Link contatti == null ".$dominio;
 							}						
-							
-							//echo("------------------------------------<br><br>");
 						}
 					}
 					else{
@@ -167,18 +160,13 @@
 										$link_contatti = $dominio . $link_contatti;
 									}
 								}
-															
-								//echo $link_contatti.":<br>";
+
 								if($link_contatti != ""){
-									//$info_trovate = findContactInformation($link_contatti);
 									$sito = findContactInformation($link_contatti,$sito);
 								}	
 								else{
 									echo "<br> Link contatti == null ".$dominio;
-								}						
-								
-								//echo("------------------------------------<br><br>");
-							
+								}													
 							}
 							
 						}
@@ -189,7 +177,6 @@
 							array_push($elenco,$sito);
 						}
 						else{
-							//$info_trovate = findContactInformation($link);
 							$sito = findContactInformation($link,$sito);
 							if(array_key_exists("email",$sito))
 								array_push($elenco,$sito);
