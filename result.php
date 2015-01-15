@@ -1,6 +1,36 @@
 <?php
 	//include "file.php";
 	header('Content-Type: text/html; charset=ISO-8859-1');
+	//error_reporting(E_ALL ^ E_NOTICE);
+	
+	$regioni = $_REQUEST['regioni'];
+	$province = $_REQUEST['province'];
+	$filtri = "";
+	$query = $_POST['input_search'];
+	if(isset($_REQUEST['regioni'])){
+		for($i=0;$i<count($regioni);$i++){
+			if($i >0)
+				$filtri .= " OR ";
+			$found = false;
+			$reg = explode("_", $regioni[$i]);
+			if(isset($_REQUEST['province'])){
+				for($z=0;$z<count($province);$z++){
+					$prov = explode("_", $province[$z]);
+					if($prov[1] == $reg[1]){
+						if($found == true){
+							$filtri.= " OR ";
+						}
+						$filtri .= $query." ".$prov[0];
+						$found = true;
+					}
+				}
+			}
+			if(!$found)
+				$filtri .= $query." ".$reg[0];
+		}
+		$query = " ".$filtri." ";
+		echo $query;
+	}
 ?>
 	
 
@@ -29,6 +59,7 @@
 			for (var i = 0; i < response.items.length; i++) {
 				var item = response.items[i];
 				elenco.push(item);
+				document.getElementById("content").innerHTML += item.link+"<br>";
 			}
 
 			count++;
@@ -45,7 +76,7 @@
 			var s = "esamina_siti.php?valori="+encodeURIComponent(JSONstring);
 			document.getElementById("content").innerHTML += "<br>"+s;
 			$("#hidden_form").attr("action","esamina_siti.php?valori="+encodeURIComponent(JSONstring));
-			$("#sub_hidden").trigger("click");
+			//$("#sub_hidden").trigger("click");
 			 /*$.ajax({
 					url: "file.php?valori="+encodeURIComponent(JSONstring),
 					type: "POST",
@@ -61,14 +92,14 @@
 		
     </script>
 	
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?>&callback=hndlr">
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $query?> -site:facebook.com -site:twitter.com&callback=hndlr">
     </script>
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?>&callback=hndlr&start=11">
+	<!--<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=11">
     </script>
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?>&callback=hndlr&start=21">
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=21">
     </script>
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?>&callback=hndlr&start=31">
-    </script>
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=31">
+    </script>-->
 	
 	
 	

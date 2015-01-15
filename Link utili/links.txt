@@ -20,5 +20,5 @@ Tools utili per trovare le parole associate ad un determinato termine inserito. 
 
 -In italiano:
 	http://keywordtool.io/
-	http://corpora.informatik.uni-leipzig.de/
+	http://corpora.informatik.uni-leipzig.de/	(es: http://corpora.informatik.uni-leipzig.de/cgi-bin/ita_news_2005-2009/wort_www?site=10&Wort=musica)
 	http://it.wikipedia.org/w/index.php?title=Speciale:PuntanoQui/Musica&namespace=0&limit=50
