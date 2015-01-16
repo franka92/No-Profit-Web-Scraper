@@ -8,11 +8,14 @@ $elenco = array();
 	/*Ciclo sui primi n siti*/
 	for($i=(2*$siti_script); $i<(3*$siti_script);$i++){
 		$link = $dati[$i]['Sito'];
-		$elenco = findInformation($link,$elenco);
+		$timestamp = $dati[$i]['Timestamp'];
+		/*Cerco le informazioni solo se è passato più di un mese dall'ultimo controllo*/
+		if(verifica_timestamp($timestamp) === true)
+			$elenco = findInformation($link,$elenco);
 	}
 	
 	//stampaElenco($elenco);
-		//stampaElenco($elenco);
+		stampaElenco($elenco);
 		echo "<br>3 - ********* TEMPO ".date('i:s', time()-$tempo_iniziale);
 	//echo json_encode($elenco);
 	/*foreach ( as $key => $row){

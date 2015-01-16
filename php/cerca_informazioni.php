@@ -28,6 +28,29 @@
 	/*Suddivido l'elenco in gruppi, ognuno dei quali sarà assegnato ad uno script diverso*/
 	$siti_script = round($numero_siti/$numero_script);
 	
+	
+	
+	if (!file_exists('path/to/directory')) {
+		$dir_path = '../data/esecuzione_'.time();
+		mkdir($dir_path, 0777, true);
+		/*Creo i nuovi file per il dataset*/
+		$file_associazioni = fopen($dir_path."/associazioni_".time().".csv", "w");
+		$file_email = fopen($dir_path."/elenco-email_".time().".csv", "w");
+		$file_numeri = fopen($dir_path."/elenco-numeri_".time().".csv", "w");
+		echo "cartella craeta";
+	}
+	else{
+		echo "impossibile creare la cartella";
+	}
+	fputcsv($file_associazioni,explode(",","nome associazione,sito,comune,cap,provincia,regione,categoria"));
+	fputcsv($file_email,explode(",","sito associazione,email"));
+	fputcsv($file_numeri,explode(",","sito associazione,telefono"));
+	
+	/*Apro il file relativo alle categorie*/
+	$csv_categorie = new parseCSV();
+	$csv_categorie->auto('../src/elenco_categorie.csv');
+	$elenco_categorie = $csv_categorie->data;
+	
 	function stampaElenco($elenco){
 		foreach($elenco as $site){
 			echo '<div itemscope itemtype="http://schema.org/Organization">';
@@ -105,8 +128,8 @@
 				}					
 
 				//$html = file_get_html($link);
-				echo "<br>".$link;
-				$sito['nome'] = substr($link,10,strlen($link));
+
+				$sito['nome'] = substr($link,7,strlen($link));
 				foreach($html->find("title") as $element)
 					$sito['nome'] = $element->plaintext;
 				$pag_contatti = $html->find("a[href*=contatti] , a[href*=contact]");
@@ -156,16 +179,16 @@
 				if($sito != null){
 					if(array_key_exists("email",$sito)){
 						//echo "info TROVATE per ".$dominio."<br>";
-						array_push($elenco,$sito);
+						//array_push($elenco,$sito);
 					}
 					else{
 						$sito = findContactInformation($link,$sito);
-						if($sito != null){
+						/*if($sito != null){
 							if(array_key_exists("email",$sito))
-								array_push($elenco,$sito);
+								//array_push($elenco,$sito);
 						}
 						else
-							echo "info non trovate per ".$dominio."<br>";
+							echo "info non trovate per ".$dominio."<br>";*/
 					}
 				}
 
@@ -175,7 +198,7 @@
 			}
 		}	
 		
-		return $elenco;
+		return $sito;
 	}
 	
 	
@@ -194,14 +217,14 @@
 		$sito['email'] = array();
 		foreach($addresses[1] as $curEmail) { 
 			if(array_search ($curEmail,$sito['email']) === false)
-				array_push($sito['email'],$curEmail);
+				array_push($sito['email'],trim($curEmail," "));
 		} 
 		/*Per le email --> ricerca anche dei link a href="mailto:...."*/
 		if(file_get_html($link) != false){
 			$html = file_get_html($link);
 			foreach($html->find("a[href*=mailto]") as $element){
 				if(array_search (substr($element->href,7,strlen($element)),$sito['email']) === false)
-					array_push($sito['email'],substr($element->href,7,strlen($element)));
+					array_push($sito['email'],trim(substr($element->href,7,strlen($element))," "));
 			}
 		}
 		/*Ricerca Numeri telefonici*/
@@ -209,7 +232,7 @@
 		$sito['numero'] = array();
 		foreach($numbers[0] as $n) { 
 			if(array_search ($n,$sito['numero']) === false)
-				array_push($sito['numero'],$n);
+				array_push($sito['numero'],trim($n," "));
 		}
 		
 		/*Ricerca CAP*/
@@ -251,13 +274,13 @@
 	/*Cerca i termini nella pagina*/
 	function checkForCategory($page, $found = array(), $filter = array()){
 		$filtri = array(
-				array('Arte, Musica, Spettacolo','musica'),
-				array('Arte, Musica, Spettacolo','teatro'),
-				array('Arte, Musica, Spettacolo','danza'),
-				array('Arte, Musica, Spettacolo','arte'),
-				array('Arte, Musica, Spettacolo','cinema'),
-				array('Arte, Musica, Spettacolo','spettacoli'),
-				array('Arte, Musica, Spettacolo','coro'),
+				array('Arte Musica Spettacolo','musica'),
+				array('Arte Musica Spettacolo','teatro'),
+				array('Arte Musica Spettacolo','danza'),
+				array('Arte Musica Spettacolo','arte'),
+				array('Arte Musica Spettacolo','cinema'),
+				array('Arte Musica Spettacolo','spettacoli'),
+				array('Arte Musica Spettacolo','coro'),
 				array('Sport','sport'),
 				array('Sport','calcio'),
 				array('Sport','pallacanestro'),
@@ -276,18 +299,83 @@
 	}
 	
 	
+	function verifica_timestamp($timestamp){
+		if($timestamp == null)
+			return true;
+		$now = time();
+		$time1 = new DateTime();
+		$time2 = new DateTime();
+		
+		$time1->setTimestamp($timestamp);
+		$time2->setTimestamp($now);
+		
+		$difference = $time2->diff($time1);
+		$months = $difference->format("%m");
+		if($months > 0){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	function scrivi_file($site){
+		if(array_key_exists("link",$site)){
+			echo "<br>STO SCRIVENDO: ".$site['link'];
+			$nome = preg_replace('/ {2,}/',' ',$site['nome']);
+			$link = $site['link'];
+			$comune = "";
+			$provincia = "";
+			$regione = "";
+			$cap = "";
+			$timestamp;
+			$categorie = "";
+			
+			global $elenco_categorie;
+			global $file_associazioni;
+			global $file_email;
+			global $file_numeri;
+			
+			if(array_key_exists("categoria",$site)){
+				foreach ($site['categoria'] as $cat){
+					foreach($elenco_categorie as $e_c){
+						if(strcmp($cat,$e_c['nome']) == 0){
+							if($categorie == "")
+								$categorie .= $e_c['codice categoria'];
+							else
+								$categorie .= "-".$e_c['codice categoria'];
+						}
+					}
+					
+				}
+			}
+			if(array_key_exists("luogo",$site)){
+				if(array_key_exists("cap",$site['luogo']))
+					$cap = $site["luogo"]["cap"];
+				if(array_key_exists("comune",$site['luogo'])){
+					$comune = $site['luogo']['comune'];
+					$provincia = $site["luogo"]["provincia"];
+					$regione = $site["luogo"]["regione"];
+				}
+			}
+			fputcsv($file_associazioni, array('nome associazione' => $nome, 'sito' => $link, 'comune' => $comune, 'cap' => $cap,
+												'provincia' => $provincia,'regione' => $regione, 'categoria' => $categorie));
+			
+
+			
+			if(array_key_exists("email",$site)){
+				foreach ($site['email'] as $e){
+					fputcsv($file_email, array('sito associazione' => $link, 'email' => $e));
+				}
+			}
+			if(array_key_exists("numero",$site)){
+				foreach ($site['numero'] as $n){
+					fputcsv($file_numeri, array('sito associazione' => $link, 'numero' => preg_replace('/ {2,}/',' ',$n)));
+				}
+
+			}
+		}
+	}
 	
 
 ?>

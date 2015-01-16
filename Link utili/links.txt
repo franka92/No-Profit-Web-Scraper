@@ -22,3 +22,8 @@ Tools utili per trovare le parole associate ad un determinato termine inserito. 
 	http://keywordtool.io/
 	http://corpora.informatik.uni-leipzig.de/	(es: http://corpora.informatik.uni-leipzig.de/cgi-bin/ita_news_2005-2009/wort_www?site=10&Wort=musica)
 	http://it.wikipedia.org/w/index.php?title=Speciale:PuntanoQui/Musica&namespace=0&limit=50
+	
+	
+---- RIFERIMENTI ----
+Open Data: http://www.scribd.com/doc/55159307/Come-Si-Fa-Opendata-Ver-2
+DataSet: http://www.dati.gov.it/catalog/dataset?q=associazioni&sort=score+desc%2C+metadata_modified+desc

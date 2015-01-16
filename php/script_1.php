@@ -15,8 +15,28 @@
 	/*Ciclo sui primi n siti*/
 	for($i=0; $i<$siti_script;$i++){
 		$link = $dati[$i]['Sito'];
-		$nome = $dati[$i]['Nome'];
-		$elenco = findInformation($link,$elenco);
+		$timestamp = $dati[$i]['Timestamp'];
+		if ($timestamp == null){/*Il sito non è mai stato analizzato*/ 
+			$elenco = findInformation($link,$elenco);
+			if($elenco != null){/*Salvo i dati nel file .csv*/
+				scrivi_file($elenco);
+			}
+			/*Devo aggiornare il timestamp*/
+		}
+		else{
+			/*Cerco le informazioni solo se è passato più di un mese dall'ultimo controllo*/
+			if(verifica_timestamp($timestamp) === true){
+				$elenco = findInformation($link,$elenco);
+				//scrivi_file($elenco);
+				/*Devo aggiornare il timestamp
+					Confronto tra dati attuali e quelli di prima?
+				*/
+			}
+			else{/*Altrimenti mantengo le informazioni precedenti*/
+				/*Cerco sul database il sito, e mi creo l'oggetto "elenco" prendendo tali dati*/
+			}
+		}
+		
 	}
 	
 	//stampaElenco($elenco);
