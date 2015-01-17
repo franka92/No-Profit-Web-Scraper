@@ -18,9 +18,11 @@
 			$file_associazioni = fopen($dir_path."/associazioni_".time().".csv", "w");
 			$file_email = fopen($dir_path."/elenco-email_".time().".csv", "w");
 			$file_numeri = fopen($dir_path."/elenco-numeri_".time().".csv", "w");
-			fputcsv($file_associazioni,explode(",","nome associazione,sito,comune,cap,provincia,regione,categoria"));
-			fputcsv($file_email,explode(",","sito associazione,email"));
-			fputcsv($file_numeri,explode(",","sito associazione,telefono"));
+			$file_elenco = fopen("../src/elenco.csv", "w");
+			fputcsv($file_associazioni,explode(",","codice,nome associazione,sito,comune,cap,provincia,regione,categoria"));
+			fputcsv($file_email,explode(",","codice,sito associazione,email"));
+			fputcsv($file_numeri,explode(",","codice,sito associazione,telefono"));
+			fputcsv($file_numeri,explode(",","Sito,Timestamp"));
 	
 	
 			$query = "SELECT * FROM associazioni";
@@ -41,10 +43,16 @@
 				fputcsv($file_numeri,$line);
 			}
 			
+			$query = "SELECT * FROM elenco_siti";
+			$result = $db -> select($query);
+			foreach ($result as $line){
+				fputcsv($file_elenco,$line);
+			}
+			
 			fclose($file_associazioni);
 			fclose($file_email);
 			fclose($file_numeri);
-		//fclose($file_elenco);	
+			fclose($file_elenco);	
 		}
 		
 		$response['value'] = "true";

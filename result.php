@@ -75,7 +75,7 @@
 			JSONstring = JSON.stringify(JSONelenco);
 			var s = "esamina_siti.php?valori="+encodeURIComponent(JSONstring);
 			document.getElementById("content").innerHTML += "<br>"+s;
-			$("#hidden_form").attr("action","esamina_siti.php?valori="+encodeURIComponent(JSONstring));
+			$("#hidden_form").attr("action","php/esamina_siti.php?valori="+encodeURIComponent(JSONstring));
 			$("#sub_hidden").trigger("click");
 			 /*$.ajax({
 					url: "file.php?valori="+encodeURIComponent(JSONstring),

@@ -91,15 +91,17 @@
 			success: function(data){
 				if(data == "ok")
 					alert ("ok");
-				else
+				else if (data == "no")
 					esegui();
+				else
+					alert("Si è verificato un errore imprevisto! Ricarica la pagina!");
 				
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
 				alert("5 - Errore "+errorThrown);
 			}
 		});
-			alert("tutti finito");
+			//alert("tutti finito");
 		}
 	
 	}

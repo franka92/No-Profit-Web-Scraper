@@ -115,8 +115,11 @@
 				//$html = file_get_html($link);
 
 				$sito['nome'] = substr($link,7,strlen($link));
+				/*$titolo_pagina = $html->find("title");
+				if(count($titolo_pagina)>0)
+					$sito['nome'] = ($titolo_pagina[0])->plaintext;*/
 				foreach($html->find("title") as $element)
-					$sito['nome'] = $element->plaintext;
+					
 				$pag_contatti = $html->find("a[href*=contatti] , a[href*=contact]");
 				if(count($pag_contatti) > 0){
 					//echo "dentro if <br>";
