@@ -18,29 +18,22 @@
 				array('Arte, Musica, Spettacolo','spettacoli'),
 				array('Arte, Musica, Spettacolo','coro')
 	);
-	
-	//$elenco = array();
+
 	$numero_script = 5;
-	/*Recupero i dati dal file .csv*/
-	$csv = new parseCSV();
-	$csv->auto('../src/elenco.csv');
-	/*Conto il numero di righe del file*/
-	$numero_siti = count($csv->data);
-	/*Suddivido l'elenco in gruppi, ognuno dei quali sarà assegnato ad uno script diverso*/
+	$db = new Db();
+	$query = "SELECT * FROM elenco_siti";
+	$result = $db -> select($query);
+	if(count($result)>0){
+			$numero_siti = count($result);
+	} 
+	else{
+		$numero_siti = 0;
+	}
 	$siti_script = round($numero_siti/$numero_script);
-	/*
-	$dir_path = '../data/esecuzione';
-	$file_associazioni = fopen($dir_path."/associazioni.csv", "w");
-	$file_email = fopen($dir_path."/elenco-email.csv", "w");
-	$file_numeri = fopen($dir_path."/elenco-numeri.csv", "w");
-	*/
-	
-	//$db = new Db();
 	
 	/*Apro il file relativo alle categorie*/
-	$csv_categorie = new parseCSV();
-	$csv_categorie->auto('../src/elenco_categorie.csv');
-	$elenco_categorie = $csv_categorie->data;
+	$query = "SELECT * FROM categorie";
+	$elenco_categorie = $db->select($query);
 	
 	function stampaElenco($elenco){
 		foreach($elenco as $site){
@@ -172,14 +165,14 @@
 					if(array_key_exists("email",$sito)){
 						//echo "info TROVATE per ".$dominio."<br>";
 						array_push($elenco,$sito);
-						return true;
+						return $sito;
 					}
 					else{
 						$sito = findContactInformation($link,$sito);
 						if($sito != null){
 							if(array_key_exists("email",$sito))
 								array_push($elenco,$sito);
-								return true;
+								return $sito;
 						}
 						else
 							echo "info non trovate per ".$dominio."<br>";
@@ -189,10 +182,11 @@
 			}
 			else{
 				echo "Impossibile caricare: ". $dominio."<br>";
+				return null;
 			}
 		}	
 		
-		return false;
+		return null;
 	}
 	
 	
@@ -297,13 +291,15 @@
 	function verifica_timestamp($timestamp){
 		if($timestamp == null)
 			return true;
-		$now = time();
+			
+		$current_time = strtotime("now");
+		$last_access_time = strtotime($timestamp);
+		
 		$time1 = new DateTime();
 		$time2 = new DateTime();
-		
-		$time1->setTimestamp($timestamp);
-		$time2->setTimestamp($now);
-		
+	
+		$time1->setTimestamp($last_access_time);
+		$time2->setTimestamp($current_time);
 		$difference = $time2->diff($time1);
 		$months = $difference->format("%m");
 		if(intval($months) > 0){
@@ -329,6 +325,136 @@
 				echo "link non esiste: ". $link."<br>";
 			}
 		}
+		return false;
+	}
+	
+	function aggiorna_timestamp($link){
+		global $db;
+		$query = "UPDATE elenco_siti SET  Timestamp =now() WHERE  Sito =  '".$link."';";
+		echo "<br>".$query;
+		$db->query($query);
+	}
+	
+	function inserisci_dati($site){
+	
+		global $db;
+		echo "inserisco";
+		$categorie = "00";
+		$link = $site['link'];
+		if(cerca($link) === false){
+			$query = "INSERT INTO associazioni VALUE(NULL, ";
+			
+			$query .= "'".$site['nome'] ."', ";
+			$query .= "'".$site['link'] ."', ";
+			
+			if(array_key_exists("luogo",$site)){
+				if(array_key_exists("comune",$site['luogo'])){
+					$query .= "'".$site['luogo']['comune'] ."', ";
+					$query .= $site['luogo']['cap'] .", ";
+					$query .= "'".$site['luogo']['provincia'] ."', ";
+					$query .= "'".$site['luogo']['regione'] ."', ";
+				}
+				else{
+					$query .= "NULL, NULL, NULL, NULL, ";
+				}
+			}
+			else{
+				$query .= "NULL, NULL, NULL, NULL, ";
+			}
+			
+			if(array_key_exists("categoria",$site)){
+				global $elenco_categorie;
+				foreach ($site['categoria'] as $cat){
+					foreach ($elenco_categorie as $e_c){
+						if (strcmp($e_c['nome'],$cat) == 0){
+							if ($categorie == "00")
+								$categorie = $e_c['codice_categoria'];
+							else
+								$categorie .= "-".$e_c['codice_categoria'];
+						}
+					}
+				}
+			}
+			$query .= "'".$categorie;
+			
+			$query .= "');";
+			echo $query;
+			$db->query($query);
+			
+			/********/
+			if(array_key_exists("email",$site)){
+				foreach ($site['email'] as $e){
+					$query = "INSERT INTO elenco_email VALUE(NULL, '".$link."', '".$e."');";
+					$db->query($query);
+				}
+			}
+
+			if(array_key_exists("numero",$site)){
+				foreach ($site['numero'] as $n){
+					$query = "INSERT INTO elenco_numeri VALUE(NULL, '".$link."', '".$n."');";
+					$db->query($query);
+				}
+			}
+		}
+		else{
+			/*do nothing*/
+		}
+	
+	}
+	
+	function recupera_dati($link){
+		global $db;
+		$site = array();
+		$query = "SELECT * FROM associazioni WHERE sito='".$link."';";
+		$result = $db->select($query);
+		foreach($result as $row){
+			$site['nome'] = $row['nome associazione'];
+			$site['link'] = $row['sito'];
+			$site['luogo'] = array();
+			$site['luogo']['comune'] = $row['comune'];
+			$site['luogo']['cap'] = $row['cap'];
+			$site['luogo']['provincia'] = $row['regione'];
+			$site['luogo']['regione'] = $row['provincia'];
+		}
+		$query = "SELECT * FROM elenco_email WHERE sito='".$link."';";
+		$result = $db->select($query);
+		$site['email'] = array();
+		foreach($result as $row){
+			$site['email'] = $row['email'];
+		}
+		$query = "SELECT * FROM elenco_numeri WHERE sito='".$link."';";
+		$result = $db->select($query);
+		$site['numeri'] = array();
+		foreach($result as $row){
+			$site['numeri'] = $row['numero'];
+		}
+		return $site;
+		
+	
+	}
+	
+	function cancella_vecchie_info($link){
+		global $db;
+		$site = array();
+		$query = "DELETE FROM associazioni WHERE sito='".$link."';";
+		$result = $db->query($query);
+		
+		$query = "DELETE FROM elenco_email WHERE sito='".$link."';";
+		$result = $db->query($query);
+		$query = "DELETE FROM elenco_numeri WHERE sito='".$link."';";
+		$result = $db->query($query);
+
+		
+	
+	}
+	
+	function cerca($link){
+		global $db;
+		$query = "SELECT * FROM associazioni WHERE sito='".$link."';";
+		$result = $db->select($query);
+		if(count($result)>0)
+			return true;
+			
 		return false;
 	}
 	
