@@ -76,7 +76,7 @@
 			var s = "esamina_siti.php?valori="+encodeURIComponent(JSONstring);
 			document.getElementById("content").innerHTML += "<br>"+s;
 			$("#hidden_form").attr("action","esamina_siti.php?valori="+encodeURIComponent(JSONstring));
-			//$("#sub_hidden").trigger("click");
+			$("#sub_hidden").trigger("click");
 			 /*$.ajax({
 					url: "file.php?valori="+encodeURIComponent(JSONstring),
 					type: "POST",
@@ -94,12 +94,12 @@
 	
 	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $query?> -site:facebook.com -site:twitter.com&callback=hndlr">
     </script>
-	<!--<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=11">
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $query?> -site:facebook.com -site:twitter.com&callback=hndlr&start=11">
     </script>
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=21">
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $query?> -site:facebook.com -site:twitter.com&callback=hndlr&start=21">
     </script>
-	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $_POST['input_search']?> -site:facebook.com -site:twitter.com&callback=hndlr&start=31">
-    </script>-->
+	<script src="https://www.googleapis.com/customsearch/v1?key=AIzaSyC6QltceFVcWLSTbuHjy58a-BcZXxsBFL8&cx=002086684897779538086:ojni3tynjbk&q=<?php echo $query?> -site:facebook.com -site:twitter.com&callback=hndlr&start=31">
+    </script>
 	
 	
 	

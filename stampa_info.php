@@ -4,7 +4,7 @@
 	include ("/lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '/lib/parsecsv.lib.php';
-	
+	$tempo_iniziale = time();
 	header('Content-Type: text/html; charset=ISO-8859-1');
 	ini_set('default_charset', 'utf-8');
 	
@@ -41,15 +41,18 @@
 
 	foreach ($csv->data as $key => $row){
 		$link = $row['Sito'];
-		$nome = $row['Nome'];
+		$timestamp = $row['Timestamp'];
 		$info_trovate = false;
 		
 		$elenco = findInformation($link,$elenco);
+		stampaElenco($elenco);
+		echo "<br>2 - ********* TEMPO ".date('i:s', time()-$tempo_iniziale);
 		
 	}
 
 	function stampaElenco($elenco){
-		foreach($elenco as $site){
+		$site = $elenco[count($elenco)-1];
+		//foreach($elenco as $site){
 			echo '<div itemscope itemtype="http://schema.org/Organization">';
 			echo "<h1 itemprop='name'>".$site['nome']."</h1>";
 			echo "<ul>";
@@ -98,7 +101,7 @@
 				echo "Impossibile determinare le informazioni relative al luogo</li>";
 			}
 			echo "</ul>";
-		}
+		//}
 	echo "<br>DONE";
 	
 	}

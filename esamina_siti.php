@@ -2,14 +2,32 @@
 
 <?php
 
-	include ("stampa_info.php");
+	//include ("stampa_info.php");
+	include ("/lib/simple_html_dom.php");
+	# include parseCSV class.
+	require_once '/lib/parsecsv.lib.php';
 	set_time_limit(0);
 	
 	header('Content-Type: text/html; charset=ISO-8859-1');
 	ini_set('default_charset', 'utf-8');
+	
+	
+	$someUA = array (
+	"Mozilla/5.0 (Windows; U; Windows NT 6.0; fr; rv:1.9.1b1) Gecko/20081007 Firefox/3.1b1",
+	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.0",
+	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.4.154.18 Safari/525.19",
+	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
+	"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)",
+	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.40607)",
+	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.1.4322)",
+	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.0.3705; Media Center PC 3.1; Alexa Toolbar; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
+	"Mozilla/45.0 (compatible; MSIE 6.0; Windows NT 5.1)",
+	"Mozilla/4.08 (compatible; MSIE 6.0; Windows NT 5.1)",
+	"Mozilla/4.01 (compatible; MSIE 6.0; Windows NT 5.1)");
+	
 
 	$a = json_decode($_REQUEST['valori'],true);
-	$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+
 	foreach ($a['sito'] as $key => $obj){
 		
 		$parse = parse_url($obj['link']);
@@ -22,25 +40,61 @@
 				unset($a['sito'][$key]);
 			}
 			else{
-				$result = getContent($link);
-				libxml_use_internal_errors(TRUE);
-				if($result != null){
-					$search_for = array();
-					$r = checkForText($result, $found = array(), $search_for);
-					if ($r >1) {echo "<b>".$dominio ."</b><br>";
-						foreach($r as $content){
-							fwrite($myfile,"trovato: ".$content." --- ");
+				/*Risalgo alla homePage del sito*/
+				$parse = parse_url($link);
+				$homepage = $parse['host'];
+				echo "SITO: ".$link." **** ".$homepage;				
+				$html = file_get_html("http://".$homepage);
+				/*Cerco dei link alle pagine "chi siamo" o "storia"*/
+				$link_chiSiamo = $html->find("a[href*=chi siamo] , a[href*=storia]");
+				/*Cerco nelle pagine "chi siamo" o "storia" dei riferimenti a delle parole chiave, per vedere se il sito è utilizzabile*/
+				if(count($link_chiSiamo) > 0){
+					foreach($link_chiSiamo as $element){
+						$link_contatti = $element->href;
+						if(substr($link_contatti,0,strlen($link)) != $homepage){
+							if(substr($link_contatti,0,1) == "/"){
+								$link_contatti = $homepage . substr($link_contatti,1,strlen($link_contatti));
+							}
+							else{
+								$link_contatti = $homepage . $link_contatti;
+							}
 						}
-						fwrite($myfile, $obj['nome']);
-						fwrite($myfile, " ____ ".$link."\n");
+						if($link_contatti != ""){
+							$search_for = array();
+							$r = checkForText($result, $found = array(), $search_for);
+							if ($r >1) {
+								echo "<b>".$dominio ."</b><br>";
+							}
+							else{/*Il sito non risponde ai termini ricercati --> lo scarto*/
+								unset($a['sito'][$key]);
+							}
+						}	
+						else{
+							echo "<br> Link contatti == null ".$dominio;
+						}						
 					}
-					else{/*Il sito non risponde ai termini ricercato --> lo scarto*/
+				}
+				else{/*Se non ho trovato dei link, effettuo la ricerca direttamente sulla homepage*/
+					$result = getContent($homepage);
+					libxml_use_internal_errors(TRUE);
+					if($result != null){
+						$search_for = array();
+						$r = checkForText($result, $found = array(), $search_for);
+						if ($r >1) {
+							echo "<b>".$dominio ."</b><br>";
+						}
+						else{/*Il sito non risponde ai termini ricercati --> lo scarto*/
+							unset($a['sito'][$key]);
+						}
+					}
+					else{/*Non riesco ad aprire il link --> scarto il sito*/
 						unset($a['sito'][$key]);
 					}
 				}
-				else{/*Non riesco ad aprire il link --> scarto il sito*/
-					unset($a['sito'][$key]);
-				}
+				
+				
+				
+				
 				
 				
 			}
@@ -48,33 +102,27 @@
 			
 		}
 		else{/*Il sito è già presente nell'elenco, quindi salto al prossimo*/
-		
+			/*Do Nothing*/
 		}
 		
 
 	}
 
-	/*A questo punto ho già un primo elenco filtrato*/
-	foreach ($a['sito'] as $key => $obj){
-		fwrite($myfile, $obj['nome']);
-		fwrite($myfile, $link."\n");
-	}
-	fclose($myfile);
-	
+	/*A questo punto ho già un primo elenco filtrato*/	
 	/*ora dovrei fare le ricerche sia sui siti che ho trovato, sia su quelli che ho già salvato sui miei file .csv*/
 	$csv_file = fopen("src/elenco.csv", "a");
 	foreach ($a['sito'] as $key => $obj){
 		$parse = parse_url($obj['link']);
 		$link =  "http://".$parse['host'];
 		if(cercaSitoElenco($link) == false){
-			$elenco = findInformation($link,$elenco);
+			//$elenco = findInformation($link,$elenco);
 
 			fputcsv($csv_file, array('Sito' => $link, 'Nome' => ''));
 		}
 
 	}
 	fclose($csv_file);
-	stampaElenco($elenco);
+	//stampaElenco($elenco);
 
 	
 	function cercaSitoElenco($link){
@@ -87,7 +135,7 @@
 		return false;
 	
 	}
-
+	
 	function siteFilter($url){
 		$sites= array("facebook","twitter","youtube","wikipedia");
 		foreach ($sites as $word){
@@ -113,6 +161,35 @@
 		}
 		return $found;
 	}
+	
+	
+	function getRandomUserAgent ( ) {
+		//srand((double)microtime()*1000000);
+		global $someUA;
+		return $someUA[rand(0,count($someUA)-1)];
+	}
+	function getContent ($url) {
+	 
+		// Crea la risorsa CURL
+		$ch = curl_init();
+	 
+		// Imposta l'URL e altre opzioni
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_USERAGENT, getRandomUserAgent());
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);
+		// Scarica l'URL e lo passa al browser
+		$output = curl_exec($ch);
+		$info = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+		// Chiude la risorsa curl
+		curl_close($ch);
+		if ($output === false || $info != 200) {
+		  $output = null;
+		}
+		return $output;
+	 
+	}
+
 
 		
 

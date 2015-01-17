@@ -3,6 +3,7 @@
 	include ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
+	include ("database_manager.php");
 	
 	ini_set('default_charset', 'utf-8');	
 	set_time_limit(0);
@@ -27,24 +28,14 @@
 	$numero_siti = count($csv->data);
 	/*Suddivido l'elenco in gruppi, ognuno dei quali sarà assegnato ad uno script diverso*/
 	$siti_script = round($numero_siti/$numero_script);
+	/*
+	$dir_path = '../data/esecuzione';
+	$file_associazioni = fopen($dir_path."/associazioni.csv", "w");
+	$file_email = fopen($dir_path."/elenco-email.csv", "w");
+	$file_numeri = fopen($dir_path."/elenco-numeri.csv", "w");
+	*/
 	
-	
-	
-	if (!file_exists('path/to/directory')) {
-		$dir_path = '../data/esecuzione_'.time();
-		mkdir($dir_path, 0777, true);
-		/*Creo i nuovi file per il dataset*/
-		$file_associazioni = fopen($dir_path."/associazioni_".time().".csv", "w");
-		$file_email = fopen($dir_path."/elenco-email_".time().".csv", "w");
-		$file_numeri = fopen($dir_path."/elenco-numeri_".time().".csv", "w");
-		echo "cartella craeta";
-	}
-	else{
-		echo "impossibile creare la cartella";
-	}
-	fputcsv($file_associazioni,explode(",","nome associazione,sito,comune,cap,provincia,regione,categoria"));
-	fputcsv($file_email,explode(",","sito associazione,email"));
-	fputcsv($file_numeri,explode(",","sito associazione,telefono"));
+	//$db = new Db();
 	
 	/*Apro il file relativo alle categorie*/
 	$csv_categorie = new parseCSV();
@@ -108,7 +99,8 @@
 	
 	
 	/*Funzione che ricerca le informazioni relative al sito*/
-	function findInformation($link,$elenco){
+	function findInformation($link){
+		global $elenco;
 		if (strpos($link,'http') !== false){
 			$dominio = $link;
 			//$result = getContent($link);
@@ -179,16 +171,18 @@
 				if($sito != null){
 					if(array_key_exists("email",$sito)){
 						//echo "info TROVATE per ".$dominio."<br>";
-						//array_push($elenco,$sito);
+						array_push($elenco,$sito);
+						return true;
 					}
 					else{
 						$sito = findContactInformation($link,$sito);
-						/*if($sito != null){
+						if($sito != null){
 							if(array_key_exists("email",$sito))
-								//array_push($elenco,$sito);
+								array_push($elenco,$sito);
+								return true;
 						}
 						else
-							echo "info non trovate per ".$dominio."<br>";*/
+							echo "info non trovate per ".$dominio."<br>";
 					}
 				}
 
@@ -198,7 +192,7 @@
 			}
 		}	
 		
-		return $sito;
+		return false;
 	}
 	
 	
@@ -216,14 +210,15 @@
 		preg_match_all('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w+)/is',$content,$addresses); 
 		$sito['email'] = array();
 		foreach($addresses[1] as $curEmail) { 
-			if(array_search ($curEmail,$sito['email']) === false)
+			if(array_search (trim($curEmail," "),$sito['email']) === false){
 				array_push($sito['email'],trim($curEmail," "));
+			}
 		} 
 		/*Per le email --> ricerca anche dei link a href="mailto:...."*/
 		if(file_get_html($link) != false){
 			$html = file_get_html($link);
 			foreach($html->find("a[href*=mailto]") as $element){
-				if(array_search (substr($element->href,7,strlen($element)),$sito['email']) === false)
+				if(array_search (trim(substr($element->href,7,strlen($element))," "),$sito['email']) === false)
 					array_push($sito['email'],trim(substr($element->href,7,strlen($element))," "));
 			}
 		}
@@ -231,7 +226,7 @@
 		preg_match_all('/\(?\s?\d{3,4}\s?[\)\.\-]?\s*\d{3}\s*[\-\.]?\s*\d{3,4}/',$content,$numbers); 
 		$sito['numero'] = array();
 		foreach($numbers[0] as $n) { 
-			if(array_search ($n,$sito['numero']) === false)
+			if(array_search (trim($n," "),$sito['numero']) === false)
 				array_push($sito['numero'],trim($n," "));
 		}
 		
@@ -242,7 +237,7 @@
 			$sito['luogo']['cap'] = $ind;
 			$c = new parseCSV();
 			$c->delimiter =";";
-			$c->parse('src/listacomuni.csv');
+			$c->parse('../src/listacomuni.csv');
 			foreach ($c->data as $key => $row){
 				$cap = $row['CAP'];
 				if (strpos($cap,'x') != false){
@@ -311,7 +306,7 @@
 		
 		$difference = $time2->diff($time1);
 		$months = $difference->format("%m");
-		if($months > 0){
+		if(intval($months) > 0){
 			return true;
 		}
 		else{
@@ -319,63 +314,25 @@
 		}
 	}
 	
-	function scrivi_file($site){
-		if(array_key_exists("link",$site)){
-			echo "<br>STO SCRIVENDO: ".$site['link'];
-			$nome = preg_replace('/ {2,}/',' ',$site['nome']);
-			$link = $site['link'];
-			$comune = "";
-			$provincia = "";
-			$regione = "";
-			$cap = "";
-			$timestamp;
-			$categorie = "";
-			
-			global $elenco_categorie;
-			global $file_associazioni;
-			global $file_email;
-			global $file_numeri;
-			
-			if(array_key_exists("categoria",$site)){
-				foreach ($site['categoria'] as $cat){
-					foreach($elenco_categorie as $e_c){
-						if(strcmp($cat,$e_c['nome']) == 0){
-							if($categorie == "")
-								$categorie .= $e_c['codice categoria'];
-							else
-								$categorie .= "-".$e_c['codice categoria'];
-						}
-					}
-					
+	function recupera_info($link,$file_path){
+		global $elenco;
+		$json_file = file_get_contents ($file_path);//fopen("results".$i.".json", "r");
+		$json_data = json_decode($json_file, true);
+		foreach($json_data as $site){
+			if(array_key_exists("link",$site)){
+				if(strpos($site['link'],$link) !== false){
+					array_push($elenco,$site);
+					return true;
 				}
 			}
-			if(array_key_exists("luogo",$site)){
-				if(array_key_exists("cap",$site['luogo']))
-					$cap = $site["luogo"]["cap"];
-				if(array_key_exists("comune",$site['luogo'])){
-					$comune = $site['luogo']['comune'];
-					$provincia = $site["luogo"]["provincia"];
-					$regione = $site["luogo"]["regione"];
-				}
-			}
-			fputcsv($file_associazioni, array('nome associazione' => $nome, 'sito' => $link, 'comune' => $comune, 'cap' => $cap,
-												'provincia' => $provincia,'regione' => $regione, 'categoria' => $categorie));
-			
-
-			
-			if(array_key_exists("email",$site)){
-				foreach ($site['email'] as $e){
-					fputcsv($file_email, array('sito associazione' => $link, 'email' => $e));
-				}
-			}
-			if(array_key_exists("numero",$site)){
-				foreach ($site['numero'] as $n){
-					fputcsv($file_numeri, array('sito associazione' => $link, 'numero' => preg_replace('/ {2,}/',' ',$n)));
-				}
-
+			else{
+				echo "link non esiste: ". $link."<br>";
 			}
 		}
+		return false;
 	}
+	
+	
 	
 
 ?>
