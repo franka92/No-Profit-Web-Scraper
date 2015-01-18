@@ -2,6 +2,7 @@
 -SimpleHtmlDom: http://simplehtmldom.sourceforge.net/manual.htm
 -ParseCsv: https://github.com/parsecsv/parsecsv-for-php
 -Number Validator: https://github.com/giggsey/libphonenumber-for-php
+-https://semantria.com/ (pagamento)
 
 ---- CRAWLER ----
 Api Google per la Custom Search

@@ -7,30 +7,18 @@
 	
 	ini_set('default_charset', 'utf-8');	
 	set_time_limit(0);
-		echo "<br>********* TEMPO INIZIALE".date('m/d/Y H:i:s', time());
-		$tempo_iniziale = time();
-	$filtri = array(
-				array('Arte, Musica, Spettacolo','musica'),
-				array('Arte, Musica, Spettacolo','teatro'),
-				array('Arte, Musica, Spettacolo','danza'),
-				array('Arte, Musica, Spettacolo','arte'),
-				array('Arte, Musica, Spettacolo','cinema'),
-				array('Arte, Musica, Spettacolo','spettacoli'),
-				array('Arte, Musica, Spettacolo','coro')
-	);
 
 	$numero_script = 5;
 	$db = new Db();
 	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1";
 	$result = $db -> select($query);
 	if(count($result)>0){
-			$numero_siti = count($result);
+		$numero_siti = count($result);
 	} 
 	else{
 		$numero_siti = 0;
 	}
 	$siti_script = round($numero_siti/$numero_script);
-	
 	/*Recupero dal database tutte le categorie*/
 	$query = "SELECT * FROM categorie";
 	$elenco_categorie = $db->select($query);
@@ -85,15 +73,15 @@
 				echo "Impossibile determinare le informazioni relative al luogo</li>";
 			}
 			echo "</ul>";
-		}
-	echo "<br>DONE";
-	
+		}	
 	}
 	
 	
 	/*Funzione che ricerca le informazioni relative al sito*/
 	function findInformation($link){
 		global $elenco;
+		$special_c = array("/[À-Å]/","/Æ/","/Ç/","/[È-Ë]/","/[Ì-Ï]/","/Ð/","/Ñ/","/[Ò-ÖØ]/","/×/","/[Ù-Ü]/","/[Ý-ß]/","/[à-å]/","/æ/","/ç/","/[è-ë]/","/[ì-ï]/","/ð/","/ñ/","/[ò-öø]/","/÷/","/[ù-ü]/","/[ý-ÿ]/");
+		$normal_c = array("A","AE","C","E","I","D","N","O","X","U","Y","a","ae","c","e","i","d","n","o","x","u","y");
 		if (strpos($link,'http') !== false){
 			$dominio = $link;
 			$html = file_get_html($link);
@@ -101,6 +89,10 @@
 				$sito = array();
 				$sito['link'] = $link;
 				$search_for = array();
+				$link_descrizione = $html->find("a[href*=siamo],a[href*=storia]");
+				if(count($link_descrizione) > 0){
+					$r = checkForCategory(file_get_html($link_descrizione[0]->href), $found = array(), $search_for);
+				}
 				$r = checkForCategory($html, $found = array(), $search_for);
 				if ($r != null){
 					$sito['categoria'] = array();
@@ -112,7 +104,10 @@
 				foreach($html->find("title") as $element){
 					$titolo = $element->plaintext;
 					if($titolo != ""){
+						/*Elimino eventuali caratteri speciali*/
 						$titolo = preg_replace('/\s{2,}/',' ',$titolo);
+						$titolo = preg_replace($special_c,$normal_c, $titolo);
+						$titolo = html_entity_decode($titolo);
 						$sito['nome'] = trim($titolo," ");
 					}
 				}
@@ -201,7 +196,7 @@
 		$content = $html->plaintext;
 		
 		/*Ricerca indirizzi Email*/
-		preg_match_all('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w+)/is',$content,$addresses); 
+		preg_match_all('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w{2,3})/is',$content,$addresses); 
 		$sito['email'] = array();
 		foreach($addresses[1] as $curEmail) { 
 			$curEmail = preg_replace('/\s{2,}/',' ',$curEmail);
@@ -215,7 +210,7 @@
 			foreach($html->find("a[href^=mailto:]") as $element){
 				$result = array();
 				$email = str_replace("%20","",$element->href);
-				preg_match('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w+)/is',$email,$result); 
+				preg_match('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w{2,3})/is',$email,$result); 
 				$email = $result[0];
 				//$email = trim(substr($element->href,7,strlen($element))," ");
 				if(!empty($email) && array_search ($email,$sito['email']) === false)
@@ -231,12 +226,13 @@
 				$phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
 				try {
 					$numero = $phoneUtil->parse($n, "IT");
+					$isValid = $phoneUtil->isValidNumber($numero);
+					if($isValid === true && is_partita_iva($n) === false)
+						array_push($sito['numero'],trim($n," "));
 				} catch (\libphonenumber\NumberParseException $e) {
 					//var_dump($e);
 				}
-				$isValid = $phoneUtil->isValidNumber($swissNumberProto);
-				if($isValid === true && is_partita_iva($n) === false)
-					array_push($sito['numero'],trim($n," "));
+				
 			}
 		}
 		
@@ -292,11 +288,12 @@
 				array('Sport','basket'),
 				array('Sport','centro velico')
 		);
+		//foreach($page->find("a[href*=siamo] , a[href*=storia]"
 		$filter = ((!empty($filter) && is_array($filter)) ? $filter : $filtri);
 		$found = is_array($found) ? $found : array();
 		foreach($filtri  as $test){
 			if(in_array($test[0], $found)) continue;
-			if(preg_match("/".$test[1]."/i", $page)){
+			if(preg_match("/\s".$test[1]."/i", $page)){
 				array_push($found,$test[0]);
 			}
 		}

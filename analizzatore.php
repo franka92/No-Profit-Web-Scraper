@@ -90,6 +90,7 @@
 	
 	function terminato(){
 		if (success == 5){
+			//alert("tutti finito");
 			$.ajax({
 			url: "php/crea_dataset.php",
 			type: "POST",
@@ -110,7 +111,6 @@
 				alert("5 - Errore "+errorThrown);
 			}
 		});
-			//alert("tutti finito");
 		}
 		else if(terminati == 5){
 			terminati = 0;

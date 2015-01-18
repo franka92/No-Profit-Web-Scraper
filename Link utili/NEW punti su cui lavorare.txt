@@ -1,0 +1,18 @@
+1.Cercare di dare una stima della bontà dei risultati ottenuti (in base ad un confronto con il totale delle associazioni presenti)
+2.Scrivere in maniera formale gli algoritmi utilizzati
+3.Impostare la ricerca della categoria di appartenenza, tramite uso di keyword extraction or topic extraction)
+
+-------------
+
+1.Migliorare la ricerca dei luoghi: se non trovo un CAP cercare un modo alternativo di determinare comune/provincia/regione
+2.Dato un link vedere se questo è un'intro per il sito (quindi cercare link "entra","salta","skip","intro" e simili)
+3.Cercare di dare un significato all'email e ai numeri, ad esempio
+	-dividere telefoni da fax
+	-dare una tipologia alle email (di che servizio si occupano..)
+	
+	
+**** CATEGORIE ****
+	-Creo un elenco di categorie
+	-ad ogni categoria associo delle parole chiave
+	-faccio la ricerca
+
