@@ -1,5 +1,5 @@
 <?php
-
+	require '../vendor/autoload.php';
 	include ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
@@ -21,7 +21,7 @@
 
 	$numero_script = 5;
 	$db = new Db();
-	$query = "SELECT * FROM elenco_siti";
+	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1";
 	$result = $db -> select($query);
 	if(count($result)>0){
 			$numero_siti = count($result);
@@ -31,7 +31,7 @@
 	}
 	$siti_script = round($numero_siti/$numero_script);
 	
-	/*Apro il file relativo alle categorie*/
+	/*Recupero dal database tutte le categorie*/
 	$query = "SELECT * FROM categorie";
 	$elenco_categorie = $db->select($query);
 	
@@ -96,8 +96,6 @@
 		global $elenco;
 		if (strpos($link,'http') !== false){
 			$dominio = $link;
-			//$result = getContent($link);
-			//libxml_use_internal_errors(TRUE);
 			$html = file_get_html($link);
 			if($html != null){
 				$sito = array();
@@ -105,21 +103,20 @@
 				$search_for = array();
 				$r = checkForCategory($html, $found = array(), $search_for);
 				if ($r != null){
-					//echo "CATEGORIA TROVATA<br>";
 					$sito['categoria'] = array();
 					foreach($r as $content){
 						array_push($sito['categoria'],$content);
 					}
 				}					
-
-				//$html = file_get_html($link);
-
 				$sito['nome'] = substr($link,7,strlen($link));
-				/*$titolo_pagina = $html->find("title");
-				if(count($titolo_pagina)>0)
-					$sito['nome'] = ($titolo_pagina[0])->plaintext;*/
-				foreach($html->find("title") as $element)
-					
+				foreach($html->find("title") as $element){
+					$titolo = $element->plaintext;
+					if($titolo != ""){
+						$titolo = preg_replace('/\s{2,}/',' ',$titolo);
+						$sito['nome'] = trim($titolo," ");
+					}
+				}
+				
 				$pag_contatti = $html->find("a[href*=contatti] , a[href*=contact]");
 				if(count($pag_contatti) > 0){
 					//echo "dentro if <br>";
@@ -207,6 +204,7 @@
 		preg_match_all('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w+)/is',$content,$addresses); 
 		$sito['email'] = array();
 		foreach($addresses[1] as $curEmail) { 
+			$curEmail = preg_replace('/\s{2,}/',' ',$curEmail);
 			if(array_search (trim($curEmail," "),$sito['email']) === false){
 				array_push($sito['email'],trim($curEmail," "));
 			}
@@ -214,17 +212,32 @@
 		/*Per le email --> ricerca anche dei link a href="mailto:...."*/
 		if(file_get_html($link) != false){
 			$html = file_get_html($link);
-			foreach($html->find("a[href*=mailto]") as $element){
-				if(array_search (trim(substr($element->href,7,strlen($element))," "),$sito['email']) === false)
-					array_push($sito['email'],trim(substr($element->href,7,strlen($element))," "));
+			foreach($html->find("a[href^=mailto:]") as $element){
+				$result = array();
+				$email = str_replace("%20","",$element->href);
+				preg_match('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w+)/is',$email,$result); 
+				$email = $result[0];
+				//$email = trim(substr($element->href,7,strlen($element))," ");
+				if(!empty($email) && array_search ($email,$sito['email']) === false)
+					array_push($sito['email'],$email);
 			}
 		}
 		/*Ricerca Numeri telefonici*/
 		preg_match_all('/\(?\s?\d{3,4}\s?[\)\.\-]?\s*\d{3}\s*[\-\.]?\s*\d{3,4}/',$content,$numbers); 
 		$sito['numero'] = array();
 		foreach($numbers[0] as $n) { 
-			if(array_search (trim($n," "),$sito['numero']) === false)
-				array_push($sito['numero'],trim($n," "));
+			$n = preg_replace('/\s{2,}/',' ',$n);
+			if(array_search (trim($n," "),$sito['numero']) === false){
+				$phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
+				try {
+					$numero = $phoneUtil->parse($n, "IT");
+				} catch (\libphonenumber\NumberParseException $e) {
+					//var_dump($e);
+				}
+				$isValid = $phoneUtil->isValidNumber($swissNumberProto);
+				if($isValid === true && is_partita_iva($n) === false)
+					array_push($sito['numero'],trim($n," "));
+			}
 		}
 		
 		/*Ricerca CAP*/
@@ -342,7 +355,7 @@
 	
 		global $db;
 		echo "inserisco";
-		$categorie = "00";
+		$categorie = "0";
 		$link = $site['link'];
 		if(cerca($link) === false){
 			$query = "INSERT INTO associazioni VALUE(NULL, ";
@@ -458,6 +471,38 @@
 		if(count($result)>0)
 			return true;
 			
+		return false;
+	}
+	
+	function is_partita_iva($numero){
+		if(strlen($n) == 11 && strrpos($n," ") === false){
+			$x = 0;
+			$y = 0;
+			$array_num = str_split($numero);
+			$car_controllo = intval($array_num[count($array_num)-1]);
+			echo "controllo: ".$car_controllo;
+			for($i=0;$i<9;$i=($i+2)){
+				$x = $x+intval($array_num[$i]);
+			}
+			
+			for($i=1;$i<11;$i=($i+2)){
+				$mol = intval($array_num[$i])*2;
+				if($mol >9)
+					$mol = $mol-9;
+				$y = $y+$mol;
+			}
+
+			$result = ($x+$y)%10;
+			if($car_controllo == 0 && $result == 0)
+				return true;
+			else if ($car_controllo != 0){
+				$result = 10-$result;
+				if($car_controllo == $result)
+					return true;
+			}
+			return false;
+		
+		}
 		return false;
 	}
 	

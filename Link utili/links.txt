@@ -1,6 +1,7 @@
 ---- LIBRERIE ----
 -SimpleHtmlDom: http://simplehtmldom.sourceforge.net/manual.htm
 -ParseCsv: https://github.com/parsecsv/parsecsv-for-php
+-Number Validator: https://github.com/giggsey/libphonenumber-for-php
 
 ---- CRAWLER ----
 Api Google per la Custom Search

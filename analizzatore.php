@@ -6,7 +6,8 @@
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script>
-	var count = 0;
+	var terminati = 0;
+	var success = 0;
 	$(document).ready(esegui);
 	function esegui(){
 		$.ajax({
@@ -14,11 +15,12 @@
 			type: "POST",
 			datatype: "json",
 			success: function(data){
-				count++;
+				success++;
+				terminati++;
 				terminato();
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
-				count++;
+				terminati++;
 				terminato();
 			}
 		});
@@ -28,11 +30,12 @@
 			type: "POST",
 			datatype: "json",
 			success: function(data){
-				count++;
+				success++;
+				terminati++;
 				terminato();
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
-				count++;
+				terminati++;
 				terminato();
 			}
 		});
@@ -42,11 +45,12 @@
 				type: "POST",
 				datatype: "json",
 				success: function(data){
-					count++;
+					success++;
+					terminati++;
 					terminato();
 				},
 				error: function(jqXHR, textStatus, errorThrown) {
-					count++;
+					terminati++;
 					terminato();
 				}
 		});
@@ -56,12 +60,13 @@
 				type: "POST",
 				datatype: "json",
 				success: function(data){
-					count++;
+					success++;
+					terminati++;
 					terminato();
 					
 				},
 				error: function(jqXHR, textStatus, errorThrown) {
-					count++;
+					terminati++;
 					terminato();
 				}
 		});
@@ -71,19 +76,20 @@
 				type: "POST",
 				datatype: "json",
 				success: function(data){
-					count++;
+					success++;
+					terminati++;
 					terminato();
 					
 				},
 				error: function(jqXHR, textStatus, errorThrown) {
-					count++;
+					terminati++;
 					terminato();
 				}
 		});
 	}
 	
 	function terminato(){
-		if (count >= 5){
+		if (success == 5){
 			$.ajax({
 			url: "php/crea_dataset.php",
 			type: "POST",
@@ -91,8 +97,11 @@
 			success: function(data){
 				if(data == "ok")
 					alert ("ok");
-				else if (data == "no")
+				else if (data == "no"){
+					terminati = 0;
+					success = 0;
 					esegui();
+				}
 				else
 					alert("Si è verificato un errore imprevisto! Ricarica la pagina!");
 				
@@ -102,6 +111,11 @@
 			}
 		});
 			//alert("tutti finito");
+		}
+		else if(terminati == 5){
+			terminati = 0;
+			success = 0;
+			esegui();
 		}
 	
 	}

@@ -7,7 +7,7 @@
 	$elenco= array();
 	$elenco_siti = array();
 	$i = (4*$siti_script)+1;
-	$query = "SELECT * FROM elenco_siti LIMIT ".$i.",".(5*$siti_script).";";
+	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT ".$i.",".(5*$siti_script).";";
 	$dati = $db -> select($query);
 	
 	if(count($dati)>0){
