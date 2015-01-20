@@ -1,0 +1,121 @@
+codice,categoria,keyword
+1,musica,canzone
+1,musica,concerto
+1,musica,musica
+1,musica,suono
+1,musica,festival
+1,musica,coro
+2,associazione di donatori,organo
+2,associazione di donatori,sangue
+2,associazione di donatori,trapianto
+2,associazione di donatori,donare
+2,associazione di donatori,trasfusione
+2,associazione di donatori,malato
+3,commercio equo-solidale,equo
+3,commercio equo-solidale,prodotto
+3,commercio equo-solidale,artigiano
+3,commercio equo-solidale,sostenibile
+3,commercio equo-solidale,solidale
+3,commercio equo-solidale,commercio
+4,sport,sport
+4,sport,disciplina
+4,sport,calcio
+4,sport,gioco
+4,sport,agonistico
+4,sport,dilettante
+5,Disabili e Handicap,handicap
+5,Disabili e Handicap,disabile
+5,Disabili e Handicap,sostegno
+5,Disabili e Handicap,mentale
+5,Disabili e Handicap,malato
+5,Disabili e Handicap,carrozzina
+6,Donne,donna
+6,Donne,violenza
+6,Donne,assistenza
+6,Donne,vittima
+6,Donne,diritto
+6,Donne,femmina
+7,Arte e cultura,arte
+7,Arte e cultura,cultura
+7,Arte e cultura,museo
+7,Arte e cultura,mostra
+7,Arte e cultura,pittura
+7,Arte e cultura,rassegna
+8,Famiglia,famiglia
+8,Famiglia,genitore
+8,Famiglia,figli
+8,Famiglia,bambino
+8,Famiglia,madre
+8,Famiglia,padre
+9,Istruzione e sostegno,istruzione
+9,Istruzione e sostegno,scuola
+9,Istruzione e sostegno,formazione
+9,Istruzione e sostegno,studio
+9,Istruzione e sostegno,educazione
+9,Istruzione e sostegno,insegnare
+10,Lavoro,lavoro
+10,Lavoro,occupazione
+10,Lavoro,impresa
+10,Lavoro,operaio
+10,Lavoro,dipendente
+10,Lavoro,azienda
+11,Medicina,medicina
+11,Medicina,scienza
+11,Medicina,istituto
+11,Medicina,veterinaria
+11,Medicina,ospedale
+11,Medicina,malattia
+12,Protezione civile,protezione
+12,Protezione civile,civile
+12,Protezione civile,volontario
+12,Protezione civile,intervento
+12,Protezione civile,aiuto
+12,Protezione civile,sicurezza
+13,Recupero e assistenza,assistenza
+13,Recupero e assistenza,anziani
+13,Recupero e assistenza,sanità
+13,Recupero e assistenza,malato
+13,Recupero e assistenza,sostegno
+13,Recupero e assistenza,disabile
+14,Ricerca scientifica,scienza
+14,Ricerca scientifica,tecnologia
+14,Ricerca scientifica,ricerca
+14,Ricerca scientifica,progresso
+14,Ricerca scientifica,studio
+14,Ricerca scientifica,innovare
+15,Tutela degli animali,animale
+15,Tutela degli animali,sperimentazione
+15,Tutela degli animali,veterinaria
+15,Tutela degli animali,allevamento
+15,Tutela degli animali,tutela
+15,Tutela degli animali,cane
+16,Tutela dei cittadini,cittadino
+16,Tutela dei cittadini,consumatore
+16,Tutela dei cittadini,diritto
+16,Tutela dei cittadini,malato
+16,Tutela dei cittadini,salvaguardia
+16,Tutela dei cittadini,aiuto
+17,Tutela dei minori e adozioni,adozione
+17,Tutela dei minori e adozioni,minore
+17,Tutela dei minori e adozioni,bambino
+17,Tutela dei minori e adozioni,abuso
+17,Tutela dei minori e adozioni,maltrattamento
+17,Tutela dei minori e adozioni,abbandono
+18,Tutela dell'ambiente,ambiente
+18,Tutela dell'ambiente,ecologia
+18,Tutela dell'ambiente,salvaguardia
+18,Tutela dell'ambiente,territorio
+18,Tutela dell'ambiente,energia
+18,Tutela dell'ambiente,tutela
+19,Volontariato e solidarietà,volontario
+19,Volontariato e solidarietà,organizzazione
+19,Volontariato e solidarietà,solidarietà
+19,Volontariato e solidarietà,collaborazione
+19,Volontariato e solidarietà,aiuto
+19,Volontariato e solidarietà,impegno
+20,Spettacolo,spettacolo
+20,Spettacolo,cinema
+20,Spettacolo,teatro
+20,Spettacolo,festival
+20,Spettacolo,compagnia
+20,Spettacolo,concerto
