@@ -1,9 +1,10 @@
 <?php
-	require '../vendor/autoload.php';
-	include ("../lib/simple_html_dom.php");
+	require_once '../vendor/autoload.php';
+	require_once ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
-	include ("database_manager.php");
+	require_once ("database_manager.php");
+	require_once ("trova_categorie.php");
 	
 	ini_set('default_charset', 'utf-8');	
 	set_time_limit(0);
@@ -88,18 +89,17 @@
 			if($html != null){
 				$sito = array();
 				$sito['link'] = $link;
-				$search_for = array();
-				$link_descrizione = $html->find("a[href*=siamo],a[href*=storia]");
-				if(count($link_descrizione) > 0){
-					$r = checkForCategory(file_get_html($link_descrizione[0]->href), $found = array(), $search_for);
-				}
-				$r = checkForCategory($html, $found = array(), $search_for);
-				if ($r != null){
+				/*Cerco una categoria*/
+				$categorie = trova_categorie($link);
+				if($categorie != null){
 					$sito['categoria'] = array();
-					foreach($r as $content){
-						array_push($sito['categoria'],$content);
+					$value = max($categorie);
+					$key = array_keys($categorie,$value);
+					foreach($key as $c)
+						array_push($sito['categoria'],$c);
 					}
-				}					
+				
+				
 				$sito['nome'] = substr($link,7,strlen($link));
 				foreach($html->find("title") as $element){
 					$titolo = $element->plaintext;
@@ -221,7 +221,7 @@
 		preg_match_all('/\(?\s?\d{3,4}\s?[\)\.\-]?\s*\d{3}\s*[\-\.]?\s*\d{3,4}/',$content,$numbers); 
 		$sito['numero'] = array();
 		foreach($numbers[0] as $n) { 
-			$n = preg_replace('/\s{2,}/',' ',$n);
+			$n = preg_replace('/\s/','',$n);
 			if(array_search (trim($n," "),$sito['numero']) === false){
 				$phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
 				try {
@@ -365,35 +365,27 @@
 					$query .= "'".$site['luogo']['comune'] ."', ";
 					$query .= $site['luogo']['cap'] .", ";
 					$query .= "'".$site['luogo']['provincia'] ."', ";
-					$query .= "'".$site['luogo']['regione'] ."', ";
+					$query .= "'".$site['luogo']['regione'] ."'";
 				}
 				else{
-					$query .= "NULL, NULL, NULL, NULL, ";
+					$query .= "NULL, NULL, NULL, NULL ";
 				}
 			}
 			else{
-				$query .= "NULL, NULL, NULL, NULL, ";
+				$query .= "NULL, NULL, NULL, NULL ";
 			}
-			
-			if(array_key_exists("categoria",$site)){
-				global $elenco_categorie;
-				foreach ($site['categoria'] as $cat){
-					foreach ($elenco_categorie as $e_c){
-						if (strcmp($e_c['nome'],$cat) == 0){
-							if ($categorie == "00")
-								$categorie = $e_c['codice_categoria'];
-							else
-								$categorie .= "-".$e_c['codice_categoria'];
-						}
-					}
-				}
-			}
-			$query .= "'".$categorie;
-			
-			$query .= "');";
-			echo $query;
+			$query .= ", '0');";
+			echo $query."<br>";
 			$db->query($query);
 			
+			/*** categoria ***/
+			if(array_key_exists("categoria",$site)){
+				foreach ($site['categoria'] as $cat){
+					$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$cat."');";
+					$db->query($query);
+				}
+			}
+		
 			/********/
 			if(array_key_exists("email",$site)){
 				foreach ($site['email'] as $e){
@@ -404,8 +396,19 @@
 
 			if(array_key_exists("numero",$site)){
 				foreach ($site['numero'] as $n){
+					$phoneUtil = \libphonenumber\PhoneNumberUtil::getInstance();
+					try {
+						$numero = $phoneUtil->parse($n, "IT");
+						$num_type = $phoneUtil->getNumberType($numero);
+						$query = "INSERT INTO elenco_numeri VALUE(NULL, '".$link."', '".$n."','".$num_type."');";
+						$db->query($query);
+					} catch (\libphonenumber\NumberParseException $e) {
+						//var_dump($e);
+					}
+				
+					/*
 					$query = "INSERT INTO elenco_numeri VALUE(NULL, '".$link."', '".$n."');";
-					$db->query($query);
+					$db->query($query);*/
 				}
 			}
 		}
@@ -441,9 +444,15 @@
 		foreach($result as $row){
 			$site['numeri'] = $row['numero'];
 		}
-		return $site;
 		
-	
+		
+		$query = "SELECT * FROM associazioni_categorie WHERE sito='".$link."';";
+		$result = $db->select($query);
+		$site['categoria'] = array();
+		foreach($result as $row){
+			$site['categoria'] = $row['categoria'];
+		}
+		return $site;
 	}
 	
 	function cancella_vecchie_info($link){
@@ -472,7 +481,7 @@
 	}
 	
 	function is_partita_iva($numero){
-		if(strlen($n) == 11 && strrpos($n," ") === false){
+		if(strlen($numero) == 11 && strrpos($numero," ") === false){
 			$x = 0;
 			$y = 0;
 			$array_num = str_split($numero);

@@ -1,5 +1,5 @@
 <?php
-	include ("../lib/simple_html_dom.php");
+	require_once ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
 	# include stemmer class_alias
@@ -7,14 +7,13 @@
 	# include Alchemyapi lib
 	require_once '../lib/alchemyapi.php';
 	
-	include ("database_manager.php");
+	require_once ("database_manager.php");
 	
 	set_time_limit(0);
 	$stemmer = new ItalianStemmer();
-	$categorie = get_category_list();
 	$total_count = 0;
 	
-	$db = new Db();
+	/*$db = new Db();
 	$query = "SELECT * from elenco_siti LIMIT 20,20";
 	$result = $db -> select($query);
 	foreach($result as $row){
@@ -30,24 +29,22 @@
 					$value = max($result);
 					$key = array_keys($result,$value);
 					foreach($key as $c){
-						echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
-						//$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
-						//$db->query($query);	
+						//echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
+						$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
+						$db->query($query);	
 					}
 			}
 		}
 	}
-	echo "TOTALE: ".$total_count;
-	/*
+	echo "TOTALE: ".$total_count;*/
+	
 	function trova_categorie($link){
+		global $stemmer;
+		$categorie = get_category_list();
 		$keywords = get_keywords($link);
 		if(array_key_exists('keywords',$keywords) === true){
 			foreach ($keywords['keywords'] as $k) {
 				$stemmed_word = $stemmer->stem($k['text']);
-				//echo "trovata: ". $k['text']." - ";
-				//echo "stemmed: ". $stemmed_word."<br>";
-				//$k['text'] = $stemmed_word;
-				//echo "relevance: ". $keyword['relevance']."<br>";
 			}
 			$result = associa_categoria($keywords,$categorie);
 			if(count($result)>0){
@@ -58,7 +55,7 @@
 		}
 		return null;
 	}
-	*/
+	
 	function associa_categoria($keywords,$categorie){
 		global $stemmer;
 		$count_cat = array();

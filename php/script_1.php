@@ -6,7 +6,9 @@
 	set_time_limit(0);
 	$elenco= array();
 	$elenco_siti = array();
-	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT ".($siti_script+1).";";
+	echo $siti_script;
+	//$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT ".($siti_script).";";
+	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT 2";
 	$dati = $db -> select($query);
 	if(count($dati)>0){
 		/*Ciclo sui primi n siti*/
