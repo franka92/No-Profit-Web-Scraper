@@ -12,28 +12,22 @@
 	set_time_limit(0);
 	$stemmer = new ItalianStemmer();
 	$total_count = 0;
-	
-	/*$db = new Db();
-	$query = "SELECT * from elenco_siti LIMIT 20,20";
-	$result = $db -> select($query);
+	/*
+	$db = new Db();
+	$query = "SELECT * from elenco_siti where elenco_siti.sito not in (SELECT sito from associazioni_categorie)";
+	$result = $db->select($query);
 	foreach($result as $row){
 		$link = $row['Sito'];
-		$keywords = get_keywords($link);
-		if(array_key_exists('keywords',$keywords) === true){
-			foreach ($keywords['keywords'] as $k) {
-				$stemmed_word = $stemmer->stem($k['text']);
-			}
-			$result = associa_categoria($keywords,$categorie);
-			if(count($result)>0){
-				$total_count++;
-					$value = max($result);
-					$key = array_keys($result,$value);
-					foreach($key as $c){
-						//echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
-						$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
-						$db->query($query);	
-					}
-			}
+		$result = trova_categorie($link);
+		if(count($result)>0){
+			$total_count++;
+				$value = max($result);
+				$key = array_keys($result,$value);
+				foreach($key as $c){
+					//echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
+					$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
+					$db->query($query);	
+				}
 		}
 	}
 	echo "TOTALE: ".$total_count;*/
@@ -139,12 +133,14 @@
 	}
 	
 	function get_absolute_url($link,$dominio){
-		if(strpos($link,$dominio) === false){
+		$parse = parse_url($dominio);
+		$domain = $parse['host'];
+		if(strpos($link,$domain) === false){
 			if(substr($link,0,1) == "/"){
-				$link = $dominio . substr($link,1,strlen($link));
+				$link = "http://".$domain . substr($link,1,strlen($link));
 			}
 			else{
-				$link = $dominio . $link;
+				$link = "http://".$domain."/" . $link;
 			}
 		}
 		return $link;

@@ -97,14 +97,15 @@
 					$key = array_keys($categorie,$value);
 					foreach($key as $c)
 						array_push($sito['categoria'],$c);
-					}
+				}
 				
 				
 				$sito['nome'] = substr($link,7,strlen($link));
 				foreach($html->find("title") as $element){
 					$titolo = $element->plaintext;
-					if($titolo != ""){
+					if($titolo != "" && $titolo != "home"){
 						/*Elimino eventuali caratteri speciali*/
+						$titolo = preg_replace('/s*(home | homepage | home page|index)\s*/',"",$titolo);
 						$titolo = preg_replace('/\s{2,}/',' ',$titolo);
 						$titolo = preg_replace($special_c,$normal_c, $titolo);
 						$titolo = html_entity_decode($titolo);
@@ -271,36 +272,6 @@
 
 	}
 	
-
-	/*Cerca i termini nella pagina*/
-	function checkForCategory($page, $found = array(), $filter = array()){
-		$filtri = array(
-				array('Arte Musica Spettacolo','musica'),
-				array('Arte Musica Spettacolo','teatro'),
-				array('Arte Musica Spettacolo','danza'),
-				array('Arte Musica Spettacolo','arte'),
-				array('Arte Musica Spettacolo','cinema'),
-				array('Arte Musica Spettacolo','spettacoli'),
-				array('Arte Musica Spettacolo','coro'),
-				array('Sport','sport'),
-				array('Sport','calcio'),
-				array('Sport','pallacanestro'),
-				array('Sport','basket'),
-				array('Sport','centro velico')
-		);
-		//foreach($page->find("a[href*=siamo] , a[href*=storia]"
-		$filter = ((!empty($filter) && is_array($filter)) ? $filter : $filtri);
-		$found = is_array($found) ? $found : array();
-		foreach($filtri  as $test){
-			if(in_array($test[0], $found)) continue;
-			if(preg_match("/\s".$test[1]."/i", $page)){
-				array_push($found,$test[0]);
-			}
-		}
-		return $found;
-	}
-	
-	
 	function verifica_timestamp($timestamp){
 		if($timestamp == null)
 			return true;
@@ -374,7 +345,7 @@
 			else{
 				$query .= "NULL, NULL, NULL, NULL ";
 			}
-			$query .= ", '0');";
+			$query .= ");";
 			echo $query."<br>";
 			$db->query($query);
 			
@@ -392,6 +363,7 @@
 					$query = "INSERT INTO elenco_email VALUE(NULL, '".$link."', '".$e."');";
 					$db->query($query);
 				}
+
 			}
 
 			if(array_key_exists("numero",$site)){
