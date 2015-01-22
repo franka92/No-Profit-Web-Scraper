@@ -16,13 +16,15 @@
 			$dir_path = '../data/esecuzione_'.time();
 			mkdir($dir_path, 0777, true);
 			$file_associazioni = fopen($dir_path."/associazioni_".time().".csv", "w");
-			$file_email = fopen($dir_path."/elenco-email_".time().".csv", "w");
-			$file_numeri = fopen($dir_path."/elenco-numeri_".time().".csv", "w");
+			$file_email = fopen($dir_path."/elenco_email_".time().".csv", "w");
+			$file_numeri = fopen($dir_path."/elenco_numeri_".time().".csv", "w");
+			$file_ass_cat = fopen($dir_path."/associazioni_categorie_".time().".csv", "w");
 			$file_elenco = fopen("../src/elenco.csv", "w");
 			fputcsv($file_associazioni,explode(",","codice,nome associazione,sito,comune,cap,provincia,regione,categoria"));
 			fputcsv($file_email,explode(",","codice,sito associazione,email"));
 			fputcsv($file_numeri,explode(",","codice,sito associazione,telefono"));
-			fputcsv($file_numeri,explode(",","Sito,Timestamp"));
+			fputcsv($file_ass_cat,explode(",","sito associazione,categoria"));
+			fputcsv($file_elenco,explode(",","Sito,Timestamp"));
 	
 	
 			$query = "SELECT * FROM associazioni";
@@ -43,6 +45,12 @@
 				fputcsv($file_numeri,$line);
 			}
 			
+			$query = "SELECT * FROM associazioni_categorie";
+			$result = $db -> select($query);
+			foreach ($result as $line){
+				fputcsv($file_ass_cat,$line);
+			}
+			
 			$query = "SELECT * FROM elenco_siti";
 			$result = $db -> select($query);
 			foreach ($result as $line){
@@ -52,6 +60,7 @@
 			fclose($file_associazioni);
 			fclose($file_email);
 			fclose($file_numeri);
+			fclose($file_ass_cat);	
 			fclose($file_elenco);	
 		}
 		

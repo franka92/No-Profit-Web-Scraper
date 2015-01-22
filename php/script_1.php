@@ -6,9 +6,10 @@
 	set_time_limit(0);
 	$elenco= array();
 	$elenco_siti = array();
-	echo $siti_script;
-	//$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT ".($siti_script).";";
-	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT 2";
+	if($siti_script == 0)
+		$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1;";
+	else
+		$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1 LIMIT ".($siti_script).";";
 	$dati = $db -> select($query);
 	if(count($dati)>0){
 		/*Ciclo sui primi n siti*/
@@ -32,38 +33,18 @@
 				}
 			}
 			else{
-				/*Cerco le informazioni solo se è passato più di un mese dall'ultimo controllo*/
-				if(verifica_timestamp($timestamp) === true){
-				
-					$site = findInformation($link);
-					if($site != null){
-						/*Devo recuperare le informazioni attuali sul database associate al sito
-							Confronto le informazioni trovate, con quelle precedenti
-							Se non ci sono differenze, aggiorno solo il timestamp
-							Altrimenti elimino i dati relativi al sito dal database e carico i nuovi
-							Segnalo su un report che ho modificato i 
-						*/
-						$site_old = recupera_dati($link);
-						
-						/*foreach($y=0;$y<count($site);$y++){
-							$difference = array_diff($site[$y],$site_old[$y]);
-							if($difference != null)
-								echo "<br>ci sono cambiamenti per: ".key($site[$y]);
-						}*/
-						cancella_vecchie_info($link);
-						aggiorna_timestamp($link);
-						echo "<br>inserisco ".$link;
-						inserisci_dati($site);
+				$site = findInformation($link);
+				if($site != null){
+					$site_old = recupera_dati($link);
+					cancella_vecchie_info($link);
+					aggiorna_timestamp($link);
+					echo "<br>inserisco ".$link;
+					inserisci_dati($site);
+				}
+				else{
+					echo "<br>sito cancellato: ".$link;
+				}
 
-						echo "no<br>";
-					}
-					else{
-						echo "<br>sito cancellato: ".$link;
-					}
-				}
-				else{/*Altrimenti mantengo le informazioni precedenti --> non faccio nulla*/
-					
-				}
 			}
 			
 		}
