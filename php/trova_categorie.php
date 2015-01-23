@@ -18,13 +18,14 @@
 	$result = $db->select($query);
 	foreach($result as $row){
 		$link = $row['Sito'];
+		//$link = "http://www.ramazzini.org/";
 		$result = trova_categorie($link);
 		if(count($result)>0){
 			$total_count++;
 				$value = max($result);
 				$key = array_keys($result,$value);
 				foreach($key as $c){
-					//echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
+					echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
 					$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
 					$db->query($query);	
 				}
@@ -103,7 +104,7 @@
 		$html = file_get_html($link);
 		if(is_object($html)){
 			/*Ricerca nella pagina "Chi siamo" o "Storia" dove solitamente ci sono più informazioni*/
-			$link_descrizione = $html->find("a[href*=siamo],a[href*=storia]");
+			$link_descrizione = $html->find("a[href*=siamo],a[href*=storia],a[href*=associazione]");
 			if(count($link_descrizione) > 0){
 				foreach($link_descrizione as $l){
 					if(stripos($l->href,"dove") === false){
@@ -115,7 +116,7 @@
 			else{
 				$link_descrizione = $html->find("a");
 				foreach($link_descrizione as $a){
-					if(stripos(strtolower($a->innertext),"chi siamo") !== false){
+					if(stripos(strtolower($a->innertext),"chi siamo") !== false || stripos(strtolower($a->innertext),"storia") !== false || stripos(strtolower($a->innertext),"associazione") !== false){
 						$url = $a->href;
 						break;
 					}
@@ -126,11 +127,13 @@
 				echo "SITO: ".$link."<br>";
 			}
 			else{
-				$url = get_absolute_url($url,$link);
+				$url = get_absolute_url2($url,$link);
 				$response = $alchemyapi->keywords('url', $url, array('maxRetrieve'=>20));
 				echo "SITO: ".$url."<br>";
 				
 			}
+			foreach ($response['keywords'] as $k) 
+					echo "<br> ".$k['text'];
 			if(count($response) > 0)
 				return $response;
 			else
@@ -145,23 +148,49 @@
 		
 		@return: il link assoluto
 	*/
-	function get_absolute_url($link,$dominio){
-		$parse = parse_url($dominio);
-		$domain = $parse['host'];
-		if(strpos($link,$domain) === false){
-			if(substr($link,0,1) == "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) == "/"){
-				$link = "http://".$domain . substr($link,1,strlen($link));
+	function get_absolute_url($link_contatti,$dominio){
+	echo "LINK: ".$link_contatti;
+	echo "<br>DOM: ".$dominio;
+		if(strpos($link_contatti, $dominio) === false){
+		echo "dentro if";
+			$returnValue = parse_url($dominio, PHP_URL_PATH);
+			/*Non ha lo slash finale*/
+			if($returnValue == null){
+				if(substr($link_contatti,0,1) == "/"){
+					$link_contatti = $dominio .$link_contatti;
+				}
+				else{
+					$link_contatti = $dominio . "/" . $link_contatti;
+				}
+				
+				echo "<br>".$link_contatti." ---------- topo<br>";
 			}
-			else if(substr($link,0,1) != "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) != "/"){
-				$link = "http://".$domain ."/". substr($link,1,strlen($link));
+			/*Ha qualche path dopo il dominio*/
+			else if(strlen($returnValue)>1){
+				echo $link_contatti." ---------- prima<br>";
+				$last_slash = strrpos($dominio,"/");
+				if(substr($link_contatti,0,1) == "/"){
+					$link_contatti = substr($dominio,0,$last_slash).$link_contatti; echo "qui";}
+				else
+					$link_contatti = substr($dominio,0,$last_slash+1).$link_contatti;
+				echo $link_contatti." --------- dopo<br>";
+			
+	
 			}
+			/*Ha solo lo slash finale*/
 			else{
-				$link = "http://".$domain."/" . $link;
+				if(substr($link_contatti,0,1) == "/"){
+					$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
+				}
+				else{
+					$link_contatti = $dominio . $link_contatti;
+				}
+				
+				echo "<br>".$link_contatti." ---------- topo<br>";
 			}
 		}
-		return $link;
+		return $link_contatti;
 	}
-	
 	
 	/*Recupera l'elenco delle categorie
 		@return: array con l'elenco delle categorie e relative parole chiave associate

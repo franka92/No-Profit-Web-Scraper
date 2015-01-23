@@ -68,13 +68,13 @@
 				}
 				
 				/*Cerco i link alla pagina "Contatti", in cui di solito sono riportate le informazioni*/
-				$pag_contatti = $html->find("a[href*=contatt] , a[href*=contact], a[href*=dove], a[href*=siamo]");
+				$pag_contatti = $html->find("a[href*=contatt] , a[href*=contact], a[href*=dove], a[href*=siamo], a[href*=sede]");
 				if(count($pag_contatti) > 0){
 					//echo "dentro if <br>";
 					foreach($pag_contatti as $element){
 						$link_contatti = $element->href;
 						/*Trasformo il link relativo in assoluto*/
-						if(substr($link_contatti,0,strlen($link)) != $dominio){
+						/*if(substr($link_contatti,0,strlen($link)) != $dominio){
 							if(substr($link_contatti,0,1) == "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) == "/"){
 							echo $link_contatti."<br>";
 								$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
@@ -86,7 +86,8 @@
 							else{
 								$link_contatti = $dominio .$link_contatti;
 							}
-						}
+						}*/
+						$link_contatti = get_absolute_url($link_contatti,$dominio);
 						/*Richiamo la funzione che ricerca le informazioni di contatto*/
 						if($link_contatti != ""){
 							$sito = findContactInformation($link_contatti,$sito);
@@ -96,9 +97,9 @@
 				/*Se non ho trovato il link alla pagina "Contatti", provo una ricerca più approfondita su tutti gli anchor-node*/
 				else{
 					foreach($html->find("a") as $element){
-						if(strpos(strtolower($element->plaintext),"contatt") !== false || strpos(strtolower($element->plaintext),"dove")|| strpos(strtolower($element->plaintext),"siamo")){
+						if(strpos(strtolower($element->plaintext),"contatt") !== false || strpos(strtolower($element->plaintext),"dove")|| strpos(strtolower($element->plaintext),"siamo") || strpos(strtolower($element->plaintext),"sede")){
 							$link_contatti = $element->href;
-							if(substr($link_contatti,0,strlen($link)) != $dominio){
+							/*if(substr($link_contatti,0,strlen($link)) != $dominio){
 								if(substr($link_contatti,0,1) == "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) == "/"){
 									$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
 								}
@@ -108,7 +109,8 @@
 								else{
 									$link_contatti = $dominio . $link_contatti;
 								}
-							}
+							}*/
+							$link_contatti = get_absolute_url($link_contatti,$dominio);
 							/*Richiamo la funzione che ricerca le informazioni di contatto*/
 							if($link_contatti != ""){
 								$sito = findContactInformation($link_contatti,$sito);
@@ -125,13 +127,8 @@
 				/*Se le informazioni non sono state trovate, provo un'ultima ricerca direttamente nell'homepage*/
 				else{
 					$sito = findContactInformation($link,$sito);
-					if(array_key_exists("email",$sito)){
-						//array_push($elenco,$sito);
-						return $sito;
-					}
-					else{
-						
-					}
+					return $sito;
+
 				}
 				return $sito;
 			}
@@ -220,11 +217,11 @@
 		}
 		/*Ricerca CAP*/
 		if(array_key_exists("luogo",$sito) === false ){
-			preg_match_all('/\s\d{2}[01589]\d{2}\s/i',$content,$indirizzi); 
+			preg_match_all('/\s\d{2}[01589]\d{2},{0,1}\s/i',$content,$indirizzi); 
 			if(count($indirizzi[0]) > 0){
 				$sito['luogo'] = array();
 				foreach($indirizzi[0] as $ind) { 
-					$sito['luogo']['cap'] = $ind;
+					$sito['luogo']['cap'] = preg_replace('/\s/','',$ind);
 					$c = new parseCSV();
 					$c->delimiter =";";
 					$c->parse('../src/listacomuni.csv');
@@ -284,7 +281,7 @@
 			if(array_key_exists("luogo",$site)){
 				if(array_key_exists("comune",$site['luogo'])){
 					$query .= "'".$site['luogo']['comune'] ."', ";
-					$query .= $site['luogo']['cap'] .", ";
+					$query .= "'".$site['luogo']['cap'] ."', ";
 					$query .= "'".$site['luogo']['provincia'] ."', ";
 					$query .= "'".$site['luogo']['regione'] ."'";
 				}
@@ -447,6 +444,71 @@
 		return false;
 	}
 	
+	
+	function aggiorna_dati($link,$info_nuove,$info_vecchie){
+		global $db;
+		/*Verifica delle informazioni sul luogo*/
+		if(array_key_exists("luogo",$info_nuove) && array_key_exists("luogo",$info_vecchie)){
+			$luogo_nuovo = $info_nuove['luogo'];
+			$luogo_vecchio = $info_vecchio['luogo'];
+			/*Se le informazioni sul luogo sono cambiate, le aggiorno*/
+			if(array_key_exists("cap",$luogo_nuovo)){
+				if(array_key_exists("cap",$luogo_vecchio) && $luogo_nuovo['cap'] != $luogo_vecchio['cap']){
+					$db->query("Update associazioni set comune='".$luogo_nuovo['comune']."' where sito='".$link."';");
+					$db->query("Update associazioni set cap='".$luogo_nuovo['cap']."' where sito='".$link."';");
+					$db->query("Update associazioni set regione='".$luogo_nuovo['regione']."' where sito='".$link."';");
+					$db->query("Update associazioni set provincia='".$luogo_nuovo['provincia']."' where sito='".$link."';");
+				}
+			}
+		}
+		else if(array_key_exists("luogo",$info_nuove)){
+			$luogo_nuovo = $info_nuove['luogo'];
+			$db->query("Update associazioni set comune='".$luogo_nuovo['comune']."' where sito='".$link."';");
+			$db->query("Update associazioni set cap='".$luogo_nuovo['cap']."' where sito='".$link."';");
+			$db->query("Update associazioni set regione='".$luogo_nuovo['regione']."' where sito='".$link."';");
+			$db->query("Update associazioni set provincia='".$luogo_nuovo['provincia']."' where sito='".$link."';");
+		}
+		
+		/*Verifica delle informazioni sull'email*/
+		if(array_key_exists("email",$info_nuove)){
+			$email = $info_nuove['email'];
+			if(array_key_exists("email",$info_vecchie)){
+				foreach($info_vecchie['email'] as $e){
+					if(array_search($email,$e) === false){
+						$db->query("DELETE FROM elenco_email where email='".$e."';");
+					}
+				}	
+			}
+			foreach($email as $e){
+				if(array_search($info_vecchie['email'],$e) === false){
+					$db->query("INSERT INTO elenco_email VALUE('".$link."', '".$e."');");
+				}
+				
+			}
+
+		}
+		
+		/*Verifica delle informazioni sui numeri telefonici*/
+		if(array_key_exists("numeri",$info_nuove)){
+			$numeri = $info_nuove['numeri'];
+			if(array_key_exists("numeri",$info_vecchie)){
+				foreach($info_vecchie['numeri'] as $n){
+					if(array_search($numeri,$n) === false){
+						$db->query("DELETE FROM elenco_numeri where numero='".$n['numero']."';");
+					}
+				}	
+			}
+			foreach($numeri as $n){
+				if(array_search($info_vecchie['numeri'],$n) === false){
+					$db->query("INSERT INTO elenco_email VALUE('".$link."', '".$n['numero']."');");
+				}
+				
+			}
+
+		}
+	
+	
+	}
 	
 	
 

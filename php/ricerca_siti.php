@@ -12,27 +12,28 @@
 	
 	
 	if(isset($argv[1])){
+		unset($argv[0]);
 		$filter="";
-		foreach($argv as $f){
-			$filter .=" ".$f;
-		}
 		$elenco_siti = array();
 		$client = new Google_Client();
 		$client->setApplicationName("findOnlus");
-		$client->setDeveloperKey("AIzaSyDP9hous_IC-Fm9L0EbHug6Pa0Cxs-mf9w");
-		
+		$client->setDeveloperKey("AIzaSyBP5J7RWSyoiviC8ISXdVOfg0PzSlUmZ8Y");
 		$search = new Google_Service_Customsearch($client);
-		for($i=0;$i<5;$i++){
-			$start = ($i*10)+1;
-			$result = $search->cse->listCse($filter, array(
-				'cx' => "002086684897779538086:ojni3tynjbk",'start'=>$start 
-			));
-			foreach ($result->items as $res){
-				array_push($elenco_siti,"http://".$res['formattedUrl']);
+		foreach($argv as $f){
+			$filter = $f;
+			//$filter .=" ".$f;
+			for($i=0;$i<4;$i++){
+				$start = ($i*10)+1;
+				$result = $search->cse->listCse($filter, array(
+					'cx' => "002086684897779538086:ojni3tynjbk",'start'=>$start 
+				));
+				foreach ($result->items as $res){
+					array_push($elenco_siti,"http://".$res['formattedUrl']);
+				}
 			}
+			esamina($elenco_siti);
+			$elenco_siti = array();
 		}
-		
-		esamina($elenco_siti);
 		
 	}
 	else{

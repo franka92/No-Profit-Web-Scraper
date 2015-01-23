@@ -12,44 +12,49 @@
 <body>
 
 <?php
-	$cat = "";
-	$csv_file = new parseCSV();
-	$csv_file->auto('../src/categorie.csv');
 		
 	$graph = new EasyRdf_Graph();
 	EasyRdf_Namespace::set('org', 'http://www.w3.org/ns/org#'); 
-	EasyRdf_Namespace::set('npd', 'http://www.no-profit-data.it/res/'); 
-	
-	foreach ($csv_file->data as $key => $row){
-		$cur_cat = $row['categoria'];
-		if($cur_cat == $cat){
-			
-		}
-		else{
-			$parse_cat = str_replace(' ', '_', $cur_cat);
-			$categoria = $graph->resource('http://www.no-profit-data.it/res/categorie/'.$parse_cat, 'skos:Concept');
-			$categoria->set('rdfs:label',$cur_cat);
-		}
 		
-	}
 	
+	/*Creo il grafo*/
 	$elenco_associazioni = recupera_elenco_associazioni();
+	inserisci_categorie();
 	crea_grafo($elenco_associazioni);
 	
-
+	/*Salvo il file*/
+	$string = $graph->serialise("turtle");
+	$file = fopen("grafo.ttl", "w");
+	fwrite($file,$string);
+	fclose($file);
 	
 	
+	function inserisci_categorie(){
+		global $graph;
+		$csv_file = new parseCSV();
+		$csv_file->auto('../src/categorie.csv');
+		$cat = "";
+		foreach ($csv_file->data as $key => $row){
+			$cur_cat = $row['categoria'];
+			if($cur_cat != $cat){
+				$parse_cat = str_replace(' ', '_', $cur_cat);
+				$categoria = $graph->resource('http://www.no-profit-data.it/res/categorie/'.$parse_cat, 'skos:Concept');
+				$categoria->set('rdfs:label',$cur_cat);
+			}
+		}
+	}
+	
+	
+	/*Crea il grafo rdf con l'elenco delle associazione e relative informazioni
+		@param elenco_associazioni: array con l'elenco/informazioni delle associazioni
+	*/
 	function crea_grafo($elenco_associazioni){
-	global $graph;
-		//$graph = new EasyRdf_Graph();
+		global $graph;
 		$prefix = "http://www.no-profit-data.it/res/";
-		//EasyRdf_Namespace::set('org', 'http://www.w3.org/ns/org#'); 
-		//EasyRdf_Namespace::set('npd', 'http://www.no-profit-data.it/res/'); 
-		
 		
 		foreach($elenco_associazioni as $dati_a){
 			$link = $dati_a['sito'];
-			$nome = $dati_a['nome'];
+			$nome = trim($dati_a['nome']);
 			$email = $dati_a['email'];
 			$numeri = $dati_a['numeri'];
 			$categorie = $dati_a['categorie'];
@@ -70,9 +75,15 @@
 			$associazione->set("skos:prefLabel",$nome);
 			
 			/*Assicio le categorie all'associazione*/
-			foreach($categorie as $cat){
-				$associazione->addResource("org:purpose",$cat);
+			if(count($categorie) >0){
+			echo count($categorie);
+				foreach($categorie as $cat){
+					
+					$associazione->addResource("org:purpose",$cat);
+				}
 			}
+
+			
 			
 			/*Creo l'oggetto Site*/
 			if($email != null || $numeri != null || $luogo != null){
@@ -118,7 +129,7 @@
 				$site->addResource("org:siteAddress",$location);
 				
 				/*Collego l'Organization al Site*/
-				$associazione->addResource("org:hasSite",$location);
+				$associazione->addResource("org:hasSite",$site);
 			}
 						
 		}
@@ -127,15 +138,20 @@
 		
 		}
 	
-	
+	/*Parsing della stringa per rimuovere gli spazi
+		@param stringa: stringa da modificare	
+		@return: stringa modificata
+	*/
 	function parse_string($stringa){
 		$parse_cat = str_replace(' ', '_', $stringa);
-	
+		return $parse_cat;
 	}
 	
 	
 	
-	
+	/*Funzione che recupera l'elenco delle associazioni dai file .csv
+		@return: array con l'elenco delle associazioni e relative informazioni
+	*/
 	
 	function recupera_elenco_associazioni(){
 		$elenco = array();
@@ -181,7 +197,7 @@
 			//Contatti email		
 			$associazione['email'] = array();
 				foreach($data_email as $email){
-					if($email['sito'] == $associazione['sito'])
+					if($email['sito associazione'] == $associazione['sito'])
 						array_push($associazione['email'],$email['email']);
 				}
 				if(count($associazione['email']) == 0)
@@ -189,7 +205,7 @@
 			//Contatti telefonici		
 			$associazione['numeri'] = array();
 				foreach($data_numeri as $numeri){
-					if($numeri['sito'] == $associazione['sito']){
+					if($numeri['sito associazione'] == $associazione['sito']){
 						$num_type_code = $numeri['tipo'];
 						switch ($num_type_code){
 							case 0: 
@@ -218,30 +234,18 @@
 						array_push($associazione['categorie'],str_replace(' ', '_', $categoria['categoria']));
 				}
 				if(count($associazione['categorie']) == 0)
-					$associazione['categorie'] = "sconosciuta";
+					$associazione['categorie'] = null;
 			
 			array_push($elenco,$associazione);
-			if($count == 2)
+			if($count == 5)
 				break;
 		}
 		
 		return $elenco;
 	}
 	
-	
-	
-
-
-	
-	/*$categoria = $graph->resource('http://www.no-profit-data.it/categorie/musica', 'skos:Concept');
-	$categoria->set('rdfs:label','musica');*/
-	
 	$format = 'turtle';
-	
-	/*$foaf = EasyRdf_Graph::newAndLoad(null,null);
-	$foaf->load();
-	$me = $foaf->primaryTopic();
-	echo "My name is: ".$me->get('foaf:name')."\n";*/
+
 ?>
 <pre style="margin: 0.5em; padding:0.5em; background-color:#eee; border:dashed 1px grey;">
 <?php

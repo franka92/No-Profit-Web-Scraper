@@ -36,12 +36,15 @@
 				$site = findInformation($link);
 				if($site != null){
 					$site_old = recupera_dati($link);
-					cancella_vecchie_info($link);
+					//cancella_vecchie_info($link);
+					$aggiorna_dati($link,$site,$site_old);
 					aggiorna_timestamp($link);
-					echo "<br>inserisco ".$link;
-					inserisci_dati($site);
+					echo "<br>Aggiorno ".$link;
+					//inserisci_dati($site);
 				}
+				/*Se non riesco più a recuperare il sito, significa che non è più online e cancello le info*/
 				else{
+					cancella_vecchie_info($link);
 					echo "<br>sito cancellato: ".$link;
 				}
 
