@@ -57,9 +57,11 @@
 			$nome = trim($dati_a['nome']);
 			$email = $dati_a['email'];
 			$numeri = $dati_a['numeri'];
-			echo count($numeri);
 			$categorie = $dati_a['categorie'];
 			$luogo = $dati_a['luogo'];
+			
+			$count_location = 1;
+			$count_site = 1;
 			
 			/*Creo l'identificatore per l'associazione*/
 			$parse = parse_url($link);
@@ -87,11 +89,11 @@
 			
 			/*Creo l'oggetto Site*/
 			if($email != null || $numeri != null || $luogo != null){
-				$iri_site = $iri_associazione.'/site/1';
+				$iri_site = $iri_associazione.'/site/'.$count_site;
 				$site = $graph->resource($iri_site, 'org:Site');
 				
 				/*Creo l'oggetto Location*/
-				$iri_location = $iri_associazione.'/location/1';
+				$iri_location = $iri_associazione.'/location/'.$count_location;
 				$location = $graph->resource($iri_location, 'vcard:Location');
 				
 				/*Imposto i predicati/proprietà per ogni oggetto*/
@@ -120,7 +122,7 @@
 					$address = $graph->resource($iri_location."/address/". parse_string($locality),"vcard:Work");
 					$address->set("vcard:country-name","Italia");
 					$address->set("vcard:region",$luogo['regione']);
-					$address->set("vcard:postal-code:",$luogo['cap']);
+					$address->set("vcard:postal-code",$luogo['cap']);
 					$address->set("vcard:locality",$luogo['comune']);
 					$location->addResource("vcard:hasAddress",$address);
 				}

@@ -107,7 +107,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lamusicainterna>
@@ -134,7 +134,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/provincia.ra>
@@ -168,7 +168,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "48121" ;
+  vcard:postal-code "48121" ;
   vcard:locality "Ravenna" .
 
 <http://www.no-profit-data.it/res/corosantospirito>
@@ -195,7 +195,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44100" ;
+  vcard:postal-code "44100" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/corotrepini>
@@ -216,7 +216,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "35123" ;
+  vcard:postal-code "35123" ;
   vcard:locality "Padova" .
 
 <http://www.no-profit-data.it/res/emilia-romagna.1254>
@@ -270,7 +270,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44121" ;
+  vcard:postal-code "44121" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/provincia.re>
@@ -301,7 +301,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "42121" ;
+  vcard:postal-code "42121" ;
   vcard:locality "Reggio Emilia" .
 
 <http://www.no-profit-data.it/res/csibologna>
@@ -332,7 +332,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/regione.emilia-romagna>
@@ -366,7 +366,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gambettola.1254>
@@ -386,7 +386,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "56150" ;
+  vcard:postal-code "56150" ;
   vcard:locality "Gambettola" .
 
 <http://www.no-profit-data.it/res/ibc.regione.emilia-romagna>
@@ -417,7 +417,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cvpuntamarina.>
@@ -443,7 +443,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "48122" ;
+  vcard:postal-code "48122" ;
   vcard:locality "Ravenna" .
 
 <http://www.no-profit-data.it/res/rivista.ibc.regione.emilia-romagna>
@@ -474,7 +474,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/scuola.regione.emilia-romagna>
@@ -501,7 +501,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/danzaurbana>
@@ -532,7 +532,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/sociale.regione.emilia-romagna>
@@ -559,7 +559,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/assonanza>
@@ -586,7 +586,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41037" ;
+  vcard:postal-code "41037" ;
   vcard:locality "Mirandola" .
 
 <http://www.no-profit-data.it/res/ater.emr>
@@ -616,7 +616,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41124" ;
+  vcard:postal-code "41124" ;
   vcard:locality "Modena" .
 
 <http://www.no-profit-data.it/res/divefun>
@@ -650,7 +650,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40060" ;
+  vcard:postal-code "40060" ;
   vcard:locality "Dozza" .
 
 <http://www.no-profit-data.it/res/informagiovani.fe>
@@ -672,7 +672,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44121" ;
+  vcard:postal-code "44121" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/anmb.>
@@ -699,7 +699,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41126" ;
+  vcard:postal-code "41126" ;
   vcard:locality "Modena" .
 
 <http://www.no-profit-data.it/res/teatronecessario>
@@ -726,7 +726,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "43052" ;
+  vcard:postal-code "43052" ;
   vcard:locality "Colorno" .
 
 <http://www.no-profit-data.it/res/teatronucleo.>
@@ -757,7 +757,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44123" ;
+  vcard:postal-code "44123" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/flautomagico>
@@ -796,7 +796,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41043" ;
+  vcard:postal-code "41043" ;
   vcard:locality "Formigine" .
 
 <http://www.no-profit-data.it/res/ferraramusica>
@@ -839,7 +839,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44121" ;
+  vcard:postal-code "44121" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/emiliaromagnateatro.>
@@ -873,7 +873,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41124" ;
+  vcard:postal-code "41124" ;
   vcard:locality "Modena" .
 
 <http://www.no-profit-data.it/res/comune.rimini>
@@ -903,7 +903,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "47921" ;
+  vcard:postal-code "47921" ;
   vcard:locality "Rimini" .
 
 <http://www.no-profit-data.it/res/comune.modena>
@@ -925,7 +925,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41121" ;
+  vcard:postal-code "41121" ;
   vcard:locality "Modena" .
 
 <http://www.no-profit-data.it/res/ausilioteca.>
@@ -956,7 +956,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/agenzia.8m.>
@@ -977,7 +977,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40063" ;
+  vcard:postal-code "40063" ;
   vcard:locality "Monghidoro" .
 
 <http://www.no-profit-data.it/res/cefaonlus>
@@ -1012,7 +1012,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/accaparlante>
@@ -1034,7 +1034,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneaip.>
@@ -1056,7 +1056,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aiasbo>
@@ -1095,7 +1095,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/astrofiliimolesi>
@@ -1126,7 +1126,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/ilmartinpescatore.>
@@ -1152,7 +1152,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40050" ;
+  vcard:postal-code "40050" ;
   vcard:locality "Argelato" .
 
 <http://www.no-profit-data.it/res/emi>
@@ -1187,7 +1187,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/societadolce>
@@ -1221,7 +1221,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aifo>
@@ -1256,7 +1256,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40135" ;
+  vcard:postal-code "40135" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/sognamondo>
@@ -1293,7 +1293,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/ancoraservizi>
@@ -1324,7 +1324,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anpasemiliaromagna.>
@@ -1355,7 +1355,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casagianni.>
@@ -1386,7 +1386,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cooperativaquintoangolo.jimdo.>
@@ -1413,7 +1413,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/energym.i>
@@ -1434,7 +1434,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilbaobab.>
@@ -1469,7 +1469,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/globalaid>
@@ -1496,7 +1496,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40057" ;
+  vcard:postal-code "40057" ;
   vcard:locality "Granarolo dell'Emilia" .
 
 <http://www.no-profit-data.it/res/cimcoop>
@@ -1539,7 +1539,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coopilpellicano.>
@@ -1566,7 +1566,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/teatrodellargine.>
@@ -1592,7 +1592,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/cooplastrada>
@@ -1614,7 +1614,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilmosaicocooperativa.>
@@ -1641,7 +1641,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "56512" ;
+  vcard:postal-code "56512" ;
   vcard:locality "Mordano" .
 
 <http://www.no-profit-data.it/res/consorziosic>
@@ -1667,7 +1667,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coopabantu>
@@ -1694,7 +1694,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/coopoasis.>
@@ -1715,7 +1715,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ramazzini.>
@@ -1774,7 +1774,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/altercoop>
@@ -1869,7 +1869,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/scoiattolo.>
@@ -1911,7 +1911,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/coopsocialeanima>
@@ -1932,7 +1932,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40010" ;
+  vcard:postal-code "40010" ;
   vcard:locality "Sala Bolognese" .
 
 <http://www.no-profit-data.it/res/seacoop.c>
@@ -1966,7 +1966,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/in-formazione.>
@@ -2001,7 +2001,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40059" ;
+  vcard:postal-code "40059" ;
   vcard:locality "Medicina" .
 
 <http://www.no-profit-data.it/res/coopsollievo>
@@ -2028,7 +2028,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coopada>
@@ -2050,7 +2050,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/copaps>
@@ -2076,7 +2076,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/coopagriverde>
@@ -2098,7 +2098,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/insiemeper.bo>
@@ -2124,7 +2124,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/croceservizi.>
@@ -2145,7 +2145,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/societaaperta.i>
@@ -2183,7 +2183,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/inventatempo>
@@ -2210,7 +2210,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40017" ;
+  vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
 <http://www.no-profit-data.it/res/andycooper>
@@ -2231,7 +2231,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/croceverdeer.>
@@ -2262,7 +2262,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/arcoiriscoop>
@@ -2296,7 +2296,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40066" ;
+  vcard:postal-code "40066" ;
   vcard:locality "Pieve di Cento" .
 
 <http://www.no-profit-data.it/res/solcoimola>
@@ -2318,7 +2318,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/csapsa>
@@ -2348,7 +2348,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ass-coop>
@@ -2383,7 +2383,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coopas>
@@ -2405,7 +2405,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/solcoinsieme.c>
@@ -2431,7 +2431,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/coopaxia>
@@ -2457,7 +2457,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/solidarietafamiliare>
@@ -2477,7 +2477,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/daicrocicchi.c>
@@ -2512,7 +2512,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/teatrodelletemperie.>
@@ -2537,7 +2537,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40056" ;
+  vcard:postal-code "40056" ;
   vcard:locality "Crespellano" .
 
 <http://www.no-profit-data.it/res/ecotronic>
@@ -2572,7 +2572,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40055" ;
+  vcard:postal-code "40055" ;
   vcard:locality "Castenaso" .
 
 <http://www.no-profit-data.it/res/coopcroceazzurra>
@@ -2603,7 +2603,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/educarecrescere>
@@ -2629,7 +2629,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/beataverginedellegrazie>
@@ -2655,7 +2655,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/teatrodelpratello>
@@ -2685,7 +2685,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/exaequo.bo>
@@ -2706,7 +2706,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cadiai>
@@ -2737,7 +2737,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/iquattrocastelli>
@@ -2772,7 +2772,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40060" ;
+  vcard:postal-code "40060" ;
   vcard:locality "Dozza" .
 
 <http://www.no-profit-data.it/res/cooperativasammartini>
@@ -2803,7 +2803,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40014" ;
+  vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" .
 
 <http://www.no-profit-data.it/res/faremondi>
@@ -2838,7 +2838,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cooperativasocialealveare>
@@ -2859,7 +2859,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
 <http://www.no-profit-data.it/res/WWW.COOPERATIVASOCIALEMONGHIDORO.>
@@ -2880,7 +2880,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40063" ;
+  vcard:postal-code "40063" ;
   vcard:locality "Monghidoro" .
 
 <http://www.no-profit-data.it/res/farlottine>
@@ -2901,7 +2901,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coopfanin>
@@ -2922,7 +2922,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40017" ;
+  vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
 <http://www.no-profit-data.it/res/it2>
@@ -2953,7 +2953,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/fattoriabilita>
@@ -2979,7 +2979,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40017" ;
+  vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
 <http://www.no-profit-data.it/res/cafedelapaixbologna>
@@ -3006,7 +3006,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/giovanirilegatori>
@@ -3028,7 +3028,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/testoniragazzi>
@@ -3054,7 +3054,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/italianaassistenza>
@@ -3085,7 +3085,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casabase.i>
@@ -3124,7 +3124,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/venenta.>
@@ -3150,7 +3150,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40050" ;
+  vcard:postal-code "40050" ;
   vcard:locality "Argelato" .
 
 <http://www.no-profit-data.it/res/lacittaverde.c>
@@ -3197,7 +3197,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40014" ;
+  vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" .
 
 <http://www.no-profit-data.it/res/virtualcoop.>
@@ -3231,7 +3231,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/volabo>
@@ -3262,7 +3262,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/libertasassistenza>
@@ -3300,7 +3300,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/zerocento.c>
@@ -3351,7 +3351,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "48018" ;
+  vcard:postal-code "48018" ;
   vcard:locality "Faenza" .
 
 <http://www.no-profit-data.it/res/opengroup>
@@ -3394,7 +3394,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/laltrocaffe>
@@ -3425,7 +3425,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/perluca>
@@ -3456,7 +3456,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cooplastrada/location/1/number/051372223>
@@ -3487,7 +3487,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pacb>
@@ -3514,7 +3514,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gruppoyoda.>
@@ -3535,7 +3535,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/tutelanimalibologna>
@@ -3562,7 +3562,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gvc-italia.>
@@ -3593,7 +3593,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ailbologna>
@@ -3619,7 +3619,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/arcibologna>
@@ -3674,7 +3674,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bolognaltruista.>
@@ -3696,7 +3696,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aprimondo.centropoggeschi.>
@@ -3727,7 +3727,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bologna.virgilio>
@@ -3747,7 +3747,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fidas-advs-bologna.>
@@ -3768,7 +3768,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/perindbo.>
@@ -3788,7 +3788,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40060" ;
+  vcard:postal-code "40060" ;
   vcard:locality "Dozza" .
 
 <http://www.no-profit-data.it/res/protezionecivile.regione.emilia-romagna>
@@ -3819,7 +3819,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bimbotu>
@@ -3840,7 +3840,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/africaemediterraneo>
@@ -3861,7 +3861,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/savethechildren>
@@ -3896,7 +3896,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "185" ;
+  vcard:postal-code "185" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/flashgiovani>
@@ -3918,7 +3918,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/piazzagrande>
@@ -3949,7 +3949,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/agevolando.>
@@ -3971,7 +3971,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/stellanostra.>
@@ -4018,7 +4018,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/univocbologna>
@@ -4040,7 +4040,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bolognawelcome.>
@@ -4099,7 +4099,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/polisportivapaolopoggi>
@@ -4130,7 +4130,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/uvapassa.>
@@ -4164,7 +4164,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aiasport>
@@ -4191,7 +4191,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/aism.bo>
@@ -4212,7 +4212,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/protezionecivile.bo>
@@ -4234,7 +4234,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/xeniabo.>
@@ -4254,7 +4254,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/al3teste.>
@@ -4281,7 +4281,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40010" ;
+  vcard:postal-code "40010" ;
   vcard:locality "Bentivoglio" .
 
 <http://www.no-profit-data.it/res/antoniano>
@@ -4352,7 +4352,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/yfcitalia.>
@@ -4373,7 +4373,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centotrecento>
@@ -4400,7 +4400,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aosp.bo>
@@ -4427,7 +4427,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionemargherita.>
@@ -4454,7 +4454,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/legambientebologna.>
@@ -4484,7 +4484,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneverbamanent>
@@ -4523,7 +4523,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilprogettoalice.wordpress.>
@@ -4545,7 +4545,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centroantartide>
@@ -4579,7 +4579,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bimbingamba.>
@@ -4600,7 +4600,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40054" ;
+  vcard:postal-code "40054" ;
   vcard:locality "Budrio" .
 
 <http://www.no-profit-data.it/res/provincia.fc>
@@ -4634,7 +4634,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "47121" ;
+  vcard:postal-code "47121" ;
   vcard:locality "Forlì" .
 
 <http://www.no-profit-data.it/res/dopodinoi.>
@@ -4668,7 +4668,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionecucciolo>
@@ -4695,7 +4695,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casasantachiara>
@@ -4716,7 +4716,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cassero>
@@ -4747,7 +4747,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cavazza>
@@ -4778,7 +4778,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centrocabral.>
@@ -4809,7 +4809,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centrosandomenico>
@@ -4836,7 +4836,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/circolofotograficosviola>
@@ -4857,7 +4857,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/circolotennisbologna.>
@@ -4888,7 +4888,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/microimpresa.>
@@ -4914,7 +4914,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40100" ;
+  vcard:postal-code "40100" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/acliemiliaromagna>
@@ -4941,7 +4941,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/acquadela>
@@ -4976,7 +4976,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/schermaimola>
@@ -5003,7 +5003,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/musicaindozza>
@@ -5030,7 +5030,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40060" ;
+  vcard:postal-code "40060" ;
   vcard:locality "Dozza" .
 
 <http://www.no-profit-data.it/res/selenecentrostudi>
@@ -5065,7 +5065,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aicser.altervista.>
@@ -5092,7 +5092,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aihip.>
@@ -5114,7 +5114,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/settimadiminuita>
@@ -5136,7 +5136,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40010" ;
+  vcard:postal-code "40010" ;
   vcard:locality "Bentivoglio" .
 
 <http://www.no-profit-data.it/res/catgardeccia>
@@ -5157,7 +5157,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40017" ;
+  vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
 <http://www.no-profit-data.it/res/antalpallavicini.>
@@ -5188,7 +5188,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centrogpdore>
@@ -5214,7 +5214,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/orsicinesi.>
@@ -5240,7 +5240,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centrosocialezolino>
@@ -5267,7 +5267,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/panicarte.>
@@ -5293,7 +5293,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/passopasso>
@@ -5323,7 +5323,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/cittadinanzattiva-er>
@@ -5350,7 +5350,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/focusd.>
@@ -5380,7 +5380,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/fogolarbologna>
@@ -5401,7 +5401,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pgsima>
@@ -5432,7 +5432,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/comunitasociale>
@@ -5459,7 +5459,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/arteesalute.>
@@ -5490,7 +5490,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/piccoloformato>
@@ -5511,7 +5511,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40100" ;
+  vcard:postal-code "40100" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/francescofranciabasket>
@@ -5531,7 +5531,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41013" ;
+  vcard:postal-code "41013" ;
   vcard:locality "Castelfranco Emilia" .
 
 <http://www.no-profit-data.it/res/succedesoloabologna>
@@ -5562,7 +5562,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/polisportivazola>
@@ -5589,7 +5589,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/presidentbologna>
@@ -5624,7 +5624,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionediversamente.>
@@ -5659,7 +5659,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/progressocalcio>
@@ -5702,7 +5702,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
 <http://www.no-profit-data.it/res/associazioneumanamente.>
@@ -5724,7 +5724,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/dder.>
@@ -5746,7 +5746,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/uispbologna>
@@ -5777,7 +5777,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/grupponidiinfanzia>
@@ -5808,7 +5808,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/deliagennari>
@@ -5830,7 +5830,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gsriale>
@@ -5857,7 +5857,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/psicologiadellenarrazioni>
@@ -5896,7 +5896,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/villadallolio>
@@ -5923,7 +5923,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/villagetennisclub>
@@ -5945,7 +5945,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40062" ;
+  vcard:postal-code "40062" ;
   vcard:locality "Molinella" .
 
 <http://www.no-profit-data.it/res/ideafamiglia>
@@ -5979,7 +5979,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/educazionepermanente>
@@ -6006,7 +6006,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40014" ;
+  vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" .
 
 <http://www.no-profit-data.it/res/volhand>
@@ -6027,7 +6027,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40056" ;
+  vcard:postal-code "40056" ;
   vcard:locality "Crespellano" .
 
 <http://www.no-profit-data.it/res/burattodanza.>
@@ -6054,7 +6054,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/bvbo>
@@ -6076,7 +6076,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/xing>
@@ -6103,7 +6103,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilpozzodelleidee>
@@ -6125,7 +6125,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/remidabologna>
@@ -6152,7 +6152,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40012" ;
+  vcard:postal-code "40012" ;
   vcard:locality "Calderara di Reno" .
 
 <http://www.no-profit-data.it/res/you-net>
@@ -6182,7 +6182,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilsognodistefano>
@@ -6228,7 +6228,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "VEN" ;
-  <vcard:postal-code:> "35128" ;
+  vcard:postal-code "35128" ;
   vcard:locality "Padova" .
 
 <http://www.no-profit-data.it/res/roccadeibentivoglio>
@@ -6249,7 +6249,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40053" ;
+  vcard:postal-code "40053" ;
   vcard:locality "Bazzano" .
 
 <http://www.no-profit-data.it/res/ematbo.unibo>
@@ -6279,7 +6279,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/eremodironzano>
@@ -6309,7 +6309,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/erfestival.>
@@ -6336,7 +6336,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/fabiodabologna>
@@ -6357,7 +6357,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fanep.>
@@ -6378,7 +6378,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/insalute.i>
@@ -6405,7 +6405,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/leganavale.bo>
@@ -6432,7 +6432,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/lequercedi>
@@ -6459,7 +6459,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/levocidellaluna>
@@ -6481,7 +6481,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/link.bo>
@@ -6501,7 +6501,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/mediazionefamiliare-cedim>
@@ -6524,7 +6524,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40053" ;
+  vcard:postal-code "40053" ;
   vcard:locality "Bazzano" .
 
 <http://www.no-profit-data.it/res/assisla>
@@ -6555,7 +6555,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionealtadefinizione>
@@ -6586,7 +6586,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/coralereno.altervista.>
@@ -6613,7 +6613,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/erlug.linux>
@@ -6635,7 +6635,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilventagliodiorav>
@@ -6661,7 +6661,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lechiavidicasa.>
@@ -6688,7 +6688,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40057" ;
+  vcard:postal-code "40057" ;
   vcard:locality "Granarolo dell'Emilia" .
 
 <http://www.no-profit-data.it/res/neidanitalia.wordpress.>
@@ -6719,7 +6719,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nuke.fidas-advs-bologna.>
@@ -6746,7 +6746,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/riunite>
@@ -6777,7 +6777,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/acquablu.altervista.>
@@ -6799,7 +6799,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/admoemiliaromagna>
@@ -6826,7 +6826,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/agd-bo.>
@@ -6865,7 +6865,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Sant'Agata Bolognese" .
 
 <http://www.no-profit-data.it/res/ageop.>
@@ -6912,7 +6912,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aice-epilessia>
@@ -6939,7 +6939,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aicsbologna>
@@ -6966,7 +6966,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aiditalia.>
@@ -7005,7 +7005,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alicebologna>
@@ -7031,7 +7031,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amaci>
@@ -7062,7 +7062,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amicidiluca>
@@ -7096,7 +7096,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amicidimagu.>
@@ -7117,7 +7117,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40135" ;
+  vcard:postal-code "40135" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amrer>
@@ -7144,7 +7144,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aniepnazionale>
@@ -7171,7 +7171,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anmil>
@@ -7198,7 +7198,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ant>
@@ -7237,7 +7237,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/antr>
@@ -7276,7 +7276,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/arterego.>
@@ -7297,7 +7297,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40043" ;
+  vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" .
 
 <http://www.no-profit-data.it/res/ascbologna>
@@ -7324,7 +7324,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aspbologna>
@@ -7351,7 +7351,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/asphi>
@@ -7382,7 +7382,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazione-aliante>
@@ -7404,7 +7404,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneiocisono>
@@ -7443,7 +7443,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionenovart.>
@@ -7478,7 +7478,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40067" ;
+  vcard:postal-code "40067" ;
   vcard:locality "Rastignano" .
 
 <http://www.no-profit-data.it/res/atcomonline>
@@ -7509,7 +7509,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ausl.bologna>
@@ -7543,7 +7543,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bancoartigiano.>
@@ -7570,7 +7570,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bo.cnr>
@@ -7597,7 +7597,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bolognautostoriche>
@@ -7632,7 +7632,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/poggeschiperilcarcere.wordpress.>
@@ -7654,7 +7654,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/youkali>
@@ -7684,7 +7684,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/visibilia.>
@@ -7706,7 +7706,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/villatorchi>
@@ -7740,7 +7740,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/villabernaroli>
@@ -7786,7 +7786,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/videsitalia>
@@ -7821,7 +7821,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/up.aci>
@@ -7852,7 +7852,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/unms>
@@ -7879,7 +7879,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/univocbologna/location/1/number/051.334.967>
@@ -7921,7 +7921,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/uicbologna>
@@ -7948,7 +7948,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/tuttinsieme.>
@@ -7970,7 +7970,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/spmii>
@@ -7997,7 +7997,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/sdseducational.>
@@ -8028,7 +8028,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/retinitepigmentosa>
@@ -8070,7 +8070,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/rangersbologna>
@@ -8097,7 +8097,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/prolocozzano>
@@ -8128,7 +8128,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40064" ;
+  vcard:postal-code "40064" ;
   vcard:locality "Ozzano dell'Emilia" .
 
 <http://www.no-profit-data.it/res/prolocozola>
@@ -8155,7 +8155,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/preludio.>
@@ -8182,7 +8182,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40135" ;
+  vcard:postal-code "40135" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pontevecchiobologna>
@@ -8213,7 +8213,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/piccoligrandicuori>
@@ -8240,7 +8240,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pattugliecittadine>
@@ -8267,7 +8267,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pasta-granarolo.>
@@ -8287,7 +8287,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40057" ;
+  vcard:postal-code "40057" ;
   vcard:locality "Granarolo dell'Emilia" .
 
 <http://www.no-profit-data.it/res/padri>
@@ -8326,7 +8326,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/opimm>
@@ -8357,7 +8357,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nuovamente.>
@@ -8396,7 +8396,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/mediazionefamiliare-cedim/location/1/number/335387624>
@@ -8431,7 +8431,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/latino51>
@@ -8458,7 +8458,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/lafraternita.>
@@ -8497,7 +8497,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40064" ;
+  vcard:postal-code "40064" ;
   vcard:locality "Ozzano dell'Emilia" .
 
 <http://www.no-profit-data.it/res/ilbosco.>
@@ -8524,7 +8524,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/legaconsumatori>
@@ -8545,7 +8545,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20147" ;
+  vcard:postal-code "20147" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/psm.bologna>
@@ -8572,7 +8572,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/marieleventre>
@@ -8622,7 +8622,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aspirides>
@@ -8652,7 +8652,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneastrofilibolognesi>
@@ -8674,7 +8674,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/telefonoamicobologna>
@@ -8694,7 +8694,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bibliotecasalaborsa>
@@ -8724,7 +8724,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/diversamenteagibile>
@@ -8751,7 +8751,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/telefonoblu>
@@ -8776,7 +8776,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/patronato.acli>
@@ -8803,7 +8803,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/poverivergognosi>
@@ -8834,7 +8834,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/usap>
@@ -8856,7 +8856,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/prestitoinpdap.>
@@ -8887,7 +8887,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/famiglienumerose.>
@@ -8942,7 +8942,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "VEN" ;
-  <vcard:postal-code:> "35020" ;
+  vcard:postal-code "35020" ;
   vcard:locality "Albignasego" .
 
 <http://www.no-profit-data.it/res/fijlkamemiliaromagna>
@@ -8969,7 +8969,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/caefisi.>
@@ -9000,7 +9000,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gris-imola>
@@ -9059,7 +9059,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/campa>
@@ -9090,7 +9090,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/iniziativaeuropea>
@@ -9112,7 +9112,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "FVG" ;
-  <vcard:postal-code:> "10000" ;
+  vcard:postal-code "10000" ;
   vcard:locality "Trieste" .
 
 <http://www.no-profit-data.it/res/circolocinofilobolognese>
@@ -9142,7 +9142,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cittametropolitana.bo>
@@ -9173,7 +9173,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/adanazionale>
@@ -9195,7 +9195,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "198" ;
+  vcard:postal-code "198" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/anaste-er.>
@@ -9226,7 +9226,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/sites.google.>
@@ -9253,7 +9253,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aradbo.>
@@ -9275,7 +9275,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aiabologna>
@@ -9305,7 +9305,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/croceitalia>
@@ -9327,7 +9327,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/icinquepani>
@@ -9356,7 +9356,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "198" ;
+  vcard:postal-code "198" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/bolognafutsal>
@@ -9378,7 +9378,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cvsbo>
@@ -9413,7 +9413,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/idraonlus>
@@ -9434,7 +9434,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "TOS" ;
-  <vcard:postal-code:> "50124" ;
+  vcard:postal-code "50124" ;
   vcard:locality "Firenze" .
 
 <http://www.no-profit-data.it/res/dryart.>
@@ -9461,7 +9461,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "MAR" ;
-  <vcard:postal-code:> "61121" ;
+  vcard:postal-code "61121" ;
   vcard:locality "Pesaro" .
 
 <http://www.no-profit-data.it/res/anastasis>
@@ -9482,7 +9482,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/andromeda-bo>
@@ -9504,7 +9504,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cdkl5.>
@@ -9535,7 +9535,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40024" ;
+  vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" .
 
 <http://www.no-profit-data.it/res/aned-onlus>
@@ -9557,7 +9557,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20121" ;
+  vcard:postal-code "20121" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/patbologna>
@@ -9578,7 +9578,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anglat>
@@ -9599,7 +9599,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "166" ;
+  vcard:postal-code "166" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/centrocrocecoperta>
@@ -9620,7 +9620,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anpvionlus>
@@ -9642,7 +9642,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "183" ;
+  vcard:postal-code "183" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/centromelograno>
@@ -9669,7 +9669,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/asitoi>
@@ -9696,7 +9696,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "23887" ;
+  vcard:postal-code "23887" ;
   vcard:locality "Olgiate Molgora" .
 
 <http://www.no-profit-data.it/res/ass-equilibrio>
@@ -9727,7 +9727,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneprogettohandicap.>
@@ -9749,7 +9749,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/raggiungere>
@@ -9771,7 +9771,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20142" ;
+  vcard:postal-code "20142" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/associazionernesto>
@@ -9806,7 +9806,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/avis>
@@ -9828,7 +9828,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20134" ;
+  vcard:postal-code "20134" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/federgev>
@@ -9863,7 +9863,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/sindromedipoland.>
@@ -9894,7 +9894,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LIG" ;
-  <vcard:postal-code:> "16137" ;
+  vcard:postal-code "16137" ;
   vcard:locality "Genova" .
 
 <http://www.no-profit-data.it/res/chicomendes>
@@ -9916,7 +9916,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20133" ;
+  vcard:postal-code "20133" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/uisp>
@@ -9938,7 +9938,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "155" ;
+  vcard:postal-code "155" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/fest-festival.>
@@ -9959,7 +9959,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bo.arci>
@@ -9986,7 +9986,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "157" ;
+  vcard:postal-code "157" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/fondazionedelmonte>
@@ -10016,7 +10016,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cinetecadibologna>
@@ -10091,7 +10091,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/comune.castenaso.bo>
@@ -10118,7 +10118,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40055" ;
+  vcard:postal-code "40055" ;
   vcard:locality "Castenaso" .
 
 <http://www.no-profit-data.it/res/viveresenzastomaco.>
@@ -10149,7 +10149,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44123" ;
+  vcard:postal-code "44123" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/fossolo>
@@ -10200,7 +10200,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gimbeducation>
@@ -10231,7 +10231,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aido>
@@ -10253,7 +10253,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "192" ;
+  vcard:postal-code "192" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/admo>
@@ -10275,7 +10275,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LOM" ;
-  <vcard:postal-code:> "20157" ;
+  vcard:postal-code "20157" ;
   vcard:locality "Milano" .
 
 <http://www.no-profit-data.it/res/aispaitalia>
@@ -10310,7 +10310,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/codacons.emiliaromagna>
@@ -10341,7 +10341,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "LAZ" ;
-  <vcard:postal-code:> "195" ;
+  vcard:postal-code "195" ;
   vcard:locality "Roma" .
 
 <http://www.no-profit-data.it/res/3ionlus.>
@@ -10368,7 +10368,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/adottando>
@@ -10399,7 +10399,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alcolistianonimi-emiliaromagna>
@@ -10426,7 +10426,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/equosolidale>
@@ -10457,7 +10457,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "56112" ;
+  vcard:postal-code "56112" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/aiccon>
@@ -10484,7 +10484,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "47121" ;
+  vcard:postal-code "47121" ;
   vcard:locality "Forlì" .
 
 <http://www.no-profit-data.it/res/acatbolognaalcool>
@@ -10515,7 +10515,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44011" ;
+  vcard:postal-code "44011" ;
   vcard:locality "Argenta" .
 
 <http://www.no-profit-data.it/res/alisei.>
@@ -10550,7 +10550,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cadibalia>
@@ -10581,7 +10581,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "48010" ;
+  vcard:postal-code "48010" ;
   vcard:locality "Bagnara di Romagna" .
 
 <http://www.no-profit-data.it/res/ceunmondo>
@@ -10608,7 +10608,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/creativi108>
@@ -10630,7 +10630,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fondazioneidea.>
@@ -10661,7 +10661,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/federconsumatoribologna>
@@ -10688,7 +10688,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/giovanicreativi108.>
@@ -10710,7 +10710,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/copernico.bo>
@@ -10741,7 +10741,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilsorriso-imola>
@@ -10763,7 +10763,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40025" ;
+  vcard:postal-code "40025" ;
   vcard:locality "Fontanelice" .
 
 <http://www.no-profit-data.it/res/assistenzamalatibologna>
@@ -10798,7 +10798,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/saluter>
@@ -10825,7 +10825,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lawandliterature.>
@@ -10855,7 +10855,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionecucciolo/location/1/number/051344157>
@@ -10880,7 +10880,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/operapadremarella>
@@ -10923,7 +10923,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/aiasbo/location/1/number/0516275357>
@@ -10954,7 +10954,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aiuca>
@@ -10976,7 +10976,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/eburt>
@@ -11007,7 +11007,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fondazionegdo>
@@ -11029,7 +11029,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40132" ;
+  vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ilnido.bo>
@@ -11060,7 +11060,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/romilia>
@@ -11277,7 +11277,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "41012" ;
+  vcard:postal-code "41012" ;
   vcard:locality "Carpi" .
 
 <http://www.no-profit-data.it/res/montecatone.>
@@ -11337,7 +11337,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nextgenerationitaly>
@@ -11361,7 +11361,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casadonne>
@@ -11392,7 +11392,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nonandremomaintv>
@@ -11460,7 +11460,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
 <http://www.no-profit-data.it/res/oftaunibologna>
@@ -11486,7 +11486,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casalecchioinsiemeproloco.>
@@ -11552,7 +11552,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40050" ;
+  vcard:postal-code "40050" ;
   vcard:locality "Argelato" .
 
 <http://www.no-profit-data.it/res/web.tiscali>
@@ -11597,7 +11597,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/onlus-harambee.>
@@ -11622,7 +11622,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casinadeibimbi.>
@@ -11672,7 +11672,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40134" ;
+  vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/parrocchiadizolino>
@@ -11759,7 +11759,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/filodarianna.>
@@ -11827,7 +11827,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40053" ;
+  vcard:postal-code "40053" ;
   vcard:locality "Bazzano" .
 
 <http://www.no-profit-data.it/res/fondazionecarisbo>
@@ -11934,7 +11934,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/senzailbanco>
@@ -12009,7 +12009,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40046" ;
+  vcard:postal-code "40046" ;
   vcard:locality "Porretta Terme" .
 
 <http://www.no-profit-data.it/res/centrostudidonati.>
@@ -12036,7 +12036,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/siem-online>
@@ -12098,7 +12098,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/forma-azioneinrete>
@@ -12125,7 +12125,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/postfiera.>
@@ -12184,7 +12184,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/progettosquola>
@@ -12225,7 +12225,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "24123" ;
+  vcard:postal-code "24123" ;
   vcard:locality "Castel di Casio" .
 
 <http://www.no-profit-data.it/res/amache-bahia>
@@ -12305,7 +12305,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40141" ;
+  vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/prolocomolinella>
@@ -12548,7 +12548,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anmigcomitatocentrale.>
@@ -12603,7 +12603,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/anticacomelemontagne.>
@@ -12744,7 +12744,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40067" ;
+  vcard:postal-code "40067" ;
   vcard:locality "Rastignano" .
 
 <http://www.no-profit-data.it/res/studistorici.>
@@ -12776,7 +12776,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/gruppoelettrogeno.>
@@ -12810,7 +12810,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40017" ;
+  vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
 <http://www.no-profit-data.it/res/teatrodei25.jimdo.>
@@ -12881,7 +12881,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ascer>
@@ -12902,7 +12902,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "34125" ;
+  vcard:postal-code "34125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/residenzefemminilibologna>
@@ -12956,7 +12956,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40046" ;
+  vcard:postal-code "40046" ;
   vcard:locality "Porretta Terme" .
 
 <http://www.no-profit-data.it/res/temenosjunghiano.>
@@ -13034,7 +13034,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/asopen>
@@ -13119,7 +13119,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneamicidimariarosa.>
@@ -13178,7 +13178,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40040" ;
+  vcard:postal-code "40040" ;
   vcard:locality "Rocca di Roffeno" .
 
 <http://www.no-profit-data.it/res/tossignano>
@@ -13198,7 +13198,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40021" ;
+  vcard:postal-code "40021" ;
   vcard:locality "Borgo Tossignano" .
 
 <http://www.no-profit-data.it/res/coorprociv>
@@ -13259,7 +13259,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/coroathena>
@@ -13286,7 +13286,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40069" ;
+  vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
 <http://www.no-profit-data.it/res/universitaprimolevi>
@@ -13323,7 +13323,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "22052" ;
+  vcard:postal-code "22052" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/iltemporale>
@@ -13348,7 +13348,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40012" ;
+  vcard:postal-code "40012" ;
   vcard:locality "Calderara di Reno" .
 
 <http://www.no-profit-data.it/res/cronacheinternazionali.>
@@ -13378,7 +13378,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40063" ;
+  vcard:postal-code "40063" ;
   vcard:locality "Monghidoro" .
 
 <http://www.no-profit-data.it/res/csenemiliaromagna>
@@ -13404,7 +13404,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/viadepoeti>
@@ -13425,7 +13425,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneaquila>
@@ -13634,7 +13634,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/diapason.bo>
@@ -13808,7 +13808,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/iniziativaparkinsoniani>
@@ -13829,7 +13829,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bibliotecatrek.>
@@ -14013,7 +14013,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Pontecchio Marconi" .
 
 <http://www.no-profit-data.it/res/mascellaro.i>
@@ -14058,7 +14058,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/amaamarcordsanpietro>
@@ -14079,7 +14079,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44018" ;
+  vcard:postal-code "44018" ;
   vcard:locality "San Pietro in Casale" .
 
 <http://www.no-profit-data.it/res/circoloarcibrecht.jimdo.>
@@ -14105,7 +14105,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40050" ;
+  vcard:postal-code "40050" ;
   vcard:locality "Argelato" .
 
 <http://www.no-profit-data.it/res/nuke.anffas-er.>
@@ -14126,7 +14126,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/pronaturabologna.>
@@ -14147,7 +14147,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/oasifelix.altervista.>
@@ -14168,7 +14168,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40059" ;
+  vcard:postal-code "40059" ;
   vcard:locality "Medicina" .
 
 <http://www.no-profit-data.it/res/amicambo.>
@@ -14189,7 +14189,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/assistenza-computer-bologna.>
@@ -14215,7 +14215,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amicibambinipadrejohn.>
@@ -14236,7 +14236,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40037" ;
+  vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
 <http://www.no-profit-data.it/res/amicideglianimali.bo>
@@ -14262,7 +14262,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "29152" ;
+  vcard:postal-code "29152" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/ristretti>
@@ -14281,7 +14281,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amicidiampasilava.>
@@ -14302,7 +14302,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/saer.>
@@ -14323,7 +14323,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40046" ;
+  vcard:postal-code "40046" ;
   vcard:locality "Porretta Terme" .
 
 <http://www.no-profit-data.it/res/associazionearianne>
@@ -14344,7 +14344,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/abio.>
@@ -14370,7 +14370,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/auser>
@@ -14401,7 +14401,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/donnecontroviolenza>
@@ -14431,7 +14431,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/errc.>
@@ -14456,7 +14456,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/amiciterraozzano>
@@ -14482,7 +14482,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/acabas.altervista.>
@@ -14503,7 +14503,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bandieragialla>
@@ -14524,7 +14524,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/academia.>
@@ -14550,7 +14550,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/etabeta.c>
@@ -14571,7 +14571,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/stomia>
@@ -14592,7 +14592,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fondazionesantaclelia>
@@ -14612,7 +14612,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40049" ;
+  vcard:postal-code "40049" ;
   vcard:locality "Lizzano in Belvedere" .
 
 <http://www.no-profit-data.it/res/upcm>
@@ -14632,7 +14632,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
 <http://www.no-profit-data.it/res/andareaveglia>
@@ -14658,7 +14658,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40013" ;
+  vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
 <http://www.no-profit-data.it/res/betelbo>
@@ -14679,7 +14679,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/vigilfuocobazzano>
@@ -14699,7 +14699,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40053" ;
+  vcard:postal-code "40053" ;
   vcard:locality "Bazzano" .
 
 <http://www.no-profit-data.it/res/viveremeglio.>
@@ -14725,7 +14725,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/aebo>
@@ -14751,7 +14751,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44121" ;
+  vcard:postal-code "44121" ;
   vcard:locality "Ferrara" .
 
 <http://www.no-profit-data.it/res/bolognazoofila.>
@@ -14772,7 +14772,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40012" ;
+  vcard:postal-code "40012" ;
   vcard:locality "Calderara di Reno" .
 
 <http://www.no-profit-data.it/res/apdic>
@@ -14793,7 +14793,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ior>
@@ -14813,7 +14813,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40136" ;
+  vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alberodicirene.>
@@ -14834,7 +14834,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ccsenet.>
@@ -14854,7 +14854,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/ccsvi-sm.>
@@ -14875,7 +14875,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alecrim.>
@@ -14896,7 +14896,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/iperbole.bologna>
@@ -14917,7 +14917,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "0" ;
+  vcard:postal-code "0" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centroculturaleanzolese>
@@ -14938,7 +14938,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40011" ;
+  vcard:postal-code "40011" ;
   vcard:locality "Anzola dell'Emilia" .
 
 <http://www.no-profit-data.it/res/alzheimer-aimabologna.>
@@ -14959,7 +14959,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alzheimeremiliaromagna.>
@@ -14980,7 +14980,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/italia-costarica.>
@@ -15000,7 +15000,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lacuccia.bo>
@@ -15020,7 +15020,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/larcenciel>
@@ -15041,7 +15041,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lnd>
@@ -15072,7 +15072,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/volanelcuore>
@@ -15093,7 +15093,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "44122" ;
+  vcard:postal-code "44122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/alzheimerimola>
@@ -15114,7 +15114,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40026" ;
+  vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/.ohchr.>
@@ -15138,7 +15138,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/clubdellamusica.>
@@ -15164,7 +15164,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/humanrightsnights.>
@@ -15190,7 +15190,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/bolognabruxelles>
@@ -15211,7 +15211,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/organiantichi.>
@@ -15232,7 +15232,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/piantiamolamemoria.>
@@ -15257,7 +15257,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40137" ;
+  vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionejaya>
@@ -15283,7 +15283,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/admb>
@@ -15309,7 +15309,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/planimetrieculturali.>
@@ -15329,7 +15329,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/afbologna>
@@ -15350,7 +15350,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casadiriposoislandresidence>
@@ -15371,7 +15371,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40043" ;
+  vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" .
 
 <http://www.no-profit-data.it/res/sannacaterina.>
@@ -15392,7 +15392,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/casediriposofrancescane>
@@ -15413,7 +15413,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lacaracola>
@@ -15434,7 +15434,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40043" ;
+  vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" .
 
 <http://www.no-profit-data.it/res/tavoladelledonne.>
@@ -15454,7 +15454,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lisolache>
@@ -15480,7 +15480,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40139" ;
+  vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/universointerculturale>
@@ -15501,7 +15501,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/assistenzaanzianibologna.>
@@ -15522,7 +15522,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lucanibo>
@@ -15543,7 +15543,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/diecieventicinque>
@@ -15569,7 +15569,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/dlfbo>
@@ -15590,7 +15590,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazioneculturaleilvolo>
@@ -15611,7 +15611,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/millearpeggi>
@@ -15631,7 +15631,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/federbio>
@@ -15652,7 +15652,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "00198" ;
+  vcard:postal-code "00198" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/clionet>
@@ -15678,7 +15678,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/mondodonna-onlus>
@@ -15698,14 +15698,14 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/handimatica./location/1/address/BO>
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nippop>
@@ -15726,7 +15726,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40124" ;
+  vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionemusicaper>
@@ -15747,7 +15747,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/fitelemiliaromagna>
@@ -15768,7 +15768,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/funsci.>
@@ -15789,7 +15789,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40065" ;
+  vcard:postal-code "40065" ;
   vcard:locality "Pianoro" .
 
 <http://www.no-profit-data.it/res/harambe>
@@ -15809,7 +15809,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/centroannalenatonelli>
@@ -15830,7 +15830,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/ambiente.regione.emilia-romagna>
@@ -15851,7 +15851,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/psy-care.>
@@ -15872,7 +15872,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/cometaemiliaromagna>
@@ -15893,7 +15893,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/dipsa.unibo>
@@ -15914,7 +15914,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40127" ;
+  vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/scomunicati.>
@@ -15934,7 +15934,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40125" ;
+  vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/comune.monzuno.bologna>
@@ -15955,7 +15955,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40036" ;
+  vcard:postal-code "40036" ;
   vcard:locality "Monzuno" .
 
 <http://www.no-profit-data.it/res/cuberdon.>
@@ -15976,7 +15976,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "" ;
+  vcard:postal-code "" ;
   vcard:locality "Imola" .
 
 <http://www.no-profit-data.it/res/associazioneforum.>
@@ -15997,7 +15997,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40024" ;
+  vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" .
 
 <http://www.no-profit-data.it/res/lotonlus.>
@@ -16018,7 +16018,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40131" ;
+  vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/socrem.bologna>
@@ -16038,7 +16038,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/apeonlus.>
@@ -16059,7 +16059,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/iger.>
@@ -16079,7 +16079,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40126" ;
+  vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/marchigianibologna>
@@ -16099,7 +16099,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40033" ;
+  vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
 <http://www.no-profit-data.it/res/associazioneframe>
@@ -16120,7 +16120,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/architettidistrada>
@@ -16141,7 +16141,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40133" ;
+  vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/urca>
@@ -16161,7 +16161,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40100" ;
+  vcard:postal-code "40100" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/vitenuove./site/1>
@@ -16176,7 +16176,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40123" ;
+  vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/lamenteingioco>
@@ -16196,7 +16196,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40068" ;
+  vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
 <http://www.no-profit-data.it/res/naturalisti-ubn>
@@ -16222,7 +16222,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40138" ;
+  vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/nexusemiliaromagna.>
@@ -16243,7 +16243,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/asia>
@@ -16264,7 +16264,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40121" ;
+  vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/oaser>
@@ -16285,7 +16285,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40122" ;
+  vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/caleidos.bo>
@@ -16306,7 +16306,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40024" ;
+  vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" .
 
 <http://www.no-profit-data.it/res/psicopopoli-er>
@@ -16327,7 +16327,7 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40129" ;
+  vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/res/associazionecmb>
@@ -16348,6 +16348,6 @@
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
-  <vcard:postal-code:> "40128" ;
+  vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
