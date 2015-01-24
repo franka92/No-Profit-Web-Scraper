@@ -5,109 +5,74 @@
 	include ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
+	# include stemmer class_alias
+	require_once '../lib/stemmer/stem.class.php';
+	# include Alchemyapi lib
+	require_once '../lib/alchemyapi.php';
 	include ("database_manager.php");
 	set_time_limit(0);
 	
 	ini_set('default_charset', 'utf-8');
 	
+	$log_file = fopen("../data/log_".time().".txt","a");
+	$num_risultati = 0;
+	$num_scartati = 0;
+	$num_salvati = 0;
 
-	
-	$someUA = array (
-	"Mozilla/5.0 (Windows; U; Windows NT 6.0; fr; rv:1.9.1b1) Gecko/20081007 Firefox/3.1b1",
-	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.1) Gecko/2008070208 Firefox/3.0.0",
-	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.4.154.18 Safari/525.19",
-	"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13",
-	"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30)",
-	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.40607)",
-	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.1.4322)",
-	"Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.0.3705; Media Center PC 3.1; Alexa Toolbar; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
-	"Mozilla/45.0 (compatible; MSIE 6.0; Windows NT 5.1)",
-	"Mozilla/4.08 (compatible; MSIE 6.0; Windows NT 5.1)",
-	"Mozilla/4.01 (compatible; MSIE 6.0; Windows NT 5.1)");
-	
-	
+
 	/*Esamina i siti per vedere se sono possibili siti di associazioni o no
 		@param a: array contenente i link dei siti
 	*/
-	
 	function esamina($a){
+		global $log_file;
+		global $num_risultati;
+		global $num_scartati;
+		global $num_salvati;
+		$stemmer = new ItalianStemmer();
+		$num_risultati += count($a);
+		$parole_chiave = array ('associazione','onlus','profit','volontariato','organizzazione','cooperativa');
 		foreach ($a as $key => $obj){
-			echo $obj;
+			$da_scartare = false;
+			/*Risalgo alla homePage del sito*/
 			$parse = parse_url($obj);
+			$dominio = $parse['host'];
 			$link =  "http://".$parse['host'];
 			/*Il sito non è già presente nell'elenco*/
-			if(cercaSitoElenco($link) == false){
-				$dominio = $link;
+			if(cercaSitoElenco($link) === false && count(array_keys($a,$link)) <= 1){
 				if(siteFilter($link)){/*Il sito riguarda una pagina social o siti che non ci interessano*/
 					unset($a[$key]);
+					$da_scartare = true;
 				}
 				else{
-					/*Risalgo alla homePage del sito*/
 					$parse = parse_url($link);
-					$homepage = $parse['host'];
-					echo "SITO: ".$link." **** ".$homepage;				
-					$html = file_get_html("http://".$homepage);
-					if(is_object($html)){
-						/*Cerco dei link alle pagine "chi siamo" o "storia"*/
-						$link_chiSiamo = $html->find("a[href*=chi] , a[href*=storia]");
-						/*Cerco nelle pagine "chi siamo" o "storia" dei riferimenti a delle parole chiave, per vedere se il sito è utilizzabile*/
-						if(count($link_chiSiamo) > 0){
-							foreach($link_chiSiamo as $element){
-								$link_contatti = $element->href;
-								if(substr($link_contatti,0,strlen($link)) != $homepage){
-									if(substr($link_contatti,0,1) == "/" && substr($homepage,strlen($homepage)-1,strlen($homepage)) == "/"){
-										$link_contatti = $homepage . substr($link_contatti,1,strlen($link_contatti));
-									}
-									else if(substr($link_contatti,0,1) != "/" && substr($homepage,strlen($homepage)-1,strlen($homepage)) != "/"){
-										$link_contatti = $homepage . "/".$link_contatti;
-									}
-									else{
-										$link_contatti = $homepage . $link_contatti;
-									}
-								}
-								if($link_contatti != ""){
-									$search_for = array();
-									$result = file_get_html($link_contatti);
-									$r = checkForText($result, $found = array(), $search_for);
-									if ($r >1) {
-										echo "<b>".$dominio ."</b><br>";
-									}
-									else{/*Il sito non risponde ai termini ricercati --> lo scarto*/
-										unset($a['sito'][$key]);
-									}
-								}	
-								else{
-									echo "<br> Link contatti == null ".$dominio;
-								}						
-							}
+					$homepage = $parse['host'];		
+					$keywords = get_keywords($link);
+					if($keywords != null && array_key_exists('keywords',$keywords) === true){
+						$result = cerca_corrispondenza($keywords,$parole_chiave);
+						if($result == 0){
+							$da_scartare = true;
 						}
-						else{/*Se non ho trovato dei link, effettuo la ricerca direttamente sulla homepage*/
-							$result = getContent($homepage);
-							libxml_use_internal_errors(TRUE);
-							if($result != null){
-								$search_for = array();
-								$r = checkForText($result, $found = array(), $search_for);
-								if ($r >1) {
-									echo "<b>".$dominio ."</b><br>";
-								}
-								else{/*Il sito non risponde ai termini ricercati --> lo scarto*/
-									unset($a['sito'][$key]);
-								}
-							}
-							else{/*Non riesco ad aprire il link --> scarto il sito*/
-								unset($a['sito'][$key]);
-							}
-						}
-
 					}
-				
-				}	
+					else{
+						$da_scartare = true;
+					}
+				}
 			}
-			else{/*Il sito è già presente nell'elenco, quindi salto al prossimo*/
-				/*Do Nothing*/
+			else{
+				$da_scartare = true;
 			}
 			
-
+			if($da_scartare == false){
+				unset($a[$key]);
+				fwrite($log_file,"\n Sito scartato: ".$link);
+				print "Scartato: ".$link;
+				$num_scartati++;
+			}
+			else{
+				print "Inserito: ".$link;
+				fwrite($log_file,"\n Sito inserito: ".$link);	
+				$num_salvati++;
+			}
 		}
 
 		/*A questo punto ho già un primo elenco filtrato*/	
@@ -135,12 +100,12 @@
 		@return: true o false
 	*/
 	function cercaSitoElenco($link){
-		$csv_file = new parseCSV();
-		$csv_file->auto('src/elenco.csv');
-		foreach ($csv_file->data as $key => $row){
-			if(strcmp($row['Sito'],$link) == 0)
-				return true;
-		}
+		$db = new Db();
+		$res = $db->select("SELECT Sito from elenco_siti where sito='".$link."';");
+		
+		if(count($res)>1)
+			return true;
+		
 		return false;
 	
 	}
@@ -162,49 +127,127 @@
 		}
 		return false;
 	}
-	
 
-	/*Cerca i termini nella pagina*/
-	function checkForText($page, $found = array(), $filter = array()){
-		$filtri = array("Onlus","associazione","associazioni","emilia","romagna","organizzazione", "no profit");
-		$filter = ((!empty($filter) && is_array($filter)) ? $filter : $filtri);
-		$found = is_array($found) ? $found : array();
-		foreach($filtri  as $test){
-			if(preg_match("/ ".$test." /i", $page)){
-				array_push($found,$test);
+	
+	/*Trasforma un link relativo in assoluto
+		@param link: link da trasformare
+		@param dominio: dominio del sito
+		
+		@return: il link assoluto
+	*/
+	function get_absolute_url($link_contatti,$dominio){
+		$dom = parse_url($dominio, PHP_URL_HOST);
+		if(strpos($link_contatti, $dom) === false){
+			$returnValue = parse_url($dominio, PHP_URL_PATH);
+			/*Non ha lo slash finale*/
+			if($returnValue == null){
+				if(substr($link_contatti,0,1) == "/"){
+					$link_contatti = $dominio .$link_contatti;
+				}
+				else{
+					$link_contatti = $dominio . "/" . $link_contatti;
+				}
+
+			}
+			/*Ha qualche path dopo il dominio*/
+			else if(strlen($returnValue)>1){
+
+				$last_slash = strrpos($dominio,"/");
+				if(substr($link_contatti,0,1) == "/")
+					$link_contatti = substr($dominio,0,$last_slash).$link_contatti;
+				else
+					$link_contatti = substr($dominio,0,$last_slash+1).$link_contatti;
+			}
+			/*Ha solo lo slash finale*/
+			else{
+				if(substr($link_contatti,0,1) == "/"){
+					$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
+				}
+				else{
+					$link_contatti = $dominio . $link_contatti;
+				}
 			}
 		}
-		return count($found);
-	}
-	
-	
-	function getRandomUserAgent ( ) {
-		//srand((double)microtime()*1000000);
-		global $someUA;
-		return $someUA[rand(0,count($someUA)-1)];
-	}
-	function getContent ($url) {
-	 
-		// Crea la risorsa CURL
-		$ch = curl_init();
-	 
-		// Imposta l'URL e altre opzioni
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_HEADER, 0);
-		curl_setopt($ch, CURLOPT_USERAGENT, getRandomUserAgent());
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);
-		// Scarica l'URL e lo passa al browser
-		$output = curl_exec($ch);
-		$info = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-		// Chiude la risorsa curl
-		curl_close($ch);
-		if ($output === false || $info != 200) {
-		  $output = null;
-		}
-		return $output;
-	 
+		return $link_contatti;
 	}
 
+	
+	/*Recupera le parole chiave associate ad un sito
+		@param link: link del sito da analizzare
+		
+		@return: l'elenco delle parole chiave
+	*/
+	function get_keywords($link){
+		$alchemyapi = new AlchemyAPI();
+		$url = "";
+		$html = file_get_html($link);
+		if(is_object($html)){
+			/*Ricerca nella pagina "Chi siamo" o "Storia" dove solitamente ci sono più informazioni*/
+			$link_descrizione = $html->find("a[href*=siamo],a[href*=storia],a[href*=associazione]");
+			if(count($link_descrizione) > 0){
+				foreach($link_descrizione as $l){
+					if(stripos($l->href,"dove") === false){
+						$url = $link_descrizione[0]->href;
+						break;
+					}
+				}
+			}
+			else{
+				$link_descrizione = $html->find("a");
+				foreach($link_descrizione as $a){
+					if(stripos(strtolower($a->innertext),"chi siamo") !== false || stripos(strtolower($a->innertext),"storia") !== false || stripos(strtolower($a->innertext),"associazione") !== false){
+						$url = $a->href;
+						break;
+					}
+				}
+			}
+			if($url == ""){
+				$response = $alchemyapi->keywords('url', $link, array('maxRetrieve'=>20));
+			}
+			else{
+				$url = get_absolute_url($url,$link);
+				$response = $alchemyapi->keywords('url', $url, array('maxRetrieve'=>20));
+				
+			}
+
+			if(count($response) > 0)
+				return $response;
+			else
+				return null;
+		}
+		return null;
+	}
+	
+	/*Associa una categoria in base alle parole chiave
+		@param keywords: elenco delle parole chiave di un sito
+		@param categorie: elenco delle categorie
+	*/
+	function cerca_corrispondenza($keywords,$parole){
+		$stemmer = new ItalianStemmer();
+		$found = 0;
+		/*Cicla per ogni categoria, su le parole ad essa associata*/
+		foreach($parole as $a_key => $p){	
+				$my_k_stem = $stemmer->stem($p);
+				if(empty($my_k_stem) === true)
+					$my_k_stem = $p;
+				/*Confronto ogni parola associata ad una categoria con le keywords trovate*/
+				foreach ($keywords['keywords'] as $k) {
+					$str_ex = explode(" ",$k['text']);
+					foreach ($str_ex as $parola){						
+						$parola = $stemmer->stem($parola);
+						if(empty($parola) === false){
+							/*Se trovo una corrispondenza, aumento il contatore di risultati per la categoria di riferimento*/
+							if(strpos(strtolower($parola),$p) === 0){
+								$found++;
+							}
+						}
+					}
+					
+				}
+		
+		}
+		return $found;
+	}
 
 		
 

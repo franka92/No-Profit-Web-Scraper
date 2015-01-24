@@ -1,0 +1,26 @@
+Log generato in data: 24-01-2015 04:15
+ Termine di input: associazioni animali bologna
+ Sito inserito: http://www.lacuccia.bo.it
+ Sito inserito: http://www.centrotutelafauna.org
+ Sito inserito: http://www.animalliberation.it
+ Sito inserito: http://www.unanimaleperamico.it
+ Sito inserito: http://www.essereanimali.org
+ Sito inserito: http://www.aaeweb.net
+ Sito scartato: http://comune.bologna.it
+ Sito inserito: http://www.compagniadeglianimali.org
+ Sito inserito: http://www.aiuca.eu
+ Sito inserito: http://www.enpabologna.org
+ Sito scartato: http://volontassociate.volabo.it
+ Sito inserito: http://www.fratellidizampa.it
+ Sito scartato: http://bologna.repubblica.it
+ Sito inserito: http://www.laer.org/Index.htm
+ Sito inserito: http://www.centroantartide.it
+ Sito inserito: http://www.gattilecalderara.com
+ Sito scartato: http://sociale.regione.emilia-romagna.it
+ Sito inserito: http://www.canigattienoi.cittametropolitana.bo.it
+ Sito inserito: http://ilcaniledibudrio.altervista.org
+ Sito inserito: http://www.ilrifugiodelcanediponteronca.it
+
+ Numero di risultati ottenuti: 20
+ Numero di risultati scartati: 3
+ Numero di risultati salvati: 17

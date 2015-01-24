@@ -1,9 +1,12 @@
 <?php
 	require_once '../vendor/autoload.php';
+	# include Simple Html Dom lib
 	require_once ("../lib/simple_html_dom.php");
 	# include parseCSV class.
 	require_once '../lib/parsecsv.lib.php';
+	# include Database Configuration and management class
 	require_once ("database_manager.php");
+	# include find category class
 	require_once ("trova_categorie.php");
 	
 	ini_set('default_charset', 'utf-8');	
@@ -53,7 +56,7 @@
 				}
 				
 				/*Cerco il nome del sito/associazione*/
-				$sito['nome'] = substr($link,7,strlen($link));
+				$sito['nome'] = parse_url($link,PHP_URL_HOST);
 				foreach($html->find("title") as $element){
 					$titolo = $element->plaintext;
 					if($titolo != "" && $titolo != "home"){
@@ -99,17 +102,6 @@
 					foreach($html->find("a") as $element){
 						if(strpos(strtolower($element->plaintext),"contatt") !== false || strpos(strtolower($element->plaintext),"dove")|| strpos(strtolower($element->plaintext),"siamo") || strpos(strtolower($element->plaintext),"sede")){
 							$link_contatti = $element->href;
-							/*if(substr($link_contatti,0,strlen($link)) != $dominio){
-								if(substr($link_contatti,0,1) == "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) == "/"){
-									$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
-								}
-								else if(substr($link_contatti,0,1) != "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) != "/"){
-									$link_contatti = $dominio . "/".$link_contatti;
-								}
-								else{
-									$link_contatti = $dominio . $link_contatti;
-								}
-							}*/
 							$link_contatti = get_absolute_url($link_contatti,$dominio);
 							/*Richiamo la funzione che ricerca le informazioni di contatto*/
 							if($link_contatti != ""){
@@ -120,7 +112,7 @@
 					}
 				}
 				/*Ho trovato le informazioni di contatto*/
-				if(array_key_exists("email",$sito)){
+				if(array_key_exists("email",$sito) && array_key_exists("luogo",$sito)){
 					//array_push($elenco,$sito);
 					return $sito;
 				}
@@ -307,7 +299,7 @@
 			/*** Email ***/
 			if(array_key_exists("email",$site)){
 				foreach ($site['email'] as $e){
-					$query = "INSERT INTO elenco_email VALUE(NULL, '".$link."', '".$e."');";
+					$query = "INSERT INTO elenco_email VALUE('".$link."', '".$e."');";
 					$db->query($query);
 				}
 
@@ -319,7 +311,7 @@
 					try {
 						$numero = $phoneUtil->parse($n, "IT");
 						$num_type = $phoneUtil->getNumberType($numero);
-						$query = "INSERT INTO elenco_numeri VALUE(NULL, '".$link."', '".$n."','".$num_type."');";
+						$query = "INSERT INTO elenco_numeri VALUE('".$link."', '".$n."','".$num_type."');";
 						$db->query($query);
 					} catch (\libphonenumber\NumberParseException $e) {
 						//var_dump($e);

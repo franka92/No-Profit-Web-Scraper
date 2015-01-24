@@ -6,33 +6,11 @@
 	require_once '../lib/stemmer/stem.class.php';
 	# include Alchemyapi lib
 	require_once '../lib/alchemyapi.php';
-	
-	require_once ("database_manager.php");
-	
+
 	set_time_limit(0);
 	$stemmer = new ItalianStemmer();
 	$total_count = 0;
-	/*
-	$db = new Db();
-	$query = "SELECT * from elenco_siti where elenco_siti.sito not in (SELECT sito from associazioni_categorie)";
-	$result = $db->select($query);
-	foreach($result as $row){
-		$link = $row['Sito'];
-		//$link = "http://www.ramazzini.org/";
-		$result = trova_categorie($link);
-		if(count($result)>0){
-			$total_count++;
-				$value = max($result);
-				$key = array_keys($result,$value);
-				foreach($key as $c){
-					echo "<br>cod cat: ".$c. " --- COUNT: ".$result[$c];
-					$query = "INSERT INTO associazioni_categorie VALUE('".$link."', '".$c."');";
-					$db->query($query);	
-				}
-		}
-	}
-	echo "TOTALE: ".$total_count;*/
-	
+
 	/*Ricerca la categoria per un'associazione
 		@param link: link del sito dell'associazione
 		
@@ -76,7 +54,6 @@
 						if(empty($parola) === false){
 							/*Se trovo una corrispondenza, aumento il contatore di risultati per la categoria di riferimento*/
 							if(strpos(strtolower($parola),$my_k_stem) === 0){
-								echo "<br>Corrispondenza: ".$k['text']."  ---  ".$my_k;
 								if(array_key_exists($a_key,$count_cat))
 									$count_cat[$a_key]++;
 								else{
@@ -124,16 +101,13 @@
 			}
 			if($url == ""){
 				$response = $alchemyapi->keywords('url', $link, array('maxRetrieve'=>20));
-				echo "SITO: ".$link."<br>";
 			}
 			else{
-				$url = get_absolute_url2($url,$link);
+				$url = get_absolute_url($url,$link);
 				$response = $alchemyapi->keywords('url', $url, array('maxRetrieve'=>20));
-				echo "SITO: ".$url."<br>";
 				
 			}
 			foreach ($response['keywords'] as $k) 
-					echo "<br> ".$k['text'];
 			if(count($response) > 0)
 				return $response;
 			else
@@ -149,10 +123,8 @@
 		@return: il link assoluto
 	*/
 	function get_absolute_url($link_contatti,$dominio){
-	echo "LINK: ".$link_contatti;
-	echo "<br>DOM: ".$dominio;
-		if(strpos($link_contatti, $dominio) === false){
-		echo "dentro if";
+		$dom = parse_url($dominio, PHP_URL_HOST);
+		if(strpos($link_contatti, $dom) === false){
 			$returnValue = parse_url($dominio, PHP_URL_PATH);
 			/*Non ha lo slash finale*/
 			if($returnValue == null){
@@ -162,20 +134,14 @@
 				else{
 					$link_contatti = $dominio . "/" . $link_contatti;
 				}
-				
-				echo "<br>".$link_contatti." ---------- topo<br>";
 			}
 			/*Ha qualche path dopo il dominio*/
 			else if(strlen($returnValue)>1){
-				echo $link_contatti." ---------- prima<br>";
 				$last_slash = strrpos($dominio,"/");
 				if(substr($link_contatti,0,1) == "/"){
 					$link_contatti = substr($dominio,0,$last_slash).$link_contatti; echo "qui";}
 				else
 					$link_contatti = substr($dominio,0,$last_slash+1).$link_contatti;
-				echo $link_contatti." --------- dopo<br>";
-			
-	
 			}
 			/*Ha solo lo slash finale*/
 			else{
@@ -185,8 +151,6 @@
 				else{
 					$link_contatti = $dominio . $link_contatti;
 				}
-				
-				echo "<br>".$link_contatti." ---------- topo<br>";
 			}
 		}
 		return $link_contatti;

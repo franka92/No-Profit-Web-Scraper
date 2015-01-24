@@ -1,0 +1,47 @@
+Log generato in data: 20-01-15
+ Termine di input: volontariato ambiente bologna
+ Sito inserito: http://www.cittametropolitana.bo.it
+ Sito inserito: http://www.lipu.it
+ Sito inserito: http://www.fondoambiente.it
+ Sito inserito: http://www.volabo.it
+ Sito inserito: http://ambiente.regione.emilia-romagna.it
+ Sito inserito: http://www.federgev.it
+ Sito inserito: http://www.pronaturabologna.org
+ Sito inserito: http://ambiente.regione.emilia-romagna.it
+ Sito inserito: http://www.flashgiovani.it
+ Sito inserito: http://www.comune.bologna.it
+ Sito inserito: http://www.wwf.it
+ Sito inserito: http://www.informagiovanionline.it
+ Sito inserito: http://www.you-net.eu
+ Sito inserito: http://www.centrotutelafauna.org
+ Sito inserito: http://www.anpana.it
+ Sito inserito: http://www.informagiovanionline.it
+ Sito inserito: http://aeop.it
+ Sito inserito: http://www.centrotutelafauna.org
+ Sito inserito: http://www.gruppoyoda.org
+ Sito scartato: http://www.bolognazoofila.org
+ Sito inserito: http://www.comune.bo.it
+ Sito inserito: http://www.polisportivapaolopoggi.it
+ Sito inserito: http://www.volontarioineuropa.eu
+ Sito inserito: http://www.progettogiovani.pd.it
+ Sito inserito: http://www.incontragiovani.it
+ Sito inserito: http://www.legambiente.emiliaromagna.it
+ Sito inserito: http://www.idraonlus.it
+ Sito inserito: http://www.provincia.fc.it
+ Sito inserito: http://www.comune.torino.it
+ Sito inserito: http://www.gruppohera.it
+ Sito inserito: http://www.videsitalia.it
+ Sito inserito: http://www.eurocultura.it
+ Sito inserito: http://cercocasa.bo.it
+ Sito inserito: http://www.tanzaniadiscovery.com
+ Sito inserito: http://www.informagiovani.fe.it
+ Sito inserito: http://www.legambientebologna.org
+ Sito inserito: http://www.spintadalbass.org
+ Sito inserito: http://www.sanlazzarosociale.it
+ Sito inserito: http://www.ciao-tschau.it
+ Sito inserito: http://www.nonprofit.viainternet.org
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 1
+
+ Numero di risultati salvati: 39

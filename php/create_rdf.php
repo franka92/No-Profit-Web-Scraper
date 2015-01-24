@@ -25,7 +25,7 @@
 	/*Salvo il file*/
 	$string = $graph->serialise("turtle");
 	$file = fopen("grafo.ttl", "w");
-	fwrite($file,$string);
+	fwrite($file,utf8_encode($string));
 	fclose($file);
 	
 	
@@ -57,6 +57,7 @@
 			$nome = trim($dati_a['nome']);
 			$email = $dati_a['email'];
 			$numeri = $dati_a['numeri'];
+			echo count($numeri);
 			$categorie = $dati_a['categorie'];
 			$luogo = $dati_a['luogo'];
 			
@@ -76,10 +77,9 @@
 			
 			/*Assicio le categorie all'associazione*/
 			if(count($categorie) >0){
-			echo count($categorie);
 				foreach($categorie as $cat){
 					
-					$associazione->addResource("org:purpose",$cat);
+					$associazione->addResource("org:purpose","http://www.no-profit-data.it/res/categorie/".$cat);
 				}
 			}
 
@@ -117,7 +117,7 @@
 						$locality = $luogo['comune'];
 					else
 						$locality = $luogo['provincia'];
-					$address = $graph->resource($iri_location."/address/".$luogo['comune'],"vcard:Work");
+					$address = $graph->resource($iri_location."/address/". parse_string($locality),"vcard:Work");
 					$address->set("vcard:country-name","Italia");
 					$address->set("vcard:region",$luogo['regione']);
 					$address->set("vcard:postal-code:",$luogo['cap']);
@@ -144,6 +144,13 @@
 	*/
 	function parse_string($stringa){
 		$parse_cat = str_replace(' ', '_', $stringa);
+		$parse_cat = str_replace('à', 'a', $stringa);
+		$unwanted_array = array(    'Š'=>'S', 'š'=>'s', 'Ž'=>'Z', 'ž'=>'z', 'À'=>'A', 'Á'=>'A', 'Â'=>'A', 'Ã'=>'A', 'Ä'=>'A', 'Å'=>'A', 'Æ'=>'A', 'Ç'=>'C', 'È'=>'E', 'É'=>'E',
+                            'Ê'=>'E', 'Ë'=>'E', 'Ì'=>'I', 'Í'=>'I', 'Î'=>'I', 'Ï'=>'I', 'Ñ'=>'N', 'Ò'=>'O', 'Ó'=>'O', 'Ô'=>'O', 'Õ'=>'O', 'Ö'=>'O', 'Ø'=>'O', 'Ù'=>'U',
+                            'Ú'=>'U', 'Û'=>'U', 'Ü'=>'U', 'Ý'=>'Y', 'Þ'=>'B', 'ß'=>'Ss', 'à'=>'a', 'á'=>'a', 'â'=>'a', 'ã'=>'a', 'ä'=>'a', 'å'=>'a', 'æ'=>'a', 'ç'=>'c',
+                            'è'=>'e', 'é'=>'e', 'ê'=>'e', 'ë'=>'e', 'ì'=>'i', 'í'=>'i', 'î'=>'i', 'ï'=>'i', 'ð'=>'o', 'ñ'=>'n', 'ò'=>'o', 'ó'=>'o', 'ô'=>'o', 'õ'=>'o',
+                            'ö'=>'o', 'ø'=>'o', 'ù'=>'u', 'ú'=>'u', 'û'=>'u', 'ý'=>'y', 'ý'=>'y', 'þ'=>'b', 'ÿ'=>'y' );
+		$parse_cat = strtr( $parse_cat, $unwanted_array );
 		return $parse_cat;
 	}
 	
@@ -167,14 +174,14 @@
 		$csv_associazioni->parse('../src/associazioni.csv');
 		$csv_numeri->parse('../src/elenco_numeri.csv');
 		$csv_email->parse('../src/elenco_email.csv');
-		$csv_as_cat->parse('../src/elenco_ass_cat.csv');
+		$csv_as_cat->parse('../src/associazioni_categorie.csv');
 		
 		$data_associazioni = $csv_associazioni->data;
 		$data_numeri = $csv_numeri->data;
 		$data_email = $csv_email->data;
 		$data_ass_cat = $csv_as_cat->data;
 		
-		$count = 0;
+		//$count = 0;
 		foreach($csv_associazioni->data as $row){
 			$count++;
 			$associazione = array();
@@ -197,7 +204,7 @@
 			//Contatti email		
 			$associazione['email'] = array();
 				foreach($data_email as $email){
-					if($email['sito associazione'] == $associazione['sito'])
+					if(strcmp($email['sito associazione'],$associazione['sito']) == 0)
 						array_push($associazione['email'],$email['email']);
 				}
 				if(count($associazione['email']) == 0)
@@ -205,7 +212,7 @@
 			//Contatti telefonici		
 			$associazione['numeri'] = array();
 				foreach($data_numeri as $numeri){
-					if($numeri['sito associazione'] == $associazione['sito']){
+					if(strcmp($numeri['sito associazione'],$associazione['sito']) == 0){
 						$num_type_code = $numeri['tipo'];
 						switch ($num_type_code){
 							case 0: 
@@ -230,15 +237,15 @@
 			//Categorie	
 			$associazione['categorie'] = array();
 				foreach($data_ass_cat as $categoria){
-					if($categoria['sito'] == $associazione['sito'])
+					if(strcmp($categoria['sito associazione'],$associazione['sito']) == 0)
 						array_push($associazione['categorie'],str_replace(' ', '_', $categoria['categoria']));
 				}
 				if(count($associazione['categorie']) == 0)
 					$associazione['categorie'] = null;
 			
 			array_push($elenco,$associazione);
-			if($count == 5)
-				break;
+			/*if($count == 5)
+				break;*/
 		}
 		
 		return $elenco;

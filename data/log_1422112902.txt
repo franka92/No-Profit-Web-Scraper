@@ -1,0 +1,45 @@
+Log generato in data: 24-01-2015 04:21
+ Termine di input: associazione vittime strada bologna
+ Sito scartato: http://www.vittimestrada.org
+ Sito inserito: http://https
+ Sito scartato: http://www.vittimestrada.org
+ Sito inserito: http://associazioneaivis.com
+ Sito inserito: http://www.ristretti.it
+ Sito inserito: http://www.siamotuttipedoni.it
+ Sito inserito: http://www.cittadegliarchivi.it
+ Sito inserito: http://www.vittimedellastrada.eu
+ Sito inserito: http://comune.bologna.it
+ Sito inserito: http://www.associazionegianmarcodangelo.it
+ Sito inserito: http://www.vittimeterrorismo.it
+ Sito inserito: http://centrostudi.gruppoabele.org
+ Sito scartato: http://volontassociate.volabo.it
+ Sito inserito: http://centrostudi.gruppoabele.org
+ Sito inserito: http://bologna.repubblica.it
+ Sito inserito: http://www.assemblea.emr.it
+ Sito inserito: http://www.centroantartide.it
+ Sito inserito: http://www.consap.it
+ Sito scartato: http://vittimestrada.eu
+ Sito inserito: http://www.chiediloaloro.it
+ Sito inserito: http://sociale.regione.emilia-romagna.it
+ Sito inserito: http://www.allaconquistadellavita.org
+ Sito inserito: http://www.cupsit.it
+ Sito inserito: http://www.vittimologia.it
+ Sito inserito: http://www.strill.it
+ Sito inserito: http://www.cittametropolitana.bo.it
+ Sito inserito: http://www.articolo21.org
+ Sito inserito: http://www.ilfattoquotidiano.it
+ Sito inserito: http://www.agenparl.com
+ Sito inserito: http://www.regione.emilia-romagna.it
+ Sito inserito: http://www.saltinbanco.it
+ Sito scartato: http://www.vittimedeldovere.it
+ Sito inserito: http://www.piantiamolamemoria.org
+ Sito inserito: http://www.assoutenti.it
+ Sito inserito: http://www.sabrina.it
+ Sito inserito: http://www.provincia.re.it
+ Sito inserito: http://fiab-onlus.it
+ Sito inserito: http://www.automobilista.it
+ Sito inserito: http://www.aua.it
+
+ Numero di risultati ottenuti: 39
+ Numero di risultati scartati: 5
+ Numero di risultati salvati: 34
