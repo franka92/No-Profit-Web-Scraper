@@ -2,16 +2,10 @@
 	require_once '../lib/parsecsv.lib.php';
 	include ("database_manager.php");
 	
-	$db = new Db();
-	$query = "SELECT * FROM elenco_siti WHERE Timestamp is NULL";
-	$result = $db -> select($query);
-	$response = array();
-	/*Qualche script non ha terminato --> rilancio*/
-	if(count($result)>0){
-		$response['value'] = "false";
-		echo ("no");
-	} 
-	else{
+	function crea_data(){
+
+		$db = new Db();
+
 		if (!file_exists('../data/esecuzione_'.time())) {
 			$dir_path = '../data/esecuzione_'.time();
 			mkdir($dir_path, 0777, true);
@@ -25,8 +19,8 @@
 			fputcsv($file_numeri,explode(",","sito associazione,telefono,tipo"));
 			fputcsv($file_ass_cat,explode(",","sito associazione,categoria"));
 			fputcsv($file_elenco,explode(",","Sito,Timestamp"));
-	
-	
+
+
 			$query = "SELECT * FROM associazioni";
 			$result = $db -> select($query);
 			foreach ($result as $line){
@@ -63,11 +57,7 @@
 			fclose($file_ass_cat);	
 			fclose($file_elenco);	
 		}
-		
-		$response['value'] = "true";
-		echo ("ok");
 	}
-	
 		
 
 	
