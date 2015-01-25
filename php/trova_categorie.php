@@ -20,7 +20,7 @@
 		global $stemmer;
 		$categorie = get_category_list();
 		$keywords = get_keywords($link);
-		if(array_key_exists('keywords',$keywords) === true){
+		if($keywords != null && array_key_exists('keywords',$keywords) === true){
 			foreach ($keywords['keywords'] as $k) {
 				$stemmed_word = $stemmer->stem($k['text']);
 			}

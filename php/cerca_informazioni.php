@@ -103,12 +103,12 @@
 					}
 				}
 				/*Ho trovato le informazioni di contatto*/
-				if(array_key_exists("email",$sito) && array_key_exists("luogo",$sito)){
-					//array_push($elenco,$sito);
+				if(array_key_exists("email",$sito) && array_key_exists("luogo",$sito) && array_key_exists("numeri",$sito)){
 					return $sito;
 				}
 				/*Se le informazioni non sono state trovate, provo un'ultima ricerca direttamente nell'homepage*/
 				else{
+				echo "qui";
 					$sito = findContactInformation($link,$sito);
 					return $sito;
 
@@ -328,32 +328,42 @@
 		foreach($result as $row){
 			$site['nome'] = $row['nome associazione'];
 			$site['link'] = $row['sito'];
-			$site['luogo'] = array();
-			$site['luogo']['comune'] = $row['comune'];
-			$site['luogo']['cap'] = $row['cap'];
-			$site['luogo']['provincia'] = $row['regione'];
-			$site['luogo']['regione'] = $row['provincia'];
+			if($row['provincia'] != null){
+				$site['luogo'] = array();
+				$site['luogo']['comune'] = $row['comune'];
+				$site['luogo']['cap'] = $row['cap'];
+				$site['luogo']['provincia'] = $row['regione'];
+				$site['luogo']['regione'] = $row['provincia'];
+			}
 		}
 		/*Recupero i contatti email*/
 		$query = "SELECT * FROM elenco_email WHERE sito='".$link."';";
 		$result = $db->select($query);
-		$site['email'] = array();
-		foreach($result as $row){
-			$site['email'] = $row['email'];
+		if(count($result)>0){
+			$site['email'] = array();
+			foreach($result as $row){
+				array_push($site['email'],$row['email']);
+			}
 		}
+		
 		/*Recupero i contatti telefonici*/
 		$query = "SELECT * FROM elenco_numeri WHERE sito='".$link."';";
 		$result = $db->select($query);
-		$site['numeri'] = array();
-		foreach($result as $row){
-			$site['numeri'] = $row['numero'];
+		if(count($result)>0){
+			$site['numeri'] = array();
+			foreach($result as $row){
+				$n = array($row['numero'],$row['tipo']);
+				array_push($site['numeri'],$n);
+			}
 		}
 		/*Recupero la categoria*/
 		$query = "SELECT * FROM associazioni_categorie WHERE sito='".$link."';";
 		$result = $db->select($query);
-		$site['categoria'] = array();
-		foreach($result as $row){
-			$site['categoria'] = $row['categoria'];
+		if(count($result)>0){
+			$site['categoria'] = array();
+			foreach($result as $row){
+				array_push($site['categoria'], $row['categoria']);
+			}
 		}
 		return $site;
 	}
@@ -401,7 +411,6 @@
 			$y = 0;
 			$array_num = str_split($numero);
 			$car_controllo = intval($array_num[count($array_num)-1]);
-			echo "controllo: ".$car_controllo;
 			for($i=0;$i<9;$i=($i+2)){
 				$x = $x+intval($array_num[$i]);
 			}

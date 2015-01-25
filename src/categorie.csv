@@ -11,10 +11,11 @@ codice,categoria,keyword
 2,associazione di donatori,donare
 2,associazione di donatori,trasfusione
 2,associazione di donatori,malato
+2,associazione di donatori,ospedale
 3,commercio equo-solidale,equo
 3,commercio equo-solidale,prodotto
 3,commercio equo-solidale,artigiano
-3,commercio equo-solidale,sostenibile
+3,commercio equo-solidale,vendita
 3,commercio equo-solidale,solidale
 3,commercio equo-solidale,commercio
 4,sport,sport
@@ -23,12 +24,20 @@ codice,categoria,keyword
 4,sport,gioco
 4,sport,agonistico
 4,sport,dilettante
+4,sport,danza
+4,sport,basket
+4,sport,nuoto
+4,sport,palla
+4,sport,palestra
+4,sport,allenamento
+4,sport,tennis
 5,Disabili e Handicap,handicap
 5,Disabili e Handicap,disabile
 5,Disabili e Handicap,sostegno
 5,Disabili e Handicap,mentale
 5,Disabili e Handicap,malato
 5,Disabili e Handicap,carrozzina
+5,Disabili e Handicap,barriera
 6,Donne,donna
 6,Donne,violenza
 6,Donne,assistenza
@@ -40,7 +49,7 @@ codice,categoria,keyword
 7,Arte e cultura,museo
 7,Arte e cultura,mostra
 7,Arte e cultura,pittura
-7,Arte e cultura,rassegna
+7,Arte e cultura,scultura
 8,Famiglia,famiglia
 8,Famiglia,genitore
 8,Famiglia,figli
@@ -81,7 +90,6 @@ codice,categoria,keyword
 14,Ricerca scientifica,tecnologia
 14,Ricerca scientifica,ricerca
 14,Ricerca scientifica,progresso
-14,Ricerca scientifica,studio
 14,Ricerca scientifica,innovare
 15,Tutela degli animali,animale
 15,Tutela degli animali,sperimentazione
@@ -89,6 +97,7 @@ codice,categoria,keyword
 15,Tutela degli animali,allevamento
 15,Tutela degli animali,tutela
 15,Tutela degli animali,cane
+15,Tutela degli animali,gatto
 16,Tutela dei cittadini,cittadino
 16,Tutela dei cittadini,consumatore
 16,Tutela dei cittadini,diritto
@@ -104,15 +113,15 @@ codice,categoria,keyword
 18,Tutela dell'ambiente,ambiente
 18,Tutela dell'ambiente,ecologia
 18,Tutela dell'ambiente,salvaguardia
-18,Tutela dell'ambiente,territorio
+18,Tutela dell'ambiente,inquinamento
 18,Tutela dell'ambiente,energia
 18,Tutela dell'ambiente,tutela
-19,Volontariato e solidarietà,volontario
-19,Volontariato e solidarietà,organizzazione
-19,Volontariato e solidarietà,solidarietà
-19,Volontariato e solidarietà,collaborazione
-19,Volontariato e solidarietà,aiuto
-19,Volontariato e solidarietà,impegno
+19,Volontariato,volontario
+19,Volontariato,organizzazione
+19,Volontariato,solidarietà
+19,Volontariato,collaborazione
+19,Volontariato,assistenza
+19,Volontariato,impegno
 20,Spettacolo,spettacolo
 20,Spettacolo,cinema
 20,Spettacolo,teatro

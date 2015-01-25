@@ -1,6 +1,8 @@
 <?php
 	include ("cerca_informazioni.php");
 	include ("crea_dataset_csv.php");
+	include ("crea_dataset_json.php");
+	include ("crea_dataset_rdf.php");
 	ini_set('default_charset', 'utf-8');
 	
 	set_time_limit(0);
@@ -47,7 +49,9 @@
 			}
 			
 		}
-		crea_data();
+		crea_data_csv();
+		crea_data_json();
+		crea_data_rdf();
 		echo "Analisi Completata. Dati inseriti sul Database. Creati file .csv";
 	}
 	else{

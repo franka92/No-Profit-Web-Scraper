@@ -14,7 +14,7 @@
 	
 	ini_set('default_charset', 'utf-8');
 	
-	$log_file = fopen("../data/log_".time().".txt","a");
+	$log_file = fopen("../log/log_".time().".txt","a");
 	$num_risultati = 0;
 	$num_scartati = 0;
 	$num_salvati = 0;
@@ -40,7 +40,6 @@
 			/*Il sito non è già presente nell'elenco*/
 			if(cercaSitoElenco($link) === false && count(array_keys($a,$link)) <= 1){
 				if(siteFilter($link)){/*Il sito riguarda una pagina social o siti che non ci interessano*/
-					unset($a[$key]);
 					$da_scartare = true;
 				}
 				else{
@@ -62,7 +61,7 @@
 				$da_scartare = true;
 			}
 			
-			if($da_scartare == false){
+			if($da_scartare === true){
 				unset($a[$key]);
 				fwrite($log_file,"\n Sito scartato: ".$link);
 				print "Scartato: ".$link;
@@ -76,17 +75,15 @@
 		}
 
 		/*A questo punto ho già un primo elenco filtrato*/	
-		$csv_file = fopen("../src/elenco_new.csv", "a");
 		foreach ($a as $key => $obj){
 			$parse = parse_url($obj);
 			$link =  "http://".$parse['host'];
 			if(cercaSitoElenco($link) === false){
 				/*Aggiorno il file .csv*/
-				fputcsv($csv_file, array('Sito' => $link, 'Timestamp' => 'NULL'));
-				/*
+				//fputcsv($csv_file, array('Sito' => $link, 'Timestamp' => 'NULL'));
 				$db = new Db();
 				$query= "INSERT INTO elenco_siti VALUE('".$link."', NULL)";
-				$db->query($query);*/
+				$db->query($query);
 				/*Aggiorno il database*/
 			}
 
@@ -122,7 +119,7 @@
 		$sites = $csv_scarto->data;
 		
 		foreach ( $csv_scarto->data as $word){
-			if (strpos($url,$word['Sito']) != false)
+			if (strpos($url,$word['Sito']) !== false)
 				return true;
 		}
 		return false;

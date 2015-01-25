@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generato il: 25 gen, 2015 at 04:13 
+-- Generato il: 25 gen, 2015 at 07:03 
 -- Versione MySQL: 5.5.8
 -- Versione PHP: 5.3.5
 
@@ -391,7 +391,7 @@ INSERT INTO `associazioni` (`cod_associazione`, `nome associazione`, `sito`, `co
 (1277, 'Camera Penale di Bologna', 'http://www.camerapenale-bologna.org/', NULL, NULL, NULL, NULL),
 (1278, 'CAMP MITICO VILLA', 'http://www.campmiticovilla.com', NULL, NULL, NULL, NULL),
 (1279, 'CAMPUS ADRIANI', 'http://www.campusadriani.it', NULL, NULL, NULL, NULL),
-(1280, 'ASSOCIAZIONE EUROPEA OPERATORI POLIZIA - SITO NAZIONALE | PROTEZIONE CIVILE &#8211; VIGILANZA AMBIEN', 'http://aeop.it', NULL, NULL, NULL, NULL),
+(1280, 'ASSOCIAZIONE EUROPEA OPERATORI POLIZIA - SITO NAZIONALE | PROTEZIONE CIVILE VIGILANZA AMBIENTALE', 'http://aeop.it', NULL, NULL, NULL, NULL),
 (1281, 'Medicivitas Il Centro Sociale di Medicina', 'http://www.medicivitas.it', NULL, NULL, NULL, NULL),
 (1282, 'www.cai-imola.it', 'http://www.cai-imola.it', NULL, NULL, NULL, NULL),
 (1284, 'AmareVignola', 'http://amarevignola.wordpress.com', NULL, NULL, NULL, NULL),
