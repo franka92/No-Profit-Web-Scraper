@@ -54,6 +54,10 @@
 					foreach($key as $c)
 						array_push($sito['categoria'],$c);
 				}
+				else{
+					$sito['categoria'] = array();
+					array_push($sito['categoria'],"Non classificato");
+				}
 				
 				/*Cerco il nome del sito/associazione*/
 				$sito['nome'] = parse_url($link,PHP_URL_HOST);
@@ -77,19 +81,6 @@
 					foreach($pag_contatti as $element){
 						$link_contatti = $element->href;
 						/*Trasformo il link relativo in assoluto*/
-						/*if(substr($link_contatti,0,strlen($link)) != $dominio){
-							if(substr($link_contatti,0,1) == "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) == "/"){
-							echo $link_contatti."<br>";
-								$link_contatti = $dominio . substr($link_contatti,1,strlen($link_contatti));
-								echo $link_contatti."<br>";
-							}
-							else if(substr($link_contatti,0,1) != "/" && substr($dominio,strlen($dominio)-1,strlen($dominio)) != "/"){
-								$link_contatti = $dominio . "/".$link_contatti;
-							}
-							else{
-								$link_contatti = $dominio .$link_contatti;
-							}
-						}*/
 						$link_contatti = get_absolute_url($link_contatti,$dominio);
 						/*Richiamo la funzione che ricerca le informazioni di contatto*/
 						if($link_contatti != ""){

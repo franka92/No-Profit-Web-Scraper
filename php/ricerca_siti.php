@@ -15,15 +15,15 @@
 	$date = date('d-m-Y h:i', time());
 	$client = new Google_Client();
 	$client->setApplicationName("findOnlus");
-	$client->setDeveloperKey("AIzaSyDzsUqQOtpURQwErM8U6zoD1Brydn7cYUQ");
+	$client->setDeveloperKey("AIzaSyBbyfI8gQgtpBxIA6RqJ0r4bLngJWvrzdw");
 	$search = new Google_Service_Customsearch($client);
+	
+	$elenco_siti = array();
 	
 	/*Lo script è eseguito da linea di comando*/
 	if(isset($argv[1])){
 		unset($argv[0]);
 		$filter="";
-		$elenco_siti = array();
-		
 		foreach($argv as $f){
 			$filter = $f;
 			fwrite($log_file,"Log generato in data: ".$date);
@@ -43,7 +43,7 @@
 		}
 		fwrite($log_file,"\n\n Numero di risultati ottenuti: ".$num_risultati);
 		fwrite($log_file,"\n Numero di risultati scartati: ".$num_scartati);
-		fwrite($log_file,"\n\n Numero di risultati salvati: ".$num_salvati);
+		fwrite($log_file,"\n Numero di risultati salvati: ".$num_salvati);
 		fclose($log_file);
 		
 	}
@@ -52,10 +52,10 @@
 		$query = $_POST['input_search'];
 		if(isset($_REQUEST['regioni'])){
 			$regioni = $_REQUEST['regioni'];
+			$filtri = "";
 			if(isset($_REQUEST['province'])){
 				$province = $_REQUEST['province'];
 			}
-
 			for($i=0;$i<count($regioni);$i++){
 				if($i >0)
 					$filtri .= " OR ";
@@ -78,8 +78,8 @@
 			}
 			$query = " ".$filtri;
 		}	
-		fwrite($log_file,"Log generato in data: ".$date->format("d-m-Y H:i"));
-		fwrite($log_file,"\n Termine di input: ".$filter);
+		fwrite($log_file,"Log generato in data: ".$date);
+		fwrite($log_file,"\n Termine di input: ".$filtri);
 		for($i=0;$i<4;$i++){
 			$start = ($i*10)+1;
 			$result = $search->cse->listCse($query, array(
@@ -93,7 +93,7 @@
 		esamina($elenco_siti);
 		fwrite($log_file,"\n\n Numero di risultati ottenuti: ".$num_risultati);
 		fwrite($log_file,"\n Numero di risultati scartati: ".$num_scartati);
-		fwrite($log_file,"\n\n Numero di risultati salvati: ".$num_salvati);
+		fwrite($log_file,"\n Numero di risultati salvati: ".$num_salvati);
 		fclose($log_file);
 	
 	}

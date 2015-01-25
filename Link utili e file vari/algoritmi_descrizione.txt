@@ -1,0 +1,63 @@
+
+____ [ Script di Ricerca dei siti di associazioni ] ____ 
+
+-Uso dell'Api di Google "Custom Search" settata in questo modo:
+	-Filtri su alcune parole chiave (es. Associazione, onlus, no profit ecc)
+	-Filtri su alcuni siti da escludere dalla ricerca (es. social network)
+	
+-Due modi per lanciare lo script:
+	-Tramite Browser: l'utente può inserire nella textbox l'input per la ricerca e filtrare in base ad una scelta di regione/provincia (fornita tramite l'utilizzo di jQuery)
+	-Da linea di comando: l'utente esegue lo script inserendo come argomenti l'input della ricerca
+
+-Viene effettuata la chiamata all'api di google passando i termini inseriti e vengono recuperati i risultati.
+ Per ogni risultati ottenuto viene effettuata una prima analisi:
+ 	-Risalgo alla pagina principale (perchè non sempre il risultato di Google è l'homepage)
+	-Controllo che il sito non sia già presente nell'elenco (in tal caso lo scarto)
+	-Controllo che il sito non sia appartenente ad un elenco di siti da non considerare (in tal caso lo scarto)
+	-Provo a leggere il contenuto della pagina (utlizzando la libreria simple_html_dom) (se non ci riesco scarto il sito)
+	-Ricerco nella pagina i link alle pagine "Chi siamo", "Storia", "associazione" in cui di solito sono riportate le informazioni della pagina.
+	-Effettuo una ricerca delle parole chiave della pagina (utilizzando l'Api Alchemyapi) e le confronto con un set di parole chiave definite da me
+		-Se trovo dei riscontri il sito è un possibile sito di un'associazione
+		-Se non trovo riscontri scarto il sito
+
+-Terminata l'analisi ho un'elenco di siti che sembrano corrispondere ad associazioni; inserisco i siti sul database, impostando il campo Timestamp = "null"
+-Per ogni ricerca effettuata, viene creato un report finale in cui vengono riportati:
+	-Input della ricerca
+	-Numero di risultati ottenuti
+	-Numero di siti scartati
+	-Numero di siti salvati
+
+
+
+
+____ [ Script di Raccolta informazioni sui siti ] ____
+
+-Vengono recuperati dal database tutti i siti che non sono mai stati analizzati (1) o per cui è passato più di un mese dall'ultima analisi (2).
+
+(1) Vengono ricercate le informazioni utilizzando delle tecniche di "Scraping", procedendo in questo modo:
+	-Provo a leggere il contenuto del sito (utilizzando la libreria simple_html_dom) (se non ci riesco il sito viene eliminato dall'elenco)
+	-Recupero il nome dell'associazione dal tag <title> presente nella pagina; se il titolo è troppo generico (es. "Home", "HomePage" ecc) utilizzo come nome il dominio del sito
+	-Ricerco una categoria da associare al sito:
+		-Ricerco nella pagina i link alle pagine "Chi siamo", "Storia","associazione" in cui di solito sono riportate le informazioni della pagina.
+		-Effettuo una ricerca delle parole chiave della pagina (utlizzando l'Api Alchemyapi) e le confronto con un set di parole chiave definite da me (ad ogni categoria sono associate alcune parole)
+		 Per effettuare il confronto tra le parole viene utilizzata la tecnica dello "Stemming"
+		 Ogni volta che trovo un riscontro aumento il contatore per la categoria di riferimento.
+		 alla fine prendo come risultato la/e categoria/e che ha/nno avuto più riscontri.
+	-Ricerco i link alle pagine "Contatti","Dove siamo", "chi siamo" dove solitamente sono riportate le informazioni di contatto delle associazioni (Luogo, Email, Numeri di telefono).
+	 Per ogni link trovato, controllo se si tratta di un link assoluto o relativo (in tal caso lo trasformo in assoluto).
+	 Attraverso l'utilizzo delle Espressioni Regolari, effettuo delle ricerche nelle pagine per trovare dei match con:
+		-contatti email: in questo caso effettuo anche una ricerca sui link "mailto:" presenti nella pagina
+		-numeri di telefono: in questo caso usufruisco della libreria "Php LibPhoneNumber" e di una funzione creata ad hoc per distinguere i numeri di telefono da i numeri di partita iva
+		-CAP: siccome non esiste un formato univoco con il quale esprimere gli indirizzi, effettuo una ricerca semplicemente sul CAP, dal quale poi riesco a risalire al comune,provincia e regione.
+			  per fare questo utilizzo l'elenco aggiornato, con le informazioni sui comuni italiani, messo a disposizione dall'Istat
+	-Se le informazioni di contatto sono state trovate, mi fermo, altrimenti effettuo una ricerca più generica sull'homepage del sito
+	-Terminata l'analisi, aggiorno il Timestamp associato al Sito e inserisco i dati sul database
+	
+	-Quando ho completato l'analisi di tutti i siti, genero i file .csv con tutti i dati presenti sul database, in particolare:
+		-Un file con le informazioni di base dell'associazione (Nome,Comune, Provincia, Regione, Sito)
+		-Un file con i contatti email
+		-Un file con i contatti telefonici
+		-Un file per le categorie
+		-Un file con l'elenco completo di tutti i siti e relativi timestamp
+		
+	

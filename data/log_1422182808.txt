@@ -1,0 +1,40 @@
+Log generato in data: 25-01-2015 11:46
+ Termine di input: Associazione donatori Bologna
+ Sito scartato: http://www.informagiovanni.it
+ Sito inserito: http://www.ultrasuono.bo.it
+ Sito scartato: http://www.unibo.it
+ Sito scartato: http://www.ingegneriarchitettura.unibo.it
+ Sito scartato: http://corsi.unibo.it
+ Sito inserito: http://www.cittametropolitana.bo.it
+ Sito scartato: http://www.gazzetta.it
+ Sito inserito: http://www.sportvillagebologna.it
+ Sito inserito: http://palermo.gds.it
+ Sito inserito: http://musicarti.it
+ Sito inserito: http://www.aiabologna.it
+ Sito inserito: http://www.tuttosport.com
+ Sito inserito: http://www.liceofermibo.net
+ Sito inserito: http://www.ems.unibo.it
+ Sito inserito: http://www.la-fabbrica.org
+ Sito inserito: http://www.calciomercato.it
+ Sito inserito: http://www.sdseducational.org
+ Sito inserito: http://www.audizentrum-bologna.it
+ Sito inserito: http://webmed.unibo.it
+ Sito inserito: http://www.alchemicaclub.com
+ Sito inserito: http://indicepa.gov.it
+ Sito inserito: http://www.psicologiaformazione.unibo.it
+ Sito inserito: http://www.cilta.unibo.it
+ Sito inserito: http://www.orizzontescuola.it
+ Sito scartato: http://www.italobritannica.com
+ Sito inserito: http://www.estense.com
+ Sito inserito: http://www.primocanale.it
+ Sito scartato: http://www.tuttomercatoweb.com
+ Sito scartato: http://www.ilfattoquotidiano.it
+ Sito scartato: http://gazzettadimodena.gelocal.it
+ Sito inserito: http://www.magnetimarelli.com
+ Sito inserito: http://www.perugiatoday.it
+ Sito inserito: http://www.malditapasion.it
+ Sito inserito: http://www.collegiumbologna.com
+
+ Numero di risultati ottenuti: 34
+ Numero di risultati scartati: 9
+ Numero di risultati salvati: 25
