@@ -51,7 +51,9 @@
 	function crea_grafo($elenco_associazioni){
 		global $graph;
 		$prefix = "http://www.no-profit-data.it/res/";
-		
+		$elenco_iri = array();
+		EasyRdf_Namespace::set('nopr', $prefix);
+		$count = 0;
 		foreach($elenco_associazioni as $dati_a){
 			$link = $dati_a['sito'];
 			$nome = trim($dati_a['nome']);
@@ -71,11 +73,18 @@
 				$parse_link = substr($parse_link,4,count($parse_link)-4);
 			else
 				$parse_link = substr($parse_link,0,count($parse_link)-4);
+				
+			$parse_link = rtrim($parse_link,".");
+			$parse_link = trim($parse_link,".");
 			$iri_associazione = $prefix.$parse_link;
-			
+			$count_iri = count(array_keys($elenco_iri,$iri_associazione));
+			if($count_iri >0 )
+				$iri_associazione .="_".$count_iri;
+			array_push($elenco_iri,$iri_associazione);
 			/*Creo l'oggetto Associazione*/
 			$associazione = $graph->resource($iri_associazione, 'org:Organization');
 			$associazione->set("skos:prefLabel",$nome);
+			$associazione->set("nopr:hasWebPage",$link);
 			
 			/*Assicio le categorie all'associazione*/
 			if(count($categorie) >0){
@@ -93,7 +102,7 @@
 				$site = $graph->resource($iri_site, 'org:Site');
 				
 				/*Creo l'oggetto Location*/
-				$iri_location = $iri_associazione.'/location/'.$count_location;
+				$iri_location = $iri_site.'/location/'.$count_location;
 				$location = $graph->resource($iri_location, 'vcard:Location');
 				
 				/*Imposto i predicati/proprietà per ogni oggetto*/
@@ -132,10 +141,14 @@
 				
 				/*Collego l'Organization al Site*/
 				$associazione->addResource("org:hasSite",$site);
-			}
-						
+				
+			}	
 		}
+		echo $count;
 		
+		foreach ($elenco_iri as $i){
+			echo $i ." --- ". count(array_keys($elenco_iri,$i))."<br>";
+		}
 	
 		
 		}
@@ -183,9 +196,7 @@
 		$data_email = $csv_email->data;
 		$data_ass_cat = $csv_as_cat->data;
 		
-		//$count = 0;
 		foreach($csv_associazioni->data as $row){
-			$count++;
 			$associazione = array();
 			//Nome e Sito
 			$associazione['sito'] = $row['sito'];
