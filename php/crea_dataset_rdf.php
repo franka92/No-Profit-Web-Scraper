@@ -31,10 +31,12 @@
 			$cur_cat = $row['categoria'];
 			if($cur_cat != $cat){
 				$parse_cat = str_replace(' ', '_', $cur_cat);
-				$categoria = $graph->resource('http://www.no-profit-data.it/res/categorie/'.$parse_cat, 'skos:Concept');
+				$categoria = $graph->resource('http://www.no-profit-data.it/cat-'.$parse_cat, 'skos:Concept');
 				$categoria->set('rdfs:label',$cur_cat);
 			}
 		}
+		$categoria = $graph->resource('http://www.no-profit-data.it/cat-Associazione_no_profit', 'skos:Concept');
+		$categoria->set('rdfs:label',"Associazione no profit");
 	}
 	
 	
@@ -43,109 +45,125 @@
 	*/
 	function crea_grafo($elenco_associazioni){
 		global $graph;
-		$prefix = "http://www.no-profit-data.it/res/";
+		$prefix = "http://www.no-profit-data.it/";
 		$elenco_iri = array();
 		$count = 0;
-		$email = null;
-		$numeri = null;
-		$categorie = null;
-		$luogo = null;
-		EasyRdf_Namespace::set('nopr', $prefix);
-		foreach($elenco_associazioni as $dati_a){
-			$link = $dati_a['link'];
-			$nome = trim($dati_a['nome']);
-			if(array_key_exists('email',$dati_a))
-				$email = $dati_a['email'];
-			if(array_key_exists('numeri',$dati_a))
-				$numeri = $dati_a['numeri'];
-			if(array_key_exists('categorie',$dati_a))
-				$categorie = $dati_a['categorie'];
-			if(array_key_exists('luogo',$dati_a))
-				$luogo = $dati_a['luogo'];
-			
-			$count_location = 1;
-			$count_site = 1;
-			
-			/*Creo l'identificatore per l'associazione*/
-			$parse = parse_url($link);
-			$parse_link = $parse['host'];
-			$dot = strrpos($parse_link,'.');
-			if(strpos($parse_link,"www") !== false)
-				$parse_link = substr($parse_link,4,count($parse_link)-4);
-			else
-				$parse_link = substr($parse_link,0,count($parse_link)-4);
+		foreach ($elenco_associazioni as $elenco){	
+			foreach($elenco as $dati_a){
+				$email = null;
+				$numeri = null;
+				$categorie = null;
+				$luogo = null;
+				$link = null;
 				
-			$parse_link = rtrim($parse_link,".");
-			$parse_link = trim($parse_link,".");
-			$iri_associazione = $prefix.$parse_link;
-			$count_iri = count(array_keys($elenco_iri,$iri_associazione));
-			if($count_iri >0 )
-				$iri_associazione .="_".$count_iri;
-			array_push($elenco_iri,$iri_associazione);
-			/*Creo l'oggetto Associazione*/
-			$associazione = $graph->resource($iri_associazione, 'org:Organization');
-			$associazione->set("skos:prefLabel",$nome);
-			$associazione->set("nopr:hasWebPage",$link);
-			
-			/*Assicio le categorie all'associazione*/
-			if(count($categorie) >0){
-				foreach($categorie as $cat){
-					
-					$associazione->addResource("org:purpose","http://www.no-profit-data.it/res/categorie/".$cat);
-				}
-			}
-
-			
-			
-			/*Creo l'oggetto Site*/
-			if($email != null || $numeri != null || $luogo != null){
-				$iri_site = $iri_associazione.'/site/'.$count_site;
-				$site = $graph->resource($iri_site, 'org:Site');
+				$nome = trim($dati_a['nome']);
+				if(array_key_exists('link',$dati_a))
+					$link = $dati_a['link'];
+				if(array_key_exists('email',$dati_a))
+					$email = $dati_a['email'];
+				if(array_key_exists('numeri',$dati_a))
+					$numeri = $dati_a['numeri'];
+				if(array_key_exists('categoria',$dati_a))
+					$categorie = $dati_a['categoria'];
+				if(array_key_exists('luogo',$dati_a))
+					$luogo = $dati_a['luogo'];
 				
-				/*Creo l'oggetto Location*/
-				$iri_location = $iri_site.'/location/'.$count_location;
-				$location = $graph->resource($iri_location, 'vcard:Location');
+				$count_location = 1;
+				$count_site = 1;
 				
-				/*Imposto i predicati/proprietà per ogni oggetto*/
-				if($email != null){
-					foreach($email as $e){
-						$e_obj = $graph->resource("mailto:".$e);
-						$location->add('vcard:hasEmail',$e_obj);
-					}
-						
-				}
-				if($numeri != null){
-					foreach($numeri as $n){
-						$num_type = $n[1];
-						$numero = $graph->resource("tel:".$n[0]);
-						$telefono = $graph->resource($iri_location."/number/".$n[0],"vcard:Voice");
-						$telefono->add('vcard:hasValue',$numero);
-						$location->addResource("vcard:hasTelephone",$telefono);
-					}
-						
-				}
-				if($luogo != null){
-					if(empty($luogo['comune']) !== false)
-						$locality = $luogo['comune'];
+				/*Creo l'identificatore per l'associazione*/
+				if($link != null){
+					$parse = parse_url($link);
+					$parse_link = $parse['host'];
+					$dot = strrpos($parse_link,'.');
+					if(strpos($parse_link,"www") !== false)
+						$parse_link = substr($parse_link,4,count($parse_link)-4);
 					else
-						$locality = $luogo['provincia'];
-					$address = $graph->resource($iri_location."/address/". parse_string($locality),"vcard:Work");
-					$address->set("vcard:country-name","Italia");
-					$address->set("vcard:region",$luogo['regione']);
-					$address->set("vcard:postal-code",$luogo['cap']);
-					$address->set("vcard:locality",$luogo['comune']);
-					$location->addResource("vcard:hasAddress",$address);
+						$parse_link = substr($parse_link,0,count($parse_link)-4);
+					
+					$parse_link = rtrim($parse_link,".");
+					$parse_link = trim($parse_link,".");
+					
 				}
+				else{
+					$parse_link = str_replace(" ","_",$nome);
+				}
+				$iri_associazione = $prefix.$parse_link;
+				$count_iri = count(array_keys($elenco_iri,$iri_associazione));
+				if($count_iri >0 )
+					$iri_associazione .="_".$count_iri;
+				array_push($elenco_iri,$iri_associazione);
+				/*Creo l'oggetto Associazione*/
+				$associazione = $graph->resource($iri_associazione, 'org:Organization');
+				$associazione->set("skos:prefLabel",$nome);
+				$associazione->set("foaf:homepage",$link);
 				
-				/*Collego il Site alla Location*/
-				$site->addResource("org:siteAddress",$location);
-				
-				/*Collego l'Organization al Site*/
-				$associazione->addResource("org:hasSite",$site);
-				
-			}	
-		}
+				/*Assicio le categorie all'associazione*/
+				if(count($categorie) >0){
+					foreach($categorie as $cat){
+						
+						$associazione->addResource("org:purpose","http://www.no-profit-data.it/cat-".str_replace(" ","_",$cat));
+					}
+				}
 
+				
+				
+				/*Creo l'oggetto Site*/
+				if($email != null || $numeri != null || $luogo != null){
+					$iri_site = $prefix.'site-'.$parse_link.'_'.$count_site;
+					$site = $graph->resource($iri_site, 'org:Site');
+					
+					/*Creo l'oggetto Location*/
+					$iri_location = $prefix.'loc-'.$parse_link.'_'.$count_location;
+					$location = $graph->resource($iri_location, 'vcard:Location');
+					
+					/*Imposto i predicati/proprietà per ogni oggetto*/
+					if($email != null){
+						foreach($email as $e){
+							$e_obj = $graph->resource("mailto:".$e);
+							$location->add('vcard:hasEmail',$e_obj);
+						}
+							
+					}
+					if($numeri != null){
+						foreach($numeri as $n){
+							$num_type = $n[1];
+							$numero = $graph->resource("tel:".$n[0]);
+							$telefono = $graph->resource($prefix."number-".$n[0],"vcard:Voice");
+							$telefono->add('vcard:hasValue',$numero);
+							$location->addResource("vcard:hasTelephone",$telefono);
+						}
+							
+					}
+					if($luogo != null){
+						$indirizzo = null;
+						if(array_key_exists("indirizzo",$luogo) === true){
+							$indirizzo = $luogo['indirizzo'];
+							$indirizzo = str_replace("\\","-",$indirizzo);
+							$iri_address = $prefix.str_replace(" ","_",$indirizzo)."_".$luogo['cap'];
+						}
+						else{
+							$iri_address = $prefix.$luogo['cap'];
+						}
+						$address = $graph->resource($iri_address,"vcard:Work");
+						$address->set("vcard:country-name","Italia");
+						$address->set("vcard:region",$luogo['regione']);
+						$address->set("vcard:postal-code",$luogo['cap']);
+						$address->set("vcard:locality",$luogo['comune']);
+						if($indirizzo != null)
+							$address->set("vcard:street-address",$luogo['indirizzo']);
+						$location->addResource("vcard:hasAddress",$address);
+					}
+					
+					/*Collego il Site alla Location*/
+					$site->addResource("org:siteAddress",$location);
+					
+					/*Collego l'Organization al Site*/
+					$associazione->addResource("org:hasSite",$site);
+					
+				}	
+			}
+		}
 		
 	}
 	
@@ -175,8 +193,12 @@
 		$elenco = array();
 		$count;
 		$file_content = file_get_contents("../data/json/associazioni.json");
+		$file_content_two = file_get_contents("../data/json/associazioni_no_sito.json");
 		$data_json = json_decode($file_content,true);
-		return $data_json;
+		$data_json_two = json_decode($file_content_two,true);
+		array_push($elenco,$data_json);
+		array_push($elenco,$data_json_two);
+		return $elenco;
 
 	}
 

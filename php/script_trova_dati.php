@@ -55,6 +55,9 @@
 		echo "Analisi Completata. Dati inseriti sul Database. Creati file .csv";
 	}
 	else{
+	crea_data_csv();
+		crea_data_json();
+		crea_data_rdf();
 		echo "Non ci sono dati da analizzare.";
 	}
 

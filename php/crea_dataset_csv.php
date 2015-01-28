@@ -11,7 +11,7 @@
 		$file_numeri = fopen($dir_path."/elenco_numeri.csv", "w");
 		$file_ass_cat = fopen($dir_path."/associazioni_categorie.csv", "w");
 		$file_elenco = fopen($dir_path."/elenco.csv", "w");
-		fputcsv($file_associazioni,explode(",","codice,nome associazione,sito,comune,cap,provincia,regione,categoria"));
+		fputcsv($file_associazioni,explode(",","codice,nome associazione,sito,comune,cap,provincia,regione,indirizzo"));
 		fputcsv($file_email,explode(",","sito associazione,email,tipo"));
 		fputcsv($file_numeri,explode(",","sito associazione,telefono,tipo"));
 		fputcsv($file_ass_cat,explode(",","sito associazione,categoria"));

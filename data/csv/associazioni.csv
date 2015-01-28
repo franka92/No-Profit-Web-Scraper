@@ -1,788 +1,803 @@
-codice,"nome associazione",sito,comune,cap,provincia,regione,categoria
-23,"E-R Cultura",http://cultura.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-27,"La Musica Interna",http://www.lamusicainterna.it,Bologna,40126,BO,EMR
-29,"Sito ufficiale della Provincia di Ravenna	",http://www.provincia.ra.it,Ravenna,48121,RA,EMR
-31,"Coro Santo Spirito",http://www.corosantospirito.it/,Ferrara,44100,FE,EMR
-32,"La homepage del CORO TRE PINI di Padova",http://www.corotrepini.it,Padova,35123,PD,EMR
-38,"Provincia di Reggio Emilia",http://www.provincia.re.it,"Reggio Emilia",42121,RE,EMR
-70,"CSI Bologna - Centro Sportivo Italiano Comitato Provinciale di Bologna",http://www.csibologna.it/,Bologna,40132,BO,EMR
-71,"E-R Il portale della Regione Emilia-Romagna",http://www.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-81,"E-R Istituto per i beni artistici culturali e naturali",http://ibc.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-90,CvPuntaMarina,http://www.cvpuntamarina.com/,Ravenna,48122,RA,EMR
-111,"ISTITUTO PER I BENI ARTISTICI, CULTURALI E NATURALI",http://rivista.ibc.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-112,"E-R Scuola",http://scuola.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-114,Danzaurbana,http://www.danzaurbana.it,Bologna,40126,BO,EMR
-115,"E-R Sociale",http://sociale.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-125,Assonanza,http://www.assonanza.it,Mirandola,41037,MO,EMR
-132,ATER,http://www.ater.emr.it,Modena,41124,MO,EMR
-134,Divefun,http://www.divefun.it/,Dozza,40060,BO,EMR
-276,Informagiovani,http://www.informagiovani.fe.it,Ferrara,44121,FE,EMR
-351,"Associazione Nazionale Maestri di Ballo",http://www.anmb.net,Modena,41126,MO,EMR
-395,"Teatro Necessario",http://www.teatronecessario.it/,Colorno,43052,PR,EMR
-399,"Teatro Nucleo | Centro Produzione e ricerca teatrale",http://www.teatronucleo.org,Ferrara,44123,FE,EMR
-501,"Flauto Magico",http://www.flautomagico.it,Formigine,41043,MO,EMR
-526,"Ferrara Musica: Le Ultime NovitA",http://www.ferraramusica.it/,Ferrara,44121,FE,EMR
-544,"Comune di Rimini",http://www.comune.rimini.it,Rimini,47921,RN,EMR
-546,"Rete Civica Monet",http://www.comune.modena.it,Modena,41121,MO,EMR
-553,"Ausilioteca di Bologna",http://www.ausilioteca.org/,Bologna,40123,BO,EMR
-560,"Agenzia Ambiente e Cultura di Bologna",http://agenzia.8m.com/,Monghidoro,40063,BO,EMR
-565,"Cefa Onlus",http://www.cefaonlus.it,Bologna,40122,BO,EMR
-567,"Accaparlante e Centro Documentazione Handicap",http://www.accaparlante.it/,Bologna,40127,BO,EMR
-570,"ASSOCIAZIONE AIP",http://www.associazioneaip.org,Bologna,40121,BO,EMR
-576,"AIAS Bologna Onlus",http://www.aiasbo.it/,Bologna,40139,BO,EMR
-578,"il martin pescatore - Home",http://www.ilmartinpescatore.org,Argelato,40050,BO,EMR
-581,"EMI Editrice Missionaria Italiana, vendita libri online, ebook, libri religiosi, libri missionari, e",http://www.emi.it,Bologna,40128,BO,EMR
-583,"Cooperativa Sociale SocietA Dolce |",http://www.societadolce.it/,Bologna,40133,BO,EMR
-584,"AIFO - Oltre la lebbra, per i diritti degli ultimi. Dal 1961. - AIFO",http://www.aifo.it/,Bologna,40135,BO,EMR
-585,"SOGNAMONDO - Vacanze naturali alternative con cucina biologica",http://www.sognamondo.it,"Casalecchio di Reno",40033,BO,EMR
-586,"Cooperativa sociale AAncora",http://www.ancoraservizi.it,Bologna,40127,BO,EMR
-587,"ASSOCIAZIONE NAZIONALE PUBBLICHE ASSISTENZE - Comitato Regionale Emilia-Romagna",http://www.anpasemiliaromagna.org/,Bologna,40131,BO,EMR
-591,"Cooperativa Quinto Angolo - Cooperativa Quinto angolo",http://cooperativaquintoangolo.jimdo.com/,Bologna,40124,BO,EMR
-592,Energym,http://energym.info/site/,Bologna,40138,BO,EMR
-593,"Manutenzione e Gestione Verde Pubblico e Privato in Bologna e provincia",http://ilbaobab.com/,Bologna,40132,BO,EMR
-594,"Global Aid | Working for better health",http://www.globalaid.it,"Granarolo dell'Emilia",40057,BO,EMR
-597,"Home Page - Cim - Cooperativa di solidarietA sociale",http://www.cimcoop.it/,Bologna,40132,BO,EMR
-599,"Teatro dell'Argine",http://teatrodellargine.org/,"San Lazzaro di Savena",40068,BO,EMR
-601,"il Mosaico Cooperativa Sociale e Culturale",http://www.ilmosaicocooperativa.com/,Mordano,56512,BO,EMR
-602,"SIC - Consorzio di Iniziative Sociali",http://www.consorziosic.it/,Bologna,40138,BO,EMR
-603,"Abantu - Cooperativa sociale",http://www.coopabantu.it/,"Sasso Marconi",40037,BO,EMR
-604,"Cooperativa Sociale Oasis",http://www.coopoasis.com/,Bologna,40121,BO,EMR
-605,"Istituto Ramazzini - Centro di Ricerca Sul Cancro e le Malattie Ambientali",http://www.ramazzini.org/,Bologna,40138,BO,EMR
-606,altercoop,http://www.altercoop.it/,Bologna,40138,BO,EMR
-609,Scoiattolo,http://www.scoiattolo.org/,"Sasso Marconi",40037,BO,EMR
-610,"Cooperativa Sociale Anima",http://www.coopsocialeanima.it/,"Sala Bolognese",40010,BO,EMR
-611,Seacoop,http://www.seacoop.coop,Imola,40026,BO,EMR
-612,"In Formazione - organizzazione corsi, crescita personale, progetti formativi, cultura e benessere a ",http://www.in-formazione.org/,Medicina,40059,BO,EMR
-613,"Sollievo - SocietA Cooperativa Sociale - Homepage",http://www.coopsollievo.it/,Bologna,40138,BO,EMR
-615,Coopada,http://www.coopada.it/,Bologna,40122,BO,EMR
-616,Copaps,http://www.copaps.it/,"Sasso Marconi",40037,BO,EMR
-617,"Cooperativa Agriverde",http://www.coopagriverde.it,"San Lazzaro di Savena",40068,BO,EMR
-618,"Insieme per l'integrazione",http://www.insiemeper.bo.it/,Bologna,40138,BO,EMR
-619,"Croce Servizi - Cooperativa Sociale - Home",http://www.croceservizi.com/,"Casalecchio di Reno",40033,BO,EMR
-620,"SocietA Aperta",http://www.societaaperta.info/,Bologna,40133,BO,EMR
-621,"Inventatempo InventaTempo Coop. Sociale ONLUS di San Giovanni in Persiceto",http://www.inventatempo.it/,"San Giovanni in Persiceto",40017,BO,EMR
-622,"Andy Cooper, Società Cooperativa Sociale",http://www.andycooper.it,Bologna,40137,BO,EMR
-623,Croceverde,http://www.croceverdeer.com,Bologna,40138,BO,EMR
-624,Arcoris,http://www.arcoiriscoop.it/,"Pieve di Cento",40066,BO,EMR
-625,"Solco Imola | Consorzio di cooperative sociali Imola",http://www.solcoimola.it/,Imola,40026,BO,EMR
-626,"Csapsa | Centro Studi Analisi di Psicologia e Sociologia Applicate",http://www.csapsa.it/1/,Bologna,40126,BO,EMR
-627,"Home Page - AssCoop",http://www.ass-coop.it,Bologna,40121,BO,EMR
-629,Coopas,http://www.coopas.it/,"Sasso Marconi",40037,BO,EMR
-630,solcoinsieme,http://www.solcoinsieme.coop/,"Zola Predosa",40069,BO,EMR
-631,"Centro di Riabilitazione AXIA",http://www.coopaxia.it/index.php,Bologna,40133,BO,EMR
-632,"Inserisci qua un titolo in caso che la pagina non abbia un titolo",http://www.solidarietafamiliare.it/home_page.asp,Bologna,40123,BO,EMR
-633,"COOPERATIVA DAI CROCICCHI",http://www.daicrocicchi.coop/,"Zola Predosa",40069,BO,EMR
-635,"Teatro delle Temperie",http://www.teatrodelletemperie.com/site/,Crespellano,40056,BO,EMR
-636,Ecotronic,http://www.ecotronic.it,Castenaso,40055,BO,EMR
-639,"Prima pagina",http://www.educarecrescere.it,Bologna,40137,BO,EMR
-640,"Benvenuto nella nostra casa di accoglienza",http://www.beataverginedellegrazie.it/,Bologna,40137,BO,EMR
-641,Home,http://www.teatrodelpratello.it,Bologna,40122,BO,EMR
-643,"Home | Cadiai",http://www.cadiai.it/,Bologna,40121,BO,EMR
-644,"I Quattro Castelli Cooperativa Sociale",http://www.iquattrocastelli.it,Dozza,40060,BO,EMR
-645,SAMMARTINI,http://www.cooperativasammartini.it/,Crevalcore,40014,BO,EMR
-646,"Benvenuto su Faremondi | Faremondi",http://www.faremondi.it/,Bologna,40129,BO,EMR
-647,"Cooperativa Sociale Alveare",http://www.cooperativasocialealveare.it,"Castel Maggiore",40013,BO,EMR
-648,"Cooperativa Sociale Campeggio",http://WWW.COOPERATIVASOCIALEMONGHIDORO.COM,Monghidoro,40063,BO,EMR
-649,FARLOTTINE,http://www.farlottine.it,Bologna,40141,BO,EMR
-650,www.coopfanin.it/,http://www.coopfanin.it/,"San Giovanni in Persiceto",40017,BO,EMR
-651,"SocietA Cooperativa Sociale it2",http://www.it2.it,"San Lazzaro di Savena",40068,BO,EMR
-652,"Birrificio Artigianale Vecchia Orsa | Il retrogusto sociale della birra",http://www.fattoriabilita.it,"San Giovanni in Persiceto",40017,BO,EMR
-654,"cooperativa sociale Giovani Rilegatori",http://www.giovanirilegatori.it/,Imola,40026,BO,EMR
-656,"Italiana Assistenza | Assistenza anziani a Bologna, infermieri e badanti",http://www.italianaassistenza.it/,Bologna,40137,BO,EMR
-657,"Agenzia Badanti, Colf, Baby Sitter | Bologna, Roma, Imola | Casabase",http://www.casabase.info/,Bologna,40128,BO,EMR
-659,"Cooperativa sociale La CittA Verde - Home page",http://www.lacittaverde.coop/,Crevalcore,40014,BO,EMR
-660,"Virtual Coop Cooperativa Sociale ONLUS",http://www.virtualcoop.net,Bologna,40129,BO,EMR
-661,Volabo,http://www.volabo.it/,Bologna,40138,BO,EMR
-662,"Libertas Assistenza",http://www.libertasassistenza.it/,"Zola Predosa",40069,BO,EMR
-664,"Cooperativa Sociale Zerocento Da 25 anni a Faenza e in tutta la provincia di Ravenna (ma non solo) i",http://www.zerocento.coop/,Faenza,48018,RA,EMR
-666,"Open Group | Il sito internet di Open Group Cooperativa Sociale",http://www.opengroup.eu/,Bologna,40126,BO,EMR
-667,L'AltroCaffè,http://www.laltrocaffe.it,Imola,40026,BO,EMR
-668,"per Luca - cooperativa sociale",http://www.perluca.it/,Bologna,40131,BO,EMR
-669,"La Strada",http://www.cooplastrada.it/siamo.html,Bologna,40129,BO,EMR
-671,SaYes,http://sayes.volabo.it,Bologna,40138,BO,EMR
-674,"Pubblica Assistenza CittA di Bologna",http://www.pacb.it,Bologna,40138,BO,EMR
-677,"Gruppo Yoda / campi di volontariato internazionale",http://www.gruppoyoda.org,Bologna,40122,BO,EMR
-678,"Tutela animali bologna",http://www.tutelanimalibologna.it,Bologna,40123,BO,EMR
-679,GVC,http://www.gvc-italia.org,Bologna,40136,BO,EMR
-680,"BolognAIL Onlus",http://www.ailbologna.it,Bologna,40138,BO,EMR
-684,"Arci Bologna",http://www.arcibologna.it,Bologna,40131,BO,EMR
-685,"BolognAltruista - Progetti di volontariato a Bologna - IO CI SONO",http://www.bolognaltruista.org,Bologna,40136,BO,EMR
-687,"Aprimondo Centro Poggeschi",http://aprimondo.centropoggeschi.org/,Bologna,,BO,EMR
-692,"Fidas ADVS Bologna",http://www.fidas-advs-bologna.org,Bologna,40131,BO,EMR
-693,"Collegio dei Periti Industriali della Provincia di Bologna",http://www.perindbo.org,Dozza,40060,BO,EMR
-694,"E-R Agenzia regionale di protezione civile",http://protezionecivile.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-695,"Associazione per i bambini colpiti da malattie del sistema nervoso centrale e/o tumori solidi - Bimb",http://www.bimbotu.it/,Bologna,40139,BO,EMR
-696,"Africa e Mediterraneo",http://www.africaemediterraneo.it/,"Sasso Marconi",40037,BO,EMR
-697,"Home Page | Save the Children Italia Onlus",http://www.savethechildren.it,Roma,185,RM,LAZ
-698,"Flash Giovani - Il portale per i giovani a Bologna",http://www.flashgiovani.it,Bologna,40124,BO,EMR
-699,"Piazza Grande Associazione fondata dalle persone senza dimora di Bologna",http://www.piazzagrande.it/,Bologna,40128,BO,EMR
-701,"Agevolando- Associazione no-profit",http://www.agevolando.org/,Bologna,40139,BO,EMR
-705,"Bologna Welcome - Sito turistico ufficiale",http://www.bolognawelcome.com,Bologna,40124,BO,EMR
-706,"Polisportiva Paolo Poggi AICS",http://www.polisportivapaolopoggi.it,"San Lazzaro di Savena",40068,BO,EMR
-707,"U.V.a. P.Ass.A. | Unione Volontari Al Pratello ASSociazione d&#039;Aiuto",http://www.uvapassa.org,Bologna,40138,BO,EMR
-708,"Aiasport Onlus | AttivitA equestre per disabili",http://www.aiasport.it/,"San Lazzaro di Savena",40068,BO,EMR
-709,"AISM Bologna",http://www.aism.bo.it/,Bologna,40128,BO,EMR
-710,"La Venenta | Associazione onlus laica ispirata ai valori del cristianesimo",http://www.venenta.com/,Argelato,40050,BO,EMR
-713,"Protezione Civile Bologna",http://www.protezionecivile.bo.it,Bologna,,BO,EMR
-716,"Associazione di Promozione Sociale",http://www.al3teste.com/,Bentivoglio,40010,BO,EMR
-719,"Antoniano Bologna - Antoniano.it",http://www.antoniano.it,Bologna,40125,BO,EMR
-720,"Home || YFC Italia",http://www.yfcitalia.org/,Bologna,40138,BO,EMR
-722,"Associazione Centotrecento",http://www.centotrecento.it/,Bologna,40125,BO,EMR
-724,"Policlinico S.Orsola-Malpighi",http://www.aosp.bo.it,Bologna,40138,BO,EMR
-725,"Associazione Margherita - Benvenuti",http://www.associazionemargherita.org/,Bologna,40123,BO,EMR
-726,"Legambiente Bologna - Home",http://www.legambientebologna.org/,Bologna,40121,BO,EMR
-729,"Il progetto Alice | Studi di Genere, Educazione e Ricerca",https://ilprogettoalice.wordpress.com/,Bologna,40122,BO,EMR
-730,"Home - Centro Antartide - Centro Studi e Comunicazione Ambientale",http://www.centroantartide.it/,Bologna,40125,BO,EMR
-736,"Bimbingamba - Associazione Alex Zanardi Bimbingamaba",http://www.bimbingamba.com/,Budrio,40054,BO,EMR
-737,"Provincia Forli",http://www.provincia.fc.it,Forlì,47121,FC,EMR
-738,"Fondazione Dopo di Noi Bologna onlus",http://www.dopodinoi.org/,Bologna,40129,BO,EMR
-750,"CafAA de la Paix",http://www.cafedelapaixbologna.it,Bologna,40123,BO,EMR
-752,"Casa Santa Chiara | Casa Santa Chiara",http://www.casasantachiara.it/,Bologna,40123,BO,EMR
-753,"Cassero LGBT Center",http://www.cassero.it/,Bologna,40121,BO,EMR
-754,"Istituto dei Ciechi Francesco Cavazza",http://www.cavazza.it/,Bologna,40124,BO,EMR
-756,"Centro Amilcar Cabral",http://www.centrocabral.com/,Bologna,40136,BO,EMR
-757,"Homepage | Centro San Domenico",http://www.centrosandomenico.it,Bologna,40124,BO,EMR
-762,"Circolo Fotografico S. Viola Organizza Corsi di fotografia Digitale ed Analogica a Bologna..vieni a ",http://www.circolofotograficosviola.it,Bologna,40133,BO,EMR
-763,"Circolo Tennis Bologna",http://www.circolotennisbologna.com/,Bologna,40136,BO,EMR
-780,"Circolo Scherma Imola",http://www.schermaimola.it,Imola,40026,BO,EMR
-795,"Associazione Musicale Dozzese",http://www.musicaindozza.it,Dozza,40060,BO,EMR
-797,"Selene centro studi | A Bologna, dal 1990 un centro per la formazione lo studio e la diffusione dell",http://www.selenecentrostudi.it,Bologna,40141,BO,EMR
-801,AICS,http://www.aicser.altervista.org,Bologna,40132,BO,EMR
-807,"Settima Diminuita",http://www.settimadiminuita.it,Bentivoglio,40010,BO,EMR
-818,"Coro CAT Gardeccia",http://www.catgardeccia.it,"San Giovanni in Persiceto",40017,BO,EMR
-820,"Polisportiva Antal Pallavicini | via Marco Emilio Lepido 194/10, Bologna",http://www.antalpallavicini.org,Bologna,40132,BO,EMR
-821,"Centro ""Gian Paolo Dore""",http://www.centrogpdore.it,Bologna,40126,BO,EMR
-822,"Associazione Animalista per il salvataggio degli Orsi della Luna dai lager della bile",http://www.orsicinesi.org,Bologna,40122,BO,EMR
-827,"Centro Sociale Zolino",http://www.centrosocialezolino.it,Imola,40026,BO,EMR
-830,"Associazione Culturale Panicarte",http://www.panicarte.com,Bologna,40133,BO,EMR
-834,Home,http://www.passopasso.it/,"Sasso Marconi",40037,BO,EMR
-836,"Cittadinanzattiva Emilia-Romagna | Sito gestito dall&#039;associazione Cittadinanza Responsabile",http://www.cittadinanzattiva-er.it,Bologna,40134,BO,EMR
-841,"Fogolar Bologna - Ultime Notizie dal Fogolar",http://www.fogolarbologna.it,Bologna,40125,BO,EMR
-845,"www.pgsima.it | polisportiva bologna",http://www.pgsima.it,Bologna,40128,BO,EMR
-846,"Associazione ComunitA Sociale | ComunitA e Territorio",http://www.comunitasociale.it,Bologna,40131,BO,EMR
-849,"Piccolo Formato - Fotografia a Bologna: Corsi, Workshop, Mostre, Eventi Piccolo Formato",http://www.piccoloformato.it,Bologna,40100,BO,EMR
-854,"Associazione Succede solo a Bologna |",http://www.succedesoloabologna.it,Bologna,40125,BO,EMR
-870,"President Bologna: Associazione Sportiva Dilettantistica ""President Bologna""",http://www.presidentbologna.it,Bologna,40138,BO,EMR
-883,diversa/mente,http://www.associazionediversamente.org,Bologna,40138,BO,EMR
-884,"Progresso Calcio - SCD PROGRESSO CALCIO",http://www.progressocalcio.it,"Castel Maggiore",40013,BO,EMR
-893,"Associazione Astrofili Imolesi",http://www.astrofiliimolesi.it,Imola,40026,BO,EMR
-899,"Documentaristi Emilia Romagna",http://www.dder.org,Bologna,40141,BO,EMR
-900,"Uisp - Unione Italiana Sport per Tutti - Comitato Provinciale di Bologna |  UISP Bologna",http://www.uispbologna.it,Bologna,40138,BO,EMR
-904,"Gruppo nazionale Nidi e Infanzia",http://www.grupponidiinfanzia.it,Bologna,40123,BO,EMR
-907,"Delia Gennari Onlus, associazione bolognese",http://www.deliagennari.it/index.html,Bologna,40137,BO,EMR
-913,"Psicologia Umanistica e delle Narrazioni",http://www.psicologiadellenarrazioni.it,Bologna,40122,BO,EMR
-919,"HOME - Benvenuti su villadallolio!",http://www.villadallolio.it,"Casalecchio di Reno",40033,BO,EMR
-920,"Village Tennis Club - Associazione Sportiva",http://www.villagetennisclub.it,Molinella,40062,BO,EMR
-927,"Educazione Permanente di Crevalcore",http://www.educazionepermanente.it,Crevalcore,40014,BO,EMR
-928,"Volhand - Home Page",http://www.volhand.it/,Crespellano,40056,BO,EMR
-938,"Eventi | xing.it",http://www.xing.it,Bologna,40123,BO,EMR
-940,"Il Pozzo delle Idee",http://www.ilpozzodelleidee.it,Bologna,40141,BO,EMR
-941,"ReMida Bologna_Terre dâAAAcqua",http://www.remidabologna.it,"Calderara di Reno",40012,BO,EMR
-944,"YouNet | Fostering European active citizenship and mobility",http://www.you-net.eu,Bologna,40129,BO,EMR
-946,"Il sogno di Stefano",http://www.ilsognodistefano.it/,Padova,35128,PD,VEN
-948,"Fondazione Rocca dei Bentivoglio",http://www.roccadeibentivoglio.it,Bazzano,40053,BO,EMR
-952,"Istituto di Ematologia di Bologna - Introduzione",http://www.ematbo.unibo.it,Bologna,40138,BO,EMR
-958,"Home - Eremo di Ronzano",http://www.eremodironzano.it,Bologna,40136,BO,EMR
-960,"Benvenuto su Emilia Romagna Festival 2014 | Emilia Romagna Festival 2014",http://www.erfestival.org,Imola,40026,BO,EMR
-969,"Home - FANEP ONLUS",http://www.fanep.org/,Bologna,40138,BO,EMR
-985,"lega navale italiana sezione di bologna - corsi patente nautica",http://www.leganavale.bo.it,"San Lazzaro di Savena",40068,BO,EMR
-986,"Le Querce di Mamre",http://www.lequercedi.it,"Casalecchio di Reno",40033,BO,EMR
-987,index,http://www.levocidellaluna.it,"Sasso Marconi",40037,BO,EMR
-989,"Link Associated - via Fantoni 21, Bologna - IT Link Associated",http://www.link.bo.it,Bologna,40126,BO,EMR
-1019,Assisla,http://assisla.it/,Bologna,40139,BO,EMR
-1020,"Associazione Alta Definizione",http://associazionealtadefinizione.it/,Bologna,,BO,EMR
-1022,"Associazione Culturale ERLUG",http://erlug.linux.it,Bologna,,BO,EMR
-1024,"Le chiavi di casa",http://lechiavidicasa.org/,"Granarolo dell'Emilia",40057,BO,EMR
-1025,"Nei Dan Italia",http://neidanitalia.wordpress.com/,Bologna,40124,BO,EMR
-1026,"Associazione Donatori Volontari di Sangue",http://nuke.fidas-advs-bologna.org,Bologna,40131,BO,EMR
-1027,"Associazioni riunite",http://riunite.eu,Bologna,40131,BO,EMR
-1030,"Acquablu Associazione",http://www.acquablu.altervista.org/,Bologna,,BO,EMR
-1031,"Acquadela Associazione",http://www.acquadela.it/,Bologna,40134,BO,EMR
-1032,"ADMO Emilia Romagna",http://www.admoemiliaromagna.it,Bologna,,BO,EMR
-1033,"AGD Bologna",http://www.agd-bo.net/it/,"Sant'Agata Bolognese",40013,BO,EMR
-1034,"Ageop Ricerca Onlus",http://www.ageop.org,Bologna,40138,BO,EMR
-1035,"AICE Emilia Romagna Onlus",http://www.aice-epilessia.it,Bologna,40127,BO,EMR
-1036,"AICS Bologna",http://www.aicsbologna.it/,Bologna,40127,BO,EMR
-1037,"Associazione Italiana Dislessia",http://www.aiditalia.org,Bologna,40121,BO,EMR
-1039,"ALICE Bologna",http://www.alicebologna.it,Bologna,40129,BO,EMR
-1040,AMACI,http://www.amaci.it,Bologna,40138,BO,EMR
-1041,"Gli amici di Luca",http://www.amicidiluca.it,Bologna,40131,BO,EMR
-1042,"Amici di Magu",http://www.amicidimagu.org,Bologna,40135,BO,EMR
-1044,ANIEP,http://www.aniepnazionale.it/,Bologna,40124,BO,EMR
-1045,"ANIMIL Bologna",http://www.anmil.it/,Bologna,,BO,EMR
-1046,"Ant Casalecchio di Reno",http://www.ant.it,"Casalecchio di Reno",40033,BO,EMR
-1048,"Associazione Arterego",http://www.arterego.org,Marzabotto,40043,BO,EMR
-1049,"ASC Bologna",http://www.ascbologna.it/,Bologna,,BO,EMR
-1060,"Bologna ASP",http://www.aspbologna.it/,Bologna,40126,BO,EMR
-1061,"ASPHI Bologna",http://www.asphi.it/,Bologna,40126,BO,EMR
-1062,Aliante,http://www.associazione-aliante.it/,Bologna,40127,BO,EMR
-1063,"Associazione Io Ci Sono",http://www.associazioneiocisono.it/,Bologna,40136,BO,EMR
-1064,"Associazione NovArt",http://www.associazionenovart.com,Rastignano,40067,BO,EMR
-1065,"ATCOM Bologna",http://www.atcomonline.it,Bologna,40133,BO,EMR
-1066,"AUSL Bologna",http://www.ausl.bologna.it,Bologna,40124,BO,EMR
-1067,"Banco Arrigiano delle Arti e Mestieri",http://www.bancoartigiano.com/,Bologna,40123,BO,EMR
-1068,CNR,http://www.bo.cnr.it/,Bologna,40129,BO,EMR
-1069,"Club Bologna Autostoriche",http://www.bolognautostoriche.it/home.asp,Bologna,40133,BO,EMR
-1070,"Il Poggeschi per il carcere",https://poggeschiperilcarcere.wordpress.com/,Bologna,40125,BO,EMR
-1071,"Associazione Culturale YouKali",http://www.youkali.it,Bologna,40122,BO,EMR
-1072,Visibilia,http://www.visibilia.org/,Bologna,,BO,EMR
-1073,"Centro Villa Torchi",http://www.villatorchi.it/,Bologna,40128,BO,EMR
-1074,"Villa Bernaroli",http://www.villabernaroli.it,Bologna,40132,BO,EMR
-1075,"Vides Volontariato Internazionale Donna Educazione Sviluppo",http://www.videsitalia.it,Bologna,40128,BO,EMR
-1076,"Direzione Territoriale ACI di Bologna",http://www.up.aci.it/bologna/,Bologna,,BO,EMR
-1077,"UNMS Unione Nazionale Mutilati per Servizio",http://www.unms.it/,Bologna,40123,BO,EMR
-1078,"UNIVOC Bologna",http://www.univocbologna.it/,Bologna,40124,BO,EMR
-1079,"Uildm Onlus",http://www.uildmbo.org/,Bologna,40125,BO,EMR
-1080,"Unione Italiana dei Ciechi e degli Ipovedenti",http://www.uicbologna.it/,"Casalecchio di Reno",40033,BO,EMR
-1082,"Scuola popolare di musica Ivan Illich",http://www.spmii.it/,Bologna,40129,BO,EMR
-1083,"SDS Educational",http://www.sdseducational.org,Bologna,40134,BO,EMR
-1084,"Retinite Pigmentosa",http://www.retinitepigmentosa.it/,Bologna,40128,BO,EMR
-1085,"Rangers Bologna",http://www.rangersbologna.it/,Bologna,40132,BO,EMR
-1086,"Proloco Ozzano",http://www.prolocozzano.it,"Ozzano dell'Emilia",40064,BO,EMR
-1087,"Proloco Zola Predosa",http://www.prolocozola.it,"Zola Predosa",40069,BO,EMR
-1088,"Centro Musicale Preludio",http://www.preludio.org,Bologna,40135,BO,EMR
-1089,"Polisportiva Pontevecchio",http://www.pontevecchiobologna.it/,Bologna,,BO,EMR
-1092,"Pattuglie Cittadine",http://www.pattugliecittadine.it/,Bologna,40139,BO,EMR
-1093,"GS Pasta Granarolo",http://www.pasta-granarolo.net,"Granarolo dell'Emilia",40057,BO,EMR
-1094,"Padri Separati",http://www.padri.it/,Bologna,40134,BO,EMR
-1095,Opimm,http://www.opimm.it/,Bologna,40133,BO,EMR
-1096,"Associazione Nuovamente",http://www.nuovamente.org,Bologna,40131,BO,EMR
-1097,"Centro Emiliano Di Mediazione Familiare",http://www.mediazionefamiliare-cedim.it/,Bazzano,40053,BO,EMR
-1098,"Lega Italiana per la lotta contro i tumori",http://www.legatumoribologna.it/,Bologna,40134,BO,EMR
-1099,Latino51,http://www.latino51.it/,"San Lazzaro di Savena",40068,BO,EMR
-1100,"La Fraternita",http://www.lafraternita.com,"Ozzano dell'Emilia",40064,BO,EMR
-1101,"Il Bosco Coop. Sociale",http://www.ilbosco.net/,Imola,40026,BO,EMR
-1102,"Home - Lega consumatori",http://www.legaconsumatori.it/home.html,Milano,20147,MI,LOM
-1105,"Piano Strategico Metropolitano - Il Piano Strategico Metropolitano di Bologna, verso il 2021",http://psm.bologna.it/,Bologna,40124,BO,EMR
-1106,Fondazione,http://www.marieleventre.it/,Bologna,40125,BO,EMR
-1111,"ASPIRIDeS - Servizi alla persona - Bologna",http://www.aspirides.it/,Bologna,40124,BO,EMR
-1112,"AAB - Associazione Astrofili Bolognesi -",http://www.associazioneastrofilibolognesi.it,Bologna,40128,BO,EMR
-1115,"Telefono Amico Bologna",http://www.telefonoamicobologna.it/,Bologna,40138,BO,EMR
-1117,"Turismo Accessibile,Vacanze per Disabili: Viaggi, Hotel, Strutture Varie",http://www.diversamenteagibile.it/,Bologna,40121,BO,EMR
-1119,"Telefono Blu Consumatori Bologna",http://www.telefonoblu.it/emiliaromagna/bologna/,Bologna,40139,BO,EMR
-1121,"sito ufficiale del Patronato Acli",http://www.patronato.acli.it/sedi.asp?azione=vediSede&idSede=637,Bologna,40122,BO,EMR
-1123,"La Baracca - Teatro Testoni Ragazzi",http://www.testoniragazzi.it/,Bologna,40129,BO,EMR
-1125,"ASP Poveri vergognosi Bologna",http://www.poverivergognosi.it/,Bologna,40126,BO,EMR
-1127,"USAP - Unione Sindacale Allenatori Pallacanestro",http://www.usap.it/,Bologna,40122,BO,EMR
-1128,"INPDAP Bologna: Orari Apertura al Pubblico Uffici, Numero Telefono Fax, Email, Prestiti, Mutui, Pens",http://www.prestitoinpdap.org/inpdap-bologna.php,Bologna,40121,BO,EMR
-1130,"Associazione Nazionale Famiglie Numerose",http://www.famiglienumerose.org,Albignasego,35020,PD,VEN
-1132,"FIJLKAM Comitato Regionale <br /> Emilia Romagna",http://www.fijlkamemiliaromagna.it/,Bologna,40134,BO,EMR
-1133,"Cae Fisi",http://www.caefisi.org/,Bologna,40122,BO,EMR
-1134,"GRIS: Gruppo di ricerca e informazione socio religiosa",http://www.gris-imola.it/,Imola,40026,BO,EMR
-1135,"Home - CAMPA - Mutua Sanitaria Integrativa",http://www.campa.it/,Bologna,40122,BO,EMR
-1139,"Iniziativa Europea",http://www.iniziativaeuropea.it,Trieste,10000,TS,FVG
-1140,www.circolocinofilobolognese.it/,http://www.circolocinofilobolognese.it/,Bologna,40128,BO,EMR
-1141,"Portale - Home Page",http://www.cittametropolitana.bo.it,Bologna,40126,BO,EMR
-1146,"Untitled Document",http://www.adanazionale.it,Roma,198,RM,LAZ
-1147,"ANASTE Emilia Romagna | Associazione Nazionale Strutture Terza EtAA",http://www.anaste-er.com,Bologna,40125,BO,EMR
-1148,"Arte e Salute ONLUS",http://www.arteesalute.org/,Bologna,40123,BO,EMR
-1149,"ACU - Associazione Consumatori Utenti",https://sites.google.com/site/acuemiliaromagna3/,Bologna,40123,BO,EMR
-1150,"Arad onlus | Associazione di Ricerca e Assistenza delle Demenze",http://www.aradbo.org/,Bologna,40139,BO,EMR
-1151,"Home - A.I.A. Bologna",http://www.aiabologna.it/,Bologna,40139,BO,EMR
-1152,CroceItalia.it,http://www.croceitalia.it/,Bologna,40128,BO,EMR
-1153,Home,http://www.icinquepani.it/web/,Roma,198,RM,LAZ
-1155,"::: Associazione Sportiva Dilettantistica Bologna Futsal ::: - Home",http://www.bolognafutsal.it/,Bologna,40131,BO,EMR
-1156,"Centro Volontariato Sociale | Centro Volontariato Sociale",http://www.cvsbo.it/,Bologna,40127,BO,EMR
-1157,Idra,http://www.idraonlus.it,Firenze,50124,FI,TOS
-1159,"DryArt :: DryArt",http://www.dryart.com,Pesaro,61121,PU,MAR
-1160,"Cooperativa Anastasis - Home page",http://www.anastasis.it/,Bologna,40121,BO,EMR
-1162,"Andromeda - Home",http://www.andromeda-bo.it/index.htm,Bologna,40124,BO,EMR
-1163,"Emilia Romagna Teatro Fondazione - Modena",http://www.emiliaromagnateatro.com/,Modena,41124,MO,EMR
-1164,"Benvenuti in cdkl5 - Cdkl5",http://www.cdkl5.org,"Castel San Pietro Terme",40024,BO,EMR
-1166,"ANED - Associazione Nazionale Dializzati e Trapiantati",http://www.aned-onlus.it,Milano,20121,MI,LOM
-1167,"ASD PAT",http://www.patbologna.it/,Bologna,40124,BO,EMR
-1169,A.N.G.L.A.T.,http://www.anglat.it,Roma,166,RM,LAZ
-1172,"Centro Sociale CROCE COPERTA Bologna",http://www.centrocrocecoperta.it,Bologna,40129,BO,EMR
-1173,"ANPVI ONLUS",http://www.anpvionlus.it/,Roma,183,RM,LAZ
-1176,Home,http://www.centromelograno.it/,Bologna,40139,BO,EMR
-1177,"As.It.O.I. | Associazione Italiana Osteogenesi Imperfetta",http://www.asitoi.it/,"Olgiate Molgora",23887,LC,LOM
-1180,"Home > Associazione Equilibrio",http://ass-equilibrio.it/,Bologna,40127,BO,EMR
-1184,"Associazione Progetto Handicap | servizio di trasporto dall&#039;abitazione ai luoghi di lavoro, stu",http://www.associazioneprogettohandicap.org/,Bologna,40129,BO,EMR
-1185,"Raggiungere Associazione Italiana per bambini con malformazioni agli arti ONLUS",http://www.raggiungere.it/,Milano,20142,MI,LOM
-1188,www.associazionernesto.it,http://www.associazionernesto.it,Imola,40026,BO,EMR
-1190,"Associazione Verba Manent | Associazione di volontariato",http://www.associazioneverbamanent.it,Bologna,40125,BO,EMR
-1191,"Avis Nazionale: Associazione Volontari Italiani Sangue",http://www.avis.it,Milano,20134,MI,LOM
-1193,Benvenuto,http://www.sindromedipoland.org/,Genova,16137,GE,LIG
-1196,"Cooperativa Chico Mendes Commercio Equo e Solidale",http://www.chicomendes.it,Milano,20133,MI,LOM
-1197,"Uisp - Unione Italiana Sport Per tutti - Uisp Nazionale",http://www.uisp.it,Roma,155,RM,LAZ
-1198,"Associazione Culturale Oltre... - Bologna- Eventi culturali di partecipazione e riappropriazione deg",http://www.fest-festival.net/,Bologna,40141,BO,EMR
-1200,"Arci Associazione :: Home",http://www.bo.arci.it/,Roma,157,RM,LAZ
-1201,"- Home",http://www.fondazionedelmonte.it/,Bologna,40126,BO,EMR
-1202,"Cineteca di Bologna",http://www.cinetecadibologna.it/,Bologna,40122,BO,EMR
-1203,"Home Page âAA Comune di Castenaso",http://www.comune.castenaso.bo.it,Castenaso,40055,BO,EMR
-1209,"Associazione vivere senza stomaco si puAA onlus - L&#039;esperienza e l&#039;aiuto di chi l&#039;ha ",http://www.viveresenzastomaco.org,Ferrara,44123,FE,EMR
-1210,"Fossolo | Circolo culturale ricreativo sportivo",http://www.fossolo.it/,Bologna,40139,BO,EMR
-1212,"GIMBE Education",http://www.gimbeducation.it,Bologna,40121,BO,EMR
-1221,"AISpA - Associazione Italiana Spondiloartriti onlus | Liberi dal dolore!",http://www.aispaitalia.it/,Bologna,40139,BO,EMR
-1222,"Codacons Emilia Romagna",http://codacons.emiliaromagna.it/,Roma,195,RM,LAZ
-1223,"Interethnos Interplast Italy Onlus",http://www.3ionlus.org/,Bologna,40127,BO,EMR
-1224,"Home page | Adottando",http://www.adottando.it/,Bologna,40124,BO,EMR
-1225,alcolistianonimi-emiliaromagna,http://www.alcolistianonimi-emiliaromagna.it/,Bologna,40122,BO,EMR
-1227,"Commercio equo e solidale - vendita prodotti equosolidali e biologici",http://equosolidale.it,Ferrara,56112,FE,EMR
-1228,"Cultura Cooperazione Nonprofit - Home Page - AICCON",http://www.aiccon.it,Forlì,47121,FC,EMR
-1229,"A.C.A.T. Bologna",http://www.acatbolognaalcool.it/,Argenta,44011,FE,EMR
-1230,"Alisei , Noleggio e vendita imbarcazioni",http://www.alisei.com/,Bologna,40121,BO,EMR
-1236,"Ca Di Balia",http://www.cadibalia.it,"Bagnara di Romagna",48010,RA,EMR
-1237,"CAA Un Mondo - Commercio equo e solidale e cooperazione sociale italiana Bologna",http://www.ceunmondo.it,Bologna,40125,BO,EMR
-1238,"Idee e progetti per il sociale - creativi108",http://www.creativi108.it,Bologna,40128,BO,EMR
-1239,"Fondazione Idea | Istituto per la ricerca e la prevenzione della depressione e dellansia",http://www.fondazioneidea.org/,Bologna,40123,BO,EMR
-1240,"Federconsumatori Bologna",http://www.federconsumatoribologna.it,Bologna,40122,BO,EMR
-1241,"Idee e progetti per il sociale - creativi108",http://www.giovanicreativi108.com,Bologna,40128,BO,EMR
-1244,"Liceo Scientifico Niccolo Copernico Bologna",http://www.copernico.bo.it,Bologna,40138,BO,EMR
-1245,"LACCADEMIA CORALE RENO",http://www.coralereno.altervista.org,"Casalecchio di Reno",40033,BO,EMR
-1247,www.ilsorriso-imola.it/,http://www.ilsorriso-imola.it/,Fontanelice,40025,BO,EMR
-1251,"Salute Emilia-Romagna - Servizio sanitario regionale &mdash; E-R Salute",http://www.saluter.it,Bologna,40127,BO,EMR
-1252,"ISLL - Italian Society for Law and Literature",http://www.lawandliterature.org,Bologna,40121,BO,EMR
-1254,"Associazione Cucciolo",http://www.associazionecucciolo.it,Bologna,40138,BO,EMR
-1256,"Onefamily Group » Servizi di Assistenza Anziani, Famiglie e Malati | Affiliazione OneFamilyGroup",http://www.onefamilygroup.eu,Bologna,40137,BO,EMR
-1257,"Sito Ufficiale dellOpera Marella",http://www.operapadremarella.it/,"San Lazzaro di Savena",40068,BO,EMR
-1259,"Croce Azzurra Coop Sociale Onlus Bologna » Assistenza sanitaria e Cooperazione Sociale a Bologna e p",http://www.coopcroceazzurra.it,Bologna,40128,BO,EMR
-1262,"Baby sitter - Bologna - Tata Mary",http://www.babysittertatameri.com,Bologna,40134,BO,EMR
-1264,"AIUCA - Pet Therapy, assistenza e riabilitazione con cani, corsi",http://www.aiuca.eu,"Sasso Marconi",40037,BO,EMR
-1267,"EBURT - Ente Bilaterale Unitario Regionale Turismo Emilia Romagna",http://www.eburt.it,Bologna,40129,BO,EMR
-1269,Home,http://www.fondazionegdo.it/,Bologna,40132,BO,EMR
-1273,"Casa Maternità Il Nido a Bologna - Emilia Romagna - Casa Maternità",http://www.ilnido.bo.it,Bologna,40131,BO,EMR
-1274,"RoMiliA, suoni e sapori dellEmilia Romagna",http://www.romilia.it,,,,
-1275,"Movimento Cristiano Lavoratori Bologna",http://www.mclbologna.it,,,,
-1276,sancristoforozzano.org,http://WWW.SANCRISTOFOROZZANO.ORG/,,,,
-1277,"Camera Penale di Bologna",http://www.camerapenale-bologna.org/,,,,
-1278,"CAMP MITICO VILLA",http://www.campmiticovilla.com,,,,
-1279,"CAMPUS ADRIANI",http://www.campusadriani.it,,,,
-1280,"ASSOCIAZIONE EUROPEA OPERATORI POLIZIA - SITO NAZIONALE | PROTEZIONE CIVILE VIGILANZA AMBIENTALE",http://aeop.it,,,,
-1281,"Medicivitas Il Centro Sociale di Medicina",http://www.medicivitas.it,,,,
-1282,www.cai-imola.it,http://www.cai-imola.it,,,,
-1284,AmareVignola,http://amarevignola.wordpress.com,,,,
-1285,"N.A.Di.R. Organizzazione di Volontariato",http://www.mediconadir.it,,,,
-1286,www.menovelocitapiuvita.com,http://www.menovelocitapiuvita.com,,,,
-1287,Candidamente,http://www.candidamente.org/,,,,
-1289,Micromacchina,http://www.micromacchina.it,,,,
-1290,"ONE BILLION RISING",http://obritalia.livejournal.com,,,,
-1291,"Canto31 Associazione Culturale",http://www.canto31.it,,,,
-1292,"Etnografia del Pensiero dot Net",http://www.etnografiadelpensiero.net,,,,
-1293,MigrAzioni,http://www.migrazioni.eu/,,,,
-1294,Caracult,http://www.caracult.it,,,,
-1295,mikrokosmos,http://www.mikrokosmos-cm.it,,,,
-1296,"Pro Loco Molino Del Pallone - Alta Valle Del Reno",http://www.molinodelpallone.it,,,,
-1297,"Caregiver Familiare",http://www.caregiverfamiliare.it,Carpi,41012,MO,EMR
-1298,Montecatone,http://www.montecatone.com/,,,,
-1299,"Monte Del Matrimonio",http://www.montedelmatrimonio.it/,,,,
-1300,"Monte Sole Bike Group",http://www.montesolebikegroup.it,,,,
-1301,"MARINE & FRESHWATER SCIENCE GROUP ASSOCIATION",http://www.msgassociation.org,,,,
-1302,"Ass.Carnevalesca Re Fagiolo di Castella -",http://www.carnevaledidecima.it,,,,
-1303,NETTUNIA1954,http://www.nettunia1954.it/,Bologna,40139,BO,EMR
-1304,"Next Generation Italy",http://www.nextgenerationitaly.tk,,,,
-1305,Home,http://www.exaequo.bo.it,Bologna,40126,BO,EMR
-1306,"Noi insieme a Scherazad",http://www.noinsiemeascherazad.it/,Bologna,,BO,EMR
-1307,www.casadonne.it,http://www.casadonne.it,Bologna,,BO,EMR
-1308,"Non andremo mai in TV",http://www.nonandremomaintv.it,,,,
-1309,"Associazioni no Profit: il portale al servizio delle associazioni",http://www.nonprofit.viainternet.org,,,,
-1310,"www.noprofit.org - Il sito del no profit italiano",http://www.noprofit.org,,,,
-1311,"OR.S.A. Organizzazione Sindrome di Angelman",http://sindromediangelman.org/,,,,
-1314,www.oftaunibologna.it,http://www.oftaunibologna.it,,,,
-1315,"Federazione di Associazioni Malattie Rare Emilia-Romagna",http://www.federamrare.altervista.org/,Bologna,40136,BO,EMR
-1316,"Pro Loco Casalecchio Meridiana",http://www.casalecchioinsiemeproloco.org,,,,
-1317,"Vag61 Spazio Libero Autogestito",http://vag61.noblogs.org/,,,,
-1318,"associazione oltremodo",http://www.oltremodo.eu/,Argelato,40050,BO,EMR
-1319,"Gli agostiniani a S. Giacomo Maggiore e a S. Rita in Bologna",http://web.tiscali.it/agostiniani/,,,,
-1320,www.abcsociale.it,http://www.abcsociale.it,,,,
-1321,"Arcieri Felsinei",http://www.felsinei.com,Bologna,40128,BO,EMR
-1322,"onlus harambee",http://www.onlus-harambee.com,,,,
-1323,"ACLI BO",http://www.aclibo.it,Bologna,40122,BO,EMR
-1324,"Casina dei Bimbi Onlus",http://www.casinadeibimbi.org,,,,
-1326,"S.A.V. onlus Servizio Accoglienza alla Vita",http://www.sav.bologna.it/,Bologna,40134,BO,EMR
-1327,"Chiesa Parrocchiale di San Giovanni Evangelista - Parrocchia di Zolino - IMOLA",http://www.parrocchiadizolino.it,,,,
-1328,"Gruppo di Studi Savena Setta Sambro",http://www.savenasettasambro.com,,,,
-1329,"PERCORSI MENTE-CORPO",http://www.percorsimentecorpo.vpsite.it,,,,
-1330,Acmt-Rete,http://www.acmt-rete.it/index.html,,,,
-1331,"Castiglione Murri Basket",http://www.castiglionemurri.com/,Bologna,40139,BO,EMR
-1332,filodarianna,http://www.filodarianna.net,Monteveglio,40050,BO,EMR
-1333,"Associazione CCSVI nella Sclerosi Multipla Emilia Romagna Onlus",http://www.ccsvi-sm.info/,"Granarolo dell'Emilia",40057,BO,EMR
-1334,PercorsoVitale,http://www.percorsovitale.it,"Zola Predosa",,BO,EMR
-1335,"AS ACNEPOTI",http://www.acnepoti.it,,,,
-1336,"Schola Cantorum di Bazzano",http://www.scholacantorumbazzano.it,Bazzano,40053,BO,EMR
-1337,"Fondazione Cassa di Risparmio Bologna",http://www.fondazionecarisbo.it/,Bologna,40124,BO,EMR
-1338,"Poggi Sub",http://www.poggisub.it,,,,
-1340,"Scout La Mura",http://www.scoutlamura.it,,,,
-1341,"scuola Leonard Bernstein",http://WWW.SCUOLADIMUSICALEONARDBERNSTEIN.IT,"San Giovanni in Persiceto",40017,BO,EMR
-1342,"Polisportiva ONDABLU",http://www.polisportivaondablu.it,Vergato,,BO,EMR
-1343,"Adiantum - Associazione di Associazioni Nazionali per la tutela dei Minori",http://www.adiantum.it,,,,
-1344,"Polisportiva Pontelungo - Bologna",http://www.polisportivapontelungo.it/,,,,
-1345,"Senza Confini",http://www.senzaconfinitaly.com,,,,
-1346,"ASSOCIAZIONE CENTRO EUROPA UNO - lo spazio per diverse esigenze.... lo spazio per le tue esigenze",http://www.centroeuropauno.it,"San Lazzaro di Savena",40068,BO,EMR
-1348,"Agesci Zona di Bologna",http://www.agescibologna.it,,,,
-1351,www.centrosocialefuno.it,http://www.centrosocialefuno.it,,,,
-1352,"Shape Associated",http://www.shape.bo.it,,,,
-1353,"Fondazione Gualandi",http://www.fondazionegualandi.it/,,,,
-1354,"Porretta Cinema",http://www.porrettacinema.com,"Porretta Terme",40046,BO,EMR
-1355,"CSD - Centro Studi G.Donati - Bologna - Homepage",http://www.centrostudidonati.org/csd.html,Bologna,,BO,EMR
-1356,"SIEM Home Page",http://www.siem-online.it,,,,
-1357,"itaca - Chi siamo",http://www.fondazioneitaca.org/,,,,
-1358,"Assemblea Generale Italiana Commercio Equo e Solidale",http://www.agices.org,,,,
-1359,SimplyFood,http://www.simplyfood.it,,,,
-1361,"Associazione di Volontariato San Martino Onlus Missione Ithanga",http://www.forithanga.org/,,,,
-1362,"SocietAA Artigiana di Mutuo Soccorso",http://www.societartigiana.it/,Bologna,40121,BO,EMR
-1364,"POSTFIERA.org - HomePage",http://www.postfiera.org/,,,,
-1365,"Spartacus Bologna",http://www.spartacusbologna.it,Bologna,,BO,EMR
-1366,"Primola - Home Page",http://www.primola.it,Imola,40068,BO,EMR
-1367,"Associazione culturale e artistica per il sostegno e la diffusione delle arti cinematograf",http://www.fourdoc.it,,,,
-1368,"Assistenza anziani a Bologna - Centro Bologna - PrivatAssistenza",http://www.privatassistenza.it/bologna/centro-bologna/,Bologna,40138,BO,EMR
-1370,"Progetto sQuola",http://www.progettosquola.it,"Porretta Terme",40046,BO,EMR
-1371,PROLOCOBADI.IT,http://www.prolocobadi.it,,,,
-1374,"amache BAHIA",http://www.amache-bahia.it,,,,
-1376,"Proloco Budrio",http://WWW.PROLOCOBUDRIO.IT,Budrio,,BO,EMR
-1377,"Societa Ginnastica Persicetana | Insieme per lo sport &#8211; Palestra di vita",http://www.ginnasticapersicetana.com,"San Giovanni in Persiceto",40017,BO,EMR
-1378,www.prolocodicrevalcore.it,http://www.prolocodicrevalcore.it,Crevalcore,40014,BO,EMR
-1379,"Proloco - Medicina - BO",http://www.prolocomedicina.net,Medicina,40059,BO,EMR
-1380,"Associazione Amici di Giana",http://www.amicidigiana.org,,,,
-1382,www.prolocomolinella.it,http://www.prolocomolinella.it,,,,
-1383,"Girotondo online | Associazione didattico educativa",http://www.girotondo-online.com,,,,
-1384,SpazioIndue,http://www.spazioindue.org,Bologna,,BO,EMR
-1385,"Amnesty International - Home",http://www.amnesty.it,,,,
-1386,"Proloco Villa D Aiano",http://www.prolocovilladaiano.it,,,,
-1387,"ASSOCIAZIONE TURISTICA PRO LOCO di RIOLA (BO)",http://www.proriola.com,Riola,40047,BO,EMR
-1389,Amnestybologna,http://www.amnestybologna.it/,Bologna,,BO,EMR
-1390,www.gplongara.it,http://www.gplongara.it,"Calderara di Reno",40012,BO,EMR
-1391,"Dipartimento Protezione Civile",http://www.protezionecivile.gov.it,,,,
-1392,"Gravita Zero",http://www.gravita-zero.org,,,,
-1393,"Home - Anatroccolo Rosa",http://www.anatroccolorosa.it,,,,
-1394,www.gruppoceis.org,http://www.gruppoceis.org,,,,
-1396,"Punto Equo - Distributori automatici del commercio equo e solidale",http://www.puntoequo.org,,,,
-1397,"Aned Bologna",http://www.anedbo.it/,Bologna,40124,BO,EMR
-1398,"Anffas di Bologna Onlus",http://www.anffasbo.info,,,,
-1399,"Spazio Labo",http://www.spaziolabo.it,Bologna,,BO,EMR
-1400,"ANMIG - Associazione Nazionale fra Mutilati ed Invalidi di Guerra",http://www.anmigcomitatocentrale.com/,Bologna,40131,BO,EMR
-1402,"Sport Experience",http://www.sportexperience.it/homew.asp,,,,
-1403,"CEPS Onlus - Centro Emiliano Problemi Sociali per la Trisomia 21 » Associazione di genitori, amici e",http://www.ceps.it/,Bologna,40128,BO,EMR
-1404,"Associazione Antica come le montagne - Bologna",http://www.anticacomelemontagne.org,,,,
-1405,"Le religioni in Italia",http://www.cesnur.com,,,,
-1406,"Scuola di Danza Arabesque Bologna",http://www.arabesquebologna.it,Bologna,,BO,EMR
-1407,"Chiama il Senegal. Viaggi e Turismo Responsabile in Africa",http://www.chiamasenegal.it,,,,
-1408,"Studio SoundLab",http://www.studiosoundlab.com,Bologna,,BO,EMR
-1409,"Radioimmaginaria ",http://www.radioimmaginaria.it,,,,
-1410,"ARCOVEGGIO D.L.F. Nuoto Bologna",http://www.arcoveggionuoto.it/,Bologna,,BO,EMR
-1411,"Arte & Portici - Iniziative istituzionali de ""Il Laboratorio""",http://www.arteportici.it,Bologna,,BO,EMR
-1413,Diacronie,http://www.studistorici.com,,,,
-1414,circolodozza,http://www.circolodozza.it,Bologna,40122,BO,EMR
-1415,"Gruppo Elettrogeno Associazione di promozione sociale",http://www.gruppoelettrogeno.org,Bologna,,BO,EMR
-1418,"ASD Arcieri di Re Bertoldo",http://www.rebertoldo.org,"San Giovanni in Persiceto",40017,BO,EMR
-1419,"teatro dei 25, teatro, gli insetti teatrali, teatro dei 25, Bologna, teatrodei25, performing art, se",http://www.teatrodei25.jimdo.com,Bologna,40141,BO,EMR
-1422,"clubsupermarathon.it - Club Super Marathon Italia - clubsupermarathon.it",http://www.clubsupermarathon.it,Bologna,40122,BO,EMR
-1424,ASCER,http://www.ascer.it,Bologna,34125,BO,EMR
-1425,"Residenze Femminili a Bologna",http://www.residenzefemminilibologna.it/,Bologna,,BO,EMR
-1426,"Telestreet - TV di strada",http://www.telestreet.it,,,,
-1427,"Happy Trail MTB",http://www.happytrailmtb.it,"Porretta Terme",40046,BO,EMR
-1428,"TEMENOS - Centro culturale Junghiano",http://www.temenosjunghiano.com,Bazzano,40053,BO,EMR
-1429,"C o n c o r d a n z e",http://www.concordanze.com,,,,
-1430,"Asilo in Europa",http://www.asiloineuropa.it,,,,
-1431,"ASSOCIAZIONE Rete Malattie Rare onlus",http://www.retemalattierare.it,,,,
-1432,"Unione Nazionale Consumatori - Comitato Regionale Emilia Romagna",http://www.consumatori-emiliaromagna.it/,Bologna,40124,BO,EMR
-1433,"OPEN ASD - A.S.D. OPEN",http://www.asopen.it,Bologna,,BO,EMR
-1434,"Rivista di Psichiatria",http://www.rivistadipsichiatria.it,,,,
-1435,"Hotel Bologna albergo dellOrso Bo",http://www.hbologna.net,,,,
-1437,"Cooperativa Sociale PICTOR",http://www.cooperativapictor.it/,Budrio,40054,BO,EMR
-1438,"Associazione NEMA",http://www.associazione-nema.it,"Gaggio Montano",40044,BO,EMR
-1439,C.V.L.,http://www.coordinamentovolontariatolame.org,Bologna,40131,BO,EMR
-1440,www.associazioneamicidimariarosa.org/,http://www.associazioneamicidimariarosa.org/,,,,
-1441,Terzadecade,http://www.terzadecade.it,Molinella,40062,BO,EMR
-1442,"Proloco di Rocca di Roffeno",http://www.roccadiroffeno.it,"Rocca di Roffeno",40040,BO,EMR
-1443,tossignano,http://www.tossignano.it,"Borgo Tossignano",40021,BO,EMR
-1444,"Coordinamento Volontari Protezione Civile - Rimini",http://www.coorprociv.it,,,,
-1445,"Trama di terre",http://www.tramaditerre.org,Imola,40026,BO,EMR
-1446,"Associazione Coro Athena, Bologna",http://www.coroathena.it,,,,
-1447,"Idea volley",http://www.ideavolley.it,"Zola Predosa",40069,BO,EMR
-1448,Tuttinsieme,http://www.tuttinsieme.org,,,,
-1449,"Universita Primo Levi",http://www.universitaprimolevi.it,Bologna,40122,BO,EMR
-1450,"Un Passo Dopo l Altro",http://www.unpassodopolaltro.com,Bologna,40124,BO,EMR
-1452,www.ilpettirosso.org,http://www.ilpettirosso.org/,Bologna,,BO,EMR
-1454,"Croce Rossa Italiana - Comitato Provinciale di Bologna",http://www.cribo.it,Bologna,22052,BO,EMR
-1455,"Associazione il Temporale",http://www.iltemporale.it,Bentivoglio,40010,BO,EMR
-1456,"U.P. Calderara",http://www.upcalderara.com,"Calderara di Reno",40012,BO,EMR
-1457,"Cronache Internazionali",http://www.cronacheinternazionali.com,,,,
-1459,UPPI,http://www.uppi-bologna.it/,Bologna,40123,BO,EMR
-1460,Valgattara,http://www.valgattara.it,Monghidoro,40063,BO,EMR
-1461,"CSEN Emilia-Romagna - Comitato Regionale Emilia-Romagna - Comitato Provinciale di Bologna",http://www.csenemiliaromagna.it,Bologna,40139,BO,EMR
-1462,"Associazione Culturale Via De Poeti",http://www.viadepoeti.it,Bologna,40128,BO,EMR
-1463,"Associazione Aquila",http://www.associazioneaquila.it/,,,,
-1465,"Associazione ComunicAttive",http://www.associazionecomunicattive.org,Bologna,40122,BO,EMR
-1467,"FLUX Associazione Culturale",http://www.associazioneflux.it,,,,
-1468,DAMMI5,http://www.dammi5.it/,Bologna,40133,BO,EMR
-1469,"VolaBologna - BlqSpotters :: Official Web Site",http://www.volabologna.it/it/,,,,
-1470,"Il Ventaglio di Orav",http://www.ilventagliodiorav.eu,Bologna,40136,BO,EMR
-1471,"ENDAS ENSEMBLE - SCUOLA DI DANZA CLASSICA CONTEMPORANEA HIP HOP JAZZ BOLOGNA - PRESENTAZIONE",http://www.danzaensemble.it,"Sasso Marconi",40037,BO,EMR
-1472,"N.O.V.A. Ente Morale - ONLUS",http://www.associazionenova.org/,,,,
-1473,"Associazione Terra Verde O.N.L.U.S.",http://www.associazioneterraverde.it/,Bologna,40131,BO,EMR
-1474,"Psicologo Bologna",http://www.dedalusbologna.it/,Bologna,,BO,EMR
-1475,"Imola Abbraccio Solidale",http://www.imolabbracciosolidale.it/,Imola,40068,BO,EMR
-1476,"Associazione Protezione CivileVolontari Minerva - Home",http://www.volontariminerva.it,,,,
-1477,www.vuotiarendere.it,http://www.vuotiarendere.it,Bologna,40139,BO,EMR
-1478,"Associazione Promozione Sociale Deesi",http://www.deesi.org,"Anzola dell'Emilia",40011,BO,EMR
-1479,ImolaFolklore,http://www.imolafolklore.com,Imola,40068,BO,EMR
-1480,"GLI INCAUTI",http://www.incauti.org,Bologna,40123,BO,EMR
-1481,"We Help You Onlus",http://www.wehelpyou.it/,Bologna,40139,BO,EMR
-1482,"Associazione Diapason Progetti Musicali | Musica !!!",http://www.diapason.bo.it,,,,
-1483,www.dislessia.it,http://www.dislessia.it,Bologna,40121,BO,EMR
-1484,"WORLD DIVING BOLOGNA",http://www.worlddiving.it,Bologna,40138,BO,EMR
-1485,"Assopace Palestina",http://www.assopacepalestina.org,,,,
-1486,Xenia,http://www.xeniabo.org,Bologna,40131,BO,EMR
-1487,"doors to baloon",http://www.doorstoballoon.it,,,,
-1488,"Atti Sonori",http://www.attisonori.it,Bologna,40138,BO,EMR
-1489,www.zimmerfrei.co.it,http://www.zimmerfrei.co.it,Bologna,40122,BO,EMR
-1490,www2.provincia.bologna.it,http://www2.provincia.bologna.it,,,,
-1492,"Educazione&ScuolaAA by Dario Cillo - La Rivista telematica della Scuola e della Formazione",http://www.edscuola.it,,,,
-1493,"Info-BO conVIVERE a Bologna",http://www.info-bo.it/,Bologna,,BO,EMR
-1494,www.edumissioclarissefrancescane.org/,http://www.edumissioclarissefrancescane.org/,Bologna,40127,BO,EMR
-1495,"Auser Imola | Volontariato e promozione sociale",http://www.auserimola.it,Imola,40026,BO,EMR
-1496,isfbologna,https://isfbologna.wordpress.com/,Bologna,,BO,EMR
-1497,"Fondazione Banco Alimentare | Contro lo spreco, Contro la Fame",http://www.bancoalimentare.it/index.php,Imola,40026,BO,EMR
-1498,"Home - I.P. Iniziativa ParkinsonianiI.P. Iniziativa Parkinsoniani",http://www.iniziativaparkinsoniani.it/,Bologna,40139,BO,EMR
-1499,"Trekking Italia Bologna",http://www.bibliotecatrek.org,Bologna,40126,BO,EMR
-1500,Eks&tra,http://www.eksetra.net,"San Giovanni in Persiceto",40017,BO,EMR
-1501,"ASSOCIAZIONE IPERPUT (Per un grande Piano Urbano del Traffico) Contro ogni inquinamento per una citt",http://www.iperput.org/,,,,
-1502,"Elenfant Film",http://www.elenfant.com,Bologna,40124,BO,EMR
-1503,Notizie,http://www.bnbo.it,,,,
-1505,"Istituto Graf",http://www.istitutograf.org,Bologna,40133,BO,EMR
-1506,"Istituto Tincani - Bologna",http://www.istitutotincani.it,Bologna,40124,BO,EMR
-1507,"AIE Associazione Italiana Endometriosi",http://www.endoassoc.it,,,,
-1508,"ENTE NAZIONALE DI PROMOZIONE SOCIALE",http://www.entenazionale.it,,,,
-1510,"Italia che Raglia - Ragliamo insieme!",http://www.italiacheraglia.com,,,,
-1511,www.italo-americana.org,http://www.italo-americana.org,Bologna,,BO,EMR
-1512,"Kaleidoscope Factory Bologna - Showreel",http://www.kaleidoscopefactory.eu,,,,
-1513,www.lalunanelpozzo.org,http://www.lalunanelpozzo.org,,,,
-1514,"La Nostra Africa - Homepage",http://www.lanostraafrica.it,,,,
-1517,www.lavallazza.it,http://www.lavallazza.it,Bologna,,BO,EMR
-1519,"LE CASE degli ANGELI di Daniele Onlus",http://www.LECASEDIDANIELE.ORG,"Pieve di Cento",40066,BO,EMR
-1520,www.liberomondo.org,http://www.liberomondo.org,,,,
-1521,"Circolo Filatelico ""Guglielmo Marconi"" - 40044 Pontecchio Marconi (Bo) - Italy",http://www.marconifilatelico.it,"Pontecchio Marconi",40037,BO,EMR
-1522,www.mascellaro.info,http://www.mascellaro.info,"San Giovanni in Persiceto",40017,BO,EMR
-1523,"Buddhismo della Via di Diamante - Centri buddhisti di meditazione",http://www.buddhism.it,Bologna,40137,BO,EMR
-1526,"LOrsa Minore: Pagina Principale",http://www.orsaminore.org,,,,
-1527,"Associazione di Volontariato Emiliani",http://associazionemiliani.blogspot.it/,"Sasso Marconi",40037,BO,EMR
-1528,"Associazione A.M.A. Amarcord Onlus di San Pietro in Casale",http://www.amaamarcordsanpietro.it/,"San Pietro in Casale",44018,BO,EMR
-1529,"Home - Sito ufficiale del Circolo ARCIBrecht!",http://circoloarcibrecht.jimdo.com/,Bologna,40128,BO,EMR
-1530,"Piccoli Grandi Cuori Onlus",http://www.piccoligrandicuori.it,Bologna,40138,BO,EMR
-1531,"Arc-en-Ciel Onlus - Home",http://www.arcenciel-onlus.it/,Argelato,40050,BO,EMR
-1532,"Associazione Regionale Anffas onlus Emilia Romagna > Home",http://nuke.anffas-er.org/,Bologna,40127,BO,EMR
-1533,"Pro Natura Bologna onlus",http://www.pronaturabologna.org,Bologna,40131,BO,EMR
-1534,"Oasi Felix",http://oasifelix.altervista.org/,Medicina,40059,BO,EMR
-1535,Amicambo,http://www.amicambo.org/,Bologna,40122,BO,EMR
-1536,"Assistenza Computer Bologna",http://www.assistenza-computer-bologna.net,,,,
-1537,"Bologna - Piccole Sorelle dei Poveri",http://www.psdp.it/in-italia/bologna,Bologna,40133,BO,EMR
-1538,"Amici Bambini Padre John",http://www.amicibambinipadrejohn.org/,"Sasso Marconi",40037,BO,EMR
-1539,"Amici degli animali onlus",http://www.amicideglianimali.bo.it/,Bologna,,BO,EMR
-1540,"A.M.I.C.I. - Associazione Mutilati Invalidi Civili",http://www.assoamici.it/,Imola,29152,BO,EMR
-1541,"Ristretti Orizzonti. Sito di cultura e informazione dal carcere",http://www.ristretti.it,,,,
-1542,"Amici dei Popoli",http://www.amicideipopoli.org/,Bologna,40139,BO,EMR
-1543,www.amicidiampasilava.com,http://www.amicidiampasilava.com/,Bologna,40122,BO,EMR
-1544,"Cooperativa Sociale Il Pellicano",http://www.coopilpellicano.org/,Bologna,40138,BO,EMR
-1545,"S.A.E.R. - SOCCORSO ALPINO EMILIA ROMAGNA",http://www.saer.org/,"Porretta Terme",40046,BO,EMR
-1546,"ENDOMETRIOSI - ARIANNe Onlus",http://www.associazionearianne.it/,"Casalecchio di Reno",40033,BO,EMR
-1547,"Fondazione ABIO Italia Onlus",http://www.abio.org,Bologna,40133,BO,EMR
-1548,"Amici di Bologna Onlus",http://www.amicidibologna.it,Bologna,40126,BO,EMR
-1549,"Benvenuti nel sito dellAuser",http://www.auser.it,,,,
-1550,"San Lazzaro Sociale - Home",http://www.sanlazzarosociale.it,"San Lazzaro di Savena",40068,BO,EMR
-1551,"Auser Bologna",http://www.auserbologna.it/,Bologna,40131,BO,EMR
-1552,"Donne Contro Violenza",http://www.donnecontroviolenza.it,,,,
-1553,"Amici di Tamara e Davide, idee e persone in cammino. | Sito dell&#039;associazione Amici di Tamara e",http://www.amiciditamaraedavide.it/,,,,
-1554,Sokos.it,http://www.sokos.it/,Bologna,40127,BO,EMR
-1556,"ABIO bologna onlus",http://www.abiobologna.org/,Bologna,40133,BO,EMR
-1557,"Amici della Terra Ozzano - Home",http://www.amiciterraozzano.it/,"Ozzano dell'Emilia",40064,BO,EMR
-1558,"Banco di SolidarietAA di Bologna",http://www.bancobologna.org/,Bologna,40126,BO,EMR
-1559,HOMEPAGE,http://www.acabas.altervista.org/,Bologna,40138,BO,EMR
-1560,"Home | BandieraGialla - Portale di Informazione Sociale dellEmilia-Romagna",http://www.bandieragialla.it,Bologna,40131,BO,EMR
-1561,"Stella nostra.com",http://www.stellanostra.com,Bologna,40123,BO,EMR
-1563,"AMMI Italia - Associazione Malati MeniAAre Insieme",http://www.ammi-italia.it/,Bologna,40138,BO,EMR
-1564,"Eta Beta",http://www.etabeta.coop,Bologna,40138,BO,EMR
-1565,"Sito stomia.it",http://www.stomia.it,Bologna,40127,BO,EMR
-1566,www.fondazionesantaclelia.it/,http://www.fondazionesantaclelia.it/,"Lizzano in Belvedere",40049,BO,EMR
-1567,". : AMRER Associazione Malati Reumatici Emilia Romagna . .",http://www.amrer.it/,Bologna,40128,BO,EMR
-1568,"UnitAA Pastorale di Castel Maggiore",http://www.upcm.it/,"Castel Maggiore",40013,BO,EMR
-1569,www.andareaveglia.it,http://www.andareaveglia.it/,Bologna,,BO,EMR
-1570,"GRD - Genitori Ragazzi Down - Associazione Bologna",http://www.genitori-ragazzi-down.it,"Castel Maggiore",40013,BO,EMR
-1571,"Documento senza titolo",http://www.betelbo.it/,Bologna,40133,BO,EMR
-1572,vigilfuocobazzano.tk,http://www.vigilfuocobazzano.tk/,Bazzano,40053,BO,EMR
-1573,"Vivere Meglio, conoscendo di piu.",http://www.viveremeglio.org,,,,
-1574,"Bibli-os - Home page",http://www.biblios.it,Bologna,40125,BO,EMR
-1575,"Biblioteca Salaborsa",http://www.bibliotecasalaborsa.it,Bologna,40121,BO,EMR
-1576,"AEBO | Associazione Epilessia Bologna",http://www.aebo.it/,Bologna,,BO,EMR
-1577,ANTR,http://www.antr.it/,Bologna,40138,BO,EMR
-1578,"IBO Italia - Volontari si Diventa",http://www.iboitalia.org,Ferrara,44121,FE,EMR
-1580,www.casagianni.net/,http://www.casagianni.net/Casa_Gianni/Prima_Pagina.html,Bologna,40139,BO,EMR
-1581,"Home - APDIC",http://www.apdic.it/,Bologna,40138,BO,EMR
-1582,"ISTITUTO ORTOPEDICO RIZZOLI |",http://www.ior.it,Bologna,40136,BO,EMR
-1583,"Albero di Cirene",http://www.alberodicirene.org/,Bologna,40138,BO,EMR
-1584,CCSnet,http://www.ccsenet.org,Bologna,40138,BO,EMR
-1585,"CCSVI nella Sclerosi Multipla Onlus | Libera la ricerca su CCSVI e Sclerosi Multipla",http://www.ccsvi-sm.org/,Bologna,40123,BO,EMR
-1586,"ALECRIM - Associazione per attività formative e culturali giovanili - IMOLA",http://www.alecrim.org/,Imola,40026,BO,EMR
-1587,"Benvenuto su Iperbole | Iperbole",http://www.iperbole.bologna.it,Bologna,0,BO,EMR
-1588,"CCA - Centro Culturale Anzolese - Anzola dellEmilia",http://www.centroculturaleanzolese.it/,"Anzola dell'Emilia",40011,BO,EMR
-1589,"Malattia di Alzheimer - Bologna - AIMA",http://www.alzheimer-aimabologna.org,Bologna,40139,BO,EMR
-1590,"Associazioni familiari Alzheimer e Demenze Emilia Romagna",http://www.alzheimeremiliaromagna.org/,Bologna,40139,BO,EMR
-1591,"foreste costa rica",http://www.italia-costarica.org/,Bologna,40126,BO,EMR
-1592,"La Cuccia // Associazione Di Volontariato Protezione Animali",http://www.lacuccia.bo.it,Bologna,40133,BO,EMR
-1593,Larc-en-ciel,http://www.larcenciel.it/,Bologna,40127,BO,EMR
-1594,"Lega Nazionale Dilettanti",http://www.lnd.it,,,,
-1595,"Associazione Mondo Gatto Onlus, Oasi Felina Allende Bologna",http://www.mondogattobologna.org/,Bologna,,BO,EMR
-1596,"Oasi felina Bologna - Italy",http://www.oasifelinabologna.it/,Bologna,,BO,EMR
-1597,"VOLA NEL CUORE onlus - Ass. socio umanitaria a favore del bambino - onlus Ferrara",http://www.volanelcuore.it,Bologna,44122,BO,EMR
-1598,"Associazione Alzheimer Imola",http://www.alzheimerimola.it/,Imola,40026,BO,EMR
-1600,"Guide Alpine Emilia-Romagna",http://www.guidealpine-er.it,,,,
-1601,"Senza il Banco",http://www.senzailbanco.it/Cooperativa%20Senza%20Il%20Banco/CoopSenzailBancoHome.html,Bologna,40122,BO,EMR
-1602,"Club della Musica",http://www.clubdellamusica.com/page/home.html,Bologna,40126,BO,EMR
-1603,"AURA srl | Assistenza domiciliare, ospedaliera e infermieristica persone anziane e ammalati",http://www.auraassistenza.com/profilo.htm,Bologna,40139,BO,EMR
-1604,"Human Rights Nights",http://www.humanrightsnights.org,,,,
-1605,"NOEMA - agenzia di servizi e organizzazione eventi",http://www.noemacongressi.it,Bologna,40124,BO,EMR
-1606,"Bologna Bruxelles A/R",http://www.bolognabruxelles.it/,Bologna,40123,BO,EMR
-1607,"Organi Antichi",http://www.organiantichi.org/,Bologna,40123,BO,EMR
-1608,www.piantiamolamemoria.org,http://www.piantiamolamemoria.org,,,,
-1609,"Comunicamente - Agenzia di Comunicazione Bologna Organizzazione Eventi",http://www.comunicamente.it,Bologna,40137,BO,EMR
-1610,"Associazione Jaya - YOGA SIVANANDA, YOGA KUNDALINI, DANZA BHARATA NATYAM, DANZA MUSICO TERAPIA, JAYA",http://associazionejaya.it/,Bologna,40126,BO,EMR
-1611,"Corsi di Inglese e esami Cambridge ESOL a Bologna allAssociazione Italo Britannica",http://www.italobritannica.com,Bologna,40124,BO,EMR
-1612,www.admb.it,http://www.admb.it/,Bologna,40127,EM,BO
-1613,"Bologna Jazz Festival",http://www.bolognajazzfestival.com/,Bologna,,BO,EMR
-1614,"Associazione Planimetrie Culturali",http://www.planimetrieculturali.org,Bologna,40126,BO,EMR
-1615,AFBologna,http://www.afbologna.it/,Bologna,40123,BO,EMR
-1616,"Assistenza anziani - Bologna - Island Residence",http://www.casadiriposoislandresidence.it/,Marzabotto,40043,BO,EMR
-1617,"Casa protetta - Bologna - Istituto S. Anna",http://www.sannacaterina.net/,Bologna,40138,BO,EMR
-1618,"Assistenza anziani - Case di riposo francescane - Bologna",http://www.casediriposofrancescane.it/,Bologna,40124,BO,EMR
-1619,"La Caracola",http://www.lacaracola.it,Marzabotto,40043,BO,EMR
-1620,"Tavola delle donne",http://www.tavoladelledonne.com,Bologna,40121,BO,EMR
-1621,"Isola che c'è",http://www.lisolache.it,Bologna,40126,BO,EMR
-1622,"A.M.Bo. - Associazione Musicisti di Bologna - Home",http://www.ambologna.it/,Bologna,40139,BO,EMR
-1623,"Universo Interculturale",http://www.universointerculturale.it,Bologna,40126,BO,EMR
-1624,"Assistenza Domiciliare - Bologna - Angeli Azzurri",http://www.assistenzaanzianibologna.com/,Bologna,40138,BO,EMR
-1625,"Associazione Culturale dei Lucani di Bologna",http://www.lucanibo.it,Bologna,40124,BO,EMR
-1626,DiECieVENTiCiNQUE,http://www.diecieventicinque.it,,,,
-1627,"C.E.M.I. Centro Educazione Musicale Infantile",http://www.cemi.bologna.it/,Bologna,40125,BO,EMR
-1628,"Assistenza anziani a domicilio - Bologna - Agenzia AGSA",http://www.assistenzaanzianibologna.net/,Bologna,40138,BO,EMR
-1629,"Assistenza infermieristica - Bologna - ASSISTENZA MALATI BOLOGNA srl",http://www.assistenzamalatibologna.it/,Bologna,40122,BO,EMR
-1630,"Dopolavoro Ferroviario BOLOGNA -",http://www.dlfbo.it/,Bologna,40128,BO,EMR
-1631,"Associazione Musicale Fabio da Bologna",http://www.fabiodabologna.it/index2.html,Bologna,40125,BO,EMR
-1632,"Associazione culturale Il Volo - Bologna",http://www.associazioneculturaleilvolo.it,Bologna,,BO,EMR
-1633,"Circolo della Musica di Bologna |  dedicato ad Andrea e Rossano Baldi",http://www.circolodellamusica.it/,Rastignano,40067,BO,EMR
-1634,"Arpeggi - Associazione Culturale - Arpeggi - Associazione Culturale",http://www.millearpeggi.it/,Bologna,40124,BO,EMR
-1635,"Federbio | il mondo del biologico in Italia",http://www.federbio.it/,Bologna,00198,BO,EMR
-1636,"Clionet Associazione di ricerca storica e promozione culturale | Clionet.it",http://www.clionet.it/,Bologna,40133,BO,EMR
-1637,"Fondazione Golinelli | Per una societAA della conoscenza",http://www.fondazionegolinelli.it/,Bologna,,BO,EMR
-1638,"Mondo Donna Onlus",http://www.mondodonna-onlus.it,Bologna,40126,BO,EMR
-1639,"HANDImatica 2014 | Mostra / Convegno nazionale - Tecnologie ICT e disabilitAA - X edizione",http://www.handimatica.com/,Bologna,,BO,EMR
-1640,"Giappone allInfinito! - NipPop",http://www.nippop.it,Bologna,40124,BO,EMR
-1641,www.associazionemusicaper.it/,http://www.associazionemusicaper.it/,Bologna,40127,BO,EMR
-1642,"Fare Lavoro",http://www.farelavoro.it/,"Castel Maggiore",40013,BO,EMR
-1643,"guardie ecologiche ambientali volontarie",http://www.federgev.it,Bologna,40131,BO,EMR
-1644,"FITeL Emilia Romagna - FITeL Emilia Romagna",http://www.fitelemiliaromagna.it/,Bologna,40122,BO,EMR
-1645,"Focus D - Associazione di Promozione Sociale -",http://www.focusd.org/,Imola,40026,BO,EMR
-1646,"Forma - Azione In Rete | Formazione, cultura e servizi per aziende, giovani, adulti e soggetti svant",http://www.forma-azioneinrete.it/,Bologna,40128,BO,EMR
-1647,"Galleria dello Scienziato Dilettante - AttivitA diverse",http://www.funsci.com/texts/index_it.htm,Pianoro,40065,BO,EMR
-1648,girorotondo,http://www.girorotondo.it/,Bologna,40141,BO,EMR
-1649,Harambe,http://www.harambe.it/,Bologna,40126,BO,EMR
-1650,"ideaFamiglia associazione di promozione sociale, senza fini di lucro, che realizza azioni e a",http://www.ideafamiglia.it/,Bologna,40126,BO,EMR
-1651,"Centro Sociale Culturale Ricreativo Annalena Tonelli ***",http://www.centroannalenatonelli.it/,"San Lazzaro di Savena",40068,BO,EMR
-1652,"E-R Ambiente",http://ambiente.regione.emilia-romagna.it,Bologna,40127,BO,EMR
-1653,"Psy Care ",http://www.psy-care.org/,Bologna,40125,BO,EMR
-1654,www.cometaemiliaromagna.it,http://www.cometaemiliaromagna.it,Bologna,40138,BO,EMR
-1655,"Nuova pagina 1",http://dipsa.unibo.it/umiweb/umi/,Bologna,40127,BO,EMR
-1656,"Scomunicati - Comunicazione creativa e consapevole",http://www.scomunicati.org/,Bologna,40125,BO,EMR
-1657,"ACLI Emilia-Romagna - Home Page",http://www.acliemiliaromagna.it/,Bologna,40122,BO,EMR
-1658,"Comune di Monzuno",http://www.comune.monzuno.bologna.it,Monzuno,40036,BO,EMR
-1659,"aihip ASSOCIAZIONE INTERNAZIONALE HAITI INTEGRITY PROJECT",http://www.aihip.org/,Bologna,40126,BO,EMR
-1660,Cuberdon,http://www.cuberdon.org/,Imola,,BO,EMR
-1661,"Associazione Forum",http://www.associazioneforum.com/,"Castel San Pietro Terme",40024,BO,EMR
-1662,"Loto Onlus - Uniti contro il tumore ovarico",http://www.lotonlus.org,Bologna,40131,BO,EMR
-1663,"SO.CREM Bologna",http://www.socrem.bologna.it/,Bologna,40126,BO,EMR
-1664,"A.P.E.Onlus Bologna",http://www.apeonlus.net,Bologna,40133,BO,EMR
-1665,"Fondazione Gramsci Emilia Romagna",http://www.iger.org,Bologna,40126,BO,EMR
-1666,"ComunitA Marchigiani Bologna",http://www.marchigianibologna.it/,"Casalecchio di Reno",40033,BO,EMR
-1667,"FRAME - Home",http://www.associazioneframe.it/,Bologna,40122,BO,EMR
-1668,InSalute,http://www.insalute.info/,Imola,40026,BO,EMR
-1669,"Architetti di Strada - Home Page",http://www.architettidistrada.it/,Bologna,40133,BO,EMR
-1670,"URCA Consiglio Provinciale Bologna",http://www.urca.it/consiglio-provinciale-bologna/,Bologna,40100,BO,EMR
-1671,www.vitenuove.org,http://www.vitenuove.org/,Bologna,40123,BO,EMR
-1672,"Associazione Microimpresa",http://www.microimpresa.org/,Bologna,40100,BO,EMR
-1673,"La Mente in Gioco",http://www.lamenteingioco.it/,"San Lazzaro di Savena",40068,BO,EMR
-1674,"UBN: associazione per la conoscenza della natura e la difesa dellambiente",http://www.naturalisti-ubn.it,,,,
-1675,UmanaMente,http://www.associazioneumanamente.org/,Bologna,40128,BO,EMR
-1676,"AS.SO.GRAF. - Associazione Culturale di Sociologia e Grafologia",http://www.assograf.it/,Bologna,40138,BO,EMR
-1677,"Bolognazoofila - sito ufficiale",http://www.bolognazoofila.org,"Calderara di Reno",40012,BO,EMR
-1678,"Nexus Emilia Romagna",http://www.nexusemiliaromagna.org,Bologna,40122,BO,EMR
-1679,asia,http://www.asia.it,Bologna,40121,BO,EMR
-1680,"Biblioteca Vivente Bologna",http://www.bvbo.it/,Bologna,40134,BO,EMR
-1681,"Oaser | Ordine degli Assistenti Sociali dell&#039;Emilia Romagna",http://www.oaser.it,Bologna,40122,BO,EMR
-1682,"Caleidos - Associazione per la promozione del benessere psico-sociale",http://www.caleidos.bo.it/,"Castel San Pietro Terme",40024,BO,EMR
-1683,"Psicologi Per I Popoli - Emilia Romagna",http://www.psicopopoli-er.it,Bologna,40129,BO,EMR
-1684,"ComunitA della Missione di Don Bosco",http://www.associazionecmb.it/,Bologna,40128,BO,EMR
-1685,"Amici del Museo Civico Archeologico di Bologna - Esagono",http://www.amicimuseo-esagono.it/,Bologna,40124,BO,EMR
-1686,"Centro di Danza del Maestro Buratto",http://www.burattodanza.com/,"Zola Predosa",40069,BO,EMR
-1687,Caibo,http://www.caibo.it/,Bologna,40128,BO,EMR
-1688,"Canoa Club Bologna",http://www.canoaclubbologna.it/,"Casalecchio di Reno",40033,BO,EMR
-1689,"Circolo La Fattoria",http://www.circolofattoria.it/,Bologna,40127,BO,EMR
-1690,"Polisportiva CSI Casalecchio",http://www.csicasalecchio.it/,"Casalecchio di Reno",40033,BO,EMR
-1691,"Scuola di Danza",http://www.esserdanzabologna.it/scuola-di-danza,"Casalecchio di Reno",40033,BO,EMR
-1692,"Francesco Francia Pallacanestro - Zola Predosa - Home",http://www.francescofranciabasket.it/,"Zola Predosa",40069,BO,EMR
-1693,":: Ghepard ::",http://www.ghepardcalcio.it/,Bologna,40134,BO,EMR
-1694,"Ass.Ginn. Arcobaleno - Official Web Site",http://www.ginnasticarcobaleno.it/,Dozza,40060,BO,EMR
-1695,"Gruppo Sportivo Riale Zola Predosa (BO)",http://www.gsriale.it/,"Zola Predosa",40069,BO,EMR
-1696,"I cavalli del Reno",http://www.icavallidelrenobologna.it/,Bologna,40133,BO,EMR
-1697,KicAAcAA,http://www.kicece.it/,Bologna,40133,BO,EMR
-1698,"Home - Marzabotto2000",http://www.marzabotto2000.com/,Marzabotto,40043,BO,EMR
-1699,"Nuovo Nuoto",http://www.nuovonuoto.it/,Bologna,40132,BO,EMR
-1700,"Ozzanese Calcio",http://www.ozzanesecalcio.com/inizio.htm,"Ozzano dell'Emilia",40064,BO,EMR
-1701,"Peace Games Uisp - Home",http://www.peacegamesuisp.org/,Bologna,40121,BO,EMR
-1702,"Pedale Bolognese",http://www.pedalebolognese.it/,Bologna,40138,BO,EMR
-1703,"Polisportiva Zola",http://www.polisportivazola.it/,"Zola Predosa",40069,BO,EMR
-1704,"S. Biagio di Casalecchio",http://www.san-biagio.it/,"Casalecchio di Reno",40033,BO,EMR
-1705,"BSC SASSO MARCONI",http://www.sassomarconibaseball.it/,"Sasso Marconi",40037,BO,EMR
-1706,"Associazione Sportiva Dilettantistica Shakti",http://www.shakti-ballando.com/,Marzabotto,40055,BO,EMR
-1707,"Slow Food Bologna",http://www.slowfoodbologna.it/,,,,
-1708,"Gruppo Sportivo ENS di Bologna",http://www.sportdeafbo.com/,Bologna,40100,BO,EMR
-1709,"ASSOCIAZIONE SUPERBASS - HOME",http://www.superbass.it/,Bologna,40133,BO,EMR
-1710,"VILLANOVA S.L. VOLLEY",http://www.villanovavolley.com/,Castenaso,40055,BO,EMR
-1711,"Il Canile di Budrio - CANILE Intercomunale dei Comuni di Budrio, Molinella, Medicina e Castenaso",http://ilcaniledibudrio.altervista.org/,Budrio,40054,BO,EMR
-1712,AAE,http://www.aaeweb.net,,,,
-1713,"Animal Liberation",http://www.animalliberation.it,Bologna,47900,BO,EMR
-1714,"Primo Piano &mdash; Assemblea legislativa. Regione Emilia-Romagna",http://www.assemblea.emr.it,Bologna,40121,BO,EMR
-1715,"Associazione Utenti Auto » AUA",http://www.aua.it,,,,
-1716,"Canigattienoi - Home Page",http://www.canigattienoi.cittametropolitana.bo.it/,Bologna,40126,BO,EMR
-1717,"Centro Tutela e Ricerca Fauna Esotica e Selvatica - Monte Adone",http://www.centrotutelafauna.org,"Sasso Marconi",40037,BO,EMR
-1718,"- Una cittA per gli archivi",http://www.cittadegliarchivi.it,,,,
-1719,"Gattile San Lazzaro",http://www.compagniadeglianimali.org,,,,
-1720,cupsit,http://www.cupsit.it,Bologna,40121,BO,EMR
-1721,"Enpa Bologna",http://www.enpabologna.org/,Bologna,40131,BO,EMR
-1722,"eaHome - Essere Animali | Diverse specie un solo pianeta",http://www.essereanimali.org,,,,
-1723,"Oasi felina - bologna ozzano - gatti - Gattile - associazione volontariato ONLUS",http://www.fratellidizampa.it/,,,,
-1724,"Sito web del Gattile Lo Stregatto",http://www.gattilecalderara.com/,,,,
-1725,"Il Rifugio del Cane di Ponte Ronca",http://www.ilrifugiodelcanediponteronca.it/,,,,
-1726,"Lega antivivisezionista Emilia Romagna",http://www.laer.org/Index.htm,,,,
-1727,"Montagnola Bologna",http://www.montagnolabologna.it/,Bologna,40125,BO,EMR
-1728,SALTinBANCO,http://www.saltinbanco.it,,,,
-1729,"Siamo tutti pedoni - Campagna per la sicurezza dei pedoni e degli utenti deboli della strada - Siamo",http://www.siamotuttipedoni.it,,,,
-1730,"Un Animale per Amico - canile di marzabotto ( bologna )",http://www.unanimaleperamico.it,,,,
-1731,"Unasam | Unione Nazionale Delle Associazioni Per La Salute Mentale",http://www.unasam.it/,Bologna,40123,BO,EMR
-1732,Vittimologia,http://www.vittimologia.it/vittimologia/set_attivita.htm,,,,
-1733,"Prima pagina AICQ Emilia Romagna",http://www.aicqer.it,Bologna,40129,BO,EMR
-1734,"Compagnia delle Opere Bologna",http://www.cdobologna.it,Bologna,40138,BO,EMR
-1735,"CIOFS - Formazione Professionale - Emilia-Romagna",http://www.ciofsbo.org,Bologna,40128,BO,EMR
-1736,"CONFABITARE - associazione proprietari immobiliari",http://www.confabitare.com,Bologna,40122,BO,EMR
-1737,"Associazione Fascia Boscata",http://www.fasciaboscata.it,Bologna,40127,BO,EMR
-1738,"Benvenuti nelle pagine delle GEV di Bologna",http://www.gevbologna.org,"Castel di Casio",24123,BO,EMR
-1739,"Associazione Nazionale Giacche Verdi - Raggruppamento Emilia-Romagna",http://www.giaccheverdi.it/emiliaromagna/,,,,
-1740,"La Città del Sole",http://www.lacitta-delsole.org,Bologna,40131,BO,EMR
-1741,"Landeres, paesaggi resilienti",http://www.landeres.com,"Casalecchio di Reno",40033,BO,EMR
-1742,"Maneggio Bologna Associazione Turismo Equestre Parco Cavaioni",http://www.maneggiocavaioni.com,Bologna,,BO,EMR
-1743,"Salus basket | SocietA di pallacanestro di Bologna",http://www.salusbasket.it,Bologna,40129,BO,EMR
-1744,"Circolo Aziendale Ravone",https://circoloravone.wordpress.com,Bologna,40133,BO,EMR
-1745,musart.altervista.org,http://musart.altervista.org,Bologna,40122,BO,EMR
-1746,"AECA - Associazione Emiliano Romagnola Centri Autonomi di formazione professionale",http://www.aeca.it,Bologna,40128,BO,EMR
-1747,"Associazioni Provinciali Invalidi Civili e Cittadini Anziani",http://www.apici.org,,,,
-1748,ASSIEMI,http://www.assiemi.it,Bologna,40122,BO,EMR
-1749,"Battito Dali...a - home",http://www.battitodalia.it,Pianoro,40065,BO,EMR
-1750,"Flashmusica - Il portale della musica a Bologna",http://www.flashmusica.it,Bologna,40124,BO,EMR
-1751,"Fraternal Compagnia | âAAteatro AA libertA e purezza, AA Fantasia (Franco Enriquez)",http://www.fraternalcompagnia.it,Bologna,40139,BO,EMR
-1752,"Homepage - Genus Bononiae Musei nella CittAA. Un percorso culturale, artistico e museale nel centro ",http://www.genusbononiae.it,Bologna,40121,BO,EMR
-1753,"Home - Associazione I Fiori Musicali - Bologna",http://www.ifiorimusicali.jimdo.com,Bologna,40128,BO,EMR
-1754,"Home - ilcenacolo-operaconcerts JimdoPage!",http://www.ilcenacolo-operaconcert.jimdo.com/,,,,
-1755,"Home | Istituzione Bologna Musei | Iperbole",http://www.museibologna.it/,Bologna,40121,BO,EMR
-1756,"MusicArti - Corso Scuola di Canto e Musica a Bologna",http://www.musicarti.it,Bologna,02008,BO,EMR
-1757,"Note Legali",http://www.notelegali.it,Bologna,40137,BO,EMR
-1758,"La nostra storia - L OFFICINA di SOSTEGNO",http://www.odsbologna.it,Bologna,40127,BO,EMR
-1759,"Scuola e corsi musica Milano, Bologna, La Spezia - RICORDI MUSIC SCHOOL",http://www.ricordimusicschool.com,Bologna,20821,BO,EMR
-1760,"Il Saggiatore musicale : Home",http://www.saggiatoremusicale.it,Bologna,40123,BO,EMR
+codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
+23,"E-R Cultura",http://cultura.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+27,"La Musica Interna",http://www.lamusicainterna.it,Bologna,40126,BO,EMR,"Via Altabella, 11 "
+29,"Sito ufficiale della Provincia di Ravenna	",http://www.provincia.ra.it,Ravenna,48121,RA,EMR,
+31,"Coro Santo Spirito",http://www.corosantospirito.it/,Ferrara,44100,FE,EMR,
+32,"La homepage del CORO TRE PINI di Padova",http://www.corotrepini.it,Padova,35123,PD,EMR,
+38,"Provincia di Reggio Emilia",http://www.provincia.re.it,"Reggio Emilia",42121,RE,EMR,
+70,"CSI Bologna - Centro Sportivo Italiano Comitato Provinciale di Bologna",http://www.csibologna.it/,Bologna,40132,BO,EMR,
+71,"E-R Il portale della Regione Emilia-Romagna",http://www.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+81,"E-R Istituto per i beni artistici culturali e naturali",http://ibc.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+90,CvPuntaMarina,http://www.cvpuntamarina.com/,Ravenna,48122,RA,EMR,
+111,"ISTITUTO PER I BENI ARTISTICI, CULTURALI E NATURALI",http://rivista.ibc.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+112,"E-R Scuola",http://scuola.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+114,Danzaurbana,http://www.danzaurbana.it,Bologna,40126,BO,EMR,
+115,"E-R Sociale",http://sociale.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+125,Assonanza,http://www.assonanza.it,Mirandola,41037,MO,EMR,"Via E. Fermi 3"
+132,ATER,http://www.ater.emr.it,Modena,41124,MO,EMR,
+134,Divefun,http://www.divefun.it/,Dozza,40060,BO,EMR,
+276,Informagiovani,http://www.informagiovani.fe.it,Ferrara,44121,FE,EMR,
+351,"Associazione Nazionale Maestri di Ballo",http://www.anmb.net,Modena,41126,MO,EMR,"Via P. Ascani, 44"
+395,"Teatro Necessario",http://www.teatronecessario.it/,Colorno,43052,PR,EMR,
+399,"Teatro Nucleo | Centro Produzione e ricerca teatrale",http://www.teatronucleo.org,Ferrara,44123,FE,EMR,
+501,"Flauto Magico",http://www.flautomagico.it,Formigine,41043,MO,EMR,"Via Pio Donati 12"
+526,"Ferrara Musica: Le Ultime NovitA",http://www.ferraramusica.it/,Ferrara,44121,FE,EMR,"Corso Giovecca, 38                                -                                 44121 Ferrara (F"
+544,"Comune di Rimini",http://www.comune.rimini.it,Rimini,47921,RN,EMR,
+546,"Rete Civica Monet",http://www.comune.modena.it,Modena,41121,MO,EMR,
+553,"Ausilioteca di Bologna",http://www.ausilioteca.org/,Bologna,40123,BO,EMR,
+560,"Agenzia Ambiente e Cultura di Bologna",http://agenzia.8m.com/,Monghidoro,40063,BO,EMR,
+565,"Cefa Onlus",http://www.cefaonlus.it,Bologna,40122,BO,EMR,"Via Lame 118 "
+567,"Accaparlante e Centro Documentazione Handicap",http://www.accaparlante.it/,Bologna,40127,BO,EMR,"via Pirandello 24"
+570,"ASSOCIAZIONE AIP",http://www.associazioneaip.org,Bologna,40121,BO,EMR,
+576,"AIAS Bologna Onlus",http://www.aiasbo.it/,Bologna,40139,BO,EMR,"Via Ferrara 32"
+578,"il martin pescatore - Home",http://www.ilmartinpescatore.org,Argelato,40050,BO,EMR,"Via B. Bonfiglioli, 13"
+581,"EMI Editrice Missionaria Italiana, vendita libri online, ebook, libri religiosi, libri missionari, e",http://www.emi.it,Bologna,40128,BO,EMR,
+583,"Cooperativa Sociale SocietA Dolce |",http://www.societadolce.it/,Bologna,40133,BO,EMR,"Via Cristina da Pizzano 5 "
+584,"AIFO - Oltre la lebbra, per i diritti degli ultimi. Dal 1961. - AIFO",http://www.aifo.it/,Bologna,40135,BO,EMR,
+585,"SOGNAMONDO - Vacanze naturali alternative con cucina biologica",http://www.sognamondo.it,"Casalecchio di Reno",40033,BO,EMR,"via Guinizelli 4"
+586,"Cooperativa sociale AAncora",http://www.ancoraservizi.it,Bologna,40127,BO,EMR,"Via Corrado Masetti 5"
+587,"ASSOCIAZIONE NAZIONALE PUBBLICHE ASSISTENZE - Comitato Regionale Emilia-Romagna",http://www.anpasemiliaromagna.org/,Bologna,40131,BO,EMR,
+591,"Cooperativa Quinto Angolo - Cooperativa Quinto angolo",http://cooperativaquintoangolo.jimdo.com/,Bologna,40124,BO,EMR,"Viale Gozzadini n. 21"
+592,Energym,http://energym.info/site/,Bologna,40138,BO,EMR,
+593,"Manutenzione e Gestione Verde Pubblico e Privato in Bologna e provincia",http://ilbaobab.com/,Bologna,40132,BO,EMR,"Via Olmetola 16,  "
+594,"Global Aid | Working for better health",http://www.globalaid.it,"Granarolo dell'Emilia",40057,BO,EMR,
+597,"Home Page - Cim - Cooperativa di solidarietA sociale",http://www.cimcoop.it/,Bologna,40132,BO,EMR,
+599,"Teatro dell'Argine",http://teatrodellargine.org/,"San Lazzaro di Savena",40068,BO,EMR,"via Rimembranze, 26"
+601,"il Mosaico Cooperativa Sociale e Culturale",http://www.ilmosaicocooperativa.com/,Mordano,56512,BO,EMR,"Via Lume, 1905"
+602,"SIC - Consorzio di Iniziative Sociali",http://www.consorziosic.it/,Bologna,40138,BO,EMR,"Via Scipione dal Ferro 4 "
+603,"Abantu - Cooperativa sociale",http://www.coopabantu.it/,"Sasso Marconi",40037,BO,EMR,
+604,"Cooperativa Sociale Oasis",http://www.coopoasis.com/,Bologna,40121,BO,EMR,
+605,"Istituto Ramazzini - Centro di Ricerca Sul Cancro e le Malattie Ambientali",http://www.ramazzini.org/,Bologna,40138,BO,EMR,"Via Libia 13a"
+606,altercoop,http://www.altercoop.it/,Bologna,40138,BO,EMR,"via del Fonditore 16"
+609,Scoiattolo,http://www.scoiattolo.org/,"Sasso Marconi",40037,BO,EMR,
+610,"Cooperativa Sociale Anima",http://www.coopsocialeanima.it/,"Sala Bolognese",40010,BO,EMR,
+611,Seacoop,http://www.seacoop.coop,Imola,40026,BO,EMR,
+612,"In Formazione - organizzazione corsi, crescita personale, progetti formativi, cultura e benessere a ",http://www.in-formazione.org/,Medicina,40059,BO,EMR,"Via Marconi, 7"
+613,"Sollievo - SocietA Cooperativa Sociale - Homepage",http://www.coopsollievo.it/,Bologna,40138,BO,EMR,
+615,Coopada,http://www.coopada.it/,Bologna,40122,BO,EMR,
+616,Copaps,http://www.copaps.it/,"Sasso Marconi",40037,BO,EMR,"Via Castello, 59   "
+617,"Cooperativa Agriverde",http://www.coopagriverde.it,"San Lazzaro di Savena",40068,BO,EMR,
+618,"Insieme per l'integrazione",http://www.insiemeper.bo.it/,Bologna,40138,BO,EMR,
+619,"Croce Servizi - Cooperativa Sociale - Home",http://www.croceservizi.com/,"Casalecchio di Reno",40033,BO,EMR,
+620,"SocietA Aperta",http://www.societaaperta.info/,Bologna,40133,BO,EMR,"via Cristina da Pizzano 5"
+621,"Inventatempo InventaTempo Coop. Sociale ONLUS di San Giovanni in Persiceto",http://www.inventatempo.it/,"San Giovanni in Persiceto",40017,BO,EMR,
+622,"Andy Cooper, Societa Cooperativa Sociale",http://www.andycooper.it,Bologna,40137,BO,EMR,
+623,Croceverde,http://www.croceverdeer.com,Bologna,40138,BO,EMR,"Via Antonio Canova 18 "
+624,Arcoris,http://www.arcoiriscoop.it/,"Pieve di Cento",40066,BO,EMR,"Via I Maggio, 15"
+625,"Solco Imola | Consorzio di cooperative sociali Imola",http://www.solcoimola.it/,Imola,40026,BO,EMR,"Via Cairoli,60"
+626,"Csapsa | Centro Studi Analisi di Psicologia e Sociologia Applicate",http://www.csapsa.it/1/,Bologna,40126,BO,EMR,"Via Marsala 30 "
+627,"Home Page - AssCoop",http://www.ass-coop.it,Bologna,40121,BO,EMR,"Via Galliera 11 "
+629,Coopas,http://www.coopas.it/,"Sasso Marconi",40037,BO,EMR,"Via Cartiera 146"
+630,solcoinsieme,http://www.solcoinsieme.coop/,"Zola Predosa",40069,BO,EMR,"Via delle Officine, 38"
+631,"Centro di Riabilitazione AXIA",http://www.coopaxia.it/index.php,Bologna,40133,BO,EMR,"Via Grieco 8  "
+632,"Inserisci qua un titolo in caso che la pagina non abbia un titolo",http://www.solidarietafamiliare.it/home_page.asp,Bologna,40123,BO,EMR,
+633,"COOPERATIVA DAI CROCICCHI",http://www.daicrocicchi.coop/,"Zola Predosa",40069,BO,EMR,"Via Guerrazzi, 14"
+635,"Teatro delle Temperie",http://www.teatrodelletemperie.com/site/,Crespellano,40056,BO,EMR,
+636,Ecotronic,http://www.ecotronic.it,Castenaso,40055,BO,EMR,
+639,"Prima pagina",http://www.educarecrescere.it,Bologna,40137,BO,EMR,
+640,"Benvenuto nella nostra casa di accoglienza",http://www.beataverginedellegrazie.it/,Bologna,40137,BO,EMR,"via Beniamino Gigli, 26		"
+641,Home,http://www.teatrodelpratello.it,Bologna,40122,BO,EMR,"via del Pratello 23"
+643,"Home | Cadiai",http://www.cadiai.it/,Bologna,40121,BO,EMR,"Via Boldrini 8 "
+644,"I Quattro Castelli Cooperativa Sociale",http://www.iquattrocastelli.it,Dozza,40060,BO,EMR,
+645,SAMMARTINI,http://www.cooperativasammartini.it/,Crevalcore,40014,BO,EMR,"Via Argini Nord, 4310"
+646,"Benvenuto su Faremondi | Faremondi",http://www.faremondi.it/,Bologna,40129,BO,EMR,
+647,"Cooperativa Sociale Alveare",http://www.cooperativasocialealveare.it,"Castel Maggiore",40013,BO,EMR,
+648,"Cooperativa Sociale Campeggio",http://WWW.COOPERATIVASOCIALEMONGHIDORO.COM,Monghidoro,40063,BO,EMR,
+649,FARLOTTINE,http://www.farlottine.it,Bologna,40141,BO,EMR,
+650,www.coopfanin.it/,http://www.coopfanin.it/,"San Giovanni in Persiceto",40017,BO,EMR,
+651,"SocietA Cooperativa Sociale it2",http://www.it2.it,"San Lazzaro di Savena",40068,BO,EMR,
+652,"Birrificio Artigianale Vecchia Orsa | Il retrogusto sociale della birra",http://www.fattoriabilita.it,"San Giovanni in Persiceto",40017,BO,EMR,
+654,"cooperativa sociale Giovani Rilegatori",http://www.giovanirilegatori.it/,Imola,40026,BO,EMR,"via malatesta 37"
+656,"Italiana Assistenza | Assistenza anziani a Bologna, infermieri e badanti",http://www.italianaassistenza.it/,Bologna,40137,BO,EMR,
+659,"Cooperativa sociale La CittA Verde - Home page",http://www.lacittaverde.coop/,Crevalcore,40014,BO,EMR,"Via Riga Bassa 1134"
+660,"Virtual Coop Cooperativa Sociale ONLUS",http://www.virtualcoop.net,Bologna,40129,BO,EMR,"Via della Casa Buia, 4"
+661,Volabo,http://www.volabo.it/,Bologna,40138,BO,EMR,"Via Manzoni 18"
+662,"Libertas Assistenza",http://www.libertasassistenza.it/,"Zola Predosa",40069,BO,EMR,"Via Capuzzi"
+664,"Cooperativa Sociale Zerocento Da 25 anni a Faenza e in tutta la provincia di Ravenna (ma non solo) i",http://www.zerocento.coop/,Faenza,48018,RA,EMR,"Viale delle Ceramiche n.43"
+666,"Open Group | Il sito internet di Open Group Cooperativa Sociale",http://www.opengroup.eu/,Bologna,40126,BO,EMR,
+667,L'AltroCaffe,http://www.laltrocaffe.it,Imola,40026,BO,EMR,"piazzale Vittime dei Lager Nazisti 5"
+668,"per Luca - cooperativa sociale",http://www.perluca.it/,Bologna,40131,BO,EMR,
+669,"La Strada",http://www.cooplastrada.it/siamo.html,Bologna,40129,BO,EMR,
+671,SaYes,http://sayes.volabo.it,Bologna,40138,BO,EMR,
+674,"Pubblica Assistenza CittA di Bologna",http://www.pacb.it,Bologna,40138,BO,EMR,"Via Scandellara n. 54 "
+677,"Gruppo Yoda / campi di volontariato internazionale",http://www.gruppoyoda.org,Bologna,40122,BO,EMR,"via Pietralata 73"
+678,"Tutela animali bologna",http://www.tutelanimalibologna.it,Bologna,40123,BO,EMR,"Via Santa Caterina 13 "
+679,GVC,http://www.gvc-italia.org,Bologna,40136,BO,EMR,
+680,"BolognAIL Onlus",http://www.ailbologna.it,Bologna,40138,BO,EMR,"Via Massarenti 9 "
+684,"Arci Bologna",http://www.arcibologna.it,Bologna,40131,BO,EMR,"Via della Beverara 6"
+685,"BolognAltruista - Progetti di volontariato a Bologna - IO CI SONO",http://www.bolognaltruista.org,Bologna,40136,BO,EMR,"Viale Panzacchi, 23"
+687,"Aprimondo Centro Poggeschi",http://aprimondo.centropoggeschi.org/,Bologna,,BO,EMR,
+692,"Fidas ADVS Bologna",http://www.fidas-advs-bologna.org,Bologna,40131,BO,EMR,
+693,"Collegio dei Periti Industriali della Provincia di Bologna",http://www.perindbo.org,Dozza,40060,BO,EMR,
+694,"E-R Agenzia regionale di protezione civile",http://protezionecivile.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+695,"Associazione per i bambini colpiti da malattie del sistema nervoso centrale e/o tumori solidi - Bimb",http://www.bimbotu.it/,Bologna,40139,BO,EMR,"via Altura, 3 "
+696,"Africa e Mediterraneo",http://www.africaemediterraneo.it/,"Sasso Marconi",40037,BO,EMR,
+697,"Home Page | Save the Children Italia Onlus",http://www.savethechildren.it,Roma,185,RM,LAZ,
+698,"Flash Giovani - Il portale per i giovani a Bologna",http://www.flashgiovani.it,Bologna,40124,BO,EMR,"Piazza Maggiore 6 "
+699,"Piazza Grande Associazione fondata dalle persone senza dimora di Bologna",http://www.piazzagrande.it/,Bologna,40128,BO,EMR,
+701,"Agevolando- Associazione no-profit",http://www.agevolando.org/,Bologna,40139,BO,EMR,"Via Padova 2 "
+705,"Bologna Welcome - Sito turistico ufficiale",http://www.bolognawelcome.com,Bologna,40124,BO,EMR,"Via Triumvirato, 84 "
+706,"Polisportiva Paolo Poggi AICS",http://www.polisportivapaolopoggi.it,"San Lazzaro di Savena",40068,BO,EMR,
+707,"U.V.a. P.Ass.A. | Unione Volontari Al Pratello ASSociazione d&#039;Aiuto",http://www.uvapassa.org,Bologna,40138,BO,EMR,
+708,"Aiasport Onlus | AttivitA equestre per disabili",http://www.aiasport.it/,"San Lazzaro di Savena",40068,BO,EMR,"Via Colunga 51"
+709,"AISM Bologna",http://www.aism.bo.it/,Bologna,40128,BO,EMR,
+710,"La Venenta | Associazione onlus laica ispirata ai valori del cristianesimo",http://www.venenta.com/,Argelato,40050,BO,EMR,
+713,"Protezione Civile Bologna",http://www.protezionecivile.bo.it,Bologna,,BO,EMR,"Via Della selva Pescarola,26"
+716,"Associazione di Promozione Sociale",http://www.al3teste.com/,Bentivoglio,40010,BO,EMR,
+719,"Antoniano Bologna - Antoniano.it",http://www.antoniano.it,Bologna,40125,BO,EMR,"Via G. Guinizelli, 3                                                           "
+720,"Home || YFC Italia",http://www.yfcitalia.org/,Bologna,40138,BO,EMR,
+722,"Associazione Centotrecento",http://www.centotrecento.it/,Bologna,40125,BO,EMR,"via Mascarella 9"
+724,"Policlinico S.Orsola-Malpighi",http://www.aosp.bo.it,Bologna,40138,BO,EMR,"Via Albertoni 15"
+725,"Associazione Margherita - Benvenuti",http://www.associazionemargherita.org/,Bologna,40123,BO,EMR,"Via Urbana, 5"
+726,"Legambiente Bologna - Home",http://www.legambientebologna.org/,Bologna,40121,BO,EMR,"piazza XX settembre 7"
+729,"Il progetto Alice | Studi di Genere, Educazione e Ricerca",https://ilprogettoalice.wordpress.com/,Bologna,40122,BO,EMR,
+730,"Home - Centro Antartide - Centro Studi e Comunicazione Ambientale",http://www.centroantartide.it/,Bologna,40125,BO,EMR,"Via Rizzoli 3"
+736,"Bimbingamba - Associazione Alex Zanardi Bimbingamaba",http://www.bimbingamba.com/,Budrio,40054,BO,EMR,
+737,"Provincia Forli",http://www.provincia.fc.it,Forli,47121,FC,EMR,
+738,"Fondazione Dopo di Noi Bologna onlus",http://www.dopodinoi.org/,Bologna,40129,BO,EMR,"via Tiarini 22 "
+750,"CafAA de la Paix",http://www.cafedelapaixbologna.it,Bologna,40123,BO,EMR,"Via Collegio di Spagna 5b"
+752,"Casa Santa Chiara | Casa Santa Chiara",http://www.casasantachiara.it/,Bologna,40123,BO,EMR,
+753,"Cassero LGBT Center",http://www.cassero.it/,Bologna,40121,BO,EMR,
+754,"Istituto dei Ciechi Francesco Cavazza",http://www.cavazza.it/,Bologna,40124,BO,EMR,"Via Castiglione, 71 "
+756,"Centro Amilcar Cabral",http://www.centrocabral.com/,Bologna,40136,BO,EMR,"Via San Mamolo, 24 "
+757,"Homepage | Centro San Domenico",http://www.centrosandomenico.it,Bologna,40124,BO,EMR,"Piazza San Domenico 12"
+762,"Circolo Fotografico S. Viola Organizza Corsi di fotografia Digitale ed Analogica a Bologna..vieni a ",http://www.circolofotograficosviola.it,Bologna,40133,BO,EMR,
+763,"Circolo Tennis Bologna",http://www.circolotennisbologna.com/,Bologna,40136,BO,EMR,"viale R. Cristiani, 2 "
+780,"Circolo Scherma Imola",http://www.schermaimola.it,Imola,40026,BO,EMR,"Via Ercolani, 16"
+795,"Associazione Musicale Dozzese",http://www.musicaindozza.it,Dozza,40060,BO,EMR,"Via G. Brodolini,11"
+797,"Selene centro studi | A Bologna, dal 1990 un centro per la formazione lo studio e la diffusione dell",http://www.selenecentrostudi.it,Bologna,40141,BO,EMR,"Via della Battaglia 9 "
+801,AICS,http://www.aicser.altervista.org,Bologna,40132,BO,EMR,
+807,"Settima Diminuita",http://www.settimadiminuita.it,Bentivoglio,40010,BO,EMR,
+818,"Coro CAT Gardeccia",http://www.catgardeccia.it,"San Giovanni in Persiceto",40017,BO,EMR,"Piazza Garibaldi, 2 "
+820,"Polisportiva Antal Pallavicini | via Marco Emilio Lepido 194/10, Bologna",http://www.antalpallavicini.org,Bologna,40132,BO,EMR,
+821,"Centro ""Gian Paolo Dore""",http://www.centrogpdore.it,Bologna,40126,BO,EMR,"Via del Monte, 5"
+822,"Associazione Animalista per il salvataggio degli Orsi della Luna dai lager della bile",http://www.orsicinesi.org,Bologna,40122,BO,EMR,
+827,"Centro Sociale Zolino",http://www.centrosocialezolino.it,Imola,40026,BO,EMR,"Via Tinti, 1 "
+830,"Associazione Culturale Panicarte",http://www.panicarte.com,Bologna,40133,BO,EMR,
+834,Home,http://www.passopasso.it/,"Sasso Marconi",40037,BO,EMR,"Via Vittorio Veneto"
+836,"Cittadinanzattiva Emilia-Romagna | Sito gestito dall&#039;associazione Cittadinanza Responsabile",http://www.cittadinanzattiva-er.it,Bologna,40134,BO,EMR,
+841,"Fogolar Bologna - Ultime Notizie dal Fogolar",http://www.fogolarbologna.it,Bologna,40125,BO,EMR,
+845,"www.pgsima.it | polisportiva bologna",http://www.pgsima.it,Bologna,40128,BO,EMR,"Via Jacopo della Quercia 5"
+846,"Associazione ComunitA Sociale | ComunitA e Territorio",http://www.comunitasociale.it,Bologna,40131,BO,EMR,"via Marco Polo 51"
+849,"Piccolo Formato - Fotografia a Bologna: Corsi, Workshop, Mostre, Eventi Piccolo Formato",http://www.piccoloformato.it,Bologna,40100,BO,EMR,"Via Stalingrado 59"
+854,"Associazione Succede solo a Bologna |",http://www.succedesoloabologna.it,Bologna,40125,BO,EMR,
+870,"President Bologna: Associazione Sportiva Dilettantistica ""President Bologna""",http://www.presidentbologna.it,Bologna,40138,BO,EMR,
+883,diversa/mente,http://www.associazionediversamente.org,Bologna,40138,BO,EMR,
+884,"Progresso Calcio - SCD PROGRESSO CALCIO",http://www.progressocalcio.it,"Castel Maggiore",40013,BO,EMR,
+893,"Associazione Astrofili Imolesi",http://www.astrofiliimolesi.it,Imola,40026,BO,EMR,
+899,"Documentaristi Emilia Romagna",http://www.dder.org,Bologna,40141,BO,EMR,"Via Toscana 182"
+900,"Uisp - Unione Italiana Sport per Tutti",http://www.uispbologna.it,Bologna,40138,BO,EMR,
+904,"Gruppo nazionale Nidi e Infanzia",http://www.grupponidiinfanzia.it,Bologna,40123,BO,EMR,
+907,"Delia Gennari Onlus, associazione bolognese",http://www.deliagennari.it/index.html,Bologna,40137,BO,EMR,"Via Bellacosta 3"
+913,"Psicologia Umanistica e delle Narrazioni",http://www.psicologiadellenarrazioni.it,Bologna,40122,BO,EMR,"via Riva Reno, 11 "
+919,"HOME - Benvenuti su villadallolio!",http://www.villadallolio.it,"Casalecchio di Reno",40033,BO,EMR,"Via Guinizelli, 5"
+920,"Village Tennis Club - Associazione Sportiva",http://www.villagetennisclub.it,Molinella,40062,BO,EMR,"Via Andrea Costa, 2"
+927,"Educazione Permanente di Crevalcore",http://www.educazionepermanente.it,Crevalcore,40014,BO,EMR,
+928,"Volhand - Home Page",http://www.volhand.it/,Crespellano,40056,BO,EMR,
+938,"Eventi | xing.it",http://www.xing.it,Bologna,40123,BO,EMR,
+940,"Il Pozzo delle Idee",http://www.ilpozzodelleidee.it,Bologna,40141,BO,EMR,"via Cherubini 18 "
+941,"ReMida Bologna",http://www.remidabologna.it,"Calderara di Reno",40012,BO,EMR,
+944,"YouNet | Fostering European active citizenship and mobility",http://www.you-net.eu,Bologna,40129,BO,EMR,
+946,"Il sogno di Stefano",http://www.ilsognodistefano.it/,Padova,35128,PD,VEN,
+948,"Fondazione Rocca dei Bentivoglio",http://www.roccadeibentivoglio.it,Bazzano,40053,BO,EMR,"Via Contessa Matilde 10"
+952,"Istituto di Ematologia di Bologna - Introduzione",http://www.ematbo.unibo.it,Bologna,40138,BO,EMR,"Via Massarenti, 9 "
+958,"Home - Eremo di Ronzano",http://www.eremodironzano.it,Bologna,40136,BO,EMR,"Via di Gaibola 18"
+960,"Benvenuto su Emilia Romagna Festival 2014 | Emilia Romagna Festival 2014",http://www.erfestival.org,Imola,40026,BO,EMR,"Via Cavour 48"
+969,"Home - FANEP ONLUS",http://www.fanep.org/,Bologna,40138,BO,EMR,
+985,"lega navale italiana sezione di bologna - corsi patente nautica",http://www.leganavale.bo.it,"San Lazzaro di Savena",40068,BO,EMR,
+986,"Le Querce di Mamre",http://www.lequercedi.it,"Casalecchio di Reno",40033,BO,EMR,
+987,index,http://www.levocidellaluna.it,"Sasso Marconi",40037,BO,EMR,
+989,"Link Associated - via Fantoni 21, Bologna - IT Link Associated",http://www.link.bo.it,Bologna,40126,BO,EMR,
+1019,Assisla,http://assisla.it/,Bologna,40139,BO,EMR,
+1020,"Associazione Alta Definizione",http://associazionealtadefinizione.it/,Bologna,,BO,EMR,
+1022,"Associazione Culturale ERLUG",http://erlug.linux.it,Bologna,,BO,EMR,
+1024,"Le chiavi di casa",http://lechiavidicasa.org/,"Granarolo dell'Emilia",40057,BO,EMR,
+1025,"Nei Dan Italia",http://neidanitalia.wordpress.com/,Bologna,40124,BO,EMR,
+1026,"Associazione Donatori Volontari di Sangue",http://nuke.fidas-advs-bologna.org,Bologna,40131,BO,EMR,"via Selva Pescarola n. 26"
+1027,"Associazioni riunite",http://riunite.eu,Bologna,40131,BO,EMR,"via Marco Polo 51"
+1030,"Acquablu Associazione",http://www.acquablu.altervista.org/,Bologna,,BO,EMR,
+1031,"Acquadela Associazione",http://www.acquadela.it/,Bologna,40134,BO,EMR,
+1032,"ADMO Emilia Romagna",http://www.admoemiliaromagna.it,Bologna,,BO,EMR,
+1033,"AGD Bologna",http://www.agd-bo.net/it/,"Sant'Agata Bolognese",40013,BO,EMR,
+1034,"Ageop Ricerca Onlus",http://www.ageop.org,Bologna,40138,BO,EMR,"Via Massarenti 11"
+1035,"AICE Emilia Romagna Onlus",http://www.aice-epilessia.it,Bologna,40127,BO,EMR,
+1036,"AICS Bologna",http://www.aicsbologna.it/,Bologna,40127,BO,EMR,"via Lugo 10 "
+1037,"Associazione Italiana Dislessia",http://www.aiditalia.org,Bologna,40121,BO,EMR,
+1039,"ALICE Bologna",http://www.alicebologna.it,Bologna,40129,BO,EMR,"via Ferruccio Parri 17"
+1040,AMACI,http://www.amaci.it,Bologna,40138,BO,EMR,"Via Massarenti, 11 "
+1041,"Gli amici di Luca",http://www.amicidiluca.it,Bologna,40131,BO,EMR,"Via Saffi n. 10 "
+1042,"Amici di Magu",http://www.amicidimagu.org,Bologna,40135,BO,EMR,
+1044,ANIEP,http://www.aniepnazionale.it/,Bologna,40124,BO,EMR,
+1045,"ANIMIL Bologna",http://www.anmil.it/,Bologna,,BO,EMR,
+1046,"Ant Casalecchio di Reno",http://www.ant.it,"Casalecchio di Reno",40033,BO,EMR,"Via Jacopo di Paolo 36"
+1048,"Associazione Arterego",http://www.arterego.org,Marzabotto,40043,BO,EMR,
+1049,"ASC Bologna",http://www.ascbologna.it/,Bologna,,BO,EMR,
+1060,"Bologna ASP",http://www.aspbologna.it/,Bologna,40126,BO,EMR,"Viale Roma, 21 "
+1061,"ASPHI Bologna",http://www.asphi.it/,Bologna,40126,BO,EMR,
+1062,Aliante,http://www.associazione-aliante.it/,Bologna,40127,BO,EMR,
+1063,"Associazione Io Ci Sono",http://www.associazioneiocisono.it/,Bologna,40136,BO,EMR,"Via del Colle 1"
+1064,"Associazione NovArt",http://www.associazionenovart.com,Rastignano,40067,BO,EMR,
+1065,"ATCOM Bologna",http://www.atcomonline.it,Bologna,40133,BO,EMR,"Via Massarenti, 9 "
+1066,"AUSL Bologna",http://www.ausl.bologna.it,Bologna,40124,BO,EMR,"Via Castiglione, 29 "
+1067,"Banco Arrigiano delle Arti e Mestieri",http://www.bancoartigiano.com/,Bologna,40123,BO,EMR,
+1068,CNR,http://www.bo.cnr.it/,Bologna,40129,BO,EMR,
+1069,"Club Bologna Autostoriche",http://www.bolognautostoriche.it/home.asp,Bologna,40133,BO,EMR,"Via Fancelli, 5  "
+1070,"Il Poggeschi per il carcere",https://poggeschiperilcarcere.wordpress.com/,Bologna,40125,BO,EMR,
+1071,"Associazione Culturale YouKali",http://www.youkali.it,Bologna,40122,BO,EMR,
+1072,Visibilia,http://www.visibilia.org/,Bologna,,BO,EMR,
+1073,"Centro Villa Torchi",http://www.villatorchi.it/,Bologna,40128,BO,EMR,"Via Colombarola, 40 "
+1074,"Villa Bernaroli",http://www.villabernaroli.it,Bologna,40132,BO,EMR,
+1075,"Vides Volontariato Internazionale Donna Educazione Sviluppo",http://www.videsitalia.it,Bologna,40128,BO,EMR,
+1076,"Direzione Territoriale ACI di Bologna",http://www.up.aci.it/bologna/,Bologna,,BO,EMR,
+1077,"UNMS Unione Nazionale Mutilati per Servizio",http://www.unms.it/,Bologna,40123,BO,EMR,
+1078,"UNIVOC Bologna",http://www.univocbologna.it/,Bologna,40124,BO,EMR,"Via F. lli Cairoli 18"
+1079,"Uildm Onlus",http://www.uildmbo.org/,Bologna,40125,BO,EMR,"Via del Seminario, 1 "
+1080,"Unione Italiana dei Ciechi e degli Ipovedenti",http://www.uicbologna.it/,"Casalecchio di Reno",40033,BO,EMR,
+1082,"Scuola popolare di musica Ivan Illich",http://www.spmii.it/,Bologna,40129,BO,EMR,
+1083,"SDS Educational",http://www.sdseducational.org,Bologna,40134,BO,EMR,"Via Andrea Costa, 174"
+1084,"Retinite Pigmentosa",http://www.retinitepigmentosa.it/,Bologna,40128,BO,EMR,
+1085,"Rangers Bologna",http://www.rangersbologna.it/,Bologna,40132,BO,EMR,
+1086,"Proloco Ozzano",http://www.prolocozzano.it,"Ozzano dell'Emilia",40064,BO,EMR,
+1087,"Proloco Zola Predosa",http://www.prolocozola.it,"Zola Predosa",40069,BO,EMR,
+1088,"Centro Musicale Preludio",http://www.preludio.org,Bologna,40135,BO,EMR,
+1089,"Polisportiva Pontevecchio",http://www.pontevecchiobologna.it/,Bologna,,BO,EMR,
+1092,"Pattuglie Cittadine",http://www.pattugliecittadine.it/,Bologna,40139,BO,EMR,
+1093,"GS Pasta Granarolo",http://www.pasta-granarolo.net,"Granarolo dell'Emilia",40057,BO,EMR,
+1094,"Padri Separati",http://www.padri.it/,Bologna,40134,BO,EMR,"Via Andrea Costa 4 "
+1095,Opimm,http://www.opimm.it/,Bologna,40133,BO,EMR,"Via Del Carrozzaio, 7"
+1096,"Associazione Nuovamente",http://www.nuovamente.org,Bologna,40131,BO,EMR,
+1097,"Centro Emiliano Di Mediazione Familiare",http://www.mediazionefamiliare-cedim.it/,Bazzano,40053,BO,EMR,"Via IV Novembre, 14"
+1098,"Lega Italiana per la lotta contro i tumori",http://www.legatumoribologna.it/,Bologna,40134,BO,EMR,"Via Turati, 67 "
+1099,Latino51,http://www.latino51.it/,"San Lazzaro di Savena",40068,BO,EMR,
+1100,"La Fraternita",http://www.lafraternita.com,"Ozzano dell'Emilia",40064,BO,EMR,
+1101,"Il Bosco Coop. Sociale",http://www.ilbosco.net/,Imola,40026,BO,EMR,
+1102,"Home - Lega consumatori",http://www.legaconsumatori.it/home.html,Milano,20147,MI,LOM,
+1105,"Piano Strategico Metropolitano - Il Piano Strategico Metropolitano di Bologna, verso il 2021",http://psm.bologna.it/,Bologna,40124,BO,EMR,
+1106,Fondazione,http://www.marieleventre.it/,Bologna,40125,BO,EMR,
+1111,"ASPIRIDeS - Servizi alla persona - Bologna",http://www.aspirides.it/,Bologna,40124,BO,EMR,
+1112,"AAB - Associazione Astrofili Bolognesi -",http://www.associazioneastrofilibolognesi.it,Bologna,40128,BO,EMR,
+1115,"Telefono Amico Bologna",http://www.telefonoamicobologna.it/,Bologna,40138,BO,EMR,
+1117,"Turismo Accessibile,Vacanze per Disabili: Viaggi, Hotel, Strutture Varie",http://www.diversamenteagibile.it/,Bologna,40121,BO,EMR,"Via Indipendenza, 16"
+1119,"Telefono Blu Consumatori Bologna",http://www.telefonoblu.it/emiliaromagna/bologna/,Bologna,40139,BO,EMR,
+1121,"sito ufficiale del Patronato Acli",http://www.patronato.acli.it/sedi.asp?azione=vediSede&idSede=637,Bologna,40122,BO,EMR,"Via delle Lame, 116 int. 2 "
+1123,"La Baracca - Teatro Testoni Ragazzi",http://www.testoniragazzi.it/,Bologna,40129,BO,EMR,"via Matteotti 16 "
+1125,"ASP Poveri vergognosi Bologna",http://www.poverivergognosi.it/,Bologna,40126,BO,EMR,"Via Belle Arti 42"
+1127,"USAP - Unione Sindacale Allenatori Pallacanestro",http://www.usap.it/,Bologna,40122,BO,EMR,
+1128,"INPDAP Bologna: Orari Apertura al Pubblico Uffici, Numero Telefono Fax, Email, Prestiti, Mutui, Pens",http://www.prestitoinpdap.org/inpdap-bologna.php,Bologna,40121,BO,EMR,
+1130,"Associazione Nazionale Famiglie Numerose",http://www.famiglienumerose.org,Albignasego,35020,PD,VEN,"Via San Pio X,  23"
+1132,"FIJLKAM Comitato Regionale <br /> Emilia Romagna",http://www.fijlkamemiliaromagna.it/,Bologna,40134,BO,EMR,"Via A. Costa, 174 "
+1133,"Cae Fisi",http://www.caefisi.org/,Bologna,40122,BO,EMR,"Via Calori, 6 "
+1134,"GRIS: Gruppo di ricerca e informazione socio religiosa",http://www.gris-imola.it/,Imola,40026,BO,EMR,
+1135,"Home - CAMPA - Mutua Sanitaria Integrativa",http://www.campa.it/,Bologna,40122,BO,EMR,
+1139,"Iniziativa Europea",http://www.iniziativaeuropea.it,Trieste,10000,TS,FVG,
+1140,www.circolocinofilobolognese.it/,http://www.circolocinofilobolognese.it/,Bologna,40128,BO,EMR,
+1141,"Portale - Home Page",http://www.cittametropolitana.bo.it,Bologna,40126,BO,EMR,"Via Zamboni, 13"
+1146,"Untitled Document",http://www.adanazionale.it,Roma,198,RM,LAZ,
+1147,"ANASTE Emilia Romagna | Associazione Nazionale Strutture Terza EtAA",http://www.anaste-er.com,Bologna,40125,BO,EMR,
+1148,"Arte e Salute ONLUS",http://www.arteesalute.org/,Bologna,40123,BO,EMR,
+1149,"ACU - Associazione Consumatori Utenti",https://sites.google.com/site/acuemiliaromagna3/,Bologna,40123,BO,EMR,"Via Saragozza, 30 "
+1150,"Arad onlus | Associazione di Ricerca e Assistenza delle Demenze",http://www.aradbo.org/,Bologna,40139,BO,EMR,
+1151,"Home - A.I.A. Bologna",http://www.aiabologna.it/,Bologna,40139,BO,EMR,"Via Bertini 8"
+1152,CroceItalia.it,http://www.croceitalia.it/,Bologna,40128,BO,EMR,"Via Michelino interno al Parco Nord"
+1153,Home,http://www.icinquepani.it/web/,Roma,198,RM,LAZ,"Viale Carso 34"
+1155,"::: Associazione Sportiva Dilettantistica Bologna Futsal ::: - Home",http://www.bolognafutsal.it/,Bologna,40131,BO,EMR,
+1156,"Centro Volontariato Sociale | Centro Volontariato Sociale",http://www.cvsbo.it/,Bologna,40127,BO,EMR,"via Panzini 1"
+1157,Idra,http://www.idraonlus.it,Firenze,50124,FI,TOS,
+1159,"DryArt :: DryArt",http://www.dryart.com,Pesaro,61121,PU,MAR,
+1160,"Cooperativa Anastasis - Home page",http://www.anastasis.it/,Bologna,40121,BO,EMR,
+1162,"Andromeda - Home",http://www.andromeda-bo.it/index.htm,Bologna,40124,BO,EMR,"Viale Pepoli, 5 "
+1163,"Emilia Romagna Teatro Fondazione - Modena",http://www.emiliaromagnateatro.com/,Modena,41124,MO,EMR,
+1164,"Benvenuti in cdkl5 - Cdkl5",http://www.cdkl5.org,"Castel San Pietro Terme",40024,BO,EMR,"Viale Albertazzi, 320"
+1166,"ANED - Associazione Nazionale Dializzati e Trapiantati",http://www.aned-onlus.it,Milano,20121,MI,LOM,
+1167,"ASD PAT",http://www.patbologna.it/,Bologna,40124,BO,EMR,
+1169,A.N.G.L.A.T.,http://www.anglat.it,Roma,166,RM,LAZ,
+1172,"Centro Sociale CROCE COPERTA Bologna",http://www.centrocrocecoperta.it,Bologna,40129,BO,EMR,"Via Papini 28 "
+1173,"ANPVI ONLUS",http://www.anpvionlus.it/,Roma,183,RM,LAZ,
+1176,Home,http://www.centromelograno.it/,Bologna,40139,BO,EMR,"Via Lombardia, 36 "
+1177,"As.It.O.I. | Associazione Italiana Osteogenesi Imperfetta",http://www.asitoi.it/,"Olgiate Molgora",23887,LC,LOM,"Via Monteverdi, 12"
+1180,"Home > Associazione Equilibrio",http://ass-equilibrio.it/,Bologna,40127,BO,EMR,
+1184,"Associazione Progetto Handicap | servizio di trasporto dall&#039;abitazione ai luoghi di lavoro, stu",http://www.associazioneprogettohandicap.org/,Bologna,40129,BO,EMR,
+1185,"Raggiungere Associazione Italiana per bambini con malformazioni agli arti ONLUS",http://www.raggiungere.it/,Milano,20142,MI,LOM,
+1188,www.associazionernesto.it,http://www.associazionernesto.it,Imola,40026,BO,EMR,
+1190,"Associazione Verba Manent | Associazione di volontariato",http://www.associazioneverbamanent.it,Bologna,40125,BO,EMR,"Via dello Scalo 14"
+1191,"Avis Nazionale: Associazione Volontari Italiani Sangue",http://www.avis.it,Milano,20134,MI,LOM,
+1193,Benvenuto,http://www.sindromedipoland.org/,Genova,16137,GE,LIG,
+1196,"Cooperativa Chico Mendes Commercio Equo e Solidale",http://www.chicomendes.it,Milano,20133,MI,LOM,
+1197,"Uisp - Unione Italiana Sport Per tutti - Uisp Nazionale",http://www.uisp.it,Roma,155,RM,LAZ,
+1198,"Associazione Culturale Oltre... - Bologna- Eventi culturali di partecipazione e riappropriazione deg",http://www.fest-festival.net/,Bologna,40141,BO,EMR,"Via Mercadante  1"
+1200,"Arci Associazione :: Home",http://www.bo.arci.it/,Roma,157,RM,LAZ,
+1201,"- Home",http://www.fondazionedelmonte.it/,Bologna,40126,BO,EMR,"Via delle Donzelle, 2 "
+1202,"Cineteca di Bologna",http://www.cinetecadibologna.it/,Bologna,40122,BO,EMR,"Via Riva di Reno, 72 "
+1203,"Comune di Castenaso",http://www.comune.castenaso.bo.it,Castenaso,40055,BO,EMR,"Via XXI Ottobre 1944 n.7 "
+1209,"Associazione vivere senza stomaco si puAA onlus - L&#039;esperienza e l&#039;aiuto di chi l&#039;ha ",http://www.viveresenzastomaco.org,Ferrara,44123,FE,EMR,
+1210,"Fossolo | Circolo culturale ricreativo sportivo",http://www.fossolo.it/,Bologna,40139,BO,EMR,"viale Felsina, 52 "
+1212,"GIMBE Education",http://www.gimbeducation.it,Bologna,40121,BO,EMR,"Via Amendola, 2 "
+1221,"AISpA - Associazione Italiana Spondiloartriti onlus | Liberi dal dolore!",http://www.aispaitalia.it/,Bologna,40139,BO,EMR,"Viale Cavina, 4 "
+1222,"Codacons Emilia Romagna",http://codacons.emiliaromagna.it/,Roma,195,RM,LAZ,
+1223,"Interethnos Interplast Italy Onlus",http://www.3ionlus.org/,Bologna,40127,BO,EMR,
+1224,"Home page | Adottando",http://www.adottando.it/,Bologna,40124,BO,EMR,"Via Mirasole 37 "
+1225,alcolistianonimi-emiliaromagna,http://www.alcolistianonimi-emiliaromagna.it/,Bologna,40122,BO,EMR,
+1227,"Commercio equo e solidale - vendita prodotti equosolidali e biologici",http://equosolidale.it,Ferrara,56112,FE,EMR,
+1228,"Cultura Cooperazione Nonprofit - Home Page - AICCON",http://www.aiccon.it,Forli,47121,FC,EMR,
+1229,"A.C.A.T. Bologna",http://www.acatbolognaalcool.it/,Argenta,44011,FE,EMR,
+1230,"Alisei , Noleggio e vendita imbarcazioni",http://www.alisei.com/,Bologna,40121,BO,EMR,"Via Galliera, 17  "
+1236,"Ca Di Balia",http://www.cadibalia.it,"Bagnara di Romagna",48010,RA,EMR,
+1237,"CAA Un Mondo - Commercio equo e solidale e cooperazione sociale italiana Bologna",http://www.ceunmondo.it,Bologna,40125,BO,EMR,
+1238,"Idee e progetti per il sociale - creativi108",http://www.creativi108.it,Bologna,40128,BO,EMR,
+1239,"Fondazione Idea | Istituto per la ricerca e la prevenzione della depressione e dellansia",http://www.fondazioneidea.org/,Bologna,40123,BO,EMR,"Via Barberia, 18"
+1240,"Federconsumatori Bologna",http://www.federconsumatoribologna.it,Bologna,40122,BO,EMR,
+1241,"Idee e progetti per il sociale - creativi108",http://www.giovanicreativi108.com,Bologna,40128,BO,EMR,
+1244,"Liceo Scientifico Niccolo Copernico Bologna",http://www.copernico.bo.it,Bologna,40138,BO,EMR,"Via Ferruccio Garavaglia, 11"
+1245,"LACCADEMIA CORALE RENO",http://www.coralereno.altervista.org,"Casalecchio di Reno",40033,BO,EMR,
+1247,www.ilsorriso-imola.it/,http://www.ilsorriso-imola.it/,Fontanelice,40025,BO,EMR,
+1251,"Salute Emilia-Romagna - Servizio sanitario regionale &mdash; E-R Salute",http://www.saluter.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+1252,"ISLL - Italian Society for Law and Literature",http://www.lawandliterature.org,Bologna,40121,BO,EMR,"Via Galliera, 3"
+1254,"Associazione Cucciolo",http://www.associazionecucciolo.it,Bologna,40138,BO,EMR,"Via Massarenti 11"
+1256,"Onefamily Group - Servizi di Assistenza Anziani, Famiglie e Malati",http://www.onefamilygroup.eu,Bologna,40137,BO,EMR,
+1257,"Sito Ufficiale dellOpera Marella",http://www.operapadremarella.it/,"San Lazzaro di Savena",40068,BO,EMR,"Via dei Ciliegi, 6"
+1259,"Croce Azzurra Coop Sociale Onlus Bologna",http://www.coopcroceazzurra.it,Bologna,40128,BO,EMR,
+1262,"Baby sitter - Bologna - Tata Mary",http://www.babysittertatameri.com,Bologna,40134,BO,EMR,"Via Delle Tofane 16 "
+1264,"AIUCA - Pet Therapy, assistenza e riabilitazione con cani, corsi",http://www.aiuca.eu,"Sasso Marconi",40037,BO,EMR,
+1267,"EBURT - Ente Bilaterale Unitario Regionale Turismo Emilia Romagna",http://www.eburt.it,Bologna,40129,BO,EMR,"Via A.Tiarini, 22 "
+1269,Home,http://www.fondazionegdo.it/,Bologna,40132,BO,EMR,"Via Marco Emilio Lepido 196"
+1273,"Casa Maternita Il Nido a Bologna",http://www.ilnido.bo.it,Bologna,40131,BO,EMR,
+1274,"RoMiliA, suoni e sapori dellEmilia Romagna",http://www.romilia.it,,,,,
+1275,"Movimento Cristiano Lavoratori Bologna",http://www.mclbologna.it,,,,,
+1276,sancristoforozzano.org,http://WWW.SANCRISTOFOROZZANO.ORG/,,,,,
+1277,"Camera Penale di Bologna",http://www.camerapenale-bologna.org/,,,,,
+1278,"CAMP MITICO VILLA",http://www.campmiticovilla.com,,,,,
+1279,"CAMPUS ADRIANI",http://www.campusadriani.it,,,,,
+1280,"ASSOCIAZIONE EUROPEA OPERATORI POLIZIA - SITO NAZIONALE | PROTEZIONE CIVILE VIGILANZA AMBIENTALE",http://aeop.it,,,,,
+1281,"Medicivitas Il Centro Sociale di Medicina",http://www.medicivitas.it,,,,,
+1282,www.cai-imola.it,http://www.cai-imola.it,,,,,
+1284,AmareVignola,http://amarevignola.wordpress.com,,,,,
+1285,"N.A.Di.R. Organizzazione di Volontariato",http://www.mediconadir.it,,,,,
+1286,www.menovelocitapiuvita.com,http://www.menovelocitapiuvita.com,,,,,
+1287,Candidamente,http://www.candidamente.org/,,,,,
+1289,Micromacchina,http://www.micromacchina.it,,,,,
+1290,"ONE BILLION RISING",http://obritalia.livejournal.com,,,,,
+1291,"Canto31 Associazione Culturale",http://www.canto31.it,,,,,
+1292,"Etnografia del Pensiero dot Net",http://www.etnografiadelpensiero.net,,,,,
+1293,MigrAzioni,http://www.migrazioni.eu/,,,,,
+1294,Caracult,http://www.caracult.it,,,,,
+1295,mikrokosmos,http://www.mikrokosmos-cm.it,,,,,
+1296,"Pro Loco Molino Del Pallone - Alta Valle Del Reno",http://www.molinodelpallone.it,,,,,
+1297,"Caregiver Familiare",http://www.caregiverfamiliare.it,Carpi,41012,MO,EMR,
+1298,Montecatone,http://www.montecatone.com/,,,,,
+1299,"Monte Del Matrimonio",http://www.montedelmatrimonio.it/,,,,,
+1300,"Monte Sole Bike Group",http://www.montesolebikegroup.it,,,,,
+1301,"MARINE & FRESHWATER SCIENCE GROUP ASSOCIATION",http://www.msgassociation.org,,,,,
+1302,"Ass.Carnevalesca Re Fagiolo di Castella -",http://www.carnevaledidecima.it,,,,,
+1303,NETTUNIA1954,http://www.nettunia1954.it/,Bologna,40139,BO,EMR,"Via Casanova, 11 "
+1304,"Next Generation Italy",http://www.nextgenerationitaly.tk,,,,,
+1305,Home,http://www.exaequo.bo.it,Bologna,40126,BO,EMR,
+1306,"Noi insieme a Scherazad",http://www.noinsiemeascherazad.it/,Bologna,,BO,EMR,
+1307,www.casadonne.it,http://www.casadonne.it,Bologna,,BO,EMR,
+1308,"Non andremo mai in TV",http://www.nonandremomaintv.it,,,,,
+1309,"Associazioni no Profit: il portale al servizio delle associazioni",http://www.nonprofit.viainternet.org,,,,,
+1310,"www.noprofit.org - Il sito del no profit italiano",http://www.noprofit.org,,,,,
+1311,"OR.S.A. Organizzazione Sindrome di Angelman",http://sindromediangelman.org/,,,,,
+1314,www.oftaunibologna.it,http://www.oftaunibologna.it,,,,,
+1315,"Federazione di Associazioni Malattie Rare Emilia-Romagna",http://www.federamrare.altervista.org/,Bologna,40136,BO,EMR,"Via Gaibola, 16 "
+1316,"Pro Loco Casalecchio Meridiana",http://www.casalecchioinsiemeproloco.org,,,,,
+1317,"Vag61 Spazio Libero Autogestito",http://vag61.noblogs.org/,,,,,
+1318,"associazione oltremodo",http://www.oltremodo.eu/,Argelato,40050,BO,EMR,"Via IV Novembre 23."
+1319,"Gli agostiniani a S. Giacomo Maggiore e a S. Rita in Bologna",http://web.tiscali.it/agostiniani/,,,,,
+1320,www.abcsociale.it,http://www.abcsociale.it,,,,,
+1321,"Arcieri Felsinei",http://www.felsinei.com,Bologna,40128,BO,EMR,
+1322,"onlus harambee",http://www.onlus-harambee.com,,,,,
+1323,"ACLI BO",http://www.aclibo.it,Bologna,40122,BO,EMR,
+1324,"Casina dei Bimbi Onlus",http://www.casinadeibimbi.org,,,,,
+1326,"S.A.V. onlus Servizio Accoglienza alla Vita",http://www.sav.bologna.it/,Bologna,40134,BO,EMR,
+1327,"Chiesa Parrocchiale di San Giovanni Evangelista - Parrocchia di Zolino - IMOLA",http://www.parrocchiadizolino.it,,,,,
+1328,"Gruppo di Studi Savena Setta Sambro",http://www.savenasettasambro.com,,,,,
+1329,"PERCORSI MENTE-CORPO",http://www.percorsimentecorpo.vpsite.it,,,,,
+1330,Acmt-Rete,http://www.acmt-rete.it/index.html,,,,,
+1331,"Castiglione Murri Basket",http://www.castiglionemurri.com/,Bologna,40139,BO,EMR,"Via Casanova 11 "
+1332,filodarianna,http://www.filodarianna.net,Monteveglio,40050,BO,EMR,
+1333,"Associazione CCSVI nella Sclerosi Multipla Emilia Romagna Onlus",http://www.ccsvi-sm.info/,"Granarolo dell'Emilia",40057,BO,EMR,
+1334,PercorsoVitale,http://www.percorsovitale.it,"Zola Predosa",,BO,EMR,
+1335,"AS ACNEPOTI",http://www.acnepoti.it,,,,,
+1336,"Schola Cantorum di Bazzano",http://www.scholacantorumbazzano.it,Bazzano,40053,BO,EMR,
+1337,"Fondazione Cassa di Risparmio Bologna",http://www.fondazionecarisbo.it/,Bologna,40124,BO,EMR,
+1338,"Poggi Sub",http://www.poggisub.it,,,,,
+1340,"Scout La Mura",http://www.scoutlamura.it,,,,,
+1341,"scuola Leonard Bernstein",http://WWW.SCUOLADIMUSICALEONARDBERNSTEIN.IT,"San Giovanni in Persiceto",40017,BO,EMR,
+1342,"Polisportiva ONDABLU",http://www.polisportivaondablu.it,Vergato,,BO,EMR,
+1343,"Adiantum - Associazione di Associazioni Nazionali per la tutela dei Minori",http://www.adiantum.it,,,,,
+1344,"Polisportiva Pontelungo - Bologna",http://www.polisportivapontelungo.it/,,,,,
+1345,"Senza Confini",http://www.senzaconfinitaly.com,,,,,
+1346,"ASSOCIAZIONE CENTRO EUROPA UNO - lo spazio per diverse esigenze.... lo spazio per le tue esigenze",http://www.centroeuropauno.it,"San Lazzaro di Savena",40068,BO,EMR,
+1348,"Agesci Zona di Bologna",http://www.agescibologna.it,,,,,
+1351,www.centrosocialefuno.it,http://www.centrosocialefuno.it,,,,,
+1352,"Shape Associated",http://www.shape.bo.it,,,,,
+1353,"Fondazione Gualandi",http://www.fondazionegualandi.it/,,,,,
+1354,"Porretta Cinema",http://www.porrettacinema.com,"Porretta Terme",40046,BO,EMR,
+1355,"CSD - Centro Studi G.Donati - Bologna - Homepage",http://www.centrostudidonati.org/csd.html,Bologna,,BO,EMR,
+1356,"SIEM Home Page",http://www.siem-online.it,,,,,
+1357,"itaca - Chi siamo",http://www.fondazioneitaca.org/,,,,,
+1358,"Assemblea Generale Italiana Commercio Equo e Solidale",http://www.agices.org,,,,,
+1359,SimplyFood,http://www.simplyfood.it,,,,,
+1361,"Associazione di Volontariato San Martino Onlus Missione Ithanga",http://www.forithanga.org/,,,,,
+1362,"SocietAA Artigiana di Mutuo Soccorso",http://www.societartigiana.it/,Bologna,40121,BO,EMR,"corso  via Malcontenti n. 9"
+1364,"POSTFIERA.org - HomePage",http://www.postfiera.org/,,,,,
+1365,"Spartacus Bologna",http://www.spartacusbologna.it,Bologna,,BO,EMR,
+1366,"Primola - Home Page",http://www.primola.it,Imola,40068,BO,EMR,
+1367,"Associazione culturale e artistica per il sostegno e la diffusione delle arti cinematograf",http://www.fourdoc.it,,,,,
+1368,"Assistenza anziani a Bologna - Centro Bologna - PrivatAssistenza",http://www.privatassistenza.it/bologna/centro-bologna/,Bologna,40138,BO,EMR,
+1370,"Progetto sQuola",http://www.progettosquola.it,"Porretta Terme",40046,BO,EMR,
+1371,PROLOCOBADI.IT,http://www.prolocobadi.it,,,,,
+1374,"amache BAHIA",http://www.amache-bahia.it,,,,,
+1376,"Proloco Budrio",http://WWW.PROLOCOBUDRIO.IT,Budrio,,BO,EMR,
+1377,"Societa Ginnastica Persicetana | Insieme per lo sport &#8211; Palestra di vita",http://www.ginnasticapersicetana.com,"San Giovanni in Persiceto",40017,BO,EMR,
+1378,www.prolocodicrevalcore.it,http://www.prolocodicrevalcore.it,Crevalcore,40014,BO,EMR,
+1379,"Proloco - Medicina - BO",http://www.prolocomedicina.net,Medicina,40059,BO,EMR,
+1380,"Associazione Amici di Giana",http://www.amicidigiana.org,,,,,
+1382,www.prolocomolinella.it,http://www.prolocomolinella.it,,,,,
+1383,"Girotondo online | Associazione didattico educativa",http://www.girotondo-online.com,,,,,
+1384,SpazioIndue,http://www.spazioindue.org,Bologna,,BO,EMR,
+1385,"Amnesty International - Home",http://www.amnesty.it,,,,,
+1386,"Proloco Villa D Aiano",http://www.prolocovilladaiano.it,,,,,
+1387,"ASSOCIAZIONE TURISTICA PRO LOCO di RIOLA (BO)",http://www.proriola.com,Riola,40047,BO,EMR,
+1389,Amnestybologna,http://www.amnestybologna.it/,Bologna,,BO,EMR,
+1390,www.gplongara.it,http://www.gplongara.it,"Calderara di Reno",40012,BO,EMR,
+1391,"Dipartimento Protezione Civile",http://www.protezionecivile.gov.it,,,,,
+1392,"Gravita Zero",http://www.gravita-zero.org,,,,,
+1393,"Home - Anatroccolo Rosa",http://www.anatroccolorosa.it,,,,,
+1394,www.gruppoceis.org,http://www.gruppoceis.org,,,,,
+1396,"Punto Equo - Distributori automatici del commercio equo e solidale",http://www.puntoequo.org,,,,,
+1397,"Aned Bologna",http://www.anedbo.it/,Bologna,40124,BO,EMR,
+1398,"Anffas di Bologna Onlus",http://www.anffasbo.info,,,,,
+1399,"Spazio Labo",http://www.spaziolabo.it,Bologna,,BO,EMR,
+1400,"ANMIG - Associazione Nazionale fra Mutilati ed Invalidi di Guerra",http://www.anmigcomitatocentrale.com/,Bologna,40131,BO,EMR,
+1402,"Sport Experience",http://www.sportexperience.it/homew.asp,,,,,
+1403,"CEPS Onlus - Centro Emiliano Problemi Sociali per la Trisomia 21",http://www.ceps.it/,Bologna,40128,BO,EMR,
+1404,"Associazione Antica come le montagne - Bologna",http://www.anticacomelemontagne.org,,,,,
+1405,"Le religioni in Italia",http://www.cesnur.com,,,,,
+1406,"Scuola di Danza Arabesque Bologna",http://www.arabesquebologna.it,Bologna,,BO,EMR,
+1407,"Chiama il Senegal. Viaggi e Turismo Responsabile in Africa",http://www.chiamasenegal.it,,,,,
+1408,"Studio SoundLab",http://www.studiosoundlab.com,Bologna,,BO,EMR,
+1409,"Radioimmaginaria ",http://www.radioimmaginaria.it,,,,,
+1410,"ARCOVEGGIO D.L.F. Nuoto Bologna",http://www.arcoveggionuoto.it/,Bologna,,BO,EMR,
+1411,"Arte & Portici - Iniziative istituzionali de ""Il Laboratorio""",http://www.arteportici.it,Bologna,,BO,EMR,
+1413,Diacronie,http://www.studistorici.com,,,,,
+1414,circolodozza,http://www.circolodozza.it,Bologna,40122,BO,EMR,
+1415,"Gruppo Elettrogeno Associazione di promozione sociale",http://www.gruppoelettrogeno.org,Bologna,,BO,EMR,
+1418,"ASD Arcieri di Re Bertoldo",http://www.rebertoldo.org,"San Giovanni in Persiceto",40017,BO,EMR,
+1419,"teatro dei 25, teatro, gli insetti teatrali, teatro dei 25, Bologna, teatrodei25, performing art, se",http://www.teatrodei25.jimdo.com,Bologna,40141,BO,EMR,
+1422,"clubsupermarathon.it - Club Super Marathon Italia - clubsupermarathon.it",http://www.clubsupermarathon.it,Bologna,40122,BO,EMR,
+1424,ASCER,http://www.ascer.it,Bologna,34125,BO,EMR,"Via San Mamolo, 25"
+1425,"Residenze Femminili a Bologna",http://www.residenzefemminilibologna.it/,Bologna,,BO,EMR,
+1426,"Telestreet - TV di strada",http://www.telestreet.it,,,,,
+1427,"Happy Trail MTB",http://www.happytrailmtb.it,"Porretta Terme",40046,BO,EMR,"Via Roma 3 "
+1428,"TEMENOS - Centro culturale Junghiano",http://www.temenosjunghiano.com,Bazzano,40053,BO,EMR,
+1429,"C o n c o r d a n z e",http://www.concordanze.com,,,,,
+1430,"Asilo in Europa",http://www.asiloineuropa.it,,,,,
+1431,"ASSOCIAZIONE Rete Malattie Rare onlus",http://www.retemalattierare.it,,,,,
+1432,"Unione Nazionale Consumatori - Comitato Regionale Emilia Romagna",http://www.consumatori-emiliaromagna.it/,Bologna,40124,BO,EMR,
+1433,"OPEN ASD - A.S.D. OPEN",http://www.asopen.it,Bologna,,BO,EMR,
+1434,"Rivista di Psichiatria",http://www.rivistadipsichiatria.it,,,,,
+1435,"Hotel Bologna albergo dellOrso Bo",http://www.hbologna.net,,,,,
+1437,"Cooperativa Sociale PICTOR",http://www.cooperativapictor.it/,Budrio,40054,BO,EMR,
+1438,"Associazione NEMA",http://www.associazione-nema.it,"Gaggio Montano",40044,BO,EMR,
+1439,C.V.L.,http://www.coordinamentovolontariatolame.org,Bologna,40131,BO,EMR,"via Marco Polo 51"
+1440,www.associazioneamicidimariarosa.org/,http://www.associazioneamicidimariarosa.org/,,,,,
+1441,Terzadecade,http://www.terzadecade.it,Molinella,40062,BO,EMR,
+1442,"Proloco di Rocca di Roffeno",http://www.roccadiroffeno.it,"Rocca di Roffeno",40040,BO,EMR,
+1443,tossignano,http://www.tossignano.it,"Borgo Tossignano",40021,BO,EMR,
+1444,"Coordinamento Volontari Protezione Civile - Rimini",http://www.coorprociv.it,,,,,
+1445,"Trama di terre",http://www.tramaditerre.org,Imola,40026,BO,EMR,
+1446,"Associazione Coro Athena, Bologna",http://www.coroathena.it,,,,,
+1447,"Idea volley",http://www.ideavolley.it,"Zola Predosa",40069,BO,EMR,
+1448,Tuttinsieme,http://www.tuttinsieme.org,,,,,
+1449,"Universita Primo Levi",http://www.universitaprimolevi.it,Bologna,40122,BO,EMR,
+1450,"Un Passo Dopo l Altro",http://www.unpassodopolaltro.com,Bologna,40124,BO,EMR,
+1452,www.ilpettirosso.org,http://www.ilpettirosso.org/,Bologna,,BO,EMR,
+1454,"Croce Rossa Italiana - Comitato Provinciale di Bologna",http://www.cribo.it,Bologna,22052,BO,EMR,"Via del Cane, 9"
+1455,"Associazione il Temporale",http://www.iltemporale.it,Bentivoglio,40010,BO,EMR,
+1456,"U.P. Calderara",http://www.upcalderara.com,"Calderara di Reno",40012,BO,EMR,
+1457,"Cronache Internazionali",http://www.cronacheinternazionali.com,,,,,
+1459,UPPI,http://www.uppi-bologna.it/,Bologna,40123,BO,EMR,
+1460,Valgattara,http://www.valgattara.it,Monghidoro,40063,BO,EMR,
+1461,"CSEN Emilia-Romagna - Comitato Regionale Emilia-Romagna - Comitato Provinciale di Bologna",http://www.csenemiliaromagna.it,Bologna,40139,BO,EMR,"Via Leandro Alberti, 76"
+1462,"Associazione Culturale Via De Poeti",http://www.viadepoeti.it,Bologna,40128,BO,EMR,"Via Antonio Gandusio 6"
+1463,"Associazione Aquila",http://www.associazioneaquila.it/,,,,,
+1465,"Associazione ComunicAttive",http://www.associazionecomunicattive.org,Bologna,40122,BO,EMR,
+1467,"FLUX Associazione Culturale",http://www.associazioneflux.it,,,,,
+1468,DAMMI5,http://www.dammi5.it/,Bologna,40133,BO,EMR,
+1469,"VolaBologna - BlqSpotters :: Official Web Site",http://www.volabologna.it/it/,,,,,
+1470,"Il Ventaglio di Orav",http://www.ilventagliodiorav.eu,Bologna,40136,BO,EMR,"via della Fratta 11"
+1471,"ENDAS ENSEMBLE - SCUOLA DI DANZA CLASSICA CONTEMPORANEA HIP HOP JAZZ BOLOGNA - PRESENTAZIONE",http://www.danzaensemble.it,"Sasso Marconi",40037,BO,EMR,
+1472,"N.O.V.A. Ente Morale - ONLUS",http://www.associazionenova.org/,,,,,
+1473,"Associazione Terra Verde O.N.L.U.S.",http://www.associazioneterraverde.it/,Bologna,40131,BO,EMR,
+1474,"Psicologo Bologna",http://www.dedalusbologna.it/,Bologna,,BO,EMR,
+1475,"Imola Abbraccio Solidale",http://www.imolabbracciosolidale.it/,Imola,40068,BO,EMR,
+1476,"Associazione Protezione CivileVolontari Minerva - Home",http://www.volontariminerva.it,,,,,
+1477,www.vuotiarendere.it,http://www.vuotiarendere.it,Bologna,40139,BO,EMR,
+1478,"Associazione Promozione Sociale Deesi",http://www.deesi.org,"Anzola dell'Emilia",40011,BO,EMR,
+1479,ImolaFolklore,http://www.imolafolklore.com,Imola,40068,BO,EMR,
+1480,"GLI INCAUTI",http://www.incauti.org,Bologna,40123,BO,EMR,
+1481,"We Help You Onlus",http://www.wehelpyou.it/,Bologna,40139,BO,EMR,
+1482,"Associazione Diapason Progetti Musicali | Musica !!!",http://www.diapason.bo.it,,,,,
+1483,www.dislessia.it,http://www.dislessia.it,Bologna,40121,BO,EMR,
+1484,"WORLD DIVING BOLOGNA",http://www.worlddiving.it,Bologna,40138,BO,EMR,
+1485,"Assopace Palestina",http://www.assopacepalestina.org,,,,,
+1486,Xenia,http://www.xeniabo.org,Bologna,40131,BO,EMR,
+1487,"doors to baloon",http://www.doorstoballoon.it,,,,,
+1488,"Atti Sonori",http://www.attisonori.it,Bologna,40138,BO,EMR,
+1489,www.zimmerfrei.co.it,http://www.zimmerfrei.co.it,Bologna,40122,BO,EMR,
+1490,www2.provincia.bologna.it,http://www2.provincia.bologna.it,,,,,
+1492,"Educazione&ScuolaAA by Dario Cillo - La Rivista telematica della Scuola e della Formazione",http://www.edscuola.it,,,,,
+1493,"Info-BO conVIVERE a Bologna",http://www.info-bo.it/,Bologna,,BO,EMR,
+1494,www.edumissioclarissefrancescane.org/,http://www.edumissioclarissefrancescane.org/,Bologna,40127,BO,EMR,
+1495,"Auser Imola | Volontariato e promozione sociale",http://www.auserimola.it,Imola,40026,BO,EMR,
+1496,isfbologna,https://isfbologna.wordpress.com/,Bologna,,BO,EMR,
+1497,"Fondazione Banco Alimentare | Contro lo spreco, Contro la Fame",http://www.bancoalimentare.it/index.php,Imola,40026,BO,EMR,
+1498,"Home - I.P. Iniziativa ParkinsonianiI.P. Iniziativa Parkinsoniani",http://www.iniziativaparkinsoniani.it/,Bologna,40139,BO,EMR,"Via Lombardia, 36"
+1499,"Trekking Italia Bologna",http://www.bibliotecatrek.org,Bologna,40126,BO,EMR,
+1500,Eks&tra,http://www.eksetra.net,"San Giovanni in Persiceto",40017,BO,EMR,
+1501,"ASSOCIAZIONE IPERPUT (Per un grande Piano Urbano del Traffico) Contro ogni inquinamento per una citt",http://www.iperput.org/,,,,,
+1502,"Elenfant Film",http://www.elenfant.com,Bologna,40124,BO,EMR,
+1503,Notizie,http://www.bnbo.it,,,,,
+1505,"Istituto Graf",http://www.istitutograf.org,Bologna,40133,BO,EMR,
+1506,"Istituto Tincani - Bologna",http://www.istitutotincani.it,Bologna,40124,BO,EMR,
+1507,"AIE Associazione Italiana Endometriosi",http://www.endoassoc.it,,,,,
+1508,"ENTE NAZIONALE DI PROMOZIONE SOCIALE",http://www.entenazionale.it,,,,,
+1510,"Italia che Raglia - Ragliamo insieme!",http://www.italiacheraglia.com,,,,,
+1511,www.italo-americana.org,http://www.italo-americana.org,Bologna,,BO,EMR,
+1512,"Kaleidoscope Factory Bologna - Showreel",http://www.kaleidoscopefactory.eu,,,,,
+1513,www.lalunanelpozzo.org,http://www.lalunanelpozzo.org,,,,,
+1514,"La Nostra Africa - Homepage",http://www.lanostraafrica.it,,,,,
+1517,www.lavallazza.it,http://www.lavallazza.it,Bologna,,BO,EMR,
+1519,"LE CASE degli ANGELI di Daniele Onlus",http://www.LECASEDIDANIELE.ORG,"Pieve di Cento",40066,BO,EMR,
+1520,www.liberomondo.org,http://www.liberomondo.org,,,,,
+1521,"Circolo Filatelico ""Guglielmo Marconi"" - 40044 Pontecchio Marconi (Bo) - Italy",http://www.marconifilatelico.it,"Pontecchio Marconi",40037,BO,EMR,
+1522,www.mascellaro.info,http://www.mascellaro.info,"San Giovanni in Persiceto",40017,BO,EMR,
+1523,"Buddhismo della Via di Diamante - Centri buddhisti di meditazione",http://www.buddhism.it,Bologna,40137,BO,EMR,
+1526,"LOrsa Minore: Pagina Principale",http://www.orsaminore.org,,,,,
+1527,"Associazione di Volontariato Emiliani",http://associazionemiliani.blogspot.it/,"Sasso Marconi",40037,BO,EMR,"Via Rupe, 9"
+1528,"Associazione A.M.A. Amarcord Onlus di San Pietro in Casale",http://www.amaamarcordsanpietro.it/,"San Pietro in Casale",44018,BO,EMR,"Piazza Calori, 7"
+1529,"Home - Sito ufficiale del Circolo ARCIBrecht!",http://circoloarcibrecht.jimdo.com/,Bologna,40128,BO,EMR,
+1530,"Piccoli Grandi Cuori Onlus",http://www.piccoligrandicuori.it,Bologna,40138,BO,EMR,"Via Massarenti, 9"
+1531,"Arc-en-Ciel Onlus - Home",http://www.arcenciel-onlus.it/,Argelato,40050,BO,EMR,
+1532,"Associazione Regionale Anffas onlus Emilia Romagna > Home",http://nuke.anffas-er.org/,Bologna,40127,BO,EMR,
+1533,"Pro Natura Bologna onlus",http://www.pronaturabologna.org,Bologna,40131,BO,EMR,"Via della Selva Pescarola, 26"
+1534,"Oasi Felix",http://oasifelix.altervista.org/,Medicina,40059,BO,EMR,
+1535,Amicambo,http://www.amicambo.org/,Bologna,40122,BO,EMR,
+1536,"Assistenza Computer Bologna",http://www.assistenza-computer-bologna.net,,,,,
+1537,"Bologna - Piccole Sorelle dei Poveri",http://www.psdp.it/in-italia/bologna,Bologna,40133,BO,EMR,"Via Emilia Ponente, 4"
+1538,"Amici Bambini Padre John",http://www.amicibambinipadrejohn.org/,"Sasso Marconi",40037,BO,EMR,"Via Ponte Albano 29"
+1539,"Amici degli animali onlus",http://www.amicideglianimali.bo.it/,Bologna,,BO,EMR,
+1540,"A.M.I.C.I. - Associazione Mutilati Invalidi Civili",http://www.assoamici.it/,Imola,29152,BO,EMR,
+1541,"Ristretti Orizzonti. Sito di cultura e informazione dal carcere",http://www.ristretti.it,,,,,
+1542,"Amici dei Popoli",http://www.amicideipopoli.org/,Bologna,40139,BO,EMR,
+1543,www.amicidiampasilava.com,http://www.amicidiampasilava.com/,Bologna,40122,BO,EMR,
+1544,"Cooperativa Sociale Il Pellicano",http://www.coopilpellicano.org/,Bologna,40138,BO,EMR,"Via Piero della Francesca, 3"
+1545,"S.A.E.R. - SOCCORSO ALPINO EMILIA ROMAGNA",http://www.saer.org/,"Porretta Terme",40046,BO,EMR,
+1546,"ENDOMETRIOSI - ARIANNe Onlus",http://www.associazionearianne.it/,"Casalecchio di Reno",40033,BO,EMR,"Via E. De Amicis, 11  "
+1547,"Fondazione ABIO Italia Onlus",http://www.abio.org,Bologna,40133,BO,EMR,
+1548,"Amici di Bologna Onlus",http://www.amicidibologna.it,Bologna,40126,BO,EMR,"Via S. Simone 5 "
+1549,"Benvenuti nel sito dellAuser",http://www.auser.it,,,,,
+1550,"San Lazzaro Sociale - Home",http://www.sanlazzarosociale.it,"San Lazzaro di Savena",40068,BO,EMR,
+1551,"Auser Bologna",http://www.auserbologna.it/,Bologna,40131,BO,EMR,"Via della Beverara n. 6 "
+1552,"Donne Contro Violenza",http://www.donnecontroviolenza.it,,,,,
+1553,"Amici di Tamara e Davide, idee e persone in cammino. | Sito dell&#039;associazione Amici di Tamara e",http://www.amiciditamaraedavide.it/,,,,,
+1554,Sokos.it,http://www.sokos.it/,Bologna,40127,BO,EMR,
+1556,"ABIO bologna onlus",http://www.abiobologna.org/,Bologna,40133,BO,EMR,
+1557,"Amici della Terra Ozzano - Home",http://www.amiciterraozzano.it/,"Ozzano dell'Emilia",40064,BO,EMR,
+1558,"Banco di SolidarietAA di Bologna",http://www.bancobologna.org/,Bologna,40126,BO,EMR,
+1559,HOMEPAGE,http://www.acabas.altervista.org/,Bologna,40138,BO,EMR,
+1560,"Home | BandieraGialla - Portale di Informazione Sociale dellEmilia-Romagna",http://www.bandieragialla.it,Bologna,40131,BO,EMR,"via della Beverara 6"
+1561,"Stella nostra.com",http://www.stellanostra.com,Bologna,40123,BO,EMR,
+1563,"AMMI Italia - Associazione Malati MeniAAre Insieme",http://www.ammi-italia.it/,Bologna,40138,BO,EMR,
+1564,"Eta Beta",http://www.etabeta.coop,Bologna,40138,BO,EMR,"Via Battirame, 11 "
+1565,"Sito stomia.it",http://www.stomia.it,Bologna,40127,BO,EMR,
+1566,www.fondazionesantaclelia.it/,http://www.fondazionesantaclelia.it/,"Lizzano in Belvedere",40049,BO,EMR,
+1567,". : AMRER Associazione Malati Reumatici Emilia Romagna . .",http://www.amrer.it/,Bologna,40128,BO,EMR,"Via Montebello 8 "
+1568,"UnitAA Pastorale di Castel Maggiore",http://www.upcm.it/,"Castel Maggiore",40013,BO,EMR,
+1569,www.andareaveglia.it,http://www.andareaveglia.it/,Bologna,,BO,EMR,
+1570,"GRD - Genitori Ragazzi Down - Associazione Bologna",http://www.genitori-ragazzi-down.it,"Castel Maggiore",40013,BO,EMR,"Via Marzabotto, 1"
+1571,"Documento senza titolo",http://www.betelbo.it/,Bologna,40133,BO,EMR,"via Oslavia, 5 "
+1572,vigilfuocobazzano.tk,http://www.vigilfuocobazzano.tk/,Bazzano,40053,BO,EMR,
+1573,"Vivere Meglio, conoscendo di piu.",http://www.viveremeglio.org,,,,,
+1574,"Bibli-os - Home page",http://www.biblios.it,Bologna,40125,BO,EMR,"Via Guinizelli, 10"
+1575,"Biblioteca Salaborsa",http://www.bibliotecasalaborsa.it,Bologna,40121,BO,EMR,"Piazza Nettuno, 3"
+1576,"AEBO | Associazione Epilessia Bologna",http://www.aebo.it/,Bologna,,BO,EMR,
+1577,ANTR,http://www.antr.it/,Bologna,40138,BO,EMR,"Via G. Massarenti, 9 "
+1578,"IBO Italia - Volontari si Diventa",http://www.iboitalia.org,Ferrara,44121,FE,EMR,
+1580,www.casagianni.net/,http://www.casagianni.net/Casa_Gianni/Prima_Pagina.html,Bologna,40139,BO,EMR,"Via Rodolfo Mondolfo, 8"
+1581,"Home - APDIC",http://www.apdic.it/,Bologna,40138,BO,EMR,"Via Massarenti 9"
+1582,"ISTITUTO ORTOPEDICO RIZZOLI |",http://www.ior.it,Bologna,40136,BO,EMR,"via G.C.Pupilli, 1 "
+1583,"Albero di Cirene",http://www.alberodicirene.org/,Bologna,40138,BO,EMR,"Via Massarenti, 59"
+1584,CCSnet,http://www.ccsenet.org,Bologna,40138,BO,EMR,
+1585,"CCSVI nella Sclerosi Multipla Onlus | Libera la ricerca su CCSVI e Sclerosi Multipla",http://www.ccsvi-sm.org/,Bologna,40123,BO,EMR,
+1586,"ALECRIM - Associazione per attivita formative e culturali giovanili",http://www.alecrim.org/,Imola,40026,BO,EMR,
+1587,"Benvenuto su Iperbole | Iperbole",http://www.iperbole.bologna.it,Bologna,0,BO,EMR,"Piazza Maggiore, 6 "
+1588,"CCA - Centro Culturale Anzolese - Anzola dellEmilia",http://www.centroculturaleanzolese.it/,"Anzola dell'Emilia",40011,BO,EMR,
+1589,"Malattia di Alzheimer - Bologna - AIMA",http://www.alzheimer-aimabologna.org,Bologna,40139,BO,EMR,
+1590,"Associazioni familiari Alzheimer e Demenze Emilia Romagna",http://www.alzheimeremiliaromagna.org/,Bologna,40139,BO,EMR,"Viale Roma, 21 "
+1591,"foreste costa rica",http://www.italia-costarica.org/,Bologna,40126,BO,EMR,
+1592,"La Cuccia // Associazione Di Volontariato Protezione Animali",http://www.lacuccia.bo.it,Bologna,40133,BO,EMR,
+1593,Larc-en-ciel,http://www.larcenciel.it/,Bologna,40127,BO,EMR,"Via Cadriano 3 "
+1594,"Lega Nazionale Dilettanti",http://www.lnd.it,,,,,
+1595,"Associazione Mondo Gatto Onlus, Oasi Felina Allende Bologna",http://www.mondogattobologna.org/,Bologna,,BO,EMR,
+1596,"Oasi felina Bologna - Italy",http://www.oasifelinabologna.it/,Bologna,,BO,EMR,
+1597,"VOLA NEL CUORE onlus - Ass. socio umanitaria a favore del bambino - onlus Ferrara",http://www.volanelcuore.it,Bologna,44122,BO,EMR,
+1598,"Associazione Alzheimer Imola",http://www.alzheimerimola.it/,Imola,40026,BO,EMR,
+1600,"Guide Alpine Emilia-Romagna",http://www.guidealpine-er.it,,,,,
+1601,"Senza il Banco",http://www.senzailbanco.it/Cooperativa%20Senza%20Il%20Banco/CoopSenzailBancoHome.html,Bologna,40122,BO,EMR,"Via Polese 40"
+1602,"Club della Musica",http://www.clubdellamusica.com/page/home.html,Bologna,40126,BO,EMR,
+1603,"AURA srl | Assistenza domiciliare, ospedaliera e infermieristica persone anziane e ammalati",http://www.auraassistenza.com/profilo.htm,Bologna,40139,BO,EMR,
+1604,"Human Rights Nights",http://www.humanrightsnights.org,,,,,
+1605,"NOEMA - agenzia di servizi e organizzazione eventi",http://www.noemacongressi.it,Bologna,40124,BO,EMR,"via Orefici, 4 "
+1606,"Bologna Bruxelles A/R",http://www.bolognabruxelles.it/,Bologna,40123,BO,EMR,
+1607,"Organi Antichi",http://www.organiantichi.org/,Bologna,40123,BO,EMR,
+1608,www.piantiamolamemoria.org,http://www.piantiamolamemoria.org,,,,,
+1609,"Comunicamente - Agenzia di Comunicazione Bologna Organizzazione Eventi",http://www.comunicamente.it,Bologna,40137,BO,EMR,"via Solferino 38,"
+1610,"Associazione Jaya - YOGA SIVANANDA, YOGA KUNDALINI, DANZA BHARATA NATYAM, DANZA MUSICO TERAPIA, JAYA",http://associazionejaya.it/,Bologna,40126,BO,EMR,
+1611,"Corsi di Inglese e esami Cambridge ESOL a Bologna allAssociazione Italo Britannica",http://www.italobritannica.com,Bologna,40124,BO,EMR,"Via Farini, 35"
+1612,www.admb.it,http://www.admb.it/,Bologna,40127,EM,BO,
+1613,"Bologna Jazz Festival",http://www.bolognajazzfestival.com/,Bologna,,BO,EMR,
+1614,"Associazione Planimetrie Culturali",http://www.planimetrieculturali.org,Bologna,40126,BO,EMR,
+1615,AFBologna,http://www.afbologna.it/,Bologna,40123,BO,EMR,
+1616,"Assistenza anziani - Bologna - Island Residence",http://www.casadiriposoislandresidence.it/,Marzabotto,40043,BO,EMR,"Via Di Vittorio 6 "
+1617,"Casa protetta - Bologna - Istituto S. Anna",http://www.sannacaterina.net/,Bologna,40138,BO,EMR,"Via Pizzardi "
+1618,"Assistenza anziani - Case di riposo francescane - Bologna",http://www.casediriposofrancescane.it/,Bologna,40124,BO,EMR,
+1619,"La Caracola",http://www.lacaracola.it,Marzabotto,40043,BO,EMR,"Via Medelana, 3"
+1620,"Tavola delle donne",http://www.tavoladelledonne.com,Bologna,40121,BO,EMR,"Via Indipendenza 58"
+1621,"Isola che c'e",http://www.lisolache.it,Bologna,40126,BO,EMR,
+1622,"A.M.Bo. - Associazione Musicisti di Bologna - Home",http://www.ambologna.it/,Bologna,40139,BO,EMR,
+1623,"Universo Interculturale",http://www.universointerculturale.it,Bologna,40126,BO,EMR,
+1624,"Assistenza Domiciliare - Bologna - Angeli Azzurri",http://www.assistenzaanzianibologna.com/,Bologna,40138,BO,EMR,
+1625,"Associazione Culturale dei Lucani di Bologna",http://www.lucanibo.it,Bologna,40124,BO,EMR,"Via Clavature 22"
+1626,DiECieVENTiCiNQUE,http://www.diecieventicinque.it,,,,,
+1627,"C.E.M.I. Centro Educazione Musicale Infantile",http://www.cemi.bologna.it/,Bologna,40125,BO,EMR,"Via del Pratello 70 "
+1628,"Assistenza anziani a domicilio - Bologna - Agenzia AGSA",http://www.assistenzaanzianibologna.net/,Bologna,40138,BO,EMR,"VIA Massarenti "
+1629,"Assistenza infermieristica - Bologna - ASSISTENZA MALATI BOLOGNA srl",http://www.assistenzamalatibologna.it/,Bologna,40122,BO,EMR,"Via Delle Lame 79 "
+1630,"Dopolavoro Ferroviario BOLOGNA -",http://www.dlfbo.it/,Bologna,40128,BO,EMR,
+1631,"Associazione Musicale Fabio da Bologna",http://www.fabiodabologna.it/index2.html,Bologna,40125,BO,EMR,
+1632,"Associazione culturale Il Volo - Bologna",http://www.associazioneculturaleilvolo.it,Bologna,,BO,EMR,
+1633,"Circolo della Musica di Bologna",http://www.circolodellamusica.it/,Rastignano,40067,BO,EMR,
+1634,"Arpeggi - Associazione Culturale - Arpeggi - Associazione Culturale",http://www.millearpeggi.it/,Bologna,40124,BO,EMR,"Via Castiglione, 31 "
+1635,"Federbio | il mondo del biologico in Italia",http://www.federbio.it/,Bologna,00198,BO,EMR,"Piazza dei Martiri n. 1 "
+1636,"Clionet Associazione di ricerca storica e promozione culturale | Clionet.it",http://www.clionet.it/,Bologna,40133,BO,EMR,"Via Baracca, 2 "
+1637,"Fondazione Golinelli | Per una societAA della conoscenza",http://www.fondazionegolinelli.it/,Bologna,,BO,EMR,"Piazza Re Enzo 1"
+1638,"Mondo Donna Onlus",http://www.mondodonna-onlus.it,Bologna,40126,BO,EMR,"Via Mascarella n. 2 "
+1639,"HANDImatica 2014 | Mostra / Convegno nazionale - Tecnologie ICT e disabilitAA - X edizione",http://www.handimatica.com/,Bologna,,BO,EMR,
+1640,"Giappone allInfinito! - NipPop",http://www.nippop.it,Bologna,40124,BO,EMR,"via Chiudare 9"
+1641,www.associazionemusicaper.it/,http://www.associazionemusicaper.it/,Bologna,40127,BO,EMR,
+1642,"Fare Lavoro",http://www.farelavoro.it/,"Castel Maggiore",40013,BO,EMR,"Via Sostegno 1"
+1643,"guardie ecologiche ambientali volontarie",http://www.federgev.it,Bologna,40131,BO,EMR,"Via Selva Pescarola 26"
+1644,"FITeL Emilia Romagna - FITeL Emilia Romagna",http://www.fitelemiliaromagna.it/,Bologna,40122,BO,EMR,
+1645,"Focus D - Associazione di Promozione Sociale -",http://www.focusd.org/,Imola,40026,BO,EMR,
+1646,"Forma - Azione In Rete | Formazione, cultura e servizi per aziende, giovani, adulti e soggetti svant",http://www.forma-azioneinrete.it/,Bologna,40128,BO,EMR,"Via Gorki 12"
+1647,"Galleria dello Scienziato Dilettante - AttivitA diverse",http://www.funsci.com/texts/index_it.htm,Pianoro,40065,BO,EMR,
+1648,girorotondo,http://www.girorotondo.it/,Bologna,40141,BO,EMR,"via Cilea 1 "
+1649,Harambe,http://www.harambe.it/,Bologna,40126,BO,EMR,
+1650,"ideaFamiglia associazione di promozione sociale, senza fini di lucro, che realizza azioni e a",http://www.ideafamiglia.it/,Bologna,40126,BO,EMR,"Via  Guido Zucchini, 9 "
+1651,"Centro Sociale Culturale Ricreativo Annalena Tonelli ***",http://www.centroannalenatonelli.it/,"San Lazzaro di Savena",40068,BO,EMR,"via Galletta 42"
+1652,"E-R Ambiente",http://ambiente.regione.emilia-romagna.it,Bologna,40127,BO,EMR,"Viale Aldo Moro 52"
+1653,"Psy Care ",http://www.psy-care.org/,Bologna,40125,BO,EMR,"Via S. Stefano, 42 "
+1654,www.cometaemiliaromagna.it,http://www.cometaemiliaromagna.it,Bologna,40138,BO,EMR,
+1655,"Nuova pagina 1",http://dipsa.unibo.it/umiweb/umi/,Bologna,40127,BO,EMR,
+1656,"Scomunicati - Comunicazione creativa e consapevole",http://www.scomunicati.org/,Bologna,40125,BO,EMR,
+1657,"ACLI Emilia-Romagna - Home Page",http://www.acliemiliaromagna.it/,Bologna,40122,BO,EMR,"Via Lame 116"
+1658,"Comune di Monzuno",http://www.comune.monzuno.bologna.it,Monzuno,40036,BO,EMR,"via Rinascita, 5 "
+1659,"aihip ASSOCIAZIONE INTERNAZIONALE HAITI INTEGRITY PROJECT",http://www.aihip.org/,Bologna,40126,BO,EMR,
+1660,Cuberdon,http://www.cuberdon.org/,Imola,,BO,EMR,
+1661,"Associazione Forum",http://www.associazioneforum.com/,"Castel San Pietro Terme",40024,BO,EMR,"Viale degli Artisti, 3 "
+1662,"Loto Onlus - Uniti contro il tumore ovarico",http://www.lotonlus.org,Bologna,40131,BO,EMR,"via Botticelli 10."
+1663,"SO.CREM Bologna",http://www.socrem.bologna.it/,Bologna,40126,BO,EMR,
+1664,"A.P.E.Onlus Bologna",http://www.apeonlus.net,Bologna,40133,BO,EMR,
+1665,"Fondazione Gramsci Emilia Romagna",http://www.iger.org,Bologna,40126,BO,EMR,"via Mentana 2 "
+1666,"ComunitA Marchigiani Bologna",http://www.marchigianibologna.it/,"Casalecchio di Reno",40033,BO,EMR,
+1667,"FRAME - Home",http://www.associazioneframe.it/,Bologna,40122,BO,EMR,
+1668,InSalute,http://www.insalute.info/,Imola,40026,BO,EMR,
+1669,"Architetti di Strada - Home Page",http://www.architettidistrada.it/,Bologna,40133,BO,EMR,"Via Casaglia 16"
+1670,"URCA Consiglio Provinciale Bologna",http://www.urca.it/consiglio-provinciale-bologna/,Bologna,40100,BO,EMR,
+1671,www.vitenuove.org,http://www.vitenuove.org/,Bologna,40123,BO,EMR,
+1672,"Associazione Microimpresa",http://www.microimpresa.org/,Bologna,40100,BO,EMR,
+1673,"La Mente in Gioco",http://www.lamenteingioco.it/,"San Lazzaro di Savena",40068,BO,EMR,
+1674,"UBN: associazione per la conoscenza della natura e la difesa dellambiente",http://www.naturalisti-ubn.it,,,,,
+1675,UmanaMente,http://www.associazioneumanamente.org/,Bologna,40128,BO,EMR,"Viale Pepoli 5"
+1676,"AS.SO.GRAF. - Associazione Culturale di Sociologia e Grafologia",http://www.assograf.it/,Bologna,40138,BO,EMR,"Viale Lenin, 63 "
+1677,"Bolognazoofila - sito ufficiale",http://www.bolognazoofila.org,"Calderara di Reno",40012,BO,EMR,
+1678,"Nexus Emilia Romagna",http://www.nexusemiliaromagna.org,Bologna,40122,BO,EMR,"via Marconi 69"
+1679,asia,http://www.asia.it,Bologna,40121,BO,EMR,"Via Riva di Reno 124 "
+1680,"Biblioteca Vivente Bologna",http://www.bvbo.it/,Bologna,40134,BO,EMR,"via delle Tofane 31"
+1681,"Oaser | Ordine degli Assistenti Sociali dell&#039;Emilia Romagna",http://www.oaser.it,Bologna,40122,BO,EMR,"Via Marconi 47"
+1682,"Caleidos - Associazione per la promozione del benessere psico-sociale",http://www.caleidos.bo.it/,"Castel San Pietro Terme",40024,BO,EMR,
+1683,"Psicologi Per I Popoli - Emilia Romagna",http://www.psicopopoli-er.it,Bologna,40129,BO,EMR,"via F. Barbieri, 24"
+1684,"ComunitA della Missione di Don Bosco",http://www.associazionecmb.it/,Bologna,40128,BO,EMR,
+1685,"Amici del Museo Civico Archeologico di Bologna - Esagono",http://www.amicimuseo-esagono.it/,Bologna,40124,BO,EMR,
+1686,"Centro di Danza del Maestro Buratto",http://www.burattodanza.com/,"Zola Predosa",40069,BO,EMR,"via Abbazia 4"
+1687,Caibo,http://www.caibo.it/,Bologna,40128,BO,EMR,"Via Stalingrado 105 "
+1688,"Canoa Club Bologna",http://www.canoaclubbologna.it/,"Casalecchio di Reno",40033,BO,EMR,"Via Venezia 1"
+1689,"Circolo La Fattoria",http://www.circolofattoria.it/,Bologna,40127,BO,EMR,"Via Pirandello, 6 "
+1690,"Polisportiva CSI Casalecchio",http://www.csicasalecchio.it/,"Casalecchio di Reno",40033,BO,EMR,"via della Stazione, 1"
+1691,"Scuola di Danza",http://www.esserdanzabologna.it/scuola-di-danza,"Casalecchio di Reno",40033,BO,EMR,
+1692,"Francesco Francia Pallacanestro - Zola Predosa - Home",http://www.francescofranciabasket.it/,"Zola Predosa",40069,BO,EMR,"Via Pio Panfili, 17"
+1693,":: Ghepard ::",http://www.ghepardcalcio.it/,Bologna,40134,BO,EMR,"Via A. Costa 183 "
+1694,"Ass.Ginn. Arcobaleno - Official Web Site",http://www.ginnasticarcobaleno.it/,Dozza,40060,BO,EMR,"Via Morandi, 16"
+1695,"Gruppo Sportivo Riale Zola Predosa (BO)",http://www.gsriale.it/,"Zola Predosa",40069,BO,EMR,
+1696,"I cavalli del Reno",http://www.icavallidelrenobologna.it/,Bologna,40133,BO,EMR,"Via Raffaello Sanzio, 8 "
+1697,KicAAcAA,http://www.kicece.it/,Bologna,40133,BO,EMR,"Via  Raffaello Sanzio, 6"
+1698,"Home - Marzabotto2000",http://www.marzabotto2000.com/,Marzabotto,40043,BO,EMR,"Via Matteotti 1 "
+1699,"Nuovo Nuoto",http://www.nuovonuoto.it/,Bologna,40132,BO,EMR,
+1700,"Ozzanese Calcio",http://www.ozzanesecalcio.com/inizio.htm,"Ozzano dell'Emilia",40064,BO,EMR,
+1701,"Peace Games Uisp - Home",http://www.peacegamesuisp.org/,Bologna,40121,BO,EMR,
+1702,"Pedale Bolognese",http://www.pedalebolognese.it/,Bologna,40138,BO,EMR,
+1703,"Polisportiva Zola",http://www.polisportivazola.it/,"Zola Predosa",40069,BO,EMR,
+1704,"S. Biagio di Casalecchio",http://www.san-biagio.it/,"Casalecchio di Reno",40033,BO,EMR,
+1705,"BSC SASSO MARCONI",http://www.sassomarconibaseball.it/,"Sasso Marconi",40037,BO,EMR,
+1706,"Associazione Sportiva Dilettantistica Shakti",http://www.shakti-ballando.com/,Marzabotto,40055,BO,EMR,
+1707,"Slow Food Bologna",http://www.slowfoodbologna.it/,,,,,
+1708,"Gruppo Sportivo ENS di Bologna",http://www.sportdeafbo.com/,Bologna,40100,BO,EMR,
+1709,"ASSOCIAZIONE SUPERBASS - HOME",http://www.superbass.it/,Bologna,40133,BO,EMR,"Via Paolo Bentivoglio 2"
+1710,"VILLANOVA S.L. VOLLEY",http://www.villanovavolley.com/,Castenaso,40055,BO,EMR,
+1711,"Il Canile di Budrio - CANILE Intercomunale dei Comuni di Budrio, Molinella, Medicina e Castenaso",http://ilcaniledibudrio.altervista.org/,Budrio,40054,BO,EMR,
+1712,AAE,http://www.aaeweb.net,,,,,
+1713,"Animal Liberation",http://www.animalliberation.it,Bologna,47900,BO,EMR,"via degli Albari 2"
+1714,"Primo Piano &mdash; Assemblea legislativa. Regione Emilia-Romagna",http://www.assemblea.emr.it,Bologna,40121,BO,EMR,"Viale Aldo Moro 50"
+1715,"Associazione Utenti Auto - AUA",http://www.aua.it,,,,,
+1716,"Canigattienoi - Home Page",http://www.canigattienoi.cittametropolitana.bo.it/,Bologna,40126,BO,EMR,"Via Zamboni, 13"
+1717,"Centro Tutela e Ricerca Fauna Esotica e Selvatica - Monte Adone",http://www.centrotutelafauna.org,"Sasso Marconi",40037,BO,EMR,"Via Brento, 9  "
+1718,"- Una cittA per gli archivi",http://www.cittadegliarchivi.it,,,,,
+1719,"Gattile San Lazzaro",http://www.compagniadeglianimali.org,,,,,
+1720,cupsit,http://www.cupsit.it,Bologna,40121,BO,EMR,
+1721,"Enpa Bologna",http://www.enpabologna.org/,Bologna,40131,BO,EMR,
+1722,"eaHome - Essere Animali | Diverse specie un solo pianeta",http://www.essereanimali.org,,,,,
+1723,"Oasi felina - bologna ozzano - gatti - Gattile - associazione volontariato ONLUS",http://www.fratellidizampa.it/,,,,,
+1724,"Sito web del Gattile Lo Stregatto",http://www.gattilecalderara.com/,,,,,
+1725,"Il Rifugio del Cane di Ponte Ronca",http://www.ilrifugiodelcanediponteronca.it/,,,,,
+1726,"Lega antivivisezionista Emilia Romagna",http://www.laer.org/Index.htm,,,,,
+1727,"Montagnola Bologna",http://www.montagnolabologna.it/,Bologna,40125,BO,EMR,"Via Guinizelli 3 "
+1728,SALTinBANCO,http://www.saltinbanco.it,,,,,
+1729,"Siamo tutti pedoni - Campagna per la sicurezza dei pedoni e degli utenti deboli della strada - Siamo",http://www.siamotuttipedoni.it,,,,,
+1730,"Un Animale per Amico - canile di marzabotto ( bologna )",http://www.unanimaleperamico.it,,,,,
+1731,"Unasam | Unione Nazionale Delle Associazioni Per La Salute Mentale",http://www.unasam.it/,Bologna,40123,BO,EMR,
+1732,Vittimologia,http://www.vittimologia.it/vittimologia/set_attivita.htm,,,,,
+1733,"Prima pagina AICQ Emilia Romagna",http://www.aicqer.it,Bologna,40129,BO,EMR,
+1734,"Compagnia delle Opere Bologna",http://www.cdobologna.it,Bologna,40138,BO,EMR,"Via Azzurra n.41 "
+1735,"CIOFS - Formazione Professionale - Emilia-Romagna",http://www.ciofsbo.org,Bologna,40128,BO,EMR,"Via Jacopo della Quercia, 4"
+1736,"CONFABITARE - associazione proprietari immobiliari",http://www.confabitare.com,Bologna,40122,BO,EMR,
+1737,"Associazione Fascia Boscata",http://www.fasciaboscata.it,Bologna,40127,BO,EMR,
+1738,"Benvenuti nelle pagine delle GEV di Bologna",http://www.gevbologna.org,"Castel di Casio",24123,BO,EMR,"Via Buferla 6"
+1739,"Associazione Nazionale Giacche Verdi - Raggruppamento Emilia-Romagna",http://www.giaccheverdi.it/emiliaromagna/,,,,,
+1740,"La Citta del Sole",http://www.lacitta-delsole.org,Bologna,40131,BO,EMR,"via della Ghisiliera 9 "
+1741,"Landeres, paesaggi resilienti",http://www.landeres.com,"Casalecchio di Reno",40033,BO,EMR,
+1742,"Maneggio Bologna Associazione Turismo Equestre Parco Cavaioni",http://www.maneggiocavaioni.com,Bologna,,BO,EMR,
+1743,"Salus basket | SocietA di pallacanestro di Bologna",http://www.salusbasket.it,Bologna,40129,BO,EMR,
+1744,"Circolo Aziendale Ravone",https://circoloravone.wordpress.com,Bologna,40133,BO,EMR,
+1745,musart.altervista.org,http://musart.altervista.org,Bologna,40122,BO,EMR,
+1746,"AECA - Associazione Emiliano Romagnola Centri Autonomi di formazione professionale",http://www.aeca.it,Bologna,40128,BO,EMR,"Via Bigari, 3 "
+1747,"Associazioni Provinciali Invalidi Civili e Cittadini Anziani",http://www.apici.org,,,,,
+1748,ASSIEMI,http://www.assiemi.it,Bologna,40122,BO,EMR,"via San Felice 26"
+1749,"Battito Dali...a - home",http://www.battitodalia.it,Pianoro,40065,BO,EMR,"Via del Savena 15 "
+1750,"Flashmusica - Il portale della musica a Bologna",http://www.flashmusica.it,Bologna,40124,BO,EMR,"Piazza Maggiore 6 "
+1751,"Fraternal Compagnia",http://www.fraternalcompagnia.it,Bologna,40139,BO,EMR,
+1752,"Homepage - Genus Bononiae Musei nella CittAA. Un percorso culturale, artistico e museale nel centro ",http://www.genusbononiae.it,Bologna,40121,BO,EMR,"via Manzoni, 2 "
+1753,"Home - Associazione I Fiori Musicali - Bologna",http://www.ifiorimusicali.jimdo.com,Bologna,40128,BO,EMR,"Via Ferrarese 3"
+1754,"Home - ilcenacolo-operaconcerts JimdoPage!",http://www.ilcenacolo-operaconcert.jimdo.com/,,,,,
+1755,"Home | Istituzione Bologna Musei | Iperbole",http://www.museibologna.it/,Bologna,40121,BO,EMR,"via Don Minzoni 14"
+1756,"MusicArti - Corso Scuola di Canto e Musica a Bologna",http://www.musicarti.it,Bologna,02008,BO,EMR,
+1757,"Note Legali",http://www.notelegali.it,Bologna,40137,BO,EMR,"Via degli Orti, 44"
+1758,"La nostra storia - L OFFICINA di SOSTEGNO",http://www.odsbologna.it,Bologna,40127,BO,EMR,"via Garavaglia , 8 "
+1759,"Scuola e corsi musica Milano, Bologna, La Spezia - RICORDI MUSIC SCHOOL",http://www.ricordimusicschool.com,Bologna,20821,BO,EMR,"Via Giulio Cesare, 20017"
+1760,"Il Saggiatore musicale : Home",http://www.saggiatoremusicale.it,Bologna,40123,BO,EMR,"via Barberia 4"
+1773,"AIAU Onlus - Associazione in Aiuti Umanitari",http://www.aiau.it,,,,,
+1774,"Associazione Sport 2000",http://www.as2000.it,"San Lazzaro di Savena",40068,BO,EMR,
+1775,"Associazione Sportiva ASCO",http://www.ascozola.net,"Zola Predosa",40069,BO,EMR,"Via Dante, 17A "
+1776,"Benvenuto nel sito dellA. S. D. Taekwondo Lupi",http://www.asdlupi.it,"San Lazzaro di Savena",40068,BO,EMR,
+1777,"Bugs Bologna",http://www.bugsbologna.it,,,,,
+1778,"Fondazione Forense Bolognese",http://www.fondazioneforensebolognese.it,Bologna,40124,BO,EMR,"Via Marsili, 8"
+1779,"Namaste Onore a Te ONLUS - Adozioni e sotegno a distanza",http://www.namaste-adozioni.org,"San Lazzaro di Savena",40068,BO,EMR,"Via Del Bosco, 3"
+1780,"PGM Corsi Scuole di formazione oltre 100 attivita corsuali Servizi Arte Cultura Sport",http://www.pgmbologna.com,Bologna,40138,BO,EMR,"Via Santa Rita 4"
+1781,"Polisportiva Lame Bologna sport e ricreazione per tutti",http://www.polisportivalame.bologna.it,Bologna,"	4013",BO,EMR,"via Vasco De Gama, 20"
+1782,"Reno Rugby 1967 ASD Bologna",http://www.renorugby.it,Argelato,40050,BO,EMR,"Via F.lli Danielli, 3"
+1783,"Scuola di Sport 5 Cerchi",http://www.scuoladisportcinquecerchi.it,Minerbio,40061,BO,EMR,"Via Garibaldi, 45 "
+1784,"Associazione sportiva dilettantistica Spaziodanza",http://www.spaziodanza.info,Bologna,40138,BO,EMR,
+1785,"Tennis Camp Lizzano - corsi, stage, centri sportivi di tennis Bologna",http://www.tenniscamplizzano.it,"Lizzano in Belvedere",40042,BO,EMR,
+1786,"Unione Sportiva Zinella C.S.I. - Associazione Sportiva Dilettantistica",http://www.uszinellacsi.it,"San Lazzaro di Savena",40068,BO,EMR,"Via Giovanni XXIII n. 45"
+1787,"Associazione sportiva - Granarolo dellEmilia - Bologna - Derby",http://www.derbycampidacalcetto.it,"Granarolo dell Emilia",40057,BO,EMR,
+1788,"Associazione sportiva - Granarolo dellEmilia - Bologna - Derby",http://www.derbycampidacalcetto.it,"Granarolo dell Emilia",40057,BO,EMR,

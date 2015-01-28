@@ -47,16 +47,14 @@
 				$sito['link'] = $link;
 				/*Cerco una categoria*/
 				$categorie = trova_categorie($link);
+				$sito['categoria'] = array();
+				array_push($sito['categoria'],"Associazione no profit");
 				if($categorie != null){
-					$sito['categoria'] = array();
+					
 					$value = max($categorie);
 					$key = array_keys($categorie,$value);
 					foreach($key as $c)
 						array_push($sito['categoria'],$c);
-				}
-				else{
-					$sito['categoria'] = array();
-					array_push($sito['categoria'],"Non classificato");
 				}
 				
 				/*Cerco il nome del sito/associazione*/
@@ -200,34 +198,46 @@
 		}
 		/*Ricerca CAP*/
 		if(array_key_exists("luogo",$sito) === false ){
-			preg_match_all('/\s\d{2}[01589]\d{2},{0,1}\s/i',$content,$indirizzi); 
+			/*Provo a cercare un indirizzo*/
+			preg_match_all('/(via|corso|piazza|viale)[a-zA-Z0-9\s,.-]*\d{2}[01589]\d{2},{0,1}[a-zA-Z0-9\s,.-]*((\([A-Z]{2}\))|(bologna))/i',$content,$indirizzi);
 			if(count($indirizzi[0]) > 0){
 				$sito['luogo'] = array();
 				foreach($indirizzi[0] as $ind) { 
-					$sito['luogo']['cap'] = preg_replace('/\s/','',$ind);
-					$c = new parseCSV();
-					$c->delimiter =";";
-					$c->parse('../src/listacomuni.csv');
-					foreach ($c->data as $key => $row){
-						$cap = $row['CAP'];
-						if (strpos($cap,'x') != false){
-							
-							$index = strpos($cap,'x');
-							
-							$cap_pre = substr($cap,0,$index);
-							$ind_pre = substr($ind,0,$index+1);
-							if(intval($cap_pre) == intval($ind_pre) && $row['Provincia'] == "BO"){
+					$form_ind = formatta_indirizzo($ind);
+					$sito['luogo'] = $form_ind;
+				}
+			}
+			/*Se non trovo un indirizzo, provo solo con il CAP*/
+			else{
+				preg_match_all('/\s\d{2}[01589]\d{2},{0,1}\s/i',$content,$indirizzi); 
+				if(count($indirizzi[0]) > 0){
+					$sito['luogo'] = array();
+					foreach($indirizzi[0] as $ind) { 
+						$sito['luogo']['cap'] = preg_replace('/\s/','',$ind);
+						$c = new parseCSV();
+						$c->delimiter =";";
+						$c->parse('../src/listacomuni.csv');
+						foreach ($c->data as $key => $row){
+							$cap = $row['CAP'];
+							if (strpos($cap,'x') != false){
+								
+								$index = strpos($cap,'x');
+								
+								$cap_pre = substr($cap,0,$index);
+								$ind_pre = substr($ind,0,$index+1);
+								if(intval($cap_pre) == intval($ind_pre) && $row['Provincia'] == "BO"){
+									$sito['luogo']['comune'] = $row['Comune'];
+									$sito['luogo']['provincia'] = $row['Provincia'];
+									$sito['luogo']['regione'] = $row['Regione'];
+									continue 2;
+								}
+							}
+							else if(intval($cap) == intval($ind) && $row['Provincia'] == "BO"){
 								$sito['luogo']['comune'] = $row['Comune'];
 								$sito['luogo']['provincia'] = $row['Provincia'];
 								$sito['luogo']['regione'] = $row['Regione'];
 								continue 2;
 							}
-						}
-						else if(intval($cap) == intval($ind) && $row['Provincia'] == "BO"){
-							$sito['luogo']['comune'] = $row['Comune'];
-							$sito['luogo']['provincia'] = $row['Provincia'];
-							$sito['luogo']['regione'] = $row['Regione'];
-							continue 2;
 						}
 					}
 				}
@@ -267,13 +277,20 @@
 					$query .= "'".$site['luogo']['cap'] ."', ";
 					$query .= "'".$site['luogo']['provincia'] ."', ";
 					$query .= "'".$site['luogo']['regione'] ."'";
+					if(array_key_exists("indirizzo",$site['luogo'])){
+						$query .= ",'".$site['luogo']['indirizzo'] ."'";
+					}
+					else{
+						$query .=", NULL";
+					}
 				}
 				else{
-					$query .= "NULL, NULL, NULL, NULL ";
+					$query .= "NULL, NULL, NULL, NULL, NULL ";
 				}
+				
 			}
 			else{
-				$query .= "NULL, NULL, NULL, NULL ";
+				$query .= "NULL, NULL, NULL, NULL, NULL ";
 			}
 			$query .= ");";
 			echo $query."<br>";
@@ -322,11 +339,15 @@
 	function recupera_dati($link){
 		global $db;
 		$site = array();
+		$special_c = array("/[À-Å]/","/Æ/","/Ç/","/[È-Ë]/","/[Ì-Ï]/","/Ð/","/Ñ/","/[Ò-ÖØ]/","/×/","/[Ù-Ü]/","/[Ý-ß]/","/[à-å]/","/æ/","/ç/","/[è-ë]/","/[ì-ï]/","/ð/","/ñ/","/[ò-öø]/","/÷/","/[ù-ü]/","/[ý-ÿ]/");
+		$normal_c = array("A","AE","C","E","I","D","N","O","X","U","Y","a","ae","c","e","i","d","n","o","x","u","y");
+						
 		/*Recupero le informazioni di base*/
 		$query = "SELECT * FROM associazioni WHERE sito='".$link."';";
 		$result = $db->select($query);
 		foreach($result as $row){
-			$site['nome'] = $row['nome associazione'];
+			$nome =iconv('UTF-8', 'ASCII//TRANSLIT', $row['nome associazione']);
+			$site['nome'] = $nome;
 			$site['link'] = $row['sito'];
 			if($row['provincia'] != null){
 				$site['luogo'] = array();
@@ -334,6 +355,8 @@
 				$site['luogo']['cap'] = $row['cap'];
 				$site['luogo']['provincia'] = $row['regione'];
 				$site['luogo']['regione'] = $row['provincia'];
+				if($row['indirizzo'] != null)
+					$site['luogo']['indirizzo'] = $row['indirizzo'];
 			}
 		}
 		/*Recupero i contatti email*/
@@ -365,6 +388,7 @@
 				array_push($site['categoria'], $row['categoria']);
 			}
 		}
+		array_push($site['categoria'], "Associazione no profit");
 		return $site;
 	}
 	
@@ -499,6 +523,56 @@
 
 		}
 	
+	
+	}
+	
+	
+	function formatta_indirizzo($indirizzo){
+		preg_match_all('/\s\d{2}[01589]\d{2},{0,1}\s/i',$indirizzo,$cap); 
+		if(count($cap[0]) >0){
+			$address = array();
+			foreach($cap[0] as $c){
+				$address['cap'] = str_ireplace(" ","",$c);;
+				$file = new parseCSV();
+					$file->delimiter =";";
+					$file->parse('../src/listacomuni.csv');
+					foreach ($file->data as $key => $row){
+						$cap_item = $row['CAP'];
+						if (strpos($cap_item,'x') != false){
+							
+							$index = strpos($cap_item,'x');
+							
+							$cap_pre = substr($cap_item,0,$index);
+							$ind_pre = substr($c,0,$index+1);
+							if(intval($cap_pre) == intval($ind_pre) && strcmp($row['Provincia'],"BO") == 0){
+								$address['comune'] = $row['Comune'];
+								$indirizzo = str_ireplace($row['Comune'],"",$indirizzo);
+								$address['provincia'] = $row['Provincia'];
+								$indirizzo = str_ireplace('('.$row['Provincia'].')',"",$indirizzo);
+								$address['regione'] = $row['Regione'];
+								$indirizzo = str_ireplace($c,"",$indirizzo);
+								continue 2;
+							}
+						}
+						else if(intval($cap_item) == intval($c) && strcmp($row['Provincia'],"BO") == 0){
+							$address['comune'] = $row['Comune'];
+							$indirizzo = str_ireplace($row['Comune'],"",$indirizzo);
+							$address['provincia'] = $row['Provincia'];
+							$indirizzo = str_ireplace('('.$row['Provincia'].')',"",$indirizzo);
+							$address['regione'] = $row['Regione'];
+							$indirizzo = str_ireplace($c,"",$indirizzo);
+							continue 2;
+						}
+					}
+			
+			}
+			$indirizzo = trim($indirizzo);
+			$indirizzo = trim($indirizzo,",");
+			$indirizzo = trim($indirizzo,"-");
+			$address['indirizzo'] = $indirizzo;
+			return $address;
+		}
+		return null;
 	
 	}
 	

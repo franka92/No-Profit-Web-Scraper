@@ -1,5 +1,4 @@
 <?php
-
 	function crea_data_json(){
 
 		$db = new Db();

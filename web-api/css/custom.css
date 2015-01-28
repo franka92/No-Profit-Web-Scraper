@@ -1,0 +1,249 @@
+body{
+	background: url(../img/bg.png) repeat scroll 0 0 transparent;
+}
+/*Navbar con sfondo rosso*/
+.navbar , .panel-heading , .panel-title, .modal-header, .btn-primary{
+	background-color:#DC143C !important;
+	color: white !important;
+	border-color: #DC143C !important;
+}
+.navbar{
+	margin-right:15px;
+	margin-left:15px;
+}
+/*Menu della navbar*/
+#bt_help, #bt_about, #mode, #bt_gestisci_ann , #bt_ann_doc, #bt_ann_fram{
+	color: #ffffff;
+}
+#bt_help:hover, #bt_about:hover, #mode:hover, #bt_ann_doc:hover, #bt_ann_fram:hover, #bt_gestisci_ann:hover{
+	color: #000000;
+}
+.menu_annotator, .menu_annotator a , .navbar-right{
+	color:white !important;
+	border:none !important;
+}
+
+/*Logo principale del sito*/
+.img-responsive{	
+	margin:0 auto;
+}
+.img_logo{
+	width:40px;
+	height:40px;
+	margin-top:-10px;
+	margin-right:5px;
+
+}
+
+
+.input_text_size {
+	width:80% !important;
+}
+
+/*Finestra per la gestione delle annotazioni non salvate*/
+#gest_ann{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto	
+}
+#gestione_body{
+	text-align:center;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.glyphicon-pencil, .glyphicon-trash{
+	text-align:center;
+	color:#DC143C;
+}
+.td_icona{
+	text-align:center;
+}
+
+/*Pannello laterale sinistro*/
+#tit_lista.active a, #tit_annotazioni.active a{
+	background-color:#F4FA58 !important;
+	color:#000000;
+}
+
+#tit_lista a , #tit_annotazioni a, .glyphicon-plus, .glyphicon-minus{
+	color: #ffffff;
+}
+#tit_lista, #tit_annotazioni{
+	cursor:pointer;
+}
+#lista_doc li a {
+	color: #000000;
+	cursor:pointer;
+ }
+ #lista, #annotazioni, #info_doc{
+	height:400px;
+	overflow:auto;
+}
+#panel_sinistra{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#panel2 .panel-body, #info_doc, .finestra_info_ann .modal-body{
+	overflow:auto;
+}
+
+/*Contenuto documento*/
+
+.list-group-item { 
+	word-wrap: break-word; 
+	
+}
+
+/*-- Tab dei documenti, per far stare i titoli dentro ai bordi della tab*/
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+
+}
+.nav-tabs  li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs  li  .scorri {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+
+}
+
+.nav-tabs li .scorri{
+	padding:10px;
+	
+}
+.nav-tabs > li  .scorri:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs  li.active  .scorri,
+.nav-tabs  li.active  .scorri:hover,
+.nav-tabs  li.active  .scorri:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified  li {
+  float: none;
+}
+.nav-tabs.nav-justified  li  .scorri {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified  .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified  li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified  li  .scorri {
+    margin-bottom: 0;
+  }
+}
+.nav-tabs.nav-justified  li  .scorri {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-tabs.nav-justified  .active  .scorri,
+.nav-tabs.nav-justified  .active  .scorri:hover,
+.nav-tabs.nav-justified  .active  .scorri:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified  li  .scorri {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified  .active  .scorri,
+  .nav-tabs.nav-justified  .active  .scorri:hover,
+  .nav-tabs.nav-justified  .active  .scorri:focus {
+    border-bottom-color: #fff;
+  }
+}
+
+/* 
+Per far scorrere il titolo del documento se ÃƒÂ¨ troppo lungo per la tab (onMouseOver)
+Thanks to: http://jsfiddle.net/amyseqmedia/2gKZF/light/
+*/
+
+
+
+
+
+.container{
+	width:100%;
+}
+
+
+.panel-subtitle{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: inherit;
+}
+	
+.span_help{
+	float:right;
+} 
+
+.bt_opz_filtro{
+	margin-left:21px !important;
+}
+
+.collapsed{
+	cursor:pointer;
+}
+
+.ann_doc_temp{
+	color: #DC143C !important;
+}
+
+.bold, .modal-body{
+	word-wrap:break-word !important;
+}
+
+
+
+/************ AGGIUNTE ********************/
+
+.div_associazione{
+	border-bottom:1px solid #000000;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+
+#tab_risultati{
+    margin: 0;
+	padding: 10px;
+	height: 49px;
+	font-size: 20px;
+	border-bottom: 3px solid #666;
+	font-weight: bold;
+}
+
+#panel_elenco{
+	margin-left:0px;
+}
+
+.span_title{
+	font-weight: bold;
+}
+
+#div_elenco{
+	height:750px;
+	overflow:auto;
+	clear:left;
+}
