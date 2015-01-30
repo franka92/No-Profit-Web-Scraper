@@ -126,6 +126,7 @@
 					/*Imposto i predicati/proprietà per ogni oggetto*/
 					if($email != null){
 						foreach($email as $e){
+							$e = trim($e," ");
 							$e_obj = $graph->resource("mailto:".$e);
 							$location->add('vcard:hasEmail',$e_obj);
 						}
@@ -134,8 +135,9 @@
 					if($numeri != null){
 						foreach($numeri as $n){
 							$num_type = $n[1];
-							$numero = $graph->resource("tel:".$n[0]);
-							$telefono = $graph->resource($prefix."number-".$n[0],"vcard:Voice");
+							$num_tel =  preg_replace('/\s/','',$n[0]);
+							$numero = $graph->resource("tel:".$num_tel);
+							$telefono = $graph->resource($prefix."number-".$num_tel,"vcard:Voice");
 							$telefono->add('vcard:hasValue',$numero);
 							$location->addResource("vcard:hasTelephone",$telefono);
 						}

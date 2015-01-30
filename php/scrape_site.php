@@ -92,8 +92,11 @@
 			$associazione['email'] = array();
 		foreach($div_email as $d){
 			$d_email = $d->next_sibling()->first_child();
-			$email = $d_email->plaintext;	
-			array_push($associazione['email'],$email);
+			$email = $d_email->plaintext;
+			$array_email = recupera_email($email);
+			if($array_email != null){
+				$associazione['email'] = $array_email;
+			}
 		}	
 		return $associazione;
 	}
@@ -104,6 +107,19 @@
 		
 		fclose($file_associazioni);
 	
+	
+	function recupera_email($email){
+		$a_email = null;
+		preg_match_all('/([\w+\.]*\w+@[\w+\.]*\w+[\w+\-\w+]*\.\w{2,3})/is',$email,$addresses); 
+		if(count($addresses[0]) > 0){
+			$a_email = array();
+			foreach($addresses[1] as $curEmail) { 
+				$curEmail = preg_replace('/\s{2,}/',' ',$curEmail);
+				array_push($a_email,trim($curEmail," "));
+			} 
+		}
+		return $a_email;
+	}
 	
 	
 	function recupera_numeri($numeri){

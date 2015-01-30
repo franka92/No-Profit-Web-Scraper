@@ -268,7 +268,7 @@
 
 <http://www.no-profit-data.it/loc-associazionealtadefinizione_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto: info@associazionealtadefinizione.it>, <mailto:info@associazionealtadefinizione.it> ;
+  vcard:hasEmail <mailto:info@associazionealtadefinizione.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-051237709>, <http://www.no-profit-data.it/number-3703010584> ;
   vcard:hasAddress <http://www.no-profit-data.it/> .
 
@@ -1682,24 +1682,12 @@
 <http://www.no-profit-data.it/loc-aiasbo_1>
   a vcard:Location ;
   vcard:hasEmail <mailto:aiasbo@legalmail.it>, <mailto:info@aiasbo.it>, <mailto:soggiorni@aiasbo.it> ;
-  vcard:hasTelephone <http://www.no-profit-data.it/number-02376540379>, <http://www.no-profit-data.it/number-051 450729>, <http://www.no-profit-data.it/number-051 454727>, <http://www.no-profit-data.it/number-051 466105>, <http://www.no-profit-data.it/number-051450729>, <http://www.no-profit-data.it/number-051454727>, <http://www.no-profit-data.it/number-051466105> ;
+  vcard:hasTelephone <http://www.no-profit-data.it/number-02376540379>, <http://www.no-profit-data.it/number-051450729>, <http://www.no-profit-data.it/number-051454727>, <http://www.no-profit-data.it/number-051466105> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Ferrara_32_40139> .
 
 <http://www.no-profit-data.it/number-02376540379>
   a vcard:Voice ;
   vcard:hasValue <tel:02376540379> .
-
-<http://www.no-profit-data.it/number-051 450729>
-  a vcard:Voice ;
-  vcard:hasValue <tel:051 450729> .
-
-<http://www.no-profit-data.it/number-051 454727>
-  a vcard:Voice ;
-  vcard:hasValue <tel:051 454727> .
-
-<http://www.no-profit-data.it/number-051 466105>
-  a vcard:Voice ;
-  vcard:hasValue <tel:051 466105> .
 
 <http://www.no-profit-data.it/number-051450729>
   a vcard:Voice ;
@@ -5835,7 +5823,7 @@
 <http://www.no-profit-data.it/loc-buddhism_1>
   a vcard:Location ;
   vcard:hasAddress <http://www.no-profit-data.it/40137>, <http://www.no-profit-data.it/VIA_Jacopo_della_Lana_8_40137> ;
-  vcard:hasEmail <mailto:bologna@buddhism.it, dwbc.bologna@gmail.com> ;
+  vcard:hasEmail <mailto:bologna@buddhism.it>, <mailto:dwbc.bologna@gmail.com> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-347.2328619> .
 
 <http://www.no-profit-data.it/bugsbologna>
@@ -6174,7 +6162,7 @@
 
 <http://www.no-profit-data.it/loc-canigattienoi_cittametropolitana_bo_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:cm.bo@cert.cittametropolitana.bo.it>, <mailto:infocani@cittametropolitana.bo.it>, <mailto:urp@cittametropolitana.bo.it> ;
+  vcard:hasEmail <mailto:infocani@cittametropolitana.bo.it>, <mailto:urp@cittametropolitana.bo.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516598028>, <http://www.no-profit-data.it/number-0516598111>, <http://www.no-profit-data.it/number-0516598377>, <http://www.no-profit-data.it/number-0516598620> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Zamboni,_13_40126> .
 
@@ -11510,7 +11498,7 @@
 
 <http://www.no-profit-data.it/loc-humanrightsnights_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:cinema@humanrightsnights.org>, <mailto:CinetecaUfficioStampa@cineteca.bologna.it>, <mailto:direzioneartistica@humanrightsnights.org>, <mailto:info@humanrightsnights.org>, <mailto:isabella.malaguti@cineteca.bologna.it>, <mailto:organizzazione@humanrightsnights.org>, <mailto:webmaster@humanrightsnights.org> .
+  vcard:hasEmail <mailto:cinema@humanrightsnights.org>, <mailto:direzioneartistica@humanrightsnights.org>, <mailto:info@humanrightsnights.org>, <mailto:isabella.malaguti@cineteca.bologna.it>, <mailto:organizzazione@humanrightsnights.org>, <mailto:webmaster@humanrightsnights.org> .
 
 <http://www.no-profit-data.it/iboitalia>
   a org:Organization ;
@@ -14803,20 +14791,16 @@
 <http://www.no-profit-data.it/loc-piazzagrande_1>
   a vcard:Location ;
   vcard:hasEmail <mailto:bicicentro@piazzagrande.it>, <mailto:bologna@avvocatodistrada.it>, <mailto:info@fraternalcompagnia.it>, <mailto:info@piazzagrande.it>, <mailto:redazione@piazzagrande.it>, <mailto:sms@piazzagrande.it>, <mailto:volontari@piazzagrande.it> ;
-  vcard:hasTelephone <http://www.no-profit-data.it/number-051 342328>, <http://www.no-profit-data.it/number-0513370669>, <http://www.no-profit-data.it/number-051342328> ;
+  vcard:hasTelephone <http://www.no-profit-data.it/number-051342328>, <http://www.no-profit-data.it/number-0513370669> ;
   vcard:hasAddress <http://www.no-profit-data.it/40128> .
-
-<http://www.no-profit-data.it/number-051 342328>
-  a vcard:Voice ;
-  vcard:hasValue <tel:051 342328> .
-
-<http://www.no-profit-data.it/number-0513370669>
-  a vcard:Voice ;
-  vcard:hasValue <tel:0513370669> .
 
 <http://www.no-profit-data.it/number-051342328>
   a vcard:Voice ;
   vcard:hasValue <tel:051342328> .
+
+<http://www.no-profit-data.it/number-0513370669>
+  a vcard:Voice ;
+  vcard:hasValue <tel:0513370669> .
 
 <http://www.no-profit-data.it/piccoligrandicuori>
   a org:Organization ;
@@ -14905,7 +14889,7 @@
 <http://www.no-profit-data.it/loc-polisportivalame_bologna_1>
   a vcard:Location ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516345717>, <http://www.no-profit-data.it/number-0516353007> ;
-  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama,_20_	4013> .
+  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131> .
 
 <http://www.no-profit-data.it/number-0516345717>
   a vcard:Voice ;
@@ -14914,14 +14898,6 @@
 <http://www.no-profit-data.it/number-0516353007>
   a vcard:Voice ;
   vcard:hasValue <tel:0516353007> .
-
-<http://www.no-profit-data.it/via_Vasco_De_Gama,_20_	4013>
-  a vcard:Work ;
-  vcard:country-name "Italia" ;
-  vcard:region "BO" ;
-  vcard:postal-code """	4013""" ;
-  vcard:locality "Bologna" ;
-  vcard:street-address "via Vasco De Gama, 20" .
 
 <http://www.no-profit-data.it/polisportivaondablu>
   a org:Organization ;
@@ -19868,7 +19844,7 @@
 
 <http://www.no-profit-data.it/loc-area_ortiva_via_delle_armi_associazione_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:angelopampini@libero.it&#160;> ;
+  vcard:hasEmail <mailto:angelopampini@libero.it> ;
   vcard:hasAddress <http://www.no-profit-data.it/c_o_Pampini_-_Via_Giordano_Umberto_n_4_40141> .
 
 <http://www.no-profit-data.it/c_o_Pampini_-_Via_Giordano_Umberto_n_4_40141>
@@ -20820,9 +20796,9 @@
 <http://www.no-profit-data.it/loc-associazione_dilettantistica_polisportiva_lame_1>
   a vcard:Location ;
   vcard:hasEmail <mailto:contattaci@polisportivalame.bologna.it> ;
-  vcard:hasAddress <http://www.no-profit-data.it/VIA_VASCO_DE_GAMA_20_40131> .
+  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131> .
 
-<http://www.no-profit-data.it/VIA_VASCO_DE_GAMA_20_40131>
+<http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
@@ -21018,7 +20994,7 @@
 
 <http://www.no-profit-data.it/loc-associazione_pro_loco_sasso_marconi_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:ferrarincd@alice.it, piazzi@fisco-finanza.it, prolocosassomarconi@libero.it> ;
+  vcard:hasEmail <mailto:ferrarincd@alice.it>, <mailto:piazzi@fisco-finanza.it>, <mailto:prolocosassomarconi@libero.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-051.6758409> ;
   vcard:hasAddress <http://www.no-profit-data.it/VIA_STAZIONE_86_2_40037> .
 
@@ -22605,7 +22581,6 @@
 
 <http://www.no-profit-data.it/loc-centro_sociale_anziani_croce_casalecchio_di_reno_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:croceservizi@yahoo> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516192233> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Canonica_18_20_40033> .
 
@@ -23770,7 +23745,7 @@
 
 <http://www.no-profit-data.it/loc-centro_sociale_anziani_trebbo_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:centro-trebbo@alice.it> ;
+  vcard:hasEmail <mailto:trebbo@alice.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516325487> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Lame_99_40013> .
 
@@ -23877,7 +23852,7 @@
 
 <http://www.no-profit-data.it/loc-centro_sociale_anziani_villa_paradiso_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:Cs-villa-paradiso@libero.it> ;
+  vcard:hasEmail <mailto:paradiso@libero.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516241344> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Emilia_Levante_138_40139> .
 
@@ -24938,7 +24913,7 @@
 
 <http://www.no-profit-data.it/loc-che_torni_babele_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:ctbpress@gmail.com, CHETORNIBABELE@GMAIL.COM> ;
+  vcard:hasEmail <mailto:ctbpress@gmail.com>, <mailto:CHETORNIBABELE@GMAIL.COM> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0519980422>, <http://www.no-profit-data.it/number-3284721791> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_di_Corticella_14_40128> .
 
@@ -26389,7 +26364,7 @@
 
 <http://www.no-profit-data.it/loc-prolocoemiliaromagna_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:emiliaromagna@unpli.info> ;
+  vcard:hasEmail <mailto:emiliaromagna@unpli.inf> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-051566682>, <http://www.no-profit-data.it/number-051-754678> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_degli_Albergati_1_d_40069>, <http://www.no-profit-data.it/VIA_DEGLI_ALBERGATI,_1_D_40069> .
 
@@ -27624,7 +27599,7 @@
 
 <http://www.no-profit-data.it/loc-giallo_dozza_bologna_rugby_associazione_sportiva_dilettantisca_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:stcavallini@gmail.com - ccmservizi@legalmai.it> ;
+  vcard:hasEmail <mailto:stcavallini@gmail.com>, <mailto:ccmservizi@legalmai.it> ;
   vcard:hasAddress <http://www.no-profit-data.it/VIA_MORELLI_4_A_40137> .
 
 <http://www.no-profit-data.it/VIA_MORELLI_4_A_40137>
@@ -29394,7 +29369,7 @@
 
 <http://www.no-profit-data.it/loc-matreterra_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:nerosegno@yahoo.it, info@matreterra.it> ;
+  vcard:hasEmail <mailto:nerosegno@yahoo.it>, <mailto:info@matreterra.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-3485183046> ;
   vcard:hasAddress <http://www.no-profit-data.it/C_O_PIAZZA_MAURIZIO_-_VIA_DELL'OSSERVANZA_88_40100> .
 
@@ -31054,7 +31029,7 @@
 
 <http://www.no-profit-data.it/loc-pro_loco_argelato_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:proloco@comune.argelato.bo.it, andrea.trentini@libero.it, ali.miri@libero.it> ;
+  vcard:hasEmail <mailto:proloco@comune.argelato.bo.it>, <mailto:andrea.trentini@libero.it>, <mailto:ali.miri@libero.it> ;
   vcard:hasAddress <http://www.no-profit-data.it/c_o_Palazzina_Municipale_-_Via_F_lli_Cervi_3_40050> .
 
 <http://www.no-profit-data.it/c_o_Palazzina_Municipale_-_Via_F_lli_Cervi_3_40050>
@@ -31693,7 +31668,6 @@
 
 <http://www.no-profit-data.it/loc-pro_loco_labante_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:@> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Val_d'Aneva_108_40034> .
 
 <http://www.no-profit-data.it/Via_Val_d'Aneva_108_40034>
@@ -31940,7 +31914,7 @@
 
 <http://www.no-profit-data.it/loc-pro_loco_ponte_della_venturina_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:stp12@libero.it, info@prolocoventurina.org> ;
+  vcard:hasEmail <mailto:stp12@libero.it>, <mailto:info@prolocoventurina.org> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-3288356092> ;
   vcard:hasAddress <http://www.no-profit-data.it/Loc_Ponte_della_Venturina_-_Via_del_Parco_1_40045> .
 

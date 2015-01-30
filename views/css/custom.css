@@ -1,3 +1,4 @@
+
 /*Navbar con sfondo colorato*/
 .navbar , .panel-heading , .panel-title, .modal-header, .btn-primary{
 	background-color:#3cb3ad !important;
@@ -93,7 +94,7 @@
 }
 
 #div_elenco{
-	height:574px;
+	height:980px;
 	overflow:auto;
 	clear:left;
 }
@@ -105,14 +106,55 @@ overflow: auto;
 
 }
 #panel_query{
-
+width:100%
 }
 
-#panel_query .panel-default{
 
+#filtri_cat, #filtri_comune{
+	height:307px;
+	overflow:auto;
+	border:none;
 }
 
-#filtri_cat{
-	min-height: 300px;
+.title_nome{
+	font-weight:bold;
+	font-size:20px;
 }
 
+.div_bt_query{
+	border:none;
+	padding:10px;
+}
+
+.group_cerca{
+	width:30%;
+}
+
+#text_ricerca { 
+    width: 200px; 
+    float: right;
+}
+
+.filtro_ricerca{
+	color: #3cb3ad;
+}
+
+.check_cat:checked + span{
+	font-weight: bold;
+}
+
+#panel_stat{
+	width:100%;
+}
+
+#div_stat{
+	height:600px;
+}
+
+#chartDati{
+height: 500px;
+position: relative;
+width: 50%;
+left: 896px;
+top: -501px;
+}
