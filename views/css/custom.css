@@ -1,0 +1,118 @@
+/*Navbar con sfondo colorato*/
+.navbar , .panel-heading , .panel-title, .modal-header, .btn-primary{
+	background-color:#3cb3ad !important;
+	color: white !important;
+	border-color: #3cb3ad !important;
+}
+.navbar{
+	margin-right:15px;
+	margin-left:15px;
+}
+/*Menu della navbar*/
+#bt_help, #bt_about{
+	color: #ffffff;
+}
+#bt_help:hover, #bt_about:hover{
+	color: #000000;
+}
+
+.input_text_size {
+	width:80% !important;
+}
+
+/*Pannello laterale sinistro*/
+#tit_lista.active a, #tit_annotazioni.active a{
+	background-color:#F4FA58 !important;
+	color:#000000;
+}
+
+#panel_sinistra{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+/*Contenuto documento*/
+
+.list-group-item { 
+	word-wrap: break-word; 
+	
+}
+
+.container{
+	width:100%;
+}
+
+.panel-subtitle{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: inherit;
+}
+	
+.span_help{
+	float:right;
+} 
+
+.collapsed{
+	cursor:pointer;
+}
+
+.bold, .modal-body{
+	word-wrap:break-word !important;
+}
+
+/************ AGGIUNTE ********************/
+
+.div_associazione{
+	border-bottom:1px solid #000000;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+
+#tab_risultati{
+    margin: 0;
+	padding: 10px;
+	height: 49px;
+	font-size: 20px;
+	border-bottom: 3px solid #666;
+	font-weight: bold;
+}
+
+#panel_elenco{
+
+}
+
+#panel_elenco .panel-default{
+
+}
+
+.span_title{
+	font-weight: bold;
+}
+
+#div_elenco{
+	height:574px;
+	overflow:auto;
+	clear:left;
+}
+
+#div_query{
+height: 300px;
+overflow: auto;
+
+
+}
+#panel_query{
+
+}
+
+#panel_query .panel-default{
+
+}
+
+#filtri_cat{
+	min-height: 300px;
+}
+

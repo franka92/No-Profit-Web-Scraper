@@ -67,7 +67,7 @@
 	}
 	echo "Associazioni senza sito: ".$count."<br>";
 	echo "Associazioni con sito: ".$count_no."<br>";
-	echo "Associazioni con sito già presenti: ".$count_ok."<br>";
+	echo "Associazioni con sito gia' presenti: ".$count_ok."<br>";
 	
 	function prendi_dati($associazione, $div_anagrafica){
 		$div_indirizzo = $div_anagrafica->find("dt.indirizzo");

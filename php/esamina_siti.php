@@ -80,7 +80,6 @@
 			$link =  "http://".$parse['host'];
 			if(cercaSitoElenco($link) === false){
 				/*Aggiorno il file .csv*/
-				//fputcsv($csv_file, array('Sito' => $link, 'Timestamp' => 'NULL'));
 				$db = new Db();
 				$query= "INSERT INTO elenco_siti VALUE('".$link."', NULL)";
 				$db->query($query);

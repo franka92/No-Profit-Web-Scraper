@@ -74,7 +74,7 @@
 				/*Creo l'identificatore per l'associazione*/
 				if($link != null){
 					$parse = parse_url($link);
-					$parse_link = $parse['host'];
+					$parse_link = strtolower($parse['host']);
 					$dot = strrpos($parse_link,'.');
 					if(strpos($parse_link,"www") !== false)
 						$parse_link = substr($parse_link,4,count($parse_link)-4);
@@ -84,10 +84,16 @@
 					$parse_link = rtrim($parse_link,".");
 					$parse_link = trim($parse_link,".");
 					
+					
 				}
 				else{
-					$parse_link = str_replace(" ","_",$nome);
+					$parse_link = strtolower($nome);
 				}
+				
+				$parse_link = preg_replace('/(\.|\/)/',' ',$parse_link);
+				$parse_link = preg_replace('/\s{2,}/',' ',$parse_link);
+				$parse_link = preg_replace('/\s/','_',$parse_link);
+				$parse_link = trim($parse_link," ");
 				$iri_associazione = $prefix.$parse_link;
 				$count_iri = count(array_keys($elenco_iri,$iri_associazione));
 				if($count_iri >0 )
@@ -140,7 +146,13 @@
 						if(array_key_exists("indirizzo",$luogo) === true){
 							$indirizzo = $luogo['indirizzo'];
 							$indirizzo = str_replace("\\","-",$indirizzo);
-							$iri_address = $prefix.str_replace(" ","_",$indirizzo)."_".$luogo['cap'];
+							$indirizzo = preg_replace('/(\.|\/)/',' ',$indirizzo);
+							$indirizzo = preg_replace('/\s{2,}/',' ',$indirizzo);
+							$indirizzo = preg_replace('/\s/','_',$indirizzo);
+							$indirizzo = trim($indirizzo," ");
+									
+							
+							$iri_address = $prefix.$indirizzo."_".$luogo['cap'];
 						}
 						else{
 							$iri_address = $prefix.$luogo['cap'];
