@@ -1,36 +1,36 @@
 codice,categoria,keyword
-1,musica,canzone
-1,musica,concerto
-1,musica,musica
-1,musica,suono
-1,musica,festival
-1,musica,coro
-2,associazione di donatori,organo
-2,associazione di donatori,sangue
-2,associazione di donatori,trapianto
-2,associazione di donatori,donare
-2,associazione di donatori,trasfusione
-2,associazione di donatori,malato
-2,associazione di donatori,ospedale
-3,commercio equo-solidale,equo
-3,commercio equo-solidale,prodotto
-3,commercio equo-solidale,artigiano
-3,commercio equo-solidale,vendita
-3,commercio equo-solidale,solidale
-3,commercio equo-solidale,commercio
-4,sport,sport
-4,sport,disciplina
-4,sport,calcio
-4,sport,gioco
-4,sport,agonistico
-4,sport,dilettante
-4,sport,danza
-4,sport,basket
-4,sport,nuoto
-4,sport,palla
-4,sport,palestra
-4,sport,allenamento
-4,sport,tennis
+1,Musica,canzone
+1,Musica,concerto
+1,Musica,musica
+1,Musica,suono
+1,Musica,festival
+1,Musica,coro
+2,Associazione di donatori,organo
+2,Associazione di donatori,sangue
+2,Associazione di donatori,trapianto
+2,Associazione di donatori,donare
+2,Associazione di donatori,trasfusione
+2,Associazione di donatori,malato
+2,Associazione di donatori,ospedale
+3,Commercio equo-solidale,equo
+3,Commercio equo-solidale,prodotto
+3,Commercio equo-solidale,artigiano
+3,Commercio equo-solidale,vendita
+3,Commercio equo-solidale,solidale
+3,Commercio equo-solidale,commercio
+4,Sport,sport
+4,Sport,disciplina
+4,Sport,calcio
+4,Sport,gioco
+4,Sport,agonistico
+4,Sport,dilettante
+4,Sport,danza
+4,Sport,basket
+4,Sport,nuoto
+4,Sport,palla
+4,Sport,palestra
+4,Sport,allenamento
+4,Sport,tennis
 5,Disabili e Handicap,handicap
 5,Disabili e Handicap,disabile
 5,Disabili e Handicap,sostegno
