@@ -1,8 +1,8 @@
 <?php
-	include ("cerca_informazioni.php");
-	include ("crea_dataset_csv.php");
-	include ("crea_dataset_json.php");
-	include ("crea_dataset_rdf.php");
+	include ("php/cerca_informazioni.php");
+	include ("php/crea_dataset_csv.php");
+	include ("php/crea_dataset_json.php");
+	include ("php/crea_dataset_rdf.php");
 	ini_set('default_charset', 'utf-8');
 	
 	set_time_limit(0);
