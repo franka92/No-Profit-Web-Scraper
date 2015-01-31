@@ -97,7 +97,7 @@
 				$iri_associazione = $prefix.$parse_link;
 				$count_iri = count(array_keys($elenco_iri,$iri_associazione));
 				if($count_iri >0 )
-					$iri_associazione .="_".$count_iri;
+					$iri_associazione .="_".($count_iri+1);
 				array_push($elenco_iri,$iri_associazione);
 				/*Creo l'oggetto Associazione*/
 				$associazione = $graph->resource($iri_associazione, 'org:Organization');

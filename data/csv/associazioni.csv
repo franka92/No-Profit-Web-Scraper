@@ -76,7 +76,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 636,Ecotronic,http://www.ecotronic.it,Castenaso,40055,BO,EMR,
 639,"Prima pagina",http://www.educarecrescere.it,Bologna,40137,BO,EMR,
 640,"Benvenuto nella nostra casa di accoglienza",http://www.beataverginedellegrazie.it/,Bologna,40137,BO,EMR,"via Beniamino Gigli, 26		"
-641,Home,http://www.teatrodelpratello.it,Bologna,40122,BO,EMR,"via del Pratello 23"
+641,teatrodelpratello,http://www.teatrodelpratello.it,Bologna,40122,BO,EMR,"via del Pratello 23"
 643,"Home | Cadiai",http://www.cadiai.it/,Bologna,40121,BO,EMR,"Via Boldrini 8 "
 644,"I Quattro Castelli Cooperativa Sociale",http://www.iquattrocastelli.it,Dozza,40060,BO,EMR,
 645,SAMMARTINI,http://www.cooperativasammartini.it/,Crevalcore,40014,BO,EMR,"Via Argini Nord, 4310"
@@ -154,7 +154,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 822,"Associazione Animalista per il salvataggio degli Orsi della Luna dai lager della bile",http://www.orsicinesi.org,Bologna,40122,BO,EMR,
 827,"Centro Sociale Zolino",http://www.centrosocialezolino.it,Imola,40026,BO,EMR,"Via Tinti, 1 "
 830,"Associazione Culturale Panicarte",http://www.panicarte.com,Bologna,40133,BO,EMR,
-834,Home,http://www.passopasso.it/,"Sasso Marconi",40037,BO,EMR,"Via Vittorio Veneto"
+834,passopasso,http://www.passopasso.it/,"Sasso Marconi",40037,BO,EMR,"Via Vittorio Veneto"
 836,"Cittadinanzattiva Emilia-Romagna | Sito gestito dall&#039;associazione Cittadinanza Responsabile",http://www.cittadinanzattiva-er.it,Bologna,40134,BO,EMR,
 841,"Fogolar Bologna - Ultime Notizie dal Fogolar",http://www.fogolarbologna.it,Bologna,40125,BO,EMR,
 845,"www.pgsima.it | polisportiva bologna",http://www.pgsima.it,Bologna,40128,BO,EMR,"Via Jacopo della Quercia 5"
@@ -279,8 +279,8 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1150,"Arad onlus | Associazione di Ricerca e Assistenza delle Demenze",http://www.aradbo.org/,Bologna,40139,BO,EMR,
 1151,"Home - A.I.A. Bologna",http://www.aiabologna.it/,Bologna,40139,BO,EMR,"Via Bertini 8"
 1152,CroceItalia.it,http://www.croceitalia.it/,Bologna,40128,BO,EMR,"Via Michelino interno al Parco Nord"
-1153,Home,http://www.icinquepani.it/web/,Roma,198,RM,LAZ,"Viale Carso 34"
-1155,"::: Associazione Sportiva Dilettantistica Bologna Futsal ::: - Home",http://www.bolognafutsal.it/,Bologna,40131,BO,EMR,
+1153,icinquepani,http://www.icinquepani.it/web/,Roma,198,RM,LAZ,"Viale Carso 34"
+1155,"::: Associazione Sportiva Dilettantistica Bologna Futsal :::",http://www.bolognafutsal.it/,Bologna,40131,BO,EMR,
 1156,"Centro Volontariato Sociale | Centro Volontariato Sociale",http://www.cvsbo.it/,Bologna,40127,BO,EMR,"via Panzini 1"
 1157,Idra,http://www.idraonlus.it,Firenze,50124,FI,TOS,
 1159,"DryArt :: DryArt",http://www.dryart.com,Pesaro,61121,PU,MAR,
@@ -293,7 +293,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1169,A.N.G.L.A.T.,http://www.anglat.it,Roma,166,RM,LAZ,
 1172,"Centro Sociale CROCE COPERTA Bologna",http://www.centrocrocecoperta.it,Bologna,40129,BO,EMR,"Via Papini 28 "
 1173,"ANPVI ONLUS",http://www.anpvionlus.it/,Roma,183,RM,LAZ,
-1176,Home,http://www.centromelograno.it/,Bologna,40139,BO,EMR,"Via Lombardia, 36 "
+1176,centromelograno,http://www.centromelograno.it/,Bologna,40139,BO,EMR,"Via Lombardia, 36 "
 1177,"As.It.O.I. | Associazione Italiana Osteogenesi Imperfetta",http://www.asitoi.it/,"Olgiate Molgora",23887,LC,LOM,"Via Monteverdi, 12"
 1180,"Home > Associazione Equilibrio",http://ass-equilibrio.it/,Bologna,40127,BO,EMR,
 1184,"Associazione Progetto Handicap | servizio di trasporto dall&#039;abitazione ai luoghi di lavoro, stu",http://www.associazioneprogettohandicap.org/,Bologna,40129,BO,EMR,
@@ -306,7 +306,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1197,"Uisp - Unione Italiana Sport Per tutti - Uisp Nazionale",http://www.uisp.it,Roma,155,RM,LAZ,
 1198,"Associazione Culturale Oltre... - Bologna- Eventi culturali di partecipazione e riappropriazione deg",http://www.fest-festival.net/,Bologna,40141,BO,EMR,"Via Mercadante  1"
 1200,"Arci Associazione :: Home",http://www.bo.arci.it/,Roma,157,RM,LAZ,
-1201,"- Home",http://www.fondazionedelmonte.it/,Bologna,40126,BO,EMR,"Via delle Donzelle, 2 "
+1201,"Fondazione del Monte di Bologna",http://www.fondazionedelmonte.it/,Bologna,40126,BO,EMR,"Via delle Donzelle, 2 "
 1202,"Cineteca di Bologna",http://www.cinetecadibologna.it/,Bologna,40122,BO,EMR,"Via Riva di Reno, 72 "
 1203,"Comune di Castenaso",http://www.comune.castenaso.bo.it,Castenaso,40055,BO,EMR,"Via XXI Ottobre 1944 n.7 "
 1209,"Associazione vivere senza stomaco si puAA onlus - L&#039;esperienza e l&#039;aiuto di chi l&#039;ha ",http://www.viveresenzastomaco.org,Ferrara,44123,FE,EMR,
@@ -339,7 +339,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1262,"Baby sitter - Bologna - Tata Mary",http://www.babysittertatameri.com,Bologna,40134,BO,EMR,"Via Delle Tofane 16 "
 1264,"AIUCA - Pet Therapy, assistenza e riabilitazione con cani, corsi",http://www.aiuca.eu,"Sasso Marconi",40037,BO,EMR,
 1267,"EBURT - Ente Bilaterale Unitario Regionale Turismo Emilia Romagna",http://www.eburt.it,Bologna,40129,BO,EMR,"Via A.Tiarini, 22 "
-1269,Home,http://www.fondazionegdo.it/,Bologna,40132,BO,EMR,"Via Marco Emilio Lepido 196"
+1269,fondazionegdo,http://www.fondazionegdo.it/,Bologna,40132,BO,EMR,"Via Marco Emilio Lepido 196"
 1273,"Casa Maternita Il Nido a Bologna",http://www.ilnido.bo.it,Bologna,40131,BO,EMR,
 1274,"RoMiliA, suoni e sapori dellEmilia Romagna",http://www.romilia.it,,,,,
 1275,"Movimento Cristiano Lavoratori Bologna",http://www.mclbologna.it,,,,,
@@ -370,7 +370,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1302,"Ass.Carnevalesca Re Fagiolo di Castella -",http://www.carnevaledidecima.it,,,,,
 1303,NETTUNIA1954,http://www.nettunia1954.it/,Bologna,40139,BO,EMR,"Via Casanova, 11 "
 1304,"Next Generation Italy",http://www.nextgenerationitaly.tk,,,,,
-1305,Home,http://www.exaequo.bo.it,Bologna,40126,BO,EMR,
+1305,www.exaequo.bo.it,http://www.exaequo.bo.it,Bologna,40126,BO,EMR,
 1306,"Noi insieme a Scherazad",http://www.noinsiemeascherazad.it/,Bologna,,BO,EMR,
 1307,www.casadonne.it,http://www.casadonne.it,Bologna,,BO,EMR,
 1308,"Non andremo mai in TV",http://www.nonandremomaintv.it,,,,,
@@ -408,7 +408,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1344,"Polisportiva Pontelungo - Bologna",http://www.polisportivapontelungo.it/,,,,,
 1345,"Senza Confini",http://www.senzaconfinitaly.com,,,,,
 1346,"ASSOCIAZIONE CENTRO EUROPA UNO - lo spazio per diverse esigenze.... lo spazio per le tue esigenze",http://www.centroeuropauno.it,"San Lazzaro di Savena",40068,BO,EMR,
-1348,"Agesci Zona di Bologna",http://www.agescibologna.it,,,,,
+1348,"Agesci Zona di Bologna",http://www.agescibologna.it,Bologna,40139,BO,EMR,"Via Rainaldi 2"
 1351,www.centrosocialefuno.it,http://www.centrosocialefuno.it,,,,,
 1352,"Shape Associated",http://www.shape.bo.it,,,,,
 1353,"Fondazione Gualandi",http://www.fondazionegualandi.it/,,,,,
@@ -646,7 +646,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1619,"La Caracola",http://www.lacaracola.it,Marzabotto,40043,BO,EMR,"Via Medelana, 3"
 1620,"Tavola delle donne",http://www.tavoladelledonne.com,Bologna,40121,BO,EMR,"Via Indipendenza 58"
 1621,"Isola che c'e",http://www.lisolache.it,Bologna,40126,BO,EMR,
-1622,"A.M.Bo. - Associazione Musicisti di Bologna - Home",http://www.ambologna.it/,Bologna,40139,BO,EMR,
+1622,"A.M.Bo. - Associazione Musicisti di Bologna",http://www.ambologna.it/,Bologna,40139,BO,EMR,
 1623,"Universo Interculturale",http://www.universointerculturale.it,Bologna,40126,BO,EMR,
 1624,"Assistenza Domiciliare - Bologna - Angeli Azzurri",http://www.assistenzaanzianibologna.com/,Bologna,40138,BO,EMR,
 1625,"Associazione Culturale dei Lucani di Bologna",http://www.lucanibo.it,Bologna,40124,BO,EMR,"Via Clavature 22"
@@ -681,7 +681,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1654,www.cometaemiliaromagna.it,http://www.cometaemiliaromagna.it,Bologna,40138,BO,EMR,
 1655,"Nuova pagina 1",http://dipsa.unibo.it/umiweb/umi/,Bologna,40127,BO,EMR,
 1656,"Scomunicati - Comunicazione creativa e consapevole",http://www.scomunicati.org/,Bologna,40125,BO,EMR,
-1657,"ACLI Emilia-Romagna - Home Page",http://www.acliemiliaromagna.it/,Bologna,40122,BO,EMR,"Via Lame 116"
+1657,"ACLI Emilia-Romagna",http://www.acliemiliaromagna.it/,Bologna,40122,BO,EMR,"Via Lame 116"
 1658,"Comune di Monzuno",http://www.comune.monzuno.bologna.it,Monzuno,40036,BO,EMR,"via Rinascita, 5 "
 1659,"aihip ASSOCIAZIONE INTERNAZIONALE HAITI INTEGRITY PROJECT",http://www.aihip.org/,Bologna,40126,BO,EMR,
 1660,Cuberdon,http://www.cuberdon.org/,Imola,,BO,EMR,
@@ -742,7 +742,7 @@ codice,"nome associazione",sito,comune,cap,provincia,regione,indirizzo
 1715,"Associazione Utenti Auto - AUA",http://www.aua.it,,,,,
 1716,"Canigattienoi - Home Page",http://www.canigattienoi.cittametropolitana.bo.it/,Bologna,40126,BO,EMR,"Via Zamboni, 13"
 1717,"Centro Tutela e Ricerca Fauna Esotica e Selvatica - Monte Adone",http://www.centrotutelafauna.org,"Sasso Marconi",40037,BO,EMR,"Via Brento, 9  "
-1718,"- Una cittA per gli archivi",http://www.cittadegliarchivi.it,,,,,
+1718,"Una citta per gli archivi",http://www.cittadegliarchivi.it,,,,,
 1719,"Gattile San Lazzaro",http://www.compagniadeglianimali.org,,,,,
 1720,cupsit,http://www.cupsit.it,Bologna,40121,BO,EMR,
 1721,"Enpa Bologna",http://www.enpabologna.org/,Bologna,40131,BO,EMR,

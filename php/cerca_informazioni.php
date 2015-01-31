@@ -61,9 +61,9 @@
 				$sito['nome'] = parse_url($link,PHP_URL_HOST);
 				foreach($html->find("title") as $element){
 					$titolo = $element->plaintext;
-					if($titolo != "" && $titolo != "home"){
+					if($titolo != "" && strcasecmp($titolo,"home") != 0){
 						/*Elimino eventuali caratteri speciali*/
-						$titolo = preg_replace('/s*(home | homepage | home page|index)\s*/',"",$titolo);
+						$titolo = preg_replace('/s*(home|homepage|home page|index)\s*/',"",$titolo);
 						$titolo = preg_replace('/\s{2,}/',' ',$titolo);
 						$titolo = preg_replace("/'/","",$titolo);
 						$titolo = preg_replace($special_c,$normal_c, $titolo);

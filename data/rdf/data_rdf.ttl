@@ -4,21 +4,21 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
-<http://www.no-profit-data.it/cat-musica>
+<http://www.no-profit-data.it/cat-Musica>
   a skos:Concept ;
-  rdfs:label "musica" .
+  rdfs:label "Musica" .
 
-<http://www.no-profit-data.it/cat-associazione_di_donatori>
+<http://www.no-profit-data.it/cat-Associazione_di_donatori>
   a skos:Concept ;
-  rdfs:label "associazione di donatori" .
+  rdfs:label "Associazione di donatori" .
 
-<http://www.no-profit-data.it/cat-commercio_equo-solidale>
+<http://www.no-profit-data.it/cat-Commercio_equo-solidale>
   a skos:Concept ;
-  rdfs:label "commercio equo-solidale" .
+  rdfs:label "Commercio equo-solidale" .
 
-<http://www.no-profit-data.it/cat-sport>
+<http://www.no-profit-data.it/cat-Sport>
   a skos:Concept ;
-  rdfs:label "sport" .
+  rdfs:label "Sport" .
 
 <http://www.no-profit-data.it/cat-Disabili_e_Handicap>
   a skos:Concept ;
@@ -1206,7 +1206,7 @@
 
 <http://www.no-profit-data.it/acliemiliaromagna>
   a org:Organization ;
-  skos:prefLabel "ACLI Emilia-Romagna - Home Page" ;
+  skos:prefLabel "ACLI Emilia-Romagna" ;
   foaf:homepage "http://www.acliemiliaromagna.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Lavoro>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-acliemiliaromagna_1> .
@@ -1604,7 +1604,16 @@
 
 <http://www.no-profit-data.it/loc-agescibologna_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:zonabologna@emiro.agesci.it> .
+  vcard:hasEmail <mailto:zonabologna@emiro.agesci.it> ;
+  vcard:hasAddress <http://www.no-profit-data.it/Via_Rainaldi_2_40139> .
+
+<http://www.no-profit-data.it/Via_Rainaldi_2_40139>
+  a vcard:Work ;
+  vcard:country-name "Italia" ;
+  vcard:region "BO" ;
+  vcard:postal-code "40139" ;
+  vcard:locality "Bologna" ;
+  vcard:street-address "Via Rainaldi 2" .
 
 <http://www.no-profit-data.it/agevolando>
   a org:Organization ;
@@ -2475,7 +2484,7 @@
 
 <http://www.no-profit-data.it/ambologna>
   a org:Organization ;
-  skos:prefLabel "A.M.Bo. - Associazione Musicisti di Bologna - Home" ;
+  skos:prefLabel "A.M.Bo. - Associazione Musicisti di Bologna" ;
   foaf:homepage "http://www.ambologna.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-musica>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-ambologna_1> .
@@ -3254,7 +3263,7 @@
 
 <http://www.no-profit-data.it/loc-ant_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:adir.samolsky@ant.it>, <mailto:Agostinismarzia.agostinis@ant.itA>, <mailto:alberto.campo@ant.it>, <mailto:amministrazione@ant.it>, <mailto:>, <mailto:angela.gallo@ant.it>, <mailto:angela.zamboni@ant.it>, <mailto:anita.dattoli@ant.it>, <mailto:annamaria.leonetti@ant.it>, <mailto:antonio.pannuti@ant.it>, <mailto:Autiliagerardina.dautilia@ant.itU>, <mailto:Azzaronicarlo.azzaroni@ant.itU>, <mailto:Battistiniflavio.battistini@ant.itA>, <mailto:Beghellicristina.beghelli@ant.itU>, <mailto:Boltriced@ant.itS>, <mailto:Bonazziformazione@ant.itA>, <mailto:Bonazzivaleria.bonazzi@ant.itA>, <mailto:Brondellimichela.brondelli@ant.itU>, <mailto:Brunellifabio.brunelli@ant.itA>, <mailto:Campoalberto.campo@ant.itA>, <mailto:carlo.azzaroni@ant.it>, <mailto:Caseriomariuccia.caserio@ant.itU>, <mailto:Catalanosilvia.catalano@ant.itA>, <mailto:Cavallarisilvia.cavallari@ant.itU>, <mailto:ced@ant.it>, <mailto:celestina.savoia@ant.it>, <mailto:Ciresasilvia.ciresa@ant.itC>, <mailto:cristiana.mantovani@ant.it>, <mailto:cristina.beghelli@ant.it>, <mailto:cristina.gasperini@ant.it>, <mailto:daniela.rizzoli@ant.it>, <mailto:Dattolianita.dattoli@ant.itA>, <mailto:Dekeladir.samolsky@ant.itS>, <mailto:denis.dallolio@ant.it>, <mailto:direzione@ant.it>, <mailto:elena.facchini@ant.it>, <mailto:elena.tosini@ant.it>, <mailto:enrico.iovino@ant.it>, <mailto:ermes.franceschini@ant.it>, <mailto:Espositimonica.degliesposti@ant.itS>, <mailto:fabio.brunelli@ant.it>, <mailto:fabio.gaiba@ant.it>, <mailto:Facchinielena.facchini@ant.itU>, <mailto:Ferrettimariagrazia.ferretti@ant.itU>, <mailto:filippo.grazioli@ant.it>, <mailto:Filosamariarosaria.filosa@ant.itU>, <mailto:flavio.battistini@ant.it>, <mailto:formazione@ant.it>, <mailto:Franceschiniermes.franceschini@ant.itS>, <mailto:franco.pannuti@ant.it>, <mailto:Gaibafabio.gaiba@ant.itS>, <mailto:Galloangela.gallo@ant.itU>, <mailto:Gasperinicristina.gasperini@ant.itC>, <mailto:gerardina.dautilia@ant.it>, <mailto:Ghiselligiulia.ghiselli@ant.itA>, <mailto:giulia.ghiselli@ant.it>, <mailto:giuliomassimiliano.marcosanti@ant.it>, <mailto:Graziapierluigi.grazia@ant.itA>, <mailto:Iacononancy.iacono@ant.itA>, <mailto:ilaria.iseppato@ant.it>, <mailto:info@ant.it>, <mailto:Iovinoenrico.iovino@ant.itA>, <mailto:Iovinoenrico.iovino@ant.itU>, <mailto:Iseppatoilaria.iseppato@ant.itC>, <mailto:Larsendirezione@ant.itPresidenteDott.ssa>, <mailto:letizia.totti@ant.it>, <mailto:Luglistefano.lugli@ant.itS>, <mailto:Malajsokol.malaj@ant.itU>, <mailto:Mantovanicristiana.mantovani@ant.itU>, <mailto:Marcosantigiuliomassimiliano.marcosanti@ant.it>, <mailto:mariagrazia.ferretti@ant.it>, <mailto:mariarita.tattini@ant.it>, <mailto:mariarosaria.filosa@ant.it>, <mailto:mariuccia.caserio@ant.it>, <mailto:marzia.agostinis@ant.it>, <mailto:maurizio.mineo@ant.it>, <mailto:Mezzettisara.mezzetti@ant.itA>, <mailto:michela.brondelli@ant.it>, <mailto:Mineomaurizio.mineo@ant.itD>, <mailto:Mineomaurizio.mineo@ant.itU>, <mailto:mirco.salvaterra@ant.it>, <mailto:monica.degliesposti@ant.it>, <mailto:nancy.iacono@ant.it>, <mailto:nicoletta.silvestri@ant.it>, <mailto:Oliodenis.dallolio@ant.itC>, <mailto:Padoanpaolo.padoan@ant.itA>, <mailto:Pannutifranco.pannuti@ant.itSegretariaSig.ra>, <mailto:Pannutiraffaella.pannuti@ant.itSegreteriaSig.ra>, <mailto:paolo.padoan@ant.it>, <mailto:patrizia.poggioli@ant.it>, <mailto:pierluigi.grazia@ant.it>, <mailto:raffaella.pannuti@ant.it>, <mailto:Rizzolidaniela.rizzoli@ant.itA>, <mailto:roberto.cesari@ant.it>, <mailto:rossana.messana@ant.it>, <mailto:sandra.ghiani@ant.it>, <mailto:sara.mezzetti@ant.it>, <mailto:Silvestrinicoletta.silvestri@ant.itA>, <mailto:silvia.catalano@ant.it>, <mailto:silvia.cavallari@ant.it>, <mailto:silvia.ciresa@ant.it>, <mailto:silvia.varani@ant.it>, <mailto:sokol.malaj@ant.it>, <mailto:stefano.lugli@ant.it>, <mailto:Tattinimariarita.tattini@ant.itC>, <mailto:Tosinielena.tosini@ant.itA>, <mailto:Tottiletizia.totti@ant.itA>, <mailto:valeria.bonazzi@ant.it>, <mailto:Varanisilvia.varani@ant.itA>, <mailto:Varanisilvia.varani@ant.itS>, <mailto:Zamboniangela.zamboni@ant.itU> ;
+  vcard:hasEmail <mailto:adir.samolsky@ant.it>, <mailto:Agostinismarzia.agostinis@ant.it>, <mailto:alberto.campo@ant.it>, <mailto:amministrazione@ant.it>, <mailto:angela.gallo@ant.it>, <mailto:angela.zamboni@ant.it>, <mailto:anita.dattoli@ant.it>, <mailto:annamaria.leonetti@ant.it>, <mailto:antonio.pannuti@ant.it>, <mailto:Autiliagerardina.dautilia@ant.it>, <mailto:Azzaronicarlo.azzaroni@ant.it>, <mailto:Battistiniflavio.battistini@ant.it>, <mailto:Beghellicristina.beghelli@ant.it>, <mailto:Bisiirene.bisi@ant.it>, <mailto:Boltriced@ant.it>, <mailto:Bonazziformazione@ant.it>, <mailto:Bonazzivaleria.bonazzi@ant.it>, <mailto:Brondellimichela.brondelli@ant.it>, <mailto:Brunellifabio.brunelli@ant.it>, <mailto:Campoalberto.campo@ant.it>, <mailto:carlo.azzaroni@ant.it>, <mailto:Caseriomariuccia.caserio@ant.it>, <mailto:Catalanosilvia.catalano@ant.it>, <mailto:Cavallarisilvia.cavallari@ant.it>, <mailto:ced@ant.it>, <mailto:celestina.savoia@ant.it>, <mailto:Cesariroberto.cesari@ant.it>, <mailto:Ciresasilvia.ciresa@ant.it>, <mailto:cristiana.mantovani@ant.it>, <mailto:cristina.beghelli@ant.it>, <mailto:cristina.gasperini@ant.it>, <mailto:daniela.rizzoli@ant.it>, <mailto:Dattolianita.dattoli@ant.it>, <mailto:Dekeladir.samolsky@ant.it>, <mailto:denis.dallolio@ant.it>, <mailto:direzione@ant.it>, <mailto:elena.facchini@ant.it>, <mailto:elena.tosini@ant.it>, <mailto:enrico.iovino@ant.it>, <mailto:ermes.franceschini@ant.it>, <mailto:Espositimonica.degliesposti@ant.it>, <mailto:fabio.brunelli@ant.it>, <mailto:fabio.gaiba@ant.it>, <mailto:Facchinielena.facchini@ant.it>, <mailto:Ferrettimariagrazia.ferretti@ant.it>, <mailto:filippo.grazioli@ant.it>, <mailto:Filosamariarosaria.filosa@ant.it>, <mailto:flavio.battistini@ant.it>, <mailto:formazione@ant.it>, <mailto:Franceschiniermes.franceschini@ant.it>, <mailto:franco.pannuti@ant.it>, <mailto:Gaibafabio.gaiba@ant.it>, <mailto:Galloangela.gallo@ant.it>, <mailto:Gasperinicristina.gasperini@ant.it>, <mailto:gerardina.dautilia@ant.it>, <mailto:Ghianisandra.ghiani@ant.it>, <mailto:Ghiselligiulia.ghiselli@ant.it>, <mailto:giulia.ghiselli@ant.it>, <mailto:giuliomassimiliano.marcosanti@ant.it>, <mailto:Graziapierluigi.grazia@ant.it>, <mailto:Graziolifilippo.grazioli@ant.it>, <mailto:Iacononancy.iacono@ant.it>, <mailto:ilaria.iseppato@ant.it>, <mailto:info@ant.it>, <mailto:Iovinoenrico.iovino@ant.it>, <mailto:Iseppatoilaria.iseppato@ant.it>, <mailto:Larsendirezione@ant.it>, <mailto:Leonettiannamaria.leonetti@ant.it>, <mailto:letizia.totti@ant.it>, <mailto:Luglistefano.lugli@ant.it>, <mailto:Malajsokol.malaj@ant.it>, <mailto:Mantovanicristiana.mantovani@ant.it>, <mailto:Marcosantigiuliomassimiliano.marcosanti@ant.it>, <mailto:mariagrazia.ferretti@ant.it>, <mailto:mariarita.tattini@ant.it>, <mailto:mariarosaria.filosa@ant.it>, <mailto:mariuccia.caserio@ant.it>, <mailto:marzia.agostinis@ant.it>, <mailto:maurizio.mineo@ant.it>, <mailto:Messanarossana.messana@ant.it>, <mailto:Mezzettisara.mezzetti@ant.it>, <mailto:michela.brondelli@ant.it>, <mailto:Mineomaurizio.mineo@ant.it>, <mailto:mirco.salvaterra@ant.it>, <mailto:monica.degliesposti@ant.it>, <mailto:nancy.iacono@ant.it>, <mailto:nicoletta.silvestri@ant.it>, <mailto:Oliodenis.dallolio@ant.it>, <mailto:Padoanpaolo.padoan@ant.it>, <mailto:Pannutiantonio.pannuti@ant.it>, <mailto:Pannutifranco.pannuti@ant.it>, <mailto:Pannutiraffaella.pannuti@ant.it>, <mailto:paolo.padoan@ant.it>, <mailto:patrizia.poggioli@ant.it>, <mailto:pierluigi.grazia@ant.it>, <mailto:Poggiolipatrizia.poggioli@ant.it>, <mailto:raffaella.pannuti@ant.it>, <mailto:Rizzolidaniela.rizzoli@ant.it>, <mailto:roberto.cesari@ant.it>, <mailto:rossana.messana@ant.it>, <mailto:Salvaterramirco.salvaterra@ant.it>, <mailto:sandra.ghiani@ant.it>, <mailto:sara.mezzetti@ant.it>, <mailto:Savoiacelestina.savoia@ant.it>, <mailto:Silvestrinicoletta.silvestri@ant.it>, <mailto:silvia.catalano@ant.it>, <mailto:silvia.cavallari@ant.it>, <mailto:silvia.ciresa@ant.it>, <mailto:silvia.varani@ant.it>, <mailto:sokol.malaj@ant.it>, <mailto:stefano.lugli@ant.it>, <mailto:Tattinimariarita.tattini@ant.it>, <mailto:Tosinielena.tosini@ant.it>, <mailto:Tottiletizia.totti@ant.it>, <mailto:valeria.bonazzi@ant.it>, <mailto:Varanisilvia.varani@ant.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-01229650377>, <http://www.no-profit-data.it/number-051377586>, <http://www.no-profit-data.it/number-0517190111>, <http://www.no-profit-data.it/number-0517190140> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Jacopo_di_Paolo_36_40033> .
 
@@ -3620,7 +3629,7 @@
 
 <http://www.no-profit-data.it/loc-arcibologna_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:bologna@arci.it>, <mailto:bologna@ascmail.it>, <mailto:bonafe@arcibologna.it>, <mailto:bonafe@arcibologna.itR>, <mailto:brugnara@arci.it>, <mailto:brugnara@arci.itT>, <mailto:girotti@arci.it>, <mailto:girotti@arci.itR>, <mailto:molinari@arcibologna.it>, <mailto:ramponi@arci.it>, <mailto:ramponi@arci.itS>, <mailto:scanabissi@arcibologna.it>, <mailto:scanabissi@arcibologna.itS>, <mailto:t.passarini@libero.it>, <mailto:t.passarini@libero.itP>, <mailto:tarsi@arcibologna.it>, <mailto:tarsi@arcibologna.itR>, <mailto:tesoriere@arcibologna.it>, <mailto:tesoriere@arcibologna.itA>, <mailto:ufficiostampa@arcibologna.it>, <mailto:ufficiostampa@arcibologna.itR>, <mailto:vigneri@arcibologna.it>, <mailto:vigneri@arcibologna.itU>, <mailto:web@arcibologna.it>, <mailto:zaniboni@arcibologna.it>, <mailto:zaniboni@arcibologna.itA> ;
+  vcard:hasEmail <mailto:bologna@arci.it>, <mailto:bologna@ascmail.it>, <mailto:bonafe@arcibologna.it>, <mailto:brugnara@arci.it>, <mailto:girotti@arci.it>, <mailto:molinari@arcibologna.it>, <mailto:ramponi@arci.it>, <mailto:ramponi@arci.itS>, <mailto:scanabissi@arcibologna.it>, <mailto:t.passarini@libero.it>, <mailto:tarsi@arcibologna.it>, <mailto:tesoriere@arcibologna.it>, <mailto:ufficiostampa@arcibologna.it>, <mailto:vigneri@arcibologna.it>, <mailto:web@arcibologna.it>, <mailto:zaniboni@arcibologna.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-01903161204>, <http://www.no-profit-data.it/number-051.521905>, <http://www.no-profit-data.it/number-051.521939>, <http://www.no-profit-data.it/number-051.6491408>, <http://www.no-profit-data.it/number-051.825127>, <http://www.no-profit-data.it/number-051521905>, <http://www.no-profit-data.it/number-051521939>, <http://www.no-profit-data.it/number-0516347197> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_della_Beverara_6_40131> .
 
@@ -4211,7 +4220,7 @@
   a vcard:Voice ;
   vcard:hasValue <tel:051530757> .
 
-<http://www.no-profit-data.it/assistenzaanzianibologna_1>
+<http://www.no-profit-data.it/assistenzaanzianibologna_2>
   a org:Organization ;
   skos:prefLabel "Assistenza anziani a domicilio - Bologna - Agenzia AGSA" ;
   foaf:homepage "http://www.assistenzaanzianibologna.net/" ;
@@ -5634,7 +5643,7 @@
 
 <http://www.no-profit-data.it/bolognafutsal>
   a org:Organization ;
-  skos:prefLabel "::: Associazione Sportiva Dilettantistica Bologna Futsal ::: - Home" ;
+  skos:prefLabel "::: Associazione Sportiva Dilettantistica Bologna Futsal :::" ;
   foaf:homepage "http://www.bolognafutsal.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Sport>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-bolognafutsal_1> .
@@ -6162,7 +6171,7 @@
 
 <http://www.no-profit-data.it/loc-canigattienoi_cittametropolitana_bo_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:infocani@cittametropolitana.bo.it>, <mailto:urp@cittametropolitana.bo.it> ;
+  vcard:hasEmail <mailto:cm.bo@cert.cittametropolitana.bo.it>, <mailto:infocani@cittametropolitana.bo.it>, <mailto:urp@cittametropolitana.bo.it> ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516598028>, <http://www.no-profit-data.it/number-0516598111>, <http://www.no-profit-data.it/number-0516598377>, <http://www.no-profit-data.it/number-0516598620> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Zamboni,_13_40126> .
 
@@ -6963,7 +6972,7 @@
 
 <http://www.no-profit-data.it/centromelograno>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "centromelograno" ;
   foaf:homepage "http://www.centromelograno.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-sport>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-centromelograno_1> .
@@ -7473,7 +7482,7 @@
 
 <http://www.no-profit-data.it/cittadegliarchivi>
   a org:Organization ;
-  skos:prefLabel "- Una cittA per gli archivi" ;
+  skos:prefLabel "Una citta per gli archivi" ;
   foaf:homepage "http://www.cittadegliarchivi.it" ;
   org:purpose <http://www.no-profit-data.it/cat-Medicina>, <http://www.no-profit-data.it/cat-Ricerca_scientifica>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-cittadegliarchivi_1> .
@@ -9714,7 +9723,7 @@
 
 <http://www.no-profit-data.it/exaequo_bo>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "www.exaequo.bo.it" ;
   foaf:homepage "http://www.exaequo.bo.it" ;
   org:purpose <http://www.no-profit-data.it/cat-commercio_equo-solidale>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-exaequo_bo_1> .
@@ -10401,7 +10410,7 @@
 
 <http://www.no-profit-data.it/fondazionedelmonte>
   a org:Organization ;
-  skos:prefLabel "- Home" ;
+  skos:prefLabel "Fondazione del Monte di Bologna" ;
   foaf:homepage "http://www.fondazionedelmonte.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Non_classificato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-fondazionedelmonte_1> .
@@ -10467,7 +10476,7 @@
 
 <http://www.no-profit-data.it/fondazionegdo>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "fondazionegdo" ;
   foaf:homepage "http://www.fondazionegdo.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-sport>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-fondazionegdo_1> .
@@ -11498,7 +11507,7 @@
 
 <http://www.no-profit-data.it/loc-humanrightsnights_1>
   a vcard:Location ;
-  vcard:hasEmail <mailto:cinema@humanrightsnights.org>, <mailto:direzioneartistica@humanrightsnights.org>, <mailto:info@humanrightsnights.org>, <mailto:isabella.malaguti@cineteca.bologna.it>, <mailto:organizzazione@humanrightsnights.org>, <mailto:webmaster@humanrightsnights.org> .
+  vcard:hasEmail <mailto:cinema@humanrightsnights.org>, <mailto:CinetecaUfficioStampa@cineteca.bologna.it>, <mailto:direzioneartistica@humanrightsnights.org>, <mailto:info@humanrightsnights.org>, <mailto:isabella.malaguti@cineteca.bologna.it>, <mailto:organizzazione@humanrightsnights.org>, <mailto:webmaster@humanrightsnights.org> .
 
 <http://www.no-profit-data.it/iboitalia>
   a org:Organization ;
@@ -11558,7 +11567,7 @@
 
 <http://www.no-profit-data.it/icinquepani>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "icinquepani" ;
   foaf:homepage "http://www.icinquepani.it/web/" ;
   org:purpose <http://www.no-profit-data.it/cat-Non_classificato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-icinquepani_1> .
@@ -14488,7 +14497,7 @@
 
 <http://www.no-profit-data.it/passopasso>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "passopasso" ;
   foaf:homepage "http://www.passopasso.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Disabili_e_Handicap>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-passopasso_1> .
@@ -14889,7 +14898,7 @@
 <http://www.no-profit-data.it/loc-polisportivalame_bologna_1>
   a vcard:Location ;
   vcard:hasTelephone <http://www.no-profit-data.it/number-0516345717>, <http://www.no-profit-data.it/number-0516353007> ;
-  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131> .
+  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama,_20_	4013> .
 
 <http://www.no-profit-data.it/number-0516345717>
   a vcard:Voice ;
@@ -14898,6 +14907,14 @@
 <http://www.no-profit-data.it/number-0516353007>
   a vcard:Voice ;
   vcard:hasValue <tel:0516353007> .
+
+<http://www.no-profit-data.it/via_Vasco_De_Gama,_20_	4013>
+  a vcard:Work ;
+  vcard:country-name "Italia" ;
+  vcard:region "BO" ;
+  vcard:postal-code """	4013""" ;
+  vcard:locality "Bologna" ;
+  vcard:street-address "via Vasco De Gama, 20" .
 
 <http://www.no-profit-data.it/polisportivaondablu>
   a org:Organization ;
@@ -17433,7 +17450,7 @@
 
 <http://www.no-profit-data.it/teatrodelpratello>
   a org:Organization ;
-  skos:prefLabel "Home" ;
+  skos:prefLabel "teatrodelpratello" ;
   foaf:homepage "http://www.teatrodelpratello.it" ;
   org:purpose <http://www.no-profit-data.it/cat-Spettacolo>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-teatrodelpratello_1> .
@@ -19231,35 +19248,6 @@
   vcard:locality "Bologna" ;
   vcard:street-address "Via A.Costa 169/A" .
 
-<http://www.no-profit-data.it/women>
-  a org:Organization ;
-  skos:prefLabel "ALTA MAREA" ;
-  foaf:homepage "http://www.women.it/libreriadelledonne" ;
-  org:purpose <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
-  org:hasSite <http://www.no-profit-data.it/site-women_1> .
-
-<http://www.no-profit-data.it/site-women_1>
-  a org:Site ;
-  org:siteAddress <http://www.no-profit-data.it/loc-women_1> .
-
-<http://www.no-profit-data.it/loc-women_1>
-  a vcard:Location ;
-  vcard:hasEmail <mailto:libreriadelledonne@women.it>, <mailto:bologna@arcilesbica.it>, <mailto:armonie@iperbole.bologna.it>, <mailto:Ass.orlando@women.it> ;
-  vcard:hasTelephone <http://www.no-profit-data.it/number-051271754>, <http://www.no-profit-data.it/number-051542876>, <http://www.no-profit-data.it/number-0514299411> ;
-  vcard:hasAddress <http://www.no-profit-data.it/c_o_Libreria_della_Donne_-_Via_S_Felice_16_a_40122>, <http://www.no-profit-data.it/VIA_DON_MINZONI_18_40121>, <http://www.no-profit-data.it/Via_Emilia_Levante_138_40139>, <http://www.no-profit-data.it/c_o_Centro_delle_donne_di_Bologna_Via_del_Piombo_5_7_40125> .
-
-<http://www.no-profit-data.it/number-051271754>
-  a vcard:Voice ;
-  vcard:hasValue <tel:051271754> .
-
-<http://www.no-profit-data.it/c_o_Libreria_della_Donne_-_Via_S_Felice_16_a_40122>
-  a vcard:Work ;
-  vcard:country-name "Italia" ;
-  vcard:region "EMR" ;
-  vcard:postal-code "40122" ;
-  vcard:locality "Bologna" ;
-  vcard:street-address "c/o Libreria della Donne - Via S.Felice 16/a" .
-
 <http://www.no-profit-data.it/altre_voci>
   a org:Organization ;
   skos:prefLabel "ALTRE VOCI" ;
@@ -19708,12 +19696,21 @@
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via Masini n. 45" .
 
-<http://www.no-profit-data.it/women_1>
+<http://www.no-profit-data.it/arcilesbica>
   a org:Organization ;
+  skos:prefLabel "ARCIGAY ARCILESBICA" ;
+  foaf:homepage "http://www.arcilesbica.it/bologna/cms/" ;
   org:purpose <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
-  org:hasSite <http://www.no-profit-data.it/site-women_1> ;
-  skos:prefLabel "ORLANDO" ;
-  foaf:homepage "http://www.women.it" .
+  org:hasSite <http://www.no-profit-data.it/site-arcilesbica_1> .
+
+<http://www.no-profit-data.it/site-arcilesbica_1>
+  a org:Site ;
+  org:siteAddress <http://www.no-profit-data.it/loc-arcilesbica_1> .
+
+<http://www.no-profit-data.it/loc-arcilesbica_1>
+  a vcard:Location ;
+  vcard:hasEmail <mailto:bologna@arcilesbica.it> ;
+  vcard:hasAddress <http://www.no-profit-data.it/VIA_DON_MINZONI_18_40121> .
 
 <http://www.no-profit-data.it/VIA_DON_MINZONI_18_40121>
   a vcard:Work ;
@@ -19854,6 +19851,23 @@
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "c/o Pampini - Via Giordano Umberto n.4" .
+
+<http://www.no-profit-data.it/women>
+  a org:Organization ;
+  skos:prefLabel "ARMONIE - ASS. DI DONNE" ;
+  foaf:homepage "http://www.women.it" ;
+  org:purpose <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
+  org:hasSite <http://www.no-profit-data.it/site-women_1> .
+
+<http://www.no-profit-data.it/site-women_1>
+  a org:Site ;
+  org:siteAddress <http://www.no-profit-data.it/loc-women_1> .
+
+<http://www.no-profit-data.it/loc-women_1>
+  a vcard:Location ;
+  vcard:hasEmail <mailto:armonie@iperbole.bologna.it> ;
+  vcard:hasTelephone <http://www.no-profit-data.it/number-051542876> ;
+  vcard:hasAddress <http://www.no-profit-data.it/Via_Emilia_Levante_138_40139> .
 
 <http://www.no-profit-data.it/number-051542876>
   a vcard:Voice ;
@@ -20047,7 +20061,7 @@
   vcard:locality "Monterenzio" ;
   vcard:street-address "Via Idice 58" .
 
-<http://www.no-profit-data.it/bolognabruxelles_1>
+<http://www.no-profit-data.it/bolognabruxelles_2>
   a org:Organization ;
   skos:prefLabel "ASS. CULTURALE ITALO-BELGA &quot;BOLOGNA-BRUXELLES A/R&quot;" ;
   foaf:homepage "http://www.bolognabruxelles.com" ;
@@ -20796,9 +20810,9 @@
 <http://www.no-profit-data.it/loc-associazione_dilettantistica_polisportiva_lame_1>
   a vcard:Location ;
   vcard:hasEmail <mailto:contattaci@polisportivalame.bologna.it> ;
-  vcard:hasAddress <http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131> .
+  vcard:hasAddress <http://www.no-profit-data.it/VIA_VASCO_DE_GAMA_20_40131> .
 
-<http://www.no-profit-data.it/via_Vasco_De_Gama_20_40131>
+<http://www.no-profit-data.it/VIA_VASCO_DE_GAMA_20_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
   vcard:region "EMR" ;
@@ -21688,7 +21702,7 @@
   vcard:locality "Mordano" ;
   vcard:street-address "Via Lume 1889" .
 
-<http://www.no-profit-data.it/buddhism_1>
+<http://www.no-profit-data.it/buddhism_2>
   a org:Organization ;
   skos:prefLabel "BUDDHISMO DELLA VIA DI DIAMANTE BOLOGNA" ;
   foaf:homepage "http://www.buddhism.ii" ;
@@ -22023,7 +22037,7 @@
   vcard:locality "Bologna" ;
   vcard:street-address "VIA DEL MONTE 5" .
 
-<http://www.no-profit-data.it/comune_bologna_1>
+<http://www.no-profit-data.it/comune_bologna_2>
   a org:Organization ;
   skos:prefLabel "CENTRO ITALIANO FEMMINILE com.prov.bo" ;
   foaf:homepage "http://www.comune.bologna.it/iperbole/cif-bo" ;
@@ -23142,7 +23156,7 @@
   vcard:locality "Crespellano" ;
   vcard:street-address "Via Sandro Pertini n. 44" .
 
-<http://www.no-profit-data.it/centrisocioculturalibologna_1>
+<http://www.no-profit-data.it/centrisocioculturalibologna_2>
   a org:Organization ;
   org:purpose <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-centrisocioculturalibologna_1> ;
@@ -23490,7 +23504,7 @@
   vcard:locality "Loiano" ;
   vcard:street-address "Via U.Foscolo 8/2" .
 
-<http://www.no-profit-data.it/centrosocioculturalibologna_1>
+<http://www.no-profit-data.it/centrosocioculturalibologna_2>
   a org:Organization ;
   skos:prefLabel "CENTRO SOCIALE ANZIANI RICR. CULT. A. MONTANARI" ;
   foaf:homepage "http://www.centrosocioculturalibologna.it" ;
@@ -24310,7 +24324,7 @@
   vcard:locality "Vergato" ;
   vcard:street-address "Via Fornaci 343" .
 
-<http://www.no-profit-data.it/centrisocioculturali_1>
+<http://www.no-profit-data.it/centrisocioculturali_2>
   a org:Organization ;
   skos:prefLabel "CENTRO SOCIALE RICREATIVO CULTURALE E ORTI AUTOGESTITO DAGLI ANZIANI ROSA MARCHI" ;
   foaf:homepage "http://www.centrisocioculturali.it" ;
@@ -26204,7 +26218,7 @@
   vcard:locality "Bologna" ;
   vcard:street-address "c/o Piscina &quot;C.Longo&quot; - Ufficio FIAS - Via A.Costa 174" .
 
-<http://www.no-profit-data.it/codacons_emiliaromagna_1>
+<http://www.no-profit-data.it/codacons_emiliaromagna_2>
   a org:Organization ;
   skos:prefLabel "CODACONS Bologna - ONLUS" ;
   foaf:homepage "http://www.codacons.emiliaromagna.it" ;
@@ -27491,7 +27505,7 @@
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "P.zza dei Martiri 6" .
 
-<http://www.no-profit-data.it/associazioneforum_1>
+<http://www.no-profit-data.it/associazioneforum_2>
   a org:Organization ;
   skos:prefLabel "FORUM ASSOCIAZIONE DI PROMOZIONE SOCIALE PER LA DIFESA DEI DIRITTI CIVILI" ;
   foaf:homepage "http://www.associazioneforum.it" ;
@@ -29954,18 +29968,6 @@
   vcard:postal-code "40059" ;
   vcard:locality "Medicina" ;
   vcard:street-address "Via Cuscini 2" .
-
-<http://www.no-profit-data.it/number-0514299411>
-  a vcard:Voice ;
-  vcard:hasValue <tel:0514299411> .
-
-<http://www.no-profit-data.it/c_o_Centro_delle_donne_di_Bologna_Via_del_Piombo_5_7_40125>
-  a vcard:Work ;
-  vcard:country-name "Italia" ;
-  vcard:region "EMR" ;
-  vcard:postal-code "40125" ;
-  vcard:locality "Bologna" ;
-  vcard:street-address "c/o Centro delle donne di Bologna Via del Piombo 5/7" .
 
 <http://www.no-profit-data.it/orti_comunali_pescarola_bertalia>
   a org:Organization ;
@@ -33412,7 +33414,7 @@
   a vcard:Voice ;
   vcard:hasValue <tel:0516751134> .
 
-<http://www.no-profit-data.it/prolocoemiliaromagna_1>
+<http://www.no-profit-data.it/prolocoemiliaromagna_2>
   a org:Organization ;
   skos:prefLabel "UNPLI - UNIONE NAZ. PRO LOCO D'ITALIA - COM. REGIONALE E.R." ;
   foaf:homepage "http://www.prolocoemiliaromagna.it" ;

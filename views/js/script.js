@@ -133,19 +133,18 @@ function cerca_associazione(filtro){
 									?site_address a vcard:Location.\
 									OPTIONAL {?site_address vcard:hasAddress ?address.\
 											?address a vcard:Work.\
-											OPTIONAL {?address vcard:country-name ?stato;\
+											?address vcard:country-name ?stato;\
 																vcard:region ?regione;\
 																vcard:locality ?locality.\
 																OPTIONAL{?address vcard:postal-code ?cap}\
 																OPTIONAL{?address vcard:street-address ?indirizzo.}\
 											}\
-											OPTIONAL {?site_address vcard:hasEmail ?email}\
-											OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
-														?telephone a vcard:Voice;\
-														vcard:hasValue ?numero\
+									OPTIONAL {?site_address vcard:hasEmail ?email}\
+									OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
+												?telephone a vcard:Voice;\
+												vcard:hasValue ?numero\
 											}\
-									}\
-					}\
+							}\
 					FILTER regex(?nome_associazione, '"+filtro+"', 'i')\
 				}\
 				GROUP BY ?nome_associazione ?link ?stato ?regione ?cap ?locality ?indirizzo ORDER BY ?nome_associazione";
@@ -193,19 +192,18 @@ function get_associazioni(){
 									?site_address a vcard:Location.\
 									OPTIONAL {?site_address vcard:hasAddress ?address.\
 											?address a vcard:Work.\
-											OPTIONAL {?address vcard:country-name ?stato;\
+											?address vcard:country-name ?stato;\
 																vcard:region ?regione;\
 																vcard:locality ?locality.\
 																OPTIONAL{?address vcard:postal-code ?cap}\
 																OPTIONAL{?address vcard:street-address ?indirizzo.}\
 											}\
-											OPTIONAL {?site_address vcard:hasEmail ?email}\
-											OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
-														?telephone a vcard:Voice;\
-														vcard:hasValue ?numero\
+									OPTIONAL {?site_address vcard:hasEmail ?email}\
+									OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
+												?telephone a vcard:Voice;\
+												vcard:hasValue ?numero\
 											}\
-									}\
-					}\
+							}\
 				}\
 				GROUP BY ?nome_associazione ?link ?stato ?regione ?cap ?locality ?indirizzo ORDER BY ?nome_associazione";
 			
@@ -464,18 +462,17 @@ function crea_query(){
 									?site_address a vcard:Location.\
 									OPTIONAL {?site_address vcard:hasAddress ?address.\
 											?address a vcard:Work.\
-											OPTIONAL {?address vcard:country-name ?stato;\
+											?address vcard:country-name ?stato;\
 																vcard:region ?regione;\
-																vcard:postal-code ?cap;\
 																vcard:locality ?locality.\
-														OPTIONAL{?address vcard:street-address ?indirizzo}\
+																OPTIONAL{?address vcard:postal-code ?cap}\
+																OPTIONAL{?address vcard:street-address ?indirizzo.}\
 											}\
-											OPTIONAL {?site_address vcard:hasEmail ?email}\
-											OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
-														?telephone a vcard:Voice;\
-														vcard:hasValue ?numero\
-											}\
-									}\
+										OPTIONAL {?site_address vcard:hasEmail ?email}\
+										OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
+													?telephone a vcard:Voice;\
+													vcard:hasValue ?numero\
+										}\
 						}";
 	}
 	else {
@@ -488,8 +485,8 @@ function crea_query(){
 								?address a vcard:Work.\
 								?address vcard:country-name ?stato;\
 											vcard:region ?regione;\
-											vcard:postal-code ?cap;\
-											vcard:locality ?locality. \
+											vcard:locality ?locality.\
+											OPTIONAL{?address vcard:postal-code ?cap}\
 											OPTIONAL{?address vcard:street-address ?indirizzo.}\
 											}";
 		}
@@ -498,9 +495,9 @@ function crea_query(){
 								?address a vcard:Work.\
 								?address vcard:country-name ?stato;\
 											vcard:region ?regione;\
-											vcard:postal-code ?cap;\
 											vcard:locality ?locality.\
-											OPTIONAL{?address vcard:street-address ?indirizzo}";
+											OPTIONAL{?address vcard:postal-code ?cap}\
+											OPTIONAL{?address vcard:street-address ?indirizzo.}"
 		}
 		
 		if($check_email == false){
