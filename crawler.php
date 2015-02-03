@@ -8,16 +8,27 @@
 	
 	<script src="lib/jquery.csv-0.71.js"></script>
 	<script src="js/aggiorna_filtri.js" contentType='application/json; charset=utf-8'></script>
+	
+	
+	 <style type="text/css"> 
+		p{
+			position:relative;
+			margin-left:20px;
+			margin-top: 0px;
+			margin-bottom: 3px;
+		}
+		
+		.div_regione{
+			margin-bottom:10px;
+		}
+  </style>
   </head>
   <body>
   
-	  <form method="POST" id="search" action="php/result_back.php">
+	  <form method="POST" id="search" action="php/ricerca_siti.php">
 			<input type="text" id="input_search" name="input_search"></input>
 			<input type="submit" name="submit" value="Cerca" id="bt_cerca"> 
 			<div id="elenco_regioni">
-				
-			</div>
-			<div id="elenco_province">
 				
 			</div>
 	  </form>

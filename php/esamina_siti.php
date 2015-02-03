@@ -87,7 +87,6 @@
 			}
 
 		}
-		fclose($csv_file);
 	}
 
 	/*Ricerca un sito nell'elenco già salvato

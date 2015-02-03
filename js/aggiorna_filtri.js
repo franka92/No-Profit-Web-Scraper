@@ -18,10 +18,9 @@ function caricaRegioni(){
 		type: "POST",
 		dataType: "json",
 		success: function(data){
-			//alert("success "+data);
 			for(var i=0;i<data.length;i++){
 				if(data[i].codice != ""){
-					$("#elenco_regioni").append("<input type='checkbox' name='regioni[]' value='"+data[i].nome+"_"+data[i].codice+"' data-id='"+data[i].codice+"' id='r_"+data[i].codice+"'></input> "+data[i].nome+"<br>");
+					$("#elenco_regioni").append("<div id='reg_"+data[i].codice+"' class='div_regione'><input type='checkbox' name='regioni[]' value='"+data[i].nome+"_"+data[i].codice+"' data-id='"+data[i].codice+"' id='r_"+data[i].codice+"'></input> "+data[i].nome+"<br>");
 					/*Gestione dell'evento "onClick" associato alla checkbox creata*/
 					$("#r_"+data[i].codice).click(function(){
 						caricaProvince($(this).attr("data-id"));
@@ -42,7 +41,6 @@ function caricaRegioni(){
 	@param cod_reg: codice della regione di cui si vogliono recuperare le province
 */
 function caricaProvince(cod_reg){
-	//alert(cod_reg);
 	if($("#r_"+cod_reg).is(':checked')){
 		$.ajax({
 			url: "php/carica_province.php?cod_reg="+cod_reg,
@@ -51,7 +49,7 @@ function caricaProvince(cod_reg){
 			success: function(data){
 				for(var i=0;i<data.length;i++){
 					if(data[i].codice != ""){
-						$("#elenco_province").append("<input type='checkbox' class='"+cod_reg+"' name='province[]' value='"+data[i].nome+"_"+cod_reg+"' data-id='"+data[i].codice+"' id='p_"+data[i].codice+"'></input> <label class='"+cod_reg+"'>"+data[i].nome+"</label>");
+					$("#reg_"+cod_reg).append("<p><input type='checkbox' class='"+cod_reg+"' name='province[]' value='"+data[i].nome+"_"+cod_reg+"' data-id='"+data[i].codice+"' id='p_"+data[i].codice+"'></input> <label class='"+cod_reg+"'>"+data[i].nome+"</label></p>");
 					}
 				}
 			},
@@ -61,8 +59,9 @@ function caricaProvince(cod_reg){
 		});
 	}
 	else{
-		$("#elenco_province").find("input."+cod_reg).remove();
-		$("#elenco_province").find("label."+cod_reg).remove();
+		$("#reg_"+cod_reg).find("p").remove();
+		/*$("#elenco_province").find("input."+cod_reg).remove();
+		$("#elenco_province").find("label."+cod_reg).remove();*/
 	}
 
 }

@@ -1,0 +1,46 @@
+Log generato in data: 25-01-2015 08:01
+ Termine di input: associazioni sport bologna
+ Sito scartato: http://bo.paginegialle.it
+ Sito scartato: http://www.bridgebologna.it
+ Sito scartato: http://www.sportellodellosport.provincia.bologna.it
+ Sito scartato: http://www.acquadela.it
+ Sito scartato: http://www.aicsbologna.it
+ Sito scartato: http://www.cusb.unibo.it
+ Sito scartato: http://www.comune.bologna.it
+ Sito scartato: http://www.aicsbologna.it
+ Sito inserito: http://www.as2000.it
+ Sito inserito: http://www.ascozola.net
+ Sito inserito: http://www.pgmbologna.com
+ Sito inserito: http://www.uszinellacsi.it
+ Sito scartato: http://www.bibliotecasalaborsa.it
+ Sito scartato: http://www.polisportivaportasaragozza.it
+ Sito inserito: http://www.scuoladisportcinquecerchi.it
+ Sito scartato: http://www.bolognafutsal.it
+ Sito scartato: http://https
+ Sito scartato: http://www.unibo.it
+ Sito scartato: http://www.informagiovanionline.it
+ Sito scartato: http://https
+ Sito scartato: http://www.acquablu.altervista.org
+ Sito inserito: http://www.spaziodanza.info
+ Sito inserito: http://www.fondazioneforensebolognese.it
+ Sito inserito: http://www.renorugby.it
+ Sito scartato: http://san-lazzaro-di-savena.paginegialle.it
+ Sito inserito: http://www.derbycampidacalcetto.it
+ Sito scartato: http://www.comuni-italiani.it
+ Sito inserito: http://www.bugsbologna.it
+ Sito inserito: http://www.tenniscamplizzano.it
+ Sito inserito: http://www.taekwondolupi.it
+ Sito scartato: http://budrio.paginegialle.it
+ Sito scartato: http://www.comune.montesanpietro.bo.it
+ Sito inserito: http://www.maneggiocavaioni.com
+ Sito inserito: http://www.polisportivalame.bologna.it
+ Sito scartato: http://www.diversamenteagibile.it
+ Sito scartato: http://www.flashgiovani.it
+ Sito scartato: http://www.uisp.it
+ Sito inserito: http://www.asopen.it
+ Sito scartato: http://www.entes.it
+ Sito scartato: http://bologna.repubblica.it
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 25
+ Numero di risultati salvati: 15

@@ -15,7 +15,7 @@
 	$date = date('d-m-Y h:i', time());
 	$client = new Google_Client();
 	$client->setApplicationName("findOnlus");
-	$client->setDeveloperKey("AIzaSyBbyfI8gQgtpBxIA6RqJ0r4bLngJWvrzdw");
+	$client->setDeveloperKey("AIzaSyBIyl4IQXYUJz_JX7MWWGtJE1YKfkmTqZo");
 	$search = new Google_Service_Customsearch($client);
 	
 	$elenco_siti = array();
@@ -94,6 +94,7 @@
 		fwrite($log_file,"\n\n Numero di risultati ottenuti: ".$num_risultati);
 		fwrite($log_file,"\n Numero di risultati scartati: ".$num_scartati);
 		fwrite($log_file,"\n Numero di risultati salvati: ".$num_salvati);
+		echo ($log_file);
 		fclose($log_file);
 	
 	}

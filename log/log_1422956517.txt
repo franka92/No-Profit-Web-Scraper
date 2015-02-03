@@ -1,0 +1,46 @@
+Log generato in data: 03-02-2015 10:41
+ Termine di input: associazione sport handicap bologna
+ Sito scartato: http://www.ash-novara.it
+ Sito inserito: http://www.accaparlante.it
+ Sito scartato: http://www.diversamenteagibile.it
+ Sito scartato: http://comune.bologna.it
+ Sito scartato: http://www.prodigio.it
+ Sito scartato: http://www.disabili.com
+ Sito scartato: http://www.informagiovanionline.it
+ Sito scartato: http://www.edscuola.it
+ Sito inserito: http://www.alessio.org
+ Sito inserito: http://www.aiasbo.it
+ Sito scartato: http://www.up.aci.it
+ Sito scartato: http://sportellosociale.provincia.torino.gov.it
+ Sito scartato: http://informa.comune.bologna.it
+ Sito scartato: http://www.tuttinsieme.org
+ Sito inserito: http://www.piccolifratelli.it
+ Sito scartato: http://www.aniepnazionale.it
+ Sito inserito: http://www.aiasport.it
+ Sito inserito: http://www.icavallidelrenobologna.it
+ Sito scartato: http://www.afasev.it
+ Sito scartato: http://www.nonprofit.viainternet.org
+ Sito inserito: http://www.asphi.it
+ Sito scartato: http://www.comuni-italiani.it
+ Sito scartato: http://www.fondazionedeagostini.it
+ Sito scartato: http://www.volontariato.com
+ Sito inserito: http://www.comitatonobeldisabili.it
+ Sito scartato: http://www.associazionegav.it
+ Sito scartato: http://www.triesteabile.it
+ Sito scartato: http://www.emiliaromagna.federclimb.it
+ Sito scartato: http://www.fondazioneirmaromagnoli.org
+ Sito scartato: http://www.uispbologna.it
+ Sito scartato: http://www.sanlazzarosociale.it
+ Sito scartato: http://www.apici.org
+ Sito scartato: http://www.bowlingaziendale.it
+ Sito scartato: http://www.provincia.torino.gov.it
+ Sito scartato: http://www.unibo.it
+ Sito scartato: http://www.orsaminore.org
+ Sito scartato: http://www.ascinsieme.it
+ Sito scartato: http://www.patbologna.it
+ Sito scartato: http://www.antennehandicap.it
+ Sito scartato: http://www.bandieragialla.it
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 32
+ Numero di risultati salvati: 8

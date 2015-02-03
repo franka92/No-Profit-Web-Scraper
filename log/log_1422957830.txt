@@ -1,0 +1,46 @@
+Log generato in data: 03-02-2015 11:03
+ Termine di input: associazione sport handicap bologna Bologna
+ Sito inserito: http://www.accaparlante.it
+ Sito scartato: http://comune.bologna.it
+ Sito inserito: http://www.accaparlante.it
+ Sito inserito: http://www.aiasbo.it
+ Sito scartato: http://comune.bologna.it
+ Sito scartato: http://www.edscuola.it
+ Sito scartato: http://www.prodigio.it
+ Sito scartato: http://www.up.aci.it
+ Sito inserito: http://www.icavallidelrenobologna.it
+ Sito scartato: http://www.ash-novara.it
+ Sito scartato: http://www.diversamenteagibile.it
+ Sito inserito: http://www.alessio.org
+ Sito scartato: http://www.informagiovanionline.it
+ Sito scartato: http://www.comuni-italiani.it
+ Sito scartato: http://informa.comune.bologna.it
+ Sito scartato: http://www.tuttinsieme.org
+ Sito scartato: http://sportellosociale.provincia.torino.gov.it
+ Sito scartato: http://www.aniepnazionale.it
+ Sito scartato: http://informa.comune.bologna.it
+ Sito scartato: http://www.emiliaromagna.federclimb.it
+ Sito inserito: http://www.aiasport.it
+ Sito inserito: http://www.piccolifratelli.it
+ Sito scartato: http://www.uispbologna.it
+ Sito scartato: http://www.bandieragialla.it
+ Sito scartato: http://www.fondazioneirmaromagnoli.org
+ Sito scartato: http://www.afasev.it
+ Sito scartato: http://www.aicsbologna.it
+ Sito scartato: http://www.disabili.com
+ Sito scartato: http://www.unibo.it
+ Sito scartato: http://www.sanlazzarosociale.it
+ Sito scartato: http://www.iperbole.bologna.it
+ Sito scartato: http://www.arciserviziocivile.it
+ Sito scartato: http://www.superabile.it
+ Sito scartato: http://www.volontariato.com
+ Sito scartato: http://www.cittametropolitana.bo.it
+ Sito scartato: http://https
+ Sito scartato: http://https
+ Sito inserito: http://www.asphi.it
+ Sito scartato: http://www.flashgiovani.it
+ Sito scartato: http://www.agedi.it
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 32
+ Numero di risultati salvati: 8

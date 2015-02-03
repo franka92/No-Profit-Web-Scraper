@@ -1,0 +1,46 @@
+Log generato in data: 25-01-2015 07:44
+ Termine di input: onlus adozioni bambini bologna
+ Sito scartato: http://www.associazionenova.org
+ Sito inserito: http://www.namaste-adozioni.org
+ Sito scartato: http://www.associazionenova.org
+ Sito scartato: http://www.aibi.it
+ Sito scartato: http://www.giustizia.bologna.it
+ Sito scartato: http://www.commissioneadozioni.it
+ Sito scartato: http://www.cifaong.it
+ Sito scartato: http://www.associazionernesto.it
+ Sito scartato: http://www.avsi.org
+ Sito scartato: http://www.missionbambini.org
+ Sito scartato: http://sociale.regione.emilia-romagna.it
+ Sito scartato: http://www.provincia.piacenza.it
+ Sito inserito: http://www.sositalia.it
+ Sito inserito: http://www.crescereinsiemeonlus.org
+ Sito inserito: http://www.adozionidistanza.it
+ Sito scartato: http://www.cittametropolitana.bo.it
+ Sito inserito: http://www.amicidibologna.it
+ Sito scartato: http://www.regione.liguria.it
+ Sito inserito: http://www.aiau.it
+ Sito scartato: http://terredeshommes.it
+ Sito inserito: http://www.aiau.it
+ Sito scartato: http://www.amicidelmadagascar.org
+ Sito inserito: http://www.associazioneprometeo.org
+ Sito scartato: http://www.actionaid.it
+ Sito scartato: http://www.italiaadozioni.it
+ Sito scartato: http://www.genitorisidiventa.org
+ Sito scartato: http://www.savethechildren.it
+ Sito scartato: http://https
+ Sito scartato: http://www.ithanga.org
+ Sito inserito: http://www.movimento-shalom.org
+ Sito inserito: http://www.famigliainsieme.org
+ Sito inserito: http://www.adottando.it
+ Sito scartato: http://redazionegenova.informagiovanionline.it
+ Sito scartato: http://https
+ Sito scartato: http://informa.comune.bologna.it
+ Sito scartato: http://www.aclonlus.org
+ Sito scartato: http://www.coordinamentocare.org
+ Sito scartato: http://www.masterdirittiumani.it
+ Sito scartato: http://www.ciai.it
+ Sito scartato: http://amurt.it
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 29
+ Numero di risultati salvati: 11
