@@ -1,9 +1,9 @@
 
 /*Navbar con sfondo colorato*/
 .navbar , .panel-heading , .panel-title, .modal-header, .btn-primary{
-	background-color:#3cb3ad !important;
+	background-color:#0075d4 !important;
 	color: white !important;
-	border-color: #3cb3ad !important;
+	border-color: #0075d4 !important;
 }
 .navbar{
 	margin-right:15px;
@@ -137,7 +137,7 @@ width:100%
 }
 
 .filtro_ricerca{
-	color: #3cb3ad;
+	color: #0075d4;
 }
 
 .check_cat:checked + span{
@@ -177,7 +177,7 @@ top: -501px;
 	overflow: hidden;
 	text-align: center;
 	z-index: 99999999;
-    background-color: #3cb3ad;
+    background-color: #0075d4;
 	color: #ffffff;
 	width: 50px;
 	height: 48px;
@@ -196,7 +196,7 @@ top: -501px;
 	transition: all 0.5s ease-in-out;
 }
 .scroll-top-wrapper:hover {
-	background-color: #2f918c;
+	background-color: #0159a1;
 }
 .scroll-top-wrapper.show {
     visibility:visible;
@@ -205,4 +205,16 @@ top: -501px;
 }
 .scroll-top-wrapper i.fa {
 	line-height: inherit;
+}
+
+.img-responsive{	
+	margin:0 auto;
+}
+.img_logo{
+	width:40px;
+	height:40px;
+	margin-top:-10px;
+	margin-right:5px;
+	margin-left: -15px;
+
 }
