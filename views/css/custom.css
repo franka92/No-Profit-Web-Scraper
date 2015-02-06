@@ -114,6 +114,7 @@ width:100%
 	height:307px;
 	overflow:auto;
 	border:none;
+	width:100%;
 }
 
 .title_nome{
@@ -162,6 +163,7 @@ top: -501px;
 
 .span_bt_query{
 	float:right;
+	margin-top: 5px;
 }
 
 .span_check_all{
