@@ -94,7 +94,7 @@
 }
 
 #div_elenco{
-	height:980px;
+	height:1026px;
 	overflow:auto;
 	clear:left;
 }
@@ -154,11 +154,10 @@ width:100%
 }
 
 #chartDati{
-height: 500px;
-position: relative;
-width: 50%;
-left: 896px;
-top: -501px;
+float: right;
+}
+#chartCategorie{
+float: left;
 }
 
 .span_bt_query{
