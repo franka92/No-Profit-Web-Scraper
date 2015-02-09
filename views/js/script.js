@@ -535,10 +535,11 @@ function crea_query_cat(){
 	 $("input[name='check_cat']").each(function(){
 		var checked = $(this).prop('checked');
 		if(checked == true){
+			$val = $(this).val();
 			if(filtro == "")
-				filtro = "FILTER ( ?purp_label = '"+$(this).val()+"'";
+				filtro = "FILTER ( ?purp_label = '"+$val.replace("'","\\'")+"'";
 			else
-				filtro +=" || ?purp_label = '"+$(this).val()+"'";
+				filtro +=" || ?purp_label = '"+$val.replace("'","\\'")+"'";
 		}
 	});
 	/*Se è stato selezionato qualcosa*/
