@@ -10,11 +10,11 @@
 	margin-left:15px;
 }
 /*Menu della navbar*/
-#bt_stat, #bt_titolo, #bt_about{
-	color: #ffffff;
+#bt_stat, #bt_titolo, #bt_about, a.text_white{
+	color: #ffffff !important;
 }
-#bt_stat:hover, #bt_about:hover, #bt_titolo:hover{
-	color: #000000;
+#bt_stat:hover, #bt_about:hover, #bt_titolo:hover, a.text_white:hover{
+	color: #000000 !important;
 }
 
 .input_text_size {
@@ -218,4 +218,24 @@ float: left;
 	margin-right:5px;
 	margin-left: -15px;
 
+}
+
+.p_center{
+	text-align:center;
+}
+
+.col-md-12, div.cont_center{
+	text-align:center !important;
+}
+
+#chart_totale{
+	font-size:35px;
+	position:relative;
+	margin-left:auto;
+	margin-top:530px;
+	text-align:center;
+}
+
+.collapse_panel{
+	cursor:pointer;
 }

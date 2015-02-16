@@ -11,21 +11,7 @@
 	
 	ini_set('default_charset', 'utf-8');	
 	set_time_limit(0);
-
-	$numero_script = 5;
-	$db = new Db();
-	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1";
-	$result = $db -> select($query);
-	if(count($result)>0){
-		$numero_siti = count($result);
-	} 
-	else{
-		$numero_siti = 0;
-	}
-	$siti_script = round($numero_siti/$numero_script);
 	
-	
-	/*Recupero dal database tutte le categorie*/
 	$query = "SELECT * FROM categorie";
 	$elenco_categorie = $db->select($query);
 	
@@ -196,7 +182,7 @@
 				}
 			}
 		}
-		/*Ricerca CAP*/
+		/*Ricerca del luogo*/
 		if(array_key_exists("luogo",$sito) === false ){
 			/*Provo a cercare un indirizzo*/
 			preg_match_all('/(via|corso|piazza|viale)[a-zA-Z0-9\s,.-]*\d{2}[01589]\d{2},{0,1}[a-zA-Z0-9\s,.-]*((\([A-Z]{2}\))|(bologna))/i',$content,$indirizzi);

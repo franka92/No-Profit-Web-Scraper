@@ -36,7 +36,7 @@
 				$site = findInformation($link);
 				if($site != null){
 					$site_old = recupera_dati($link);
-					$aggiorna_dati($link,$site,$site_old);
+					aggiorna_dati($link,$site,$site_old);
 					aggiorna_timestamp($link);
 					echo "\nAnalizzato: ".$link;
 				}

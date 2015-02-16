@@ -1,245 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OnDa - Web</title>
-	<link rel="shortcut icon" href="img/logo_piccolo.png">
-
-    <!-- Bootstrap -->
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+	<body>
 
-	<!-- Custom CSS -->
-	<link href="css/custom.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  </head>
-  <body>
-	<header>	
-		<div class="logo">
-			<img class="img-responsive" src="img/logo.png" alt="logo">
-		</div>
-	
-	  <nav class="navbar navbar-default" role="navigation">
-	  <div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		</div>
+<header class="navbar navbar-default navbar-static-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand text_white">OnDa</a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="http://localhost:3030" target="_blank" class="text_white">SPARQL Endpoint</a>
+        </li>
+        <li>
+          <a href="onda.html" target="_blank" class="text_white">Web</a>
+        </li>
+        <li>
+          <a href="#" class="text_white">Contatti</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-			<li>
-				<a class="navbar-brand" href="#"><img class="img_logo" src="img/logo_piccolo.png" alt="logo"></a>
-			</li>
-			
-			<li>
-				<a href="index.html#panel_stat" id="bt_stat">Statistiche</a>
-			</li>
-			
-			<li>
-				<a href="#" data-toggle="modal" data-target="#about" id="bt_about">About</a>
-			</li>
-		  </ul>
-		  
-		</div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	</header>
+<!-- Begin Body -->
+<div class="container cont_center">
+	<div class="row cont_center">  
+      		<div class="col-md-12">
+              	<h2 id="sec0">Il progetto OnDa</h2>
+                L'idea che ha portato alla realizzazione del progetto <b>OnDa</b> era quella di creare un sistema che permettesse di raccogliere e sistematizzare le informazioni relative alle Associazioni Non Profit presenti sul territorio. 
+				<br>
+				Lo scopo principale era di ottenere un dataset curato ed omogeneo, basato su un modello standard, che potesse essere utilizzato liberamente da chiunque ne faccia necessità.
+				<br>
+				Il dataset pubblicato attraverso questa pagina può essere utilizzato come base su cui modellare dei servizi o semplicemente come punto di consultazione.
 
-	<div class="container">
-
-		<div class="row clearfix">
-			<div class="col-md-3" id="panel_sinistra">
-				<div class="panel-group" id="accordion">
-
-					<!-- Scegli filtri query -->
-					<div class="panel panel-default" id="panel2">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-target="#collapseTwo" class="collapsed">Scegli filtri per la query</a>
-								<span id="help_query" class="span_help glyphicon glyphicon-question-sign" data-container="body" data-toggle="popover" data-placement="right" data-content="Seleziona i campi obbligatori" data-original-title="Help" data-trigger="hover"></span>
-							</h4>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse in">
-							<div class="panel-body" id="filtri">
-							<p> 
-								<input type="checkbox" id="check_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
-								<input type="checkbox" id="check_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
-							</p>
-							<p>
-								<input type="checkbox" id="check_sito" value="sito" name="check_query"/><span> Sito Web</span>
-							</p>
-							<p>
-								<input type="checkbox" id="check_luogo" value="luogo" name="check_query"/><span> Luogo</span>
-							</p>
-							<p>
-								<input type="checkbox" id="check_email" value="email" name="check_query"/><span> Email</span>
-							</p>
-							<p>
-								<input type="checkbox" id="check_numeri" value="numeri" name="check_query"/><span> Contatti telefonici</span>
-							</p>
-							<p>
-								<input type="submit" class="btn btn-default" id="bt_query" value="esegui query"></input>
-							</p>
-							</div>
-						</div>
-					</div>
-					<!-- Filtri Categorie-->
-					<div class="panel panel-default" id="panel3">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-target="#collapseThree" class="collapsed">Filtra per categoria</a>
-							</h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse in">
-							<div class='div_bt_query'>
-								<span class="span_bt_query"><input type="submit" class="btn btn-default" id="bt_query_cat" value="esegui query"></input></span>
-								<span class="span_check_all">
-									<input type="checkbox" id="cat_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
-									<br>
-									<input type="checkbox" id="cat_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
-								</span>
-								
-							</div>
-							<div class="panel-body" id="filtri_cat">
-								
-							</div>
-						</div>
-					</div>
-					<!-- Filtra per comune -->
-					<div class="panel panel-default" id="panel4">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-target="#collapseFour" class="collapsed">Filtra per comune</a>
-							</h4>
-						</div>
-						<div id="collapseFour" class="panel-collapse collapse in">
-							<div class='div_bt_query'>
-								<span class="span_bt_query"><input type="submit" class="btn btn-default" id="bt_query_comuni" value="esegui query"></input></span>
-								<span class="span_check_all">
-									<input type="checkbox" id="com_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
-									<br>
-									<input type="checkbox" id="com_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
-								</span>
-								
-							</div>
-							<div class="panel-body" id="filtri_comune">
-								
-							</div>
-						</div>
-					</div>
+            			  
+              	<h2 id="sec1">Come accedere ai dati</h2>
+              	<p>
+					<h3>SPARQL End Point</h3>
+					<p>
+						Si tratta di un Web Service messo a disposizione per interrogare il grafo utilizzando il linguaggio SPARQL.
+						<br>
+						Lo SPARQL Endpoint è raggiungibile al seguente indirizzo: <a href="http://localhost:3030" target="_blank">http://localhost:3030</a>
+					</p>
 					
-				</div>
-			</div>
-
-			
-			<div class="col-md-9" id="panel_elenco">
-				<div class="panel panel-default">
-					<div class="panel-heading clearfix">
-						<h3 class="panel-title pull-left" style="padding-top: 7.5px;">Elenco Associazioni</h4>
-						<div class="input-group">
-							<input type="text" id="text_ricerca" class="form-control" placeholder="Ricerca per nome..">
-							<div class="input-group-btn">
-								<button class="btn btn-default" id="bt_ricerca"><i class="glyphicon glyphicon-search" ></i></button>
-							</div>
-						</div>
-
-					</div>
-					<div id="tab_risultati" class="nav nav-tabs"><span>Totale Risultati: </span><span id="tot_res"></span></div>
-					<div class="panel-body" id="div_elenco">
-						
-					</div>
-				</div>
-			</div><!-- .panel_doc -->
-			
-			<!-- Grafici -->
-			<div class="col-md-9" id="panel_stat">
-				<div class="panel panel-default">
-					<div class="panel-heading">
+					<h3>Web App</h3>
+					<p>
+						Tramite la pagina web raggiungibile al link <a href="onda.html" target="_blank">http://localhost/TESI/views/onda.html</a> è possibile
+						consultare i dati
+					</p>
 					
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-target="#div_stat" class="collapsed">Statistiche</a>
-						</h4>
-					</div>
-					<div class="panel-body" id="div_stat">
-						<div id="chartCategorie" style="height: 500px; width: 50%;"></div>
-						<div id="chartDati" style="height: 500px; width: 50%;"></div>
-					</div>
-				</div>
-			</div>
-			
-			
-			<!-- Visualizza query eseguita -->
-			<div class="col-md-9" id="panel_query">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-					
-						<h3 class="panel-title">
-							<a data-toggle="collapse" data-target="#div_query" class="collapsed">Query eseguita</a>
-						</h3>
-					</div>
-					<div class="panel-body" id="div_query">
-						
-					</div>
-				</div>
-			</div>
-			
-			
-			
-				
-			
-			
-			
-			
-		</div><!-- .row clearfix -->
-	</div><!-- .container -->
-	
-	
-	<!-- Scroll to top -->
-	<div class="scroll-top-wrapper ">
-		<span class="scroll-top-inner">
-			<i class="glyphicon glyphicon-arrow-up"></i>
-		</span>
-	</div>
-	
-	<!-- About -->
-	<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4>About</h4>
-				</div>
-				<div class="modal-body">
-					<p></p><h4>Progetto realizzato per l'Università di Bologna</h4><p></p>
-					<p>Contatti:</p>
-					<p>Giulia Franchini <a href="mailto:giulia.franchini2@studio.unibo.it">giulia.franchini2@studio.unibo.it</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+					<h3>Download</h3>
+					<p>
+						Si tratta di un Web Service messo a disposizione per interrogare il grafo utilizzando il linguaggio SPARQL.
+						<br>
+						Lo SPARQL Endpoint è raggiungibile al seguente indirizzo: <a href="http://localhost:3030">http://localhost:3030</a>
+					</p>
+              	</p>
+              
+              	<hr>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	
-	<!-- CanvasJS -->
-	<script type="text/javascript" src="./js/jquery.canvasjs.min.js"></script>
-	<!-- SCRIPT -->
-	<script type="text/javascript" src="./js/script.js"></script>
+				<p class="p_center">
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+						<img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+					</a>
+					<br />
+					Quest'opera è distribuita con Licenza 
+					<br>
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+              	</p>              	
+      		</div> 
+  	</div>
+</div>
 
-  </body>
+
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
-
-

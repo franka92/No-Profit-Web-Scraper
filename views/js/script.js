@@ -7,6 +7,7 @@ var prefissi = "\prefix skos: <http://www.w3.org/2004/02/skos/core#>\
 	prefix foaf:  <http://xmlns.com/foaf/0.1/>";
 	
 var categorie = [];
+var totale_risultati = 0;
 
 $(document).ready(main);
 
@@ -18,9 +19,6 @@ function main(){
 	crea_filtri_cat();
 	/*Creo le checbox per i filtri dei comuni*/
 	recupera_elenco_comuni();
-	/*Creo i grafici per la scheda "Statistiche"*/
-	crea_grafico_categorie();
-	crea_grafico_dati();
 	/*Gestione seleziona/deseleziona tutto*/
 	gestione_check_all();
 	/*Gestione bottoni "esegui query"*/
@@ -44,6 +42,19 @@ function main(){
 		}
 	});
 	$('.scroll-top-wrapper').on('click', scrollToTop);
+	
+	$(".collapse_panel").click(function(){
+		if($(this).find(".glyphicon-plus")[0]){
+			$(this).find(".glyphicon-plus").addClass("glyphicon-minus");
+			$(this).find(".glyphicon-plus").removeClass("glyphicon-plus");
+		}
+		else{
+			$(this).find(".glyphicon-minus").addClass("glyphicon-plus");
+			$(this).find(".glyphicon-minus").removeClass("glyphicon-minus");
+		}
+
+	});
+	
 	
 }
 
@@ -154,14 +165,19 @@ function cerca_associazione(filtro){
 		var encodedquery = encodeURIComponent(prefissi+query);
 		/*Dichiaro il formato dell'output*/
 		var queryUrl = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
+		$("#div_black").fadeIn();
+		$('#ajax_loader').show();
 		$.ajax({
 			method: 'GET',
 			url: queryUrl,
 			success: function (d){
 				/*Visualizzo l'elenco dei risultati*/
+				
 				visualizza_elenco(d.results.bindings);
 				$("#tab_risultati").find('span.filtri').remove();
 				$("#tab_risultati").prepend("<span class='filtri'>Hai cercato: <span class='filtro_ricerca'>"+filtro+"</span> - </span>");
+				$('#ajax_loader').hide();
+				$("#div_black").fadeOut();
 				/*Visualizzo la query effettuata*/
 				visualizza_query(query);
 				
@@ -211,13 +227,21 @@ function get_associazioni(){
     var encodedquery = encodeURIComponent(prefissi+query);
 	/*Dichiaro il formato dell'output*/
     var queryUrl = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
+	$("#div_black").fadeIn();
+	$('#ajax_loader').show();
 	$.ajax({
 		method: 'GET',
 		url: queryUrl,
 		success: function (d){
 			/*Visualizzo l'elenco dei risultati e la query effettuata*/
 			visualizza_elenco(d.results.bindings);
+			$('#ajax_loader').hide();
+			$("#div_black").fadeOut();
+			totale_risultati = d.results.bindings.length;
 			visualizza_query(query);
+			/*Creo i grafici per la scheda "Statistiche"*/
+			crea_grafico_categorie();
+			crea_grafico_dati();
 			
 		},
 		error: function (jqXHR, textStatus, errorThrown){
@@ -358,20 +382,24 @@ function click_bt_query(){
 		var encodedquery = encodeURIComponent(prefissi+query);
 		/*Dichiaro il formato dell'output*/
 		var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-			$.ajax({
-				method: 'GET',
-				url: url,
-				success: function (d){
-					visualizza_elenco(d.results.bindings);
-					visualizza_query(query);
-					
-				},
-				error: function (jqXHR, textStatus, errorThrown){
-					alert('Errore nel caricamento dei dati'+textStatus);
-					console.log(errorThrown);
-				}
-			 
-			});
+		$("#div_black").fadeIn();
+		$('#ajax_loader').show();
+		$.ajax({
+			method: 'GET',
+			url: url,
+			success: function (d){
+				visualizza_elenco(d.results.bindings);
+				$('#ajax_loader').hide();
+				$("#div_black").fadeOut();
+				visualizza_query(query);
+				
+			},
+			error: function (jqXHR, textStatus, errorThrown){
+				alert('Errore nel caricamento dei dati'+textStatus);
+				console.log(errorThrown);
+			}
+		 
+		});
 	});
 
 	/*Gestione click sul bottone "esegui query" in filtra per comune*/
@@ -382,18 +410,21 @@ function click_bt_query(){
 			var encodedquery = encodeURIComponent(prefissi+query);
 			/*Dichiaro il formato dell'output*/
 			var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-				$.ajax({
-					method: 'GET',
-					url: url,
-					success: function (d){
-						visualizza_elenco(d.results.bindings);
-						
-					},
-					error: function (jqXHR, textStatus, errorThrown){
-						alert('Errore nel caricamento della lista dei documenti'+errorThrown);
-					}
-				 
-				});
+			$("#div_black").fadeIn();
+			$('#ajax_loader').show();
+			$.ajax({
+				method: 'GET',
+				url: url,
+				success: function (d){
+					visualizza_elenco(d.results.bindings);
+					$('#ajax_loader').hide();
+					$("#div_black").fadeOut();
+				},
+				error: function (jqXHR, textStatus, errorThrown){
+					alert('Errore nel caricamento della lista dei documenti'+errorThrown);
+				}
+			 
+			});
 			visualizza_query(query);
 		}
 		else{
@@ -409,18 +440,22 @@ function click_bt_query(){
 			var encodedquery = encodeURIComponent(prefissi+query);
 			/*Dichiaro il formato dell'output*/
 			var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-				$.ajax({
-					method: 'GET',
-					url: url,
-					success: function (d){
-						visualizza_elenco(d.results.bindings);
-					},
-					error: function (jqXHR, textStatus, errorThrown){
-						alert('Errore nel caricamento dei dati'+textStatus);
-						console.log(errorThrown);
-					}
-				 
-				});
+			$("#div_black").fadeIn();
+			$('#ajax_loader').show();
+			$.ajax({
+				method: 'GET',
+				url: url,
+				success: function (d){
+					visualizza_elenco(d.results.bindings);
+					$('#ajax_loader').hide();
+					$("#div_black").fadeOut();
+				},
+				error: function (jqXHR, textStatus, errorThrown){
+					alert('Errore nel caricamento dei dati'+textStatus);
+					console.log(errorThrown);
+				}
+			 
+			});
 			visualizza_query(query);
 		}
 		else{
@@ -562,17 +597,16 @@ function crea_query_cat(){
 									  ?site_address a vcard:Location.\
 									  OPTIONAL {?site_address vcard:hasAddress ?address.\
 													?address a vcard:Work.\
-													OPTIONAL {?address vcard:country-name ?stato;\
+													?address vcard:country-name ?stato;\
 														   vcard:region ?regione;\
 														   vcard:postal-code ?cap;\
 														   vcard:locality ?locality.\
 														   OPTIONAL{?address vcard:street-address ?indirizzo.}\
-													}\
-													OPTIONAL {?site_address vcard:hasEmail ?email. }\
-													OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
-															  ?telephone a vcard:Voice;\
-															  vcard:hasValue ?numero\
-													}\
+												}\
+										OPTIONAL {?site_address vcard:hasEmail ?email. }\
+										OPTIONAL {?site_address vcard:hasTelephone ?telephone.\
+												  ?telephone a vcard:Voice;\
+												  vcard:hasValue ?numero\
 										}\
 							}	"+ filtro +"\
 					}\
@@ -661,10 +695,14 @@ function crea_grafico_categorie(){
 				url: url,
 				success: function (d){
 					$data = d.results.bindings;
+					var totale = 0;
 					/*Creo l'array con l'associazione "categoria-numero di risultati"*/
 					for(var i=0;i<$data.length;i++){
-						if($data[i].label.value != "Associazione no profit")
+						if($data[i].label.value != "Associazione no profit"){
 							count.push({y: Number($data[i].count.value), indexLabel: $data[i].label.value});
+
+						}
+													totale += parseInt($data[i].count.value);
 					}	
 					/*Creo e visualizzo il grafico*/
 					var chart = new CanvasJS.Chart("chartCategorie",{
@@ -683,6 +721,7 @@ function crea_grafico_categorie(){
 						});
 
 						chart.render();
+						$("#chart_totale").html("<label>Totale risultati: </label><label>"+totale_risultati+"</label>");
 									
 				},
 				error: function (jqXHR, textStatus, errorThrown){
@@ -720,8 +759,6 @@ function crea_grafico_dati(){
 						});
 
 						chart.render();
-
-
 }
 
 /*Recupera il numero totale di associazioni a cui è associato in sito web

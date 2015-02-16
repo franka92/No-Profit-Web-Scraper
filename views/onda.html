@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OnDa - Web</title>
+	<link rel="shortcut icon" href="img/logo_piccolo.png">
+
+    <!-- Bootstrap -->
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+	<header>	
+		<div class="logo">
+			<img class="img-responsive" src="img/logo.png" alt="logo">
+		</div>
+	
+	  <nav class="navbar navbar-default" role="navigation">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li>
+				<a class="navbar-brand" href="#"><img class="img_logo" src="img/logo_piccolo.png" alt="logo"></a>
+			</li>
+			
+			<li>
+				<a href="onda.html#panel_stat" id="bt_stat">Statistiche</a>
+			</li>
+			
+			<li>
+				<a href="#" data-toggle="modal" data-target="#about" id="bt_about">About</a>
+			</li>
+		  </ul>
+		  
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	</header>
+
+	<div class="container">
+
+		<div class="row clearfix">
+			<div class="col-md-3" id="panel_sinistra">
+				<div class="panel-group" id="accordion">
+
+					<!-- Scegli filtri query -->
+					<div class="panel panel-default" id="panel2">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-target="#collapseTwo" class="collapsed">
+									<a data-toggle="collapse" data-target="#collapseTwo"  class="collapsed collapse_panel">
+										<span class="glyphicon glyphicon-minus"></span>
+									</a>
+									Scegli filtri per la query
+								</a>
+								<span id="help_query" class="span_help glyphicon glyphicon-question-sign" data-container="body" data-toggle="popover" data-placement="right" data-content="Seleziona i campi obbligatori" data-original-title="Help" data-trigger="hover"></span>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse in">
+							<div class="panel-body" id="filtri">
+							<p> 
+								<input type="checkbox" id="check_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
+								<input type="checkbox" id="check_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
+							</p>
+							<p>
+								<input type="checkbox" id="check_sito" value="sito" name="check_query"/><span> Sito Web</span>
+							</p>
+							<p>
+								<input type="checkbox" id="check_luogo" value="luogo" name="check_query"/><span> Luogo</span>
+							</p>
+							<p>
+								<input type="checkbox" id="check_email" value="email" name="check_query"/><span> Email</span>
+							</p>
+							<p>
+								<input type="checkbox" id="check_numeri" value="numeri" name="check_query"/><span> Contatti telefonici</span>
+							</p>
+							<p>
+								<input type="submit" class="btn btn-default" id="bt_query" value="esegui query"></input>
+							</p>
+							</div>
+						</div>
+					</div>
+					<!-- Filtri Categorie-->
+					<div class="panel panel-default" id="panel3">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-target="#collapseThree" class="collapsed">
+									<a data-toggle="collapse" data-target="#collapseThree" class="collapsed collapse_panel">
+										<span class="glyphicon glyphicon-minus"></span>
+									</a>
+									Filtra per categoria
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse in">
+							<div class='div_bt_query'>
+								<span class="span_bt_query"><input type="submit" class="btn btn-default" id="bt_query_cat" value="esegui query"></input></span>
+								<span class="span_check_all">
+									<input type="checkbox" id="cat_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
+									<br>
+									<input type="checkbox" id="cat_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
+								</span>
+								
+							</div>
+							<div class="panel-body" id="filtri_cat">
+								
+							</div>
+						</div>
+					</div>
+					<!-- Filtra per comune -->
+					<div class="panel panel-default" id="panel4">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-target="#collapseFour" class="collapsed">
+									<a data-toggle="collapse" data-target="#collapseFour" class="collapsed collapse_panel">
+										<span class="glyphicon glyphicon-minus"></span>
+									</a>
+									Filtra per comune
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse in">
+							<div class='div_bt_query'>
+								<span class="span_bt_query"><input type="submit" class="btn btn-default" id="bt_query_comuni" value="esegui query"></input></span>
+								<span class="span_check_all">
+									<input type="checkbox" id="com_sel_tutto" value="sel_tutto"/><span> Seleziona tutto</span>
+									<br>
+									<input type="checkbox" id="com_des_tutto" value="des_tutto"/><span> Deseleziona tutto</span>
+								</span>
+								
+							</div>
+							<div class="panel-body" id="filtri_comune">
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			
+			<div class="col-md-9" id="panel_elenco">
+				<div class="panel panel-default">
+					<div class="panel-heading clearfix">
+						<h3 class="panel-title pull-left" style="padding-top: 7.5px;">Elenco Associazioni</h4>
+						<div class="input-group">
+							<input type="text" id="text_ricerca" class="form-control" placeholder="Ricerca per nome..">
+							<div class="input-group-btn">
+								<button class="btn btn-default" id="bt_ricerca"><i class="glyphicon glyphicon-search" ></i></button>
+							</div>
+						</div>
+
+					</div>
+					<div id="tab_risultati" class="nav nav-tabs"><span>Totale Risultati: </span><span id="tot_res"></span></div>
+					<div class="panel-body" id="div_elenco">
+						
+					</div>
+				</div>
+			</div><!-- .panel_doc -->
+			
+			<!-- Grafici -->
+			<div class="col-md-9" id="panel_stat">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-target="#div_stat" class="collapsed">
+								<a data-toggle="collapse" data-target="#div_stat"  class="collapsed collapse_panel">
+									<span class="glyphicon glyphicon-minus"></span>
+								</a>
+								Statistiche
+							</a>
+						</h4>
+					</div>
+					<div class="panel-body collapse in" id="div_stat">
+						<div id="chartCategorie" style="height: 500px; width: 50%;"></div>
+						<div id="chartDati" style="height: 500px; width: 50%;"></div>
+						<div id="chart_totale"></div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- Visualizza query eseguita -->
+			<div class="col-md-9" id="panel_query">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					
+						<h3 class="panel-title">
+							<a data-toggle="collapse" data-target="#div_query" class="collapsed">
+								<a data-toggle="collapse" data-target="#div_query"  class="collapsed collapse_panel">
+									<span class="glyphicon glyphicon-minus"></span>
+								</a>
+							
+								Query eseguita
+							</a>
+						</h3>
+					</div>
+					<div class="panel-body collapse in" id="div_query">
+						
+					</div>
+				</div>
+			</div>
+			
+			
+			
+				
+			
+			
+			
+			
+		</div><!-- .row clearfix -->
+	</div><!-- .container -->
+	
+	
+	<!-- Scroll to top -->
+	<div class="scroll-top-wrapper ">
+		<span class="scroll-top-inner">
+			<i class="glyphicon glyphicon-arrow-up"></i>
+		</span>
+	</div>
+	
+	<!-- About -->
+	<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>About</h4>
+				</div>
+				<div class="modal-body">
+					<p></p><h4>Progetto realizzato per l'Università di Bologna</h4><p></p>
+					<p>Contatti:</p>
+					<p>Giulia Franchini <a href="mailto:giulia.franchini2@studio.unibo.it">giulia.franchini2@studio.unibo.it</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal fade" id="div_black" tabindex="-1" aria-hidden="true"></div>
+	<div id="ajax_loader">
+		<img src="img/ajax-loader.gif"></img>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- CanvasJS -->
+	<script type="text/javascript" src="./js/jquery.canvasjs.min.js"></script>
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="./js/script.js"></script>
+
+  </body>
+</html>
+
+
