@@ -1,9 +1,9 @@
 <?php
-	require_once '../vendor/autoload.php';
+	require_once 'vendor/autoload.php';
 	# include Simple Html Dom lib
-	require_once ("../lib/simple_html_dom.php");
+	require_once ("lib/simple_html_dom.php");
 	# include parseCSV class.
-	require_once '../lib/parsecsv.lib.php';
+	require_once 'lib/parsecsv.lib.php';
 	# include Database Configuration and management class
 	require_once ("database_manager.php");
 	# include find category class
@@ -12,6 +12,8 @@
 	ini_set('default_charset', 'utf-8');	
 	set_time_limit(0);
 	
+	/*Recupero dal database tutte le categorie*/
+	$db = new Db();
 	$query = "SELECT * FROM categorie";
 	$elenco_categorie = $db->select($query);
 	
@@ -36,7 +38,6 @@
 				$sito['categoria'] = array();
 				array_push($sito['categoria'],"Associazione no profit");
 				if($categorie != null){
-					
 					$value = max($categorie);
 					$key = array_keys($categorie,$value);
 					foreach($key as $c)
@@ -182,7 +183,7 @@
 				}
 			}
 		}
-		/*Ricerca del luogo*/
+		/*Ricerca CAP*/
 		if(array_key_exists("luogo",$sito) === false ){
 			/*Provo a cercare un indirizzo*/
 			preg_match_all('/(via|corso|piazza|viale)[a-zA-Z0-9\s,.-]*\d{2}[01589]\d{2},{0,1}[a-zA-Z0-9\s,.-]*((\([A-Z]{2}\))|(bologna))/i',$content,$indirizzi);
@@ -339,8 +340,8 @@
 				$site['luogo'] = array();
 				$site['luogo']['comune'] = $row['comune'];
 				$site['luogo']['cap'] = $row['cap'];
-				$site['luogo']['provincia'] = $row['regione'];
-				$site['luogo']['regione'] = $row['provincia'];
+				$site['luogo']['provincia'] = $row['provincia'];
+				$site['luogo']['regione'] = $row['regione'];
 				if($row['indirizzo'] != null)
 					$site['luogo']['indirizzo'] = $row['indirizzo'];
 			}
@@ -452,7 +453,7 @@
 		/*Verifica delle informazioni sul luogo*/
 		if(array_key_exists("luogo",$info_nuove) && array_key_exists("luogo",$info_vecchie)){
 			$luogo_nuovo = $info_nuove['luogo'];
-			$luogo_vecchio = $info_vecchio['luogo'];
+			$luogo_vecchio = $info_vecchie['luogo'];
 			/*Se le informazioni sul luogo sono cambiate, le aggiorno*/
 			if(array_key_exists("cap",$luogo_nuovo)){
 				if(array_key_exists("cap",$luogo_vecchio) && $luogo_nuovo['cap'] != $luogo_vecchio['cap']){

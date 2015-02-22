@@ -1,11 +1,11 @@
 <?php
-	require_once '../lib/parsecsv.lib.php';
+	require_once 'lib/parsecsv.lib.php';
 	
 	function crea_data_csv(){
 
 		$db = new Db();
 
-		$dir_path = '../data/csv';
+		$dir_path = 'data/csv';
 		$file_associazioni = fopen($dir_path."/associazioni.csv", "w");
 		$file_email = fopen($dir_path."/elenco_email.csv", "w");
 		$file_numeri = fopen($dir_path."/elenco_numeri.csv", "w");

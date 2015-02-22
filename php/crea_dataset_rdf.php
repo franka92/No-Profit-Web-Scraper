@@ -1,6 +1,6 @@
 <?php
-	require_once '../vendor/autoload.php';
-	require_once '../lib/parsecsv.lib.php';
+	require_once 'vendor/autoload.php';
+	require_once 'lib/parsecsv.lib.php';
 	
 	$graph = new EasyRdf_Graph();
 	EasyRdf_Namespace::set('org', 'http://www.w3.org/ns/org#'); 
@@ -14,7 +14,7 @@
 		
 		/*Salvo il file*/
 		$string = $graph->serialise("turtle");
-		$dir_path = '../data/rdf';
+		$dir_path = 'data/rdf';
 		$file = fopen($dir_path."/data_rdf.ttl", "w");
 		fwrite($file,utf8_encode($string));
 		fclose($file);
@@ -25,7 +25,7 @@
 	function inserisci_categorie(){
 		global $graph;
 		$csv_file = new parseCSV();
-		$csv_file->auto('../src/categorie.csv');
+		$csv_file->auto('src/categorie.csv');
 		$cat = "";
 		foreach ($csv_file->data as $key => $row){
 			$cur_cat = $row['categoria'];
@@ -96,8 +96,11 @@
 				$parse_link = trim($parse_link," ");
 				$iri_associazione = $prefix.$parse_link;
 				$count_iri = count(array_keys($elenco_iri,$iri_associazione));
-				if($count_iri >0 )
+				if($count_iri >0 ){
 					$iri_associazione .="_".($count_iri+1);
+					$count_location = $count_iri+1;
+					$count_site = $count_iri+1;
+				}
 				array_push($elenco_iri,$iri_associazione);
 				/*Creo l'oggetto Associazione*/
 				$associazione = $graph->resource($iri_associazione, 'org:Organization');
@@ -206,8 +209,8 @@
 	function recupera_elenco_associazioni(){
 		$elenco = array();
 		$count;
-		$file_content = file_get_contents("../data/json/associazioni.json");
-		$file_content_two = file_get_contents("../data/json/associazioni_no_sito.json");
+		$file_content = file_get_contents("data/json/associazioni.json");
+		$file_content_two = file_get_contents("data/json/associazioni_no_sito.json");
 		$data_json = json_decode($file_content,true);
 		$data_json_two = json_decode($file_content_two,true);
 		array_push($elenco,$data_json);

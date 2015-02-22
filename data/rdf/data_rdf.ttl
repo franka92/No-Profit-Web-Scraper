@@ -121,7 +121,7 @@
 <http://www.no-profit-data.it/40063>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40063" ;
   vcard:locality "Monghidoro" .
 
@@ -155,7 +155,7 @@
 <http://www.no-profit-data.it/Viale_Aldo_Moro_52_40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Aldo Moro 52" .
@@ -188,7 +188,7 @@
 <http://www.no-profit-data.it/>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:locality "Bologna" .
 
 <http://www.no-profit-data.it/ass-equilibrio>
@@ -219,7 +219,7 @@
 <http://www.no-profit-data.it/40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" .
 
@@ -251,7 +251,7 @@
 <http://www.no-profit-data.it/40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" .
 
@@ -299,7 +299,7 @@
 <http://www.no-profit-data.it/40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" .
 
@@ -321,7 +321,7 @@
 <http://www.no-profit-data.it/Via_Rupe,_9_40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Rupe, 9" .
@@ -344,7 +344,7 @@
 <http://www.no-profit-data.it/40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" .
 
@@ -376,7 +376,7 @@
 <http://www.no-profit-data.it/195>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "195" ;
   vcard:locality "Roma" .
 
@@ -404,7 +404,7 @@
 <http://www.no-profit-data.it/Viale_Gozzadini_n_21_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Gozzadini n. 21" .
@@ -459,7 +459,7 @@
 <http://www.no-profit-data.it/40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" .
 
@@ -491,7 +491,7 @@
 <http://www.no-profit-data.it/56112>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "56112" ;
   vcard:locality "Ferrara" .
 
@@ -564,7 +564,7 @@
 <http://www.no-profit-data.it/Via_Olmetola_16,__40132>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40132" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Olmetola 16,  " .
@@ -587,7 +587,7 @@
 <http://www.no-profit-data.it/40054>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40054" ;
   vcard:locality "Budrio" .
 
@@ -615,7 +615,7 @@
 <http://www.no-profit-data.it/40057>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40057" ;
   vcard:locality "Granarolo dell'Emilia" .
 
@@ -637,7 +637,7 @@
 <http://www.no-profit-data.it/40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" .
 
@@ -669,7 +669,7 @@
 <http://www.no-profit-data.it/40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" .
 
@@ -722,7 +722,7 @@
 <http://www.no-profit-data.it/via_Selva_Pescarola_n_26_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Selva Pescarola n. 26" .
@@ -745,7 +745,7 @@
 <http://www.no-profit-data.it/40059>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40059" ;
   vcard:locality "Medicina" .
 
@@ -834,7 +834,7 @@
 <http://www.no-profit-data.it/via_Marco_Polo_51_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Marco Polo 51" .
@@ -958,7 +958,7 @@
 <http://www.no-profit-data.it/via_Rimembranze,_26_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "via Rimembranze, 26" .
@@ -1080,7 +1080,7 @@
 <http://www.no-profit-data.it/40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" .
 
@@ -1161,7 +1161,7 @@
 <http://www.no-profit-data.it/44011>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44011" ;
   vcard:locality "Argenta" .
 
@@ -1184,7 +1184,7 @@
 <http://www.no-profit-data.it/via_Pirandello_24_40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Pirandello 24" .
@@ -1228,7 +1228,7 @@
 <http://www.no-profit-data.it/Via_Lame_116_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Lame 116" .
@@ -1298,7 +1298,7 @@
 <http://www.no-profit-data.it/40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" .
 
@@ -1321,7 +1321,7 @@
 <http://www.no-profit-data.it/198>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "198" ;
   vcard:locality "Roma" .
 
@@ -1404,7 +1404,7 @@
 <http://www.no-profit-data.it/Via_Mirasole_37__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Mirasole 37 " .
@@ -1452,7 +1452,7 @@
 <http://www.no-profit-data.it/Via_Bigari,_3__40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Bigari, 3 " .
@@ -1476,7 +1476,7 @@
 <http://www.no-profit-data.it/40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" .
 
@@ -1498,7 +1498,7 @@
 <http://www.no-profit-data.it/40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" .
 
@@ -1538,7 +1538,7 @@
 <http://www.no-profit-data.it/40013>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" .
 
@@ -1586,7 +1586,7 @@
 <http://www.no-profit-data.it/Via_Massarenti_11_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti 11" .
@@ -1610,7 +1610,7 @@
 <http://www.no-profit-data.it/Via_Rainaldi_2_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Rainaldi 2" .
@@ -1634,7 +1634,7 @@
 <http://www.no-profit-data.it/Via_Padova_2__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Padova 2 " .
@@ -1672,7 +1672,7 @@
 <http://www.no-profit-data.it/Via_Bertini_8_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Bertini 8" .
@@ -1713,7 +1713,7 @@
 <http://www.no-profit-data.it/Via_Ferrara_32_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Ferrara 32" .
@@ -1742,7 +1742,7 @@
 <http://www.no-profit-data.it/Via_Colunga_51_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "Via Colunga 51" .
@@ -1777,7 +1777,7 @@
 <http://www.no-profit-data.it/47121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FC" ;
+  vcard:region "EMR" ;
   vcard:postal-code "47121" ;
   vcard:locality "Forli" .
 
@@ -1829,7 +1829,7 @@
 <http://www.no-profit-data.it/40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" .
 
@@ -1857,7 +1857,7 @@
 <http://www.no-profit-data.it/via_Lugo_10__40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Lugo 10 " .
@@ -1886,7 +1886,7 @@
 <http://www.no-profit-data.it/40132>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40132" ;
   vcard:locality "Bologna" .
 
@@ -1926,7 +1926,7 @@
 <http://www.no-profit-data.it/40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" .
 
@@ -1962,7 +1962,7 @@
 <http://www.no-profit-data.it/40135>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40135" ;
   vcard:locality "Bologna" .
 
@@ -2005,7 +2005,7 @@
 <http://www.no-profit-data.it/Via_Massarenti_9__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti 9 " .
@@ -2057,7 +2057,7 @@
 <http://www.no-profit-data.it/Viale_Cavina,_4__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Cavina, 4 " .
@@ -2102,7 +2102,7 @@
 <http://www.no-profit-data.it/40010>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40010" ;
   vcard:locality "Bentivoglio" .
 
@@ -2124,7 +2124,7 @@
 <http://www.no-profit-data.it/Via_Massarenti,_59_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti, 59" .
@@ -2168,7 +2168,7 @@
 <http://www.no-profit-data.it/40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" .
 
@@ -2195,7 +2195,7 @@
 <http://www.no-profit-data.it/via_Ferruccio_Parri_17_40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Ferruccio Parri 17" .
@@ -2232,7 +2232,7 @@
 <http://www.no-profit-data.it/Via_Galliera,_17__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Galliera, 17  " .
@@ -2329,7 +2329,7 @@
 <http://www.no-profit-data.it/via_del_Fonditore_16_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via del Fonditore 16" .
@@ -2367,7 +2367,7 @@
 <http://www.no-profit-data.it/Viale_Roma,_21__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Roma, 21 " .
@@ -2425,7 +2425,7 @@
 <http://www.no-profit-data.it/Piazza_Calori,_7_44018>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44018" ;
   vcard:locality "San Pietro in Casale" ;
   vcard:street-address "Piazza Calori, 7" .
@@ -2477,7 +2477,7 @@
 <http://www.no-profit-data.it/Via_Massarenti,_11__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti, 11 " .
@@ -2548,7 +2548,7 @@
 <http://www.no-profit-data.it/Via_Ponte_Albano_29_40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Ponte Albano 29" .
@@ -2622,7 +2622,7 @@
 <http://www.no-profit-data.it/Via_S_Simone_5__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via S. Simone 5 " .
@@ -2678,7 +2678,7 @@
 <http://www.no-profit-data.it/Via_Saffi_n_10__40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Saffi n. 10 " .
@@ -2755,7 +2755,7 @@
 <http://www.no-profit-data.it/40064>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40064" ;
   vcard:locality "Ozzano dell'Emilia" .
 
@@ -2845,7 +2845,7 @@
 <http://www.no-profit-data.it/Via_Montebello_8__40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Montebello 8 " .
@@ -2893,7 +2893,7 @@
 <http://www.no-profit-data.it/40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" .
 
@@ -2944,7 +2944,7 @@
 <http://www.no-profit-data.it/Via_Corrado_Masetti_5__40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address """Via Corrado Masetti 5""" .
@@ -2983,7 +2983,7 @@
 <http://www.no-profit-data.it/Viale_Pepoli,_5__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Pepoli, 5 " .
@@ -3006,7 +3006,7 @@
 <http://www.no-profit-data.it/40137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40137" ;
   vcard:locality "Bologna" .
 
@@ -3029,7 +3029,7 @@
 <http://www.no-profit-data.it/20121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MI" ;
+  vcard:region "LOM" ;
   vcard:postal-code "20121" ;
   vcard:locality "Milano" .
 
@@ -3082,7 +3082,7 @@
 <http://www.no-profit-data.it/166>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "166" ;
   vcard:locality "Roma" .
 
@@ -3125,7 +3125,7 @@
 <http://www.no-profit-data.it/via_degli_Albari_2_47900>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "47900" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via degli Albari 2" .
@@ -3154,7 +3154,7 @@
 <http://www.no-profit-data.it/Via_P_Ascani,_44_41126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41126" ;
   vcard:locality "Modena" ;
   vcard:street-address "Via P. Ascani, 44" .
@@ -3177,7 +3177,7 @@
 <http://www.no-profit-data.it/40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" .
 
@@ -3246,7 +3246,7 @@
 <http://www.no-profit-data.it/183>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "183" ;
   vcard:locality "Roma" .
 
@@ -3286,7 +3286,7 @@
 <http://www.no-profit-data.it/Via_Jacopo_di_Paolo_36_40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "Via Jacopo di Paolo 36" .
@@ -3399,7 +3399,7 @@
 <http://www.no-profit-data.it/Via_G_Guinizelli,_3__40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via G. Guinizelli, 3                                                           " .
@@ -3440,7 +3440,7 @@
 <http://www.no-profit-data.it/Via_G_Massarenti,_9__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via G. Massarenti, 9 " .
@@ -3469,7 +3469,7 @@
 <http://www.no-profit-data.it/Via_Albertoni_15_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Albertoni 15" .
@@ -3498,7 +3498,7 @@
 <http://www.no-profit-data.it/Via_Massarenti_9_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti 9" .
@@ -3583,7 +3583,7 @@
 <http://www.no-profit-data.it/40050>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40050" ;
   vcard:locality "Argelato" .
 
@@ -3611,7 +3611,7 @@
 <http://www.no-profit-data.it/Via_Casaglia_16_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Casaglia 16" .
@@ -3668,7 +3668,7 @@
 <http://www.no-profit-data.it/Via_della_Beverara_6_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via della Beverara 6" .
@@ -3704,7 +3704,7 @@
 <http://www.no-profit-data.it/Via_I_Maggio,_15_40066>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40066" ;
   vcard:locality "Pieve di Cento" ;
   vcard:street-address "Via I Maggio, 15" .
@@ -3789,7 +3789,7 @@
 <http://www.no-profit-data.it/40043>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" .
 
@@ -3833,7 +3833,7 @@
 <http://www.no-profit-data.it/40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" .
 
@@ -3876,7 +3876,7 @@
 <http://www.no-profit-data.it/Via_San_Mamolo,_25_34125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "34125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via San Mamolo, 25" .
@@ -3909,7 +3909,7 @@
 <http://www.no-profit-data.it/Via_Dante,_17A__40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via Dante, 17A " .
@@ -3952,7 +3952,7 @@
 <http://www.no-profit-data.it/Via_Riva_di_Reno_124__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Riva di Reno 124 " .
@@ -3996,7 +3996,7 @@
 <http://www.no-profit-data.it/Via_Monteverdi,_12_23887>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "LC" ;
+  vcard:region "LOM" ;
   vcard:postal-code "23887" ;
   vcard:locality "Olgiate Molgora" ;
   vcard:street-address "Via Monteverdi, 12" .
@@ -4045,7 +4045,7 @@
 <http://www.no-profit-data.it/Viale_Roma,_21__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Roma, 21 " .
@@ -4131,7 +4131,7 @@
 <http://www.no-profit-data.it/Via_Galliera_11__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Galliera 11 " .
@@ -4160,7 +4160,7 @@
 <http://www.no-profit-data.it/Viale_Aldo_Moro_50_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Aldo Moro 50" .
@@ -4188,7 +4188,7 @@
 <http://www.no-profit-data.it/via_San_Felice_26_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via San Felice 26" .
@@ -4225,7 +4225,7 @@
   skos:prefLabel "Assistenza anziani a domicilio - Bologna - Agenzia AGSA" ;
   foaf:homepage "http://www.assistenzaanzianibologna.net/" ;
   org:purpose <http://www.no-profit-data.it/cat-musica>, <http://www.no-profit-data.it/cat-Protezione_civile>, <http://www.no-profit-data.it/cat-Volontariato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
-  org:hasSite <http://www.no-profit-data.it/site-assistenzaanzianibologna_1> .
+  org:hasSite <http://www.no-profit-data.it/site-assistenzaanzianibologna_2> .
 
 <http://www.no-profit-data.it/number-0519913095>
   a vcard:Voice ;
@@ -4238,7 +4238,7 @@
 <http://www.no-profit-data.it/VIA_Massarenti__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "VIA Massarenti " .
@@ -4248,13 +4248,13 @@
   skos:prefLabel "Assistenza infermieristica - Bologna - ASSISTENZA MALATI BOLOGNA srl" ;
   foaf:homepage "http://www.assistenzamalatibologna.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Donne>, <http://www.no-profit-data.it/cat-Recupero_e_assistenza>, <http://www.no-profit-data.it/cat-Volontariato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
-  org:hasSite <http://www.no-profit-data.it/site-assistenzamalatibologna_1> .
+  org:hasSite <http://www.no-profit-data.it/site-assistenzamalatibologna_2> .
 
-<http://www.no-profit-data.it/site-assistenzamalatibologna_1>
+<http://www.no-profit-data.it/site-assistenzamalatibologna_2>
   a org:Site ;
-  org:siteAddress <http://www.no-profit-data.it/loc-assistenzamalatibologna_1> .
+  org:siteAddress <http://www.no-profit-data.it/loc-assistenzamalatibologna_2> .
 
-<http://www.no-profit-data.it/loc-assistenzamalatibologna_1>
+<http://www.no-profit-data.it/loc-assistenzamalatibologna_2>
   a vcard:Location ;
   vcard:hasEmail <mailto:assistenzamalatibologna@gmail.com> ;
   vcard:hasAddress <http://www.no-profit-data.it/Via_Delle_Lame_79__40122> .
@@ -4262,7 +4262,7 @@
 <http://www.no-profit-data.it/Via_Delle_Lame_79__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Delle Lame 79 " .
@@ -4291,7 +4291,7 @@
 <http://www.no-profit-data.it/29152>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "29152" ;
   vcard:locality "Imola" .
 
@@ -4329,7 +4329,7 @@
 <http://www.no-profit-data.it/40044>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40044" ;
   vcard:locality "Gaggio Montano" .
 
@@ -4432,7 +4432,7 @@
 <http://www.no-profit-data.it/Via_E_De_Amicis,_11__40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "Via E. De Amicis, 11  " .
@@ -4596,7 +4596,7 @@
 <http://www.no-profit-data.it/Viale_degli_Artisti,_3__40024>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" ;
   vcard:street-address "Viale degli Artisti, 3 " .
@@ -4652,7 +4652,7 @@
 <http://www.no-profit-data.it/Via_del_Colle_1_40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via del Colle 1" .
@@ -4681,7 +4681,7 @@
 <http://www.no-profit-data.it/Via_Urbana,_5_40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Urbana, 5" .
@@ -4753,7 +4753,7 @@
 <http://www.no-profit-data.it/40067>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40067" ;
   vcard:locality "Rastignano" .
 
@@ -4836,7 +4836,7 @@
 <http://www.no-profit-data.it/Viale_Pepoli_5_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Pepoli 5" .
@@ -4877,7 +4877,7 @@
 <http://www.no-profit-data.it/Via_dello_Scalo_14_40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via dello Scalo 14" .
@@ -4900,7 +4900,7 @@
 <http://www.no-profit-data.it/Viale_Lenin,_63__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Lenin, 63 " .
@@ -4929,7 +4929,7 @@
 <http://www.no-profit-data.it/Via_E_Fermi_3_41037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41037" ;
   vcard:locality "Mirandola" ;
   vcard:street-address "Via E. Fermi 3" .
@@ -5003,7 +5003,7 @@
 <http://www.no-profit-data.it/Via_Massarenti,_9__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti, 9 " .
@@ -5035,7 +5035,7 @@
 <http://www.no-profit-data.it/41124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41124" ;
   vcard:locality "Modena" .
 
@@ -5120,7 +5120,7 @@
 <http://www.no-profit-data.it/Via_della_Beverara_n_6__40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via della Beverara n. 6 " .
@@ -5196,7 +5196,7 @@
 <http://www.no-profit-data.it/Via_Castiglione,_29__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Castiglione, 29 " .
@@ -5220,7 +5220,7 @@
 <http://www.no-profit-data.it/20134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MI" ;
+  vcard:region "LOM" ;
   vcard:postal-code "20134" ;
   vcard:locality "Milano" .
 
@@ -5248,7 +5248,7 @@
 <http://www.no-profit-data.it/Via_Delle_Tofane_16__40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Delle Tofane 16 " .
@@ -5340,7 +5340,7 @@
 <http://www.no-profit-data.it/via_della_Beverara_6_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via della Beverara 6" .
@@ -5369,7 +5369,7 @@
 <http://www.no-profit-data.it/Via_del_Savena_15__40065>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40065" ;
   vcard:locality "Pianoro" ;
   vcard:street-address "Via del Savena 15 " .
@@ -5397,14 +5397,14 @@
 <http://www.no-profit-data.it/via_Beniamino_Gigli,_26__40137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40137" ;
   vcard:locality "Bologna" ;
   vcard:street-address """via Beniamino Gigli, 26		""" .
 
 <http://www.no-profit-data.it/betelbo>
   a org:Organization ;
-  skos:prefLabel "Documento senza titolo" ;
+  skos:prefLabel "Amici di BetelBO" ;
   foaf:homepage "http://www.betelbo.it/" ;
   org:purpose <http://www.no-profit-data.it/cat-Volontariato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-betelbo_1> .
@@ -5430,7 +5430,7 @@
 <http://www.no-profit-data.it/via_Oslavia,_5__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Oslavia, 5 " .
@@ -5459,7 +5459,7 @@
 <http://www.no-profit-data.it/Via_Guinizelli,_10_40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Guinizelli, 10" .
@@ -5488,7 +5488,7 @@
 <http://www.no-profit-data.it/Piazza_Nettuno,_3_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza Nettuno, 3" .
@@ -5544,7 +5544,7 @@
 <http://www.no-profit-data.it/via_Altura,_3__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Altura, 3 " .
@@ -5600,7 +5600,7 @@
 <http://www.no-profit-data.it/157>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "157" ;
   vcard:locality "Roma" .
 
@@ -5692,7 +5692,7 @@
 <http://www.no-profit-data.it/Viale_Panzacchi,_23_40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Viale Panzacchi, 23" .
@@ -5729,7 +5729,7 @@
 <http://www.no-profit-data.it/Via_Fancelli,_5__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Fancelli, 5  " .
@@ -5790,7 +5790,7 @@
 <http://www.no-profit-data.it/Via_Triumvirato,_84__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Triumvirato, 84 " .
@@ -5814,7 +5814,7 @@
 <http://www.no-profit-data.it/40012>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40012" ;
   vcard:locality "Calderara di Reno" .
 
@@ -5864,7 +5864,7 @@
 <http://www.no-profit-data.it/via_Abbazia_4_40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "via Abbazia 4" .
@@ -5888,7 +5888,7 @@
 <http://www.no-profit-data.it/via_delle_Tofane_31_40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via delle Tofane 31" .
@@ -5921,7 +5921,7 @@
 <http://www.no-profit-data.it/Via_Boldrini_8__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Boldrini 8 " .
@@ -5954,7 +5954,7 @@
 <http://www.no-profit-data.it/48010>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RA" ;
+  vcard:region "EMR" ;
   vcard:postal-code "48010" ;
   vcard:locality "Bagnara di Romagna" .
 
@@ -5986,7 +5986,7 @@
 <http://www.no-profit-data.it/Via_Calori,_6__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Calori, 6 " .
@@ -6015,7 +6015,7 @@
 <http://www.no-profit-data.it/Via_Collegio_di_Spagna_5b_40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Collegio di Spagna 5b" .
@@ -6054,7 +6054,7 @@
 <http://www.no-profit-data.it/Via_Stalingrado_105__40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Stalingrado 105 " .
@@ -6087,7 +6087,7 @@
 <http://www.no-profit-data.it/40024>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" .
 
@@ -6194,7 +6194,7 @@
 <http://www.no-profit-data.it/Via_Zamboni,_13_40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Zamboni, 13" .
@@ -6223,7 +6223,7 @@
 <http://www.no-profit-data.it/Via_Venezia_1_40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "Via Venezia 1" .
@@ -6273,7 +6273,7 @@
 <http://www.no-profit-data.it/41012>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41012" ;
   vcard:locality "Carpi" .
 
@@ -6316,7 +6316,7 @@
 <http://www.no-profit-data.it/Via_Di_Vittorio_6__40043>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" ;
   vcard:street-address "Via Di Vittorio 6 " .
@@ -6374,7 +6374,7 @@
 <http://www.no-profit-data.it/Via_Rodolfo_Mondolfo,_8_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Rodolfo Mondolfo, 8" .
@@ -6494,7 +6494,7 @@
 <http://www.no-profit-data.it/Via_Casanova_11__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Casanova 11 " .
@@ -6517,7 +6517,7 @@
 <http://www.no-profit-data.it/Piazza_Garibaldi,_2__40017>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" ;
   vcard:street-address "Piazza Garibaldi, 2 " .
@@ -6550,7 +6550,7 @@
 <http://www.no-profit-data.it/Via_Castiglione,_71__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Castiglione, 71 " .
@@ -6629,7 +6629,7 @@
 <http://www.no-profit-data.it/Viale_Albertazzi,_320_40024>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40024" ;
   vcard:locality "Castel San Pietro Terme" ;
   vcard:street-address "Viale Albertazzi, 320" .
@@ -6653,7 +6653,7 @@
 <http://www.no-profit-data.it/Via_Azzurra_n_41__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Azzurra n.41 " .
@@ -6690,7 +6690,7 @@
 <http://www.no-profit-data.it/Via_Lame_118__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Lame 118 " .
@@ -6723,7 +6723,7 @@
 <http://www.no-profit-data.it/Via_del_Pratello_70__40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via del Pratello 70 " .
@@ -6752,7 +6752,7 @@
 <http://www.no-profit-data.it/via_Mascarella_9_40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Mascarella 9" .
@@ -6789,7 +6789,7 @@
 <http://www.no-profit-data.it/via_Galletta_42_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "via Galletta 42" .
@@ -6825,7 +6825,7 @@
 <http://www.no-profit-data.it/Via_Rizzoli_3_40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Rizzoli 3" .
@@ -6858,7 +6858,7 @@
 <http://www.no-profit-data.it/Via_San_Mamolo,_24__40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via San Mamolo, 24 " .
@@ -6881,7 +6881,7 @@
 <http://www.no-profit-data.it/Via_Papini_28__40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Papini 28 " .
@@ -6910,7 +6910,7 @@
 <http://www.no-profit-data.it/40011>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40011" ;
   vcard:locality "Anzola dell'Emilia" .
 
@@ -6965,7 +6965,7 @@
 <http://www.no-profit-data.it/Via_del_Monte,_5_40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via del Monte, 5" .
@@ -6994,7 +6994,7 @@
 <http://www.no-profit-data.it/Via_Lombardia,_36__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Lombardia, 36 " .
@@ -7023,7 +7023,7 @@
 <http://www.no-profit-data.it/Piazza_San_Domenico_12_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza San Domenico 12" .
@@ -7058,7 +7058,7 @@
 <http://www.no-profit-data.it/Via_Tinti,_1__40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "Via Tinti, 1 " .
@@ -7108,7 +7108,7 @@
 <http://www.no-profit-data.it/Via_Brento,_9__40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Brento, 9  " .
@@ -7186,7 +7186,7 @@
 <http://www.no-profit-data.it/20133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MI" ;
+  vcard:region "LOM" ;
   vcard:postal-code "20133" ;
   vcard:locality "Milano" .
 
@@ -7295,7 +7295,7 @@
 <http://www.no-profit-data.it/Via_Riva_di_Reno,_72__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Riva di Reno, 72 " .
@@ -7328,7 +7328,7 @@
 <http://www.no-profit-data.it/Via_Jacopo_della_Quercia,_4_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Jacopo della Quercia, 4" .
@@ -7427,7 +7427,7 @@
 <http://www.no-profit-data.it/Via_Pirandello,_6__40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Pirandello, 6 " .
@@ -7475,7 +7475,7 @@
 <http://www.no-profit-data.it/viale_R_Cristiani,_2__40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "viale R. Cristiani, 2 " .
@@ -7556,7 +7556,7 @@
 <http://www.no-profit-data.it/Via_Baracca,_2__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Baracca, 2 " .
@@ -7659,7 +7659,7 @@
 <http://www.no-profit-data.it/Via_XXI_Ottobre_1944_n_7__40055>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40055" ;
   vcard:locality "Castenaso" ;
   vcard:street-address "Via XXI Ottobre 1944 n.7 " .
@@ -7683,7 +7683,7 @@
 <http://www.no-profit-data.it/41121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41121" ;
   vcard:locality "Modena" .
 
@@ -7715,7 +7715,7 @@
 <http://www.no-profit-data.it/via_Rinascita,_5__40036>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40036" ;
   vcard:locality "Monzuno" ;
   vcard:street-address "via Rinascita, 5 " .
@@ -7748,7 +7748,7 @@
 <http://www.no-profit-data.it/47921>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RN" ;
+  vcard:region "EMR" ;
   vcard:postal-code "47921" ;
   vcard:locality "Rimini" .
 
@@ -7775,7 +7775,7 @@
 <http://www.no-profit-data.it/via_Solferino_38,_40137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40137" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Solferino 38," .
@@ -7864,7 +7864,7 @@
 <http://www.no-profit-data.it/Via_Scipione_dal_Ferro_4__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Scipione dal Ferro 4 " .
@@ -7985,7 +7985,7 @@
 <http://www.no-profit-data.it/Via_Cartiera_146_40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Cartiera 146" .
@@ -8013,7 +8013,7 @@
 <http://www.no-profit-data.it/Via_Grieco_8__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Grieco 8  " .
@@ -8086,7 +8086,7 @@
 <http://www.no-profit-data.it/Via_Argini_Nord,_4310_40014>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" ;
   vcard:street-address "Via Argini Nord, 4310" .
@@ -8139,7 +8139,7 @@
 <http://www.no-profit-data.it/40017>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40017" ;
   vcard:locality "San Giovanni in Persiceto" .
 
@@ -8167,7 +8167,7 @@
 <http://www.no-profit-data.it/Via_Piero_della_Francesca,_3_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Piero della Francesca, 3" .
@@ -8315,7 +8315,7 @@
 <http://www.no-profit-data.it/Via_Castello,_59__40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Castello, 59   " .
@@ -8348,7 +8348,7 @@
 <http://www.no-profit-data.it/Via_Ferruccio_Garavaglia,_11_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Ferruccio Garavaglia, 11" .
@@ -8372,7 +8372,7 @@
 <http://www.no-profit-data.it/40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" .
 
@@ -8406,7 +8406,7 @@
 <http://www.no-profit-data.it/44100>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44100" ;
   vcard:locality "Ferrara" .
 
@@ -8428,7 +8428,7 @@
 <http://www.no-profit-data.it/35123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "PD" ;
+  vcard:region "EMR" ;
   vcard:postal-code "35123" ;
   vcard:locality "Padova" .
 
@@ -8476,7 +8476,7 @@
 <http://www.no-profit-data.it/Via_del_Cane,_9_22052>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "22052" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via del Cane, 9" .
@@ -8500,7 +8500,7 @@
 <http://www.no-profit-data.it/Via_Michelino_interno_al_Parco_Nord_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Michelino interno al Parco Nord" .
@@ -8548,7 +8548,7 @@
 <http://www.no-profit-data.it/Via_Antonio_Canova_18__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Antonio Canova 18 " .
@@ -8586,7 +8586,7 @@
 <http://www.no-profit-data.it/Via_Marsala_30__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Marsala 30 " .
@@ -8614,7 +8614,7 @@
 <http://www.no-profit-data.it/Via_Leandro_Alberti,_76_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Leandro Alberti, 76" .
@@ -8672,7 +8672,7 @@
 <http://www.no-profit-data.it/via_della_Stazione,_1_40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "via della Stazione, 1" .
@@ -8745,7 +8745,7 @@
 <http://www.no-profit-data.it/48122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RA" ;
+  vcard:region "EMR" ;
   vcard:postal-code "48122" ;
   vcard:locality "Ravenna" .
 
@@ -8781,7 +8781,7 @@
 <http://www.no-profit-data.it/via_Panzini_1_40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Panzini 1" .
@@ -8818,7 +8818,7 @@
 <http://www.no-profit-data.it/Via_Guerrazzi,_14_40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via Guerrazzi, 14" .
@@ -8908,7 +8908,7 @@
 <http://www.no-profit-data.it/Via_Toscana_182_40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Toscana 182" .
@@ -8971,7 +8971,7 @@
 <http://www.no-profit-data.it/Via_Bellacosta_3_40137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40137" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Bellacosta 3" .
@@ -9077,7 +9077,7 @@
 <http://www.no-profit-data.it/40060>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40060" ;
   vcard:locality "Dozza" .
 
@@ -9105,7 +9105,7 @@
 <http://www.no-profit-data.it/Via_Indipendenza,_16_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Indipendenza, 16" .
@@ -9228,7 +9228,7 @@
 <http://www.no-profit-data.it/via_Tiarini_22__40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Tiarini 22 " .
@@ -9257,7 +9257,7 @@
 <http://www.no-profit-data.it/61121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "PU" ;
+  vcard:region "MAR" ;
   vcard:postal-code "61121" ;
   vcard:locality "Pesaro" .
 
@@ -9289,7 +9289,7 @@
 <http://www.no-profit-data.it/Via_A_Tiarini,_22__40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via A.Tiarini, 22 " .
@@ -9326,7 +9326,7 @@
 <http://www.no-profit-data.it/40055>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40055" ;
   vcard:locality "Castenaso" .
 
@@ -9389,7 +9389,7 @@
 <http://www.no-profit-data.it/40014>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" .
 
@@ -9471,7 +9471,7 @@
 <http://www.no-profit-data.it/Via_Massarenti,_9__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti, 9 " .
@@ -9616,7 +9616,7 @@
 <http://www.no-profit-data.it/Via_di_Gaibola_18_40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via di Gaibola 18" .
@@ -9645,7 +9645,7 @@
 <http://www.no-profit-data.it/Via_Cavour_48_40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "Via Cavour 48" .
@@ -9710,7 +9710,7 @@
 <http://www.no-profit-data.it/Via_Battirame,_11__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Battirame, 11 " .
@@ -9808,7 +9808,7 @@
 <http://www.no-profit-data.it/Via_San_Pio_X,_23_35020>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "PD" ;
+  vcard:region "VEN" ;
   vcard:postal-code "35020" ;
   vcard:locality "Albignasego" ;
   vcard:street-address "Via San Pio X,  23" .
@@ -9864,7 +9864,7 @@
 <http://www.no-profit-data.it/Via_Sostegno_1_40013>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" ;
   vcard:street-address "Via Sostegno 1" .
@@ -9916,7 +9916,7 @@
 <http://www.no-profit-data.it/40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" .
 
@@ -9985,7 +9985,7 @@
 <http://www.no-profit-data.it/Via_Gaibola,_16__40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Gaibola, 16 " .
@@ -10018,7 +10018,7 @@
 <http://www.no-profit-data.it/Piazza_dei_Martiri_n_1__00198>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "00198" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza dei Martiri n. 1 " .
@@ -10072,7 +10072,7 @@
 <http://www.no-profit-data.it/Via_Selva_Pescarola_26_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Selva Pescarola 26" .
@@ -10132,7 +10132,7 @@
 <http://www.no-profit-data.it/Corso_Giovecca,_38_-_44121_Ferrara_(F_44121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44121" ;
   vcard:locality "Ferrara" ;
   vcard:street-address "Corso Giovecca, 38                                -                                 44121 Ferrara (F" .
@@ -10155,7 +10155,7 @@
 <http://www.no-profit-data.it/Via_Mercadante_1_40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Mercadante  1" .
@@ -10199,7 +10199,7 @@
 <http://www.no-profit-data.it/Via_A_Costa,_174__40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via A. Costa, 174 " .
@@ -10277,7 +10277,7 @@
 <http://www.no-profit-data.it/Piazza_Maggiore_6__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza Maggiore 6 " .
@@ -10347,7 +10347,7 @@
 <http://www.no-profit-data.it/Via_Pio_Donati_12_41043>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "41043" ;
   vcard:locality "Formigine" ;
   vcard:street-address "Via Pio Donati 12" .
@@ -10436,7 +10436,7 @@
 <http://www.no-profit-data.it/Via_delle_Donzelle,_2__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via delle Donzelle, 2 " .
@@ -10469,7 +10469,7 @@
 <http://www.no-profit-data.it/Via_Marsili,_8_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Marsili, 8" .
@@ -10542,7 +10542,7 @@
 <http://www.no-profit-data.it/Piazza_Re_Enzo_1_>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza Re Enzo 1" .
 
@@ -10593,7 +10593,7 @@
 <http://www.no-profit-data.it/Via_Barberia,_18__40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address """Via Barberia, 18""" .
@@ -10622,7 +10622,7 @@
 <http://www.no-profit-data.it/40049>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40049" ;
   vcard:locality "Lizzano in Belvedere" .
 
@@ -10669,7 +10669,7 @@
 <http://www.no-profit-data.it/Via_Gorki_12_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Gorki 12" .
@@ -10722,7 +10722,7 @@
 <http://www.no-profit-data.it/viale_Felsina,_52__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "viale Felsina, 52 " .
@@ -10751,7 +10751,7 @@
 <http://www.no-profit-data.it/Via_Pio_Panfili,_17_40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via Pio Panfili, 17" .
@@ -10815,7 +10815,7 @@
 <http://www.no-profit-data.it/40065>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40065" ;
   vcard:locality "Pianoro" .
 
@@ -10866,7 +10866,7 @@
 <http://www.no-profit-data.it/Via_Marzabotto,_1_40013>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40013" ;
   vcard:locality "Castel Maggiore" ;
   vcard:street-address "Via Marzabotto, 1" .
@@ -10890,7 +10890,7 @@
 <http://www.no-profit-data.it/via_Manzoni,_2__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Manzoni, 2 " .
@@ -10935,7 +10935,7 @@
 <http://www.no-profit-data.it/Via_Buferla_6_24123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "24123" ;
   vcard:locality "Castel di Casio" ;
   vcard:street-address "Via Buferla 6" .
@@ -10968,7 +10968,7 @@
 <http://www.no-profit-data.it/Via_A_Costa_183__40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via A. Costa 183 " .
@@ -11016,7 +11016,7 @@
 <http://www.no-profit-data.it/Via_Amendola,_2__40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Amendola, 2 " .
@@ -11055,7 +11055,7 @@
 <http://www.no-profit-data.it/Via_Morandi,_16_40060>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40060" ;
   vcard:locality "Dozza" ;
   vcard:street-address "Via Morandi, 16" .
@@ -11095,7 +11095,7 @@
 <http://www.no-profit-data.it/via_malatesta_37_40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "via malatesta 37" .
@@ -11132,7 +11132,7 @@
 <http://www.no-profit-data.it/via_Cilea_1__40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Cilea 1 " .
@@ -11335,7 +11335,7 @@
 <http://www.no-profit-data.it/via_Pietralata_73_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Pietralata 73" .
@@ -11359,7 +11359,7 @@
 <http://www.no-profit-data.it/40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" .
 
@@ -11397,7 +11397,7 @@
 <http://www.no-profit-data.it/40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" .
 
@@ -11450,7 +11450,7 @@
 <http://www.no-profit-data.it/Via_Roma_3__40046>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40046" ;
   vcard:locality "Porretta Terme" ;
   vcard:street-address "Via Roma 3 " .
@@ -11532,7 +11532,7 @@
 <http://www.no-profit-data.it/44121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44121" ;
   vcard:locality "Ferrara" .
 
@@ -11560,7 +11560,7 @@
 <http://www.no-profit-data.it/Via_Raffaello_Sanzio,_8__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Raffaello Sanzio, 8 " .
@@ -11592,7 +11592,7 @@
 <http://www.no-profit-data.it/Viale_Carso_34_198>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "198" ;
   vcard:locality "Roma" ;
   vcard:street-address "Viale Carso 34" .
@@ -11629,7 +11629,7 @@
 <http://www.no-profit-data.it/Via_Guido_Zucchini,_9__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via  Guido Zucchini, 9 " .
@@ -11668,7 +11668,7 @@
 <http://www.no-profit-data.it/50124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FI" ;
+  vcard:region "TOS" ;
   vcard:postal-code "50124" ;
   vcard:locality "Firenze" .
 
@@ -11696,7 +11696,7 @@
 <http://www.no-profit-data.it/Via_Ferrarese_3_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Ferrarese 3" .
@@ -11733,7 +11733,7 @@
 <http://www.no-profit-data.it/via_Mentana_2__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Mentana 2 " .
@@ -11789,7 +11789,7 @@
 <http://www.no-profit-data.it/Via_B_Bonfiglioli,_13_40050>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40050" ;
   vcard:locality "Argelato" ;
   vcard:street-address "Via B. Bonfiglioli, 13" .
@@ -11818,7 +11818,7 @@
 <http://www.no-profit-data.it/Via_Lume,_1905_56512>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "56512" ;
   vcard:locality "Mordano" ;
   vcard:street-address "Via Lume, 1905" .
@@ -11882,7 +11882,7 @@
 <http://www.no-profit-data.it/via_Cherubini_18__40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Cherubini 18 " .
@@ -11936,7 +11936,7 @@
 <http://www.no-profit-data.it/35128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "PD" ;
+  vcard:region "VEN" ;
   vcard:postal-code "35128" ;
   vcard:locality "Padova" .
 
@@ -11959,7 +11959,7 @@
 <http://www.no-profit-data.it/40025>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40025" ;
   vcard:locality "Fontanelice" .
 
@@ -12001,7 +12001,7 @@
 <http://www.no-profit-data.it/via_della_Fratta_11_40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via della Fratta 11" .
@@ -12079,7 +12079,7 @@
 <http://www.no-profit-data.it/Via_Marconi,_7_40059>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40059" ;
   vcard:locality "Medicina" ;
   vcard:street-address "Via Marconi, 7" .
@@ -12158,7 +12158,7 @@
 <http://www.no-profit-data.it/10000>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "TS" ;
+  vcard:region "FVG" ;
   vcard:postal-code "10000" ;
   vcard:locality "Trieste" .
 
@@ -12186,7 +12186,7 @@
 <http://www.no-profit-data.it/Via_Lombardia,_36_40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Lombardia, 36" .
@@ -12285,7 +12285,7 @@
 <http://www.no-profit-data.it/via_G_C_Pupilli,_1__40136>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40136" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via G.C.Pupilli, 1 " .
@@ -12318,7 +12318,7 @@
 <http://www.no-profit-data.it/Piazza_Maggiore,_6__0>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "0" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Piazza Maggiore, 6 " .
@@ -12543,7 +12543,7 @@
 <http://www.no-profit-data.it/Via_Farini,_35_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Farini, 35" .
@@ -12578,7 +12578,7 @@
 <http://www.no-profit-data.it/Via_Raffaello_Sanzio,_6_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via  Raffaello Sanzio, 6" .
@@ -12611,7 +12611,7 @@
 <http://www.no-profit-data.it/Via_Medelana,_3_40043>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" ;
   vcard:street-address "Via Medelana, 3" .
@@ -12640,7 +12640,7 @@
 <http://www.no-profit-data.it/via_della_Ghisiliera_9__40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via della Ghisiliera 9 " .
@@ -12689,7 +12689,7 @@
 <http://www.no-profit-data.it/Via_Riga_Bassa_1134_40014>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40014" ;
   vcard:locality "Crevalcore" ;
   vcard:street-address "Via Riga Bassa 1134" .
@@ -12777,7 +12777,7 @@
 <http://www.no-profit-data.it/piazzale_Vittime_dei_Lager_Nazisti_5_40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "piazzale Vittime dei Lager Nazisti 5" .
@@ -12845,7 +12845,7 @@
 <http://www.no-profit-data.it/Via_Altabella,_11__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Altabella, 11 " .
@@ -12889,7 +12889,7 @@
 <http://www.no-profit-data.it/Via_Cadriano_3__40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Cadriano 3 " .
@@ -12958,7 +12958,7 @@
 <http://www.no-profit-data.it/Via_Galliera,_3_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Galliera, 3" .
@@ -12981,7 +12981,7 @@
 <http://www.no-profit-data.it/40066>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40066" ;
   vcard:locality "Pieve di Cento" .
 
@@ -13004,7 +13004,7 @@
 <http://www.no-profit-data.it/20147>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MI" ;
+  vcard:region "LOM" ;
   vcard:postal-code "20147" ;
   vcard:locality "Milano" .
 
@@ -13036,7 +13036,7 @@
 <http://www.no-profit-data.it/piazza_XX_settembre_7_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "piazza XX settembre 7" .
@@ -13090,7 +13090,7 @@
 <http://www.no-profit-data.it/Via_Turati,_67__40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Turati, 67 " .
@@ -13173,7 +13173,7 @@
 <http://www.no-profit-data.it/Via_Capuzzi_40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via Capuzzi" .
@@ -13243,7 +13243,7 @@
 <http://www.no-profit-data.it/via_Botticelli_10__40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Botticelli 10." .
@@ -13276,7 +13276,7 @@
 <http://www.no-profit-data.it/Via_Clavature_22_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Clavature 22" .
@@ -13402,7 +13402,7 @@
 <http://www.no-profit-data.it/Via_Matteotti_1__40043>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40043" ;
   vcard:locality "Marzabotto" ;
   vcard:street-address "Via Matteotti 1 " .
@@ -13452,7 +13452,7 @@
 <http://www.no-profit-data.it/Via_IV_Novembre,_14_40053>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40053" ;
   vcard:locality "Bazzano" ;
   vcard:street-address "Via IV Novembre, 14" .
@@ -13525,7 +13525,7 @@
 <http://www.no-profit-data.it/40100>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40100" ;
   vcard:locality "Bologna" .
 
@@ -13589,7 +13589,7 @@
 <http://www.no-profit-data.it/Via_Castiglione,_31__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Castiglione, 31 " .
@@ -13624,7 +13624,7 @@
 <http://www.no-profit-data.it/Via_Mascarella_n_2__40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Mascarella n. 2 " .
@@ -13668,7 +13668,7 @@
 <http://www.no-profit-data.it/Via_Guinizelli_3__40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Guinizelli 3 " .
@@ -13721,7 +13721,7 @@
 <http://www.no-profit-data.it/via_Don_Minzoni_14_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Don Minzoni 14" .
@@ -13750,7 +13750,7 @@
 <http://www.no-profit-data.it/Via_G_Brodolini,11_40060>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40060" ;
   vcard:locality "Dozza" ;
   vcard:street-address "Via G. Brodolini,11" .
@@ -13779,7 +13779,7 @@
 <http://www.no-profit-data.it/02008>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "02008" ;
   vcard:locality "Bologna" .
 
@@ -13807,7 +13807,7 @@
 <http://www.no-profit-data.it/Via_Del_Bosco,_3_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "Via Del Bosco, 3" .
@@ -13845,7 +13845,7 @@
 <http://www.no-profit-data.it/Via_Casanova,_11__40139>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40139" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Casanova, 11 " .
@@ -13907,7 +13907,7 @@
 <http://www.no-profit-data.it/via_Chiudare_9_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Chiudare 9" .
@@ -13940,7 +13940,7 @@
 <http://www.no-profit-data.it/via_Orefici,_4__40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Orefici, 4 " .
@@ -14006,7 +14006,7 @@
 <http://www.no-profit-data.it/Via_degli_Orti,_44_40137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40137" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via degli Orti, 44" .
@@ -14083,7 +14083,7 @@
 <http://www.no-profit-data.it/Via_Marconi_47_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Marconi 47" .
@@ -14131,7 +14131,7 @@
 <http://www.no-profit-data.it/via_Garavaglia_,_8__40127>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40127" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Garavaglia , 8 " .
@@ -14166,7 +14166,7 @@
 <http://www.no-profit-data.it/Via_IV_Novembre_23__40050>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40050" ;
   vcard:locality "Argelato" ;
   vcard:street-address "Via IV Novembre 23." .
@@ -14270,7 +14270,7 @@
 <http://www.no-profit-data.it/Via_dei_Ciliegi,_6_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "Via dei Ciliegi, 6" .
@@ -14303,7 +14303,7 @@
 <http://www.no-profit-data.it/Via_Del_Carrozzaio,_7_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Del Carrozzaio, 7" .
@@ -14408,7 +14408,7 @@
 <http://www.no-profit-data.it/Via_Scandellara_n_54__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Scandellara n. 54 " .
@@ -14449,7 +14449,7 @@
 <http://www.no-profit-data.it/Via_Andrea_Costa_4__40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Andrea Costa 4 " .
@@ -14522,7 +14522,7 @@
 <http://www.no-profit-data.it/Via_Vittorio_Veneto_40037>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40037" ;
   vcard:locality "Sasso Marconi" ;
   vcard:street-address "Via Vittorio Veneto" .
@@ -14582,7 +14582,7 @@
 <http://www.no-profit-data.it/Via_delle_Lame,_116_int_2__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via delle Lame, 116 int. 2 " .
@@ -14742,7 +14742,7 @@
 <http://www.no-profit-data.it/Via_Santa_Rita_4_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Santa Rita 4" .
@@ -14775,7 +14775,7 @@
 <http://www.no-profit-data.it/Via_Jacopo_della_Quercia_5_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Jacopo della Quercia 5" .
@@ -14834,7 +14834,7 @@
 <http://www.no-profit-data.it/Via_Massarenti,_9_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Massarenti, 9" .
@@ -14857,7 +14857,7 @@
 <http://www.no-profit-data.it/Via_Stalingrado_59_40100>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40100" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Stalingrado 59" .
@@ -14911,7 +14911,7 @@
 <http://www.no-profit-data.it/via_Vasco_De_Gama,_20_	4013>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code """	4013""" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Vasco De Gama, 20" .
@@ -15032,7 +15032,7 @@
 <http://www.no-profit-data.it/40046>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40046" ;
   vcard:locality "Porretta Terme" .
 
@@ -15075,7 +15075,7 @@
 <http://www.no-profit-data.it/Via_Belle_Arti_42_40126>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40126" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Belle Arti 42" .
@@ -15406,7 +15406,7 @@
 <http://www.no-profit-data.it/Via_della_Selva_Pescarola,_26_40131>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40131" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via della Selva Pescarola, 26" .
@@ -15429,7 +15429,7 @@
 <http://www.no-profit-data.it/40047>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40047" ;
   vcard:locality "Riola" .
 
@@ -15452,7 +15452,7 @@
 <http://www.no-profit-data.it/Via_Della_selva_Pescarola,26_>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Della selva Pescarola,26" .
 
@@ -15536,7 +15536,7 @@
 <http://www.no-profit-data.it/48121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RA" ;
+  vcard:region "EMR" ;
   vcard:postal-code "48121" ;
   vcard:locality "Ravenna" .
 
@@ -15568,7 +15568,7 @@
 <http://www.no-profit-data.it/42121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "42121" ;
   vcard:locality "Reggio Emilia" .
 
@@ -15590,7 +15590,7 @@
 <http://www.no-profit-data.it/Via_Emilia_Ponente,_4_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Emilia Ponente, 4" .
@@ -15631,7 +15631,7 @@
 <http://www.no-profit-data.it/via_Riva_Reno,_11__40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Riva Reno, 11 " .
@@ -15660,7 +15660,7 @@
 <http://www.no-profit-data.it/via_F_Barbieri,_24_40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via F. Barbieri, 24" .
@@ -15684,7 +15684,7 @@
 <http://www.no-profit-data.it/Via_S_Stefano,_42__40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via S. Stefano, 42 " .
@@ -15747,7 +15747,7 @@
 <http://www.no-profit-data.it/20142>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "MI" ;
+  vcard:region "LOM" ;
   vcard:postal-code "20142" ;
   vcard:locality "Milano" .
 
@@ -15807,7 +15807,7 @@
 <http://www.no-profit-data.it/Via_Libia_13a_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Libia 13a" .
@@ -15909,7 +15909,7 @@
 <http://www.no-profit-data.it/Via_F_lli_Danielli,_3_40050>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40050" ;
   vcard:locality "Argelato" ;
   vcard:street-address "Via F.lli Danielli, 3" .
@@ -16015,7 +16015,7 @@
 <http://www.no-profit-data.it/Via_Giulio_Cesare,_20017_20821>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "20821" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Giulio Cesare, 20017" .
@@ -16059,7 +16059,7 @@
 <http://www.no-profit-data.it/Via_Contessa_Matilde_10_40053>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40053" ;
   vcard:locality "Bazzano" ;
   vcard:street-address "Via Contessa Matilde 10" .
@@ -16082,7 +16082,7 @@
 <http://www.no-profit-data.it/40040>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40040" ;
   vcard:locality "Rocca di Roffeno" .
 
@@ -16143,7 +16143,7 @@
 <http://www.no-profit-data.it/via_Barberia_4_40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Barberia 4" .
@@ -16284,7 +16284,7 @@
 <http://www.no-profit-data.it/Via_Pizzardi__40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Pizzardi " .
@@ -16382,7 +16382,7 @@
 <http://www.no-profit-data.it/185>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "185" ;
   vcard:locality "Roma" .
 
@@ -16410,7 +16410,7 @@
 <http://www.no-profit-data.it/Via_Ercolani,_16_40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "Via Ercolani, 16" .
@@ -16433,7 +16433,7 @@
 <http://www.no-profit-data.it/40053>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40053" ;
   vcard:locality "Bazzano" .
 
@@ -16541,7 +16541,7 @@
 <http://www.no-profit-data.it/Via_Garibaldi,_45__40061>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40061" ;
   vcard:locality "Minerbio" ;
   vcard:street-address "Via Garibaldi, 45 " .
@@ -16574,7 +16574,7 @@
 <http://www.no-profit-data.it/Via_Andrea_Costa,_174_40134>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40134" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Andrea Costa, 174" .
@@ -16640,7 +16640,7 @@
 <http://www.no-profit-data.it/Via_della_Battaglia_9__40141>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40141" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via della Battaglia 9 " .
@@ -16693,7 +16693,7 @@
 <http://www.no-profit-data.it/Via_Polese_40_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Polese 40" .
@@ -16765,7 +16765,7 @@
 
 <http://www.no-profit-data.it/sindromedipoland>
   a org:Organization ;
-  skos:prefLabel "Benvenuto" ;
+  skos:prefLabel "Sindrome di Poland" ;
   foaf:homepage "http://www.sindromedipoland.org/" ;
   org:purpose <http://www.no-profit-data.it/cat-Medicina>, <http://www.no-profit-data.it/cat-Volontariato>, <http://www.no-profit-data.it/cat-Associazione_no_profit> ;
   org:hasSite <http://www.no-profit-data.it/site-sindromedipoland_1> .
@@ -16791,7 +16791,7 @@
 <http://www.no-profit-data.it/16137>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "GE" ;
+  vcard:region "LIG" ;
   vcard:postal-code "16137" ;
   vcard:locality "Genova" .
 
@@ -16858,7 +16858,7 @@
 <http://www.no-profit-data.it/via_Cristina_da_Pizzano_5_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Cristina da Pizzano 5" .
@@ -16886,7 +16886,7 @@
 <http://www.no-profit-data.it/Via_Cristina_da_Pizzano_5__40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Cristina da Pizzano 5 " .
@@ -16910,7 +16910,7 @@
 <http://www.no-profit-data.it/corso_via_Malcontenti_n_9_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "corso  via Malcontenti n. 9" .
@@ -16971,7 +16971,7 @@
 <http://www.no-profit-data.it/via_Guinizelli_4_40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "via Guinizelli 4" .
@@ -17027,7 +17027,7 @@
 <http://www.no-profit-data.it/Via_Cairoli,60_40026>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40026" ;
   vcard:locality "Imola" ;
   vcard:street-address "Via Cairoli,60" .
@@ -17055,7 +17055,7 @@
 <http://www.no-profit-data.it/Via_delle_Officine,_38_40069>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40069" ;
   vcard:locality "Zola Predosa" ;
   vcard:street-address "Via delle Officine, 38" .
@@ -17372,7 +17372,7 @@
 <http://www.no-profit-data.it/Via_Paolo_Bentivoglio_2_40133>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40133" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Paolo Bentivoglio 2" .
@@ -17401,7 +17401,7 @@
 <http://www.no-profit-data.it/Via_Indipendenza_58_40121>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40121" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Indipendenza 58" .
@@ -17444,7 +17444,7 @@
 <http://www.no-profit-data.it/40056>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40056" ;
   vcard:locality "Crespellano" .
 
@@ -17475,7 +17475,7 @@
 <http://www.no-profit-data.it/via_del_Pratello_23_40122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40122" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via del Pratello 23" .
@@ -17504,7 +17504,7 @@
 <http://www.no-profit-data.it/43052>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "PR" ;
+  vcard:region "EMR" ;
   vcard:postal-code "43052" ;
   vcard:locality "Colorno" .
 
@@ -17536,7 +17536,7 @@
 <http://www.no-profit-data.it/44123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "FE" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44123" ;
   vcard:locality "Ferrara" .
 
@@ -17624,7 +17624,7 @@
 <http://www.no-profit-data.it/40042>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40042" ;
   vcard:locality "Lizzano in Belvedere" .
 
@@ -17646,7 +17646,7 @@
 <http://www.no-profit-data.it/40062>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40062" ;
   vcard:locality "Molinella" .
 
@@ -17668,7 +17668,7 @@
 <http://www.no-profit-data.it/via_Matteotti_16__40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "via Matteotti 16 " .
@@ -17701,7 +17701,7 @@
 <http://www.no-profit-data.it/40021>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40021" ;
   vcard:locality "Borgo Tossignano" .
 
@@ -17758,7 +17758,7 @@
 <http://www.no-profit-data.it/Via_Santa_Caterina_13__40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Santa Caterina 13 " .
@@ -17830,7 +17830,7 @@
 <http://www.no-profit-data.it/Via_del_Seminario,_1__40125>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40125" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via del Seminario, 1 " .
@@ -17854,7 +17854,7 @@
 <http://www.no-profit-data.it/155>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RM" ;
+  vcard:region "LAZ" ;
   vcard:postal-code "155" ;
   vcard:locality "Roma" .
 
@@ -17963,7 +17963,7 @@
 <http://www.no-profit-data.it/Via_F_lli_Cairoli_18_40124>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40124" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via F. lli Cairoli 18" .
@@ -18161,7 +18161,7 @@
 <http://www.no-profit-data.it/Via_Giovanni_XXIII_n_45_40068>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40068" ;
   vcard:locality "San Lazzaro di Savena" ;
   vcard:street-address "Via Giovanni XXIII n. 45" .
@@ -18249,7 +18249,7 @@
 <http://www.no-profit-data.it/Via_Antonio_Gandusio_6_40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Antonio Gandusio 6" .
@@ -18362,7 +18362,7 @@
 <http://www.no-profit-data.it/Via_Guinizelli,_5_40033>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40033" ;
   vcard:locality "Casalecchio di Reno" ;
   vcard:street-address "Via Guinizelli, 5" .
@@ -18386,7 +18386,7 @@
 <http://www.no-profit-data.it/Via_Andrea_Costa,_2_40062>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40062" ;
   vcard:locality "Molinella" ;
   vcard:street-address "Via Andrea Costa, 2" .
@@ -18438,7 +18438,7 @@
 <http://www.no-profit-data.it/Via_Colombarola,_40__40128>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40128" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Colombarola, 40 " .
@@ -18474,7 +18474,7 @@
 <http://www.no-profit-data.it/Via_della_Casa_Buia,_4_40129>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40129" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via della Casa Buia, 4" .
@@ -18571,7 +18571,7 @@
 <http://www.no-profit-data.it/Via_Manzoni_18_40138>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40138" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Manzoni 18" .
@@ -18605,7 +18605,7 @@
 <http://www.no-profit-data.it/44122>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "44122" ;
   vcard:locality "Bologna" .
 
@@ -18867,7 +18867,7 @@
 <http://www.no-profit-data.it/Viale_delle_Ceramiche_n_43_48018>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "RA" ;
+  vcard:region "EMR" ;
   vcard:postal-code "48018" ;
   vcard:locality "Faenza" ;
   vcard:street-address "Viale delle Ceramiche n.43" .
@@ -18999,7 +18999,7 @@
 <http://www.no-profit-data.it/Via_Saragozza,_30__40123>
   a vcard:Work ;
   vcard:country-name "Italia" ;
-  vcard:region "BO" ;
+  vcard:region "EMR" ;
   vcard:postal-code "40123" ;
   vcard:locality "Bologna" ;
   vcard:street-address "Via Saragozza, 30 " .

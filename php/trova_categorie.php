@@ -1,11 +1,11 @@
 <?php
-	require_once ("../lib/simple_html_dom.php");
+	require_once ("lib/simple_html_dom.php");
 	# include parseCSV class.
-	require_once '../lib/parsecsv.lib.php';
+	require_once 'lib/parsecsv.lib.php';
 	# include stemmer class_alias
-	require_once '../lib/stemmer/stem.class.php';
+	require_once 'lib/stemmer/stem.class.php';
 	# include Alchemyapi lib
-	require_once '../lib/alchemyapi.php';
+	require_once 'lib/alchemyapi.php';
 
 	set_time_limit(0);
 	$stemmer = new ItalianStemmer();
@@ -21,9 +21,6 @@
 		$categorie = get_category_list();
 		$keywords = get_keywords($link);
 		if($keywords != null && array_key_exists('keywords',$keywords) === true){
-			foreach ($keywords['keywords'] as $k) {
-				$stemmed_word = $stemmer->stem($k['text']);
-			}
 			$result = associa_categoria($keywords,$categorie);
 			if(count($result)>0){
 				return $result;

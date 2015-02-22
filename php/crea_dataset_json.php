@@ -2,7 +2,7 @@
 	function crea_data_json(){
 
 		$db = new Db();
-		$dir_path = '../data/json';
+		$dir_path = 'data/json';
 
 		$file_associazioni = fopen($dir_path."/associazioni.json", "w");
 		$file_elenco_siti = fopen($dir_path."/elenco_siti.json", "w");
