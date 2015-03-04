@@ -49,6 +49,15 @@ function choose(){
 
 
 function main(){
+	$(document).ajaxSend(function(event, request, settings) {
+		$('#loading').show();
+	});
+
+	$(document).ajaxComplete(function(event, request, settings) {
+		$('#loading').hide();
+	});
+		
+
 	/*Visualizzo l'elenco completo della ssociazioni*/
 	get_associazioni();
 	/*Elenco Provincie e comuni [NB] Commenta se usi choose()*/
@@ -205,8 +214,6 @@ function cerca_associazione(filtro){
 		var encodedquery = encodeURIComponent(prefissi+query);
 		/*Dichiaro il formato dell'output*/
 		var queryUrl = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-		$("#div_black").fadeIn();
-		$('#ajax_loader').show();
 		$.ajax({
 			method: 'GET',
 			url: queryUrl,
@@ -216,8 +223,6 @@ function cerca_associazione(filtro){
 				visualizza_elenco(d.results.bindings);
 				$("#tab_risultati").find('span.filtri').remove();
 				$("#tab_risultati").prepend("<span class='filtri'>Hai cercato: <span class='filtro_ricerca'>"+filtro+"</span> - </span>");
-				$('#ajax_loader').hide();
-				$("#div_black").fadeOut();
 				/*Visualizzo la query effettuata*/
 				visualizza_query(query);
 				
@@ -267,16 +272,12 @@ function get_associazioni(){
     var encodedquery = encodeURIComponent(prefissi+query);
 	/*Dichiaro il formato dell'output*/
     var queryUrl = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-	$("#div_black").fadeIn();
-	$('#ajax_loader').show();
 	$.ajax({
 		method: 'GET',
 		url: queryUrl,
 		success: function (d){
 			/*Visualizzo l'elenco dei risultati e la query effettuata*/
 			visualizza_elenco(d.results.bindings);
-			$('#ajax_loader').hide();
-			$("#div_black").fadeOut();
 			totale_risultati = d.results.bindings.length;
 			visualizza_query(query);
 			/*Creo i grafici per la scheda "Statistiche"*/
@@ -422,15 +423,11 @@ function click_bt_query(){
 		var encodedquery = encodeURIComponent(prefissi+query);
 		/*Dichiaro il formato dell'output*/
 		var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-		$("#div_black").fadeIn();
-		$('#ajax_loader').show();
 		$.ajax({
 			method: 'GET',
 			url: url,
 			success: function (d){
 				visualizza_elenco(d.results.bindings);
-				$('#ajax_loader').hide();
-				$("#div_black").fadeOut();
 				visualizza_query(query);
 				
 			},
@@ -450,15 +447,11 @@ function click_bt_query(){
 			var encodedquery = encodeURIComponent(prefissi+query);
 			/*Dichiaro il formato dell'output*/
 			var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-			$("#div_black").fadeIn();
-			$('#ajax_loader').show();
 			$.ajax({
 				method: 'GET',
 				url: url,
 				success: function (d){
 					visualizza_elenco(d.results.bindings);
-					$('#ajax_loader').hide();
-					$("#div_black").fadeOut();
 				},
 				error: function (jqXHR, textStatus, errorThrown){
 					alert('Errore nel caricamento della lista dei documenti'+errorThrown);
@@ -480,15 +473,11 @@ function click_bt_query(){
 			var encodedquery = encodeURIComponent(prefissi+query);
 			/*Dichiaro il formato dell'output*/
 			var url = endpointURL + "query?query=" + encodedquery + "&format=" + "json";
-			$("#div_black").fadeIn();
-			$('#ajax_loader').show();
 			$.ajax({
 				method: 'GET',
 				url: url,
 				success: function (d){
 					visualizza_elenco(d.results.bindings);
-					$('#ajax_loader').hide();
-					$("#div_black").fadeOut();
 				},
 				error: function (jqXHR, textStatus, errorThrown){
 					alert('Errore nel caricamento dei dati'+textStatus);

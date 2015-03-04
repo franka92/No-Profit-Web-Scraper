@@ -253,3 +253,21 @@ float: left;
 	padding-left: 5px;
 	border-bottom:none;
 }
+
+#loading{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+}
+
+#loading label{
+	position: relative;
+	left: -143px;
+	color:#0075d4;
+	font-size:20px;
+}
+
+#ajax_loader{
+	z-index:2;
+}
+
