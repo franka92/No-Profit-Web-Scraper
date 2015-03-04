@@ -1,0 +1,46 @@
+Log generato in data: 25-02-2015 02:54
+ Termine di input: associazioni volontariato Modena
+ Sito scartato: http://www.volontariamo.com
+ Sito scartato: http://www.asvm.it
+ Sito scartato: http://www.policlinico.mo.it
+ Sito scartato: http://www.avomodena.it
+ Sito scartato: http://modena.virgilio.it
+ Sito scartato: http://www.melpyou.com
+ Sito scartato: http://www.comune.modena.it
+ Sito scartato: http://associazionismo.provincia.modena.it
+ Sito scartato: http://www.comune.modena.it
+ Sito scartato: http://www.associazione-nonsoloscuola.it
+ Sito scartato: http://www.croceblumodena.org
+ Sito scartato: http://www.portobellomodena.it
+ Sito scartato: http://www.ausermodena.it
+ Sito scartato: http://www.comune.novi.mo.it
+ Sito scartato: http://www.ausl.mo.it
+ Sito scartato: http://gazzettadimodena.gelocal.it
+ Sito scartato: http://www.csimodena.it
+ Sito scartato: http://https
+ Sito scartato: http://www.comune.castelvetro-di-modena.mo.it
+ Sito scartato: http://www.avis.it
+ Sito scartato: http://www.ospedalesassuolo.it
+ Sito scartato: http://www.grupponm.org
+ Sito scartato: http://www.casinadeibimbi.org
+ Sito scartato: http://parkmo.blogspot.com
+ Sito scartato: http://modena.bakeca.it
+ Sito scartato: http://www.hewo-modena.it
+ Sito scartato: http://www.ilsegnalibromodena.org
+ Sito scartato: http://www.asham.it
+ Sito scartato: http://www.edscuola.it
+ Sito scartato: http://www.overseas-onlus.org
+ Sito scartato: http://www.overseas-onlus.org
+ Sito scartato: http://www.sanpatrignano.org
+ Sito scartato: http://www.cpvpc.it
+ Sito scartato: http://www.carpidiem.it
+ Sito scartato: http://www.comune.maranello.mo.it
+ Sito scartato: http://www.comune.fiorano-modenese.mo.it
+ Sito scartato: http://www.comune.castelfranco-emilia.mo.gov.it
+ Sito scartato: http://www.lavitaperte.org
+ Sito scartato: http://www.informafamiglie.it
+ Sito scartato: http://www.rosabiancaonlus.org
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 40
+ Numero di risultati salvati: 0

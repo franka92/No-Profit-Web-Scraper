@@ -104,7 +104,6 @@
 				$response = $alchemyapi->keywords('url', $url, array('maxRetrieve'=>20));
 				
 			}
-			foreach ($response['keywords'] as $k) 
 			if(count($response) > 0)
 				return $response;
 			else
@@ -160,7 +159,7 @@
 		$categorie = array();
 		$last_codice = "";
 		$csv_file = new parseCSV();
-		$csv_file->auto('../src/categorie.csv');
+		$csv_file->auto('src/categorie.csv');
 		foreach ($csv_file->data as $key => $row){
 			$codice = $row['categoria'];
 			if(strcmp($codice,$last_codice) == 0){

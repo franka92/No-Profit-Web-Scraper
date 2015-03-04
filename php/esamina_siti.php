@@ -79,15 +79,14 @@
 			$parse = parse_url($obj);
 			$link =  "http://".$parse['host'];
 			if(cercaSitoElenco($link) === false){
-				/*Aggiorno il database*/
+				/*Aggiorno il file .csv*/
 				$db = new Db();
 				$query= "INSERT INTO elenco_siti VALUE('".$link."', NULL)";
 				$db->query($query);
-				
+				/*Aggiorno il database*/
 			}
 
 		}
-
 	}
 
 	/*Ricerca un sito nell'elenco già salvato
@@ -205,7 +204,7 @@
 				$response = $alchemyapi->keywords('url', $url, array('maxRetrieve'=>20));
 				
 			}
-
+			//print_r($response);
 			if(count($response) > 0)
 				return $response;
 			else
@@ -226,14 +225,14 @@
 				$my_k_stem = $stemmer->stem($p);
 				if(empty($my_k_stem) === true)
 					$my_k_stem = $p;
-				/*Confronto ogni parola associata ad una categoria con le keywords trovate*/
+				/*Confronto ogni parola con le keywords trovate*/
 				foreach ($keywords['keywords'] as $k) {
 					$str_ex = explode(" ",$k['text']);
 					foreach ($str_ex as $parola){						
 						$parola = $stemmer->stem($parola);
 						if(empty($parola) === false){
 							/*Se trovo una corrispondenza, aumento il contatore di risultati per la categoria di riferimento*/
-							if(strpos(strtolower($parola),$p) === 0){
+							if(strpos(strtolower($parola),$my_k_stem) === 0){
 								$found++;
 							}
 						}

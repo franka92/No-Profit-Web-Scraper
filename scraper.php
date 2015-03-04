@@ -8,7 +8,7 @@
 	set_time_limit(0);
 	$elenco= array();
 	$elenco_siti = array();
-	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>1;";
+	$query = "SELECT * from elenco_siti WHERE Timestamp is null or TIMESTAMPDIFF(MONTH,Timestamp,now())>0;";
 	$dati = $db -> select($query);
 	
 	if(count($dati)>0){
@@ -52,7 +52,7 @@
 		crea_data_csv();
 		crea_data_json();
 		crea_data_rdf();
-		echo "Analisi Completata. Dati inseriti sul Database. Creati file .csv";
+		echo "Analisi Completata. Dati inseriti sul Database. Creati file dataset";
 	}
 	else{
 	crea_data_csv();

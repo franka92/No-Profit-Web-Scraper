@@ -10,10 +10,10 @@
 	margin-left:15px;
 }
 /*Menu della navbar*/
-#bt_stat, #bt_titolo, #bt_about, a.text_white{
+#bt_stat, #bt_titolo, #bt_about, #bt_choose, a.text_white{
 	color: #ffffff !important;
 }
-#bt_stat:hover, #bt_about:hover, #bt_titolo:hover, a.text_white:hover{
+#bt_stat:hover, #bt_about:hover, #bt_titolo:hover, #bt_choose:hover, a.text_white:hover{
 	color: #000000 !important;
 }
 
@@ -238,4 +238,18 @@ float: left;
 
 .collapse_panel{
 	cursor:pointer;
+}
+
+.lb_prov{
+	font-weight:bold;
+	color:#0075d4;
+	font-size:17px;
+}
+
+.div_prov{
+	max-height: 180px;
+	overflow: auto;
+	border: 1px solid #0075d4;
+	padding-left: 5px;
+	border-bottom:none;
 }

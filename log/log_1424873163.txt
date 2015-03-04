@@ -1,0 +1,46 @@
+Log generato in data: 25-02-2015 03:06
+ Termine di input: associazioni handicap  Modena
+ Sito scartato: http://www.asham.it
+ Sito scartato: http://www.comune.modena.it
+ Sito scartato: http://www.asham.it
+ Sito scartato: http://www.comune.modena.it
+ Sito scartato: http://rete.comuni-italiani.it
+ Sito scartato: http://www.associazionegiuseppetacconi.com
+ Sito scartato: http://www.carpidiem.it
+ Sito scartato: http://www.legarcobaleno.it
+ Sito inserito: http://www.alessio.org
+ Sito scartato: http://www.ausl.mo.it
+ Sito scartato: http://www.sport.viainternet.org
+ Sito scartato: http://www.asvm.it
+ Sito scartato: http://www.tribunaledimodena.it
+ Sito scartato: http://www.volontariamo.com
+ Sito scartato: http://www.anffasmodena.it
+ Sito scartato: http://www.telefonoh.it
+ Sito scartato: http://www.edscuola.it
+ Sito scartato: http://www.senmartin.it
+ Sito scartato: http://www.lavoro.gov.it
+ Sito scartato: http://unms.it
+ Sito scartato: http://www.fishonlus.it
+ Sito inserito: http://www.anffas.net
+ Sito scartato: http://www.ushac.it
+ Sito scartato: http://www.aniepnazionale.it
+ Sito scartato: http://www.disabili.com
+ Sito inserito: http://www.asphi.it
+ Sito scartato: http://www.disabili.com
+ Sito scartato: http://www.aidalabs.com
+ Sito scartato: http://www.vignolaweb.it
+ Sito scartato: http://www.up.aci.it
+ Sito scartato: http://dsh.comune.modena.it
+ Sito scartato: http://www.iltesoronascosto.org
+ Sito scartato: http://sociale.regione.emilia-romagna.it
+ Sito scartato: http://www.legadelfilodoro.it
+ Sito scartato: http://www.centriausili.it
+ Sito scartato: http://https
+ Sito scartato: http://www.ggfch.it
+ Sito scartato: http://www.sportteamvallagarina.it
+ Sito scartato: http://www.teatrocomunalemodena.it
+ Sito scartato: http://www.lacarbonarablog.it
+
+ Numero di risultati ottenuti: 40
+ Numero di risultati scartati: 37
+ Numero di risultati salvati: 3

@@ -62,7 +62,6 @@
 				/*Cerco i link alla pagina "Contatti", in cui di solito sono riportate le informazioni*/
 				$pag_contatti = $html->find("a[href*=contatt] , a[href*=contact], a[href*=dove], a[href*=siamo], a[href*=sede]");
 				if(count($pag_contatti) > 0){
-					//echo "dentro if <br>";
 					foreach($pag_contatti as $element){
 						$link_contatti = $element->href;
 						/*Trasformo il link relativo in assoluto*/
@@ -93,7 +92,6 @@
 				}
 				/*Se le informazioni non sono state trovate, provo un'ultima ricerca direttamente nell'homepage*/
 				else{
-				echo "qui";
 					$sito = findContactInformation($link,$sito);
 					return $sito;
 
@@ -102,7 +100,7 @@
 			}
 			/*Non è stato possibile caricare la pagina*/
 			else{
-				echo "Impossibile caricare: ". $dominio."<br>";
+				echo "Impossibile caricare: ". $dominio."\n";
 				return null;
 			}
 		}	
@@ -183,10 +181,11 @@
 				}
 			}
 		}
-		/*Ricerca CAP*/
+		/*Ricerca Indirizzo*/
 		if(array_key_exists("luogo",$sito) === false ){
 			/*Provo a cercare un indirizzo*/
-			preg_match_all('/(via|corso|piazza|viale)[a-zA-Z0-9\s,.-]*\d{2}[01589]\d{2},{0,1}[a-zA-Z0-9\s,.-]*((\([A-Z]{2}\))|(bologna))/i',$content,$indirizzi);
+			preg_match_all('/(via|corso|piazza|viale|largo)[a-zA-Z0-9\s,.-]*\d{2}[01589]\d{2},{0,1}[a-zA-Z0-9\s,.-]*(((\([A-Z]*\)))|(modena)|(ferrara)|(parma)|(forl)|(ravenna)|(piacenza)
+							|(reggio)|(bologna)|(cesena)|(rimini))/i',$content,$indirizzi);
 			if(count($indirizzi[0]) > 0){
 				$sito['luogo'] = array();
 				foreach($indirizzi[0] as $ind) { 
@@ -201,25 +200,24 @@
 					$sito['luogo'] = array();
 					foreach($indirizzi[0] as $ind) { 
 						$sito['luogo']['cap'] = preg_replace('/\s/','',$ind);
+						$sito['luogo']['cap'] = preg_replace('/\n/','',$ind);
 						$c = new parseCSV();
 						$c->delimiter =";";
-						$c->parse('../src/listacomuni.csv');
+						$c->parse('src/listacomuni.csv');
 						foreach ($c->data as $key => $row){
 							$cap = $row['CAP'];
 							if (strpos($cap,'x') != false){
-								
 								$index = strpos($cap,'x');
-								
 								$cap_pre = substr($cap,0,$index);
 								$ind_pre = substr($ind,0,$index+1);
-								if(intval($cap_pre) == intval($ind_pre) && $row['Provincia'] == "BO"){
+								if(intval($cap_pre) == intval($ind_pre) && $row['Regione'] == "EMR"){
 									$sito['luogo']['comune'] = $row['Comune'];
 									$sito['luogo']['provincia'] = $row['Provincia'];
 									$sito['luogo']['regione'] = $row['Regione'];
 									continue 2;
 								}
 							}
-							else if(intval($cap) == intval($ind) && $row['Provincia'] == "BO"){
+							else if(intval($cap) == intval($ind) && $row['Regione'] == "EMR"){
 								$sito['luogo']['comune'] = $row['Comune'];
 								$sito['luogo']['provincia'] = $row['Provincia'];
 								$sito['luogo']['regione'] = $row['Regione'];
@@ -240,7 +238,7 @@
 	function aggiorna_timestamp($link){
 		global $db;
 		$query = "UPDATE elenco_siti SET  Timestamp =now() WHERE  Sito =  '".$link."';";
-		echo "<br>".$query;
+		//echo "<br>".$query;
 		$db->query($query);
 	}
 	
@@ -280,7 +278,7 @@
 				$query .= "NULL, NULL, NULL, NULL, NULL ";
 			}
 			$query .= ");";
-			echo $query."<br>";
+			//echo $query."<br>";
 			$db->query($query);
 			
 			/*** categoria ***/
@@ -369,8 +367,8 @@
 		/*Recupero la categoria*/
 		$query = "SELECT * FROM associazioni_categorie WHERE sito='".$link."';";
 		$result = $db->select($query);
-		if(count($result)>0){
-			$site['categoria'] = array();
+		$site['categoria'] = array();
+		if(count($result)>0){		
 			foreach($result as $row){
 				array_push($site['categoria'], $row['categoria']);
 			}
@@ -519,10 +517,10 @@
 		if(count($cap[0]) >0){
 			$address = array();
 			foreach($cap[0] as $c){
-				$address['cap'] = str_ireplace(" ","",$c);;
+				$address['cap'] = preg_replace('/\s/','',$c);
 				$file = new parseCSV();
 					$file->delimiter =";";
-					$file->parse('../src/listacomuni.csv');
+					$file->parse('src/listacomuni.csv');
 					foreach ($file->data as $key => $row){
 						$cap_item = $row['CAP'];
 						if (strpos($cap_item,'x') != false){
@@ -531,7 +529,7 @@
 							
 							$cap_pre = substr($cap_item,0,$index);
 							$ind_pre = substr($c,0,$index+1);
-							if(intval($cap_pre) == intval($ind_pre) && strcmp($row['Provincia'],"BO") == 0){
+							if(intval($cap_pre) == intval($ind_pre) && strcmp($row['Regione'],"EMR") == 0){
 								$address['comune'] = $row['Comune'];
 								$indirizzo = str_ireplace($row['Comune'],"",$indirizzo);
 								$address['provincia'] = $row['Provincia'];
@@ -541,7 +539,7 @@
 								continue 2;
 							}
 						}
-						else if(intval($cap_item) == intval($c) && strcmp($row['Provincia'],"BO") == 0){
+						else if(intval($cap_item) == intval($c) && strcmp($row['Regione'],"EMR") == 0){
 							$address['comune'] = $row['Comune'];
 							$indirizzo = str_ireplace($row['Comune'],"",$indirizzo);
 							$address['provincia'] = $row['Provincia'];

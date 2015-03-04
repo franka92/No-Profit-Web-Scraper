@@ -2,6 +2,7 @@
 	"require": {
         "giggsey/libphonenumber-for-php": "~7.0",
 		"easyrdf/easyrdf": "0.9",
-		"google/apiclient": "1.0.*@beta"
+		"google/apiclient": "1.0.*@beta",
+		"facebook/php-sdk-v4" : "4.0.*"
     }
 }

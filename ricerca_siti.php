@@ -8,9 +8,9 @@
 	
 	*/
 
-	require_once '../vendor/autoload.php';
+	require_once 'vendor/autoload.php';
 	session_start();
-	include("esamina_siti.php");
+	include("php/esamina_siti.php");
 	
 	$date = date('d-m-Y h:i', time());
 	$client = new Google_Client();
@@ -24,9 +24,9 @@
 	if(isset($argv[1])){
 		unset($argv[0]);
 		$filter="";
+		fwrite($log_file,"Log generato in data: ".$date);
 		foreach($argv as $f){
 			$filter = $f;
-			fwrite($log_file,"Log generato in data: ".$date);
 			fwrite($log_file,"\n Termine di input: ".$filter);
 			for($i=0;$i<4;$i++){
 				$start = ($i*10)+1;

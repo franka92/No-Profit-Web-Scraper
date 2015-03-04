@@ -1,4 +1,4 @@
-var endpointURL = "http://localhost:3030/noProfit/";
+var endpointURL = "http://localhost:3030/noProfit-emr/";
 
 var prefissi = "\prefix skos: <http://www.w3.org/2004/02/skos/core#>\
 	prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
@@ -8,17 +8,55 @@ var prefissi = "\prefix skos: <http://www.w3.org/2004/02/skos/core#>\
 	
 var categorie = [];
 var totale_risultati = 0;
+var province = [];
+
+var scelta = "";
 
 $(document).ready(main);
+
+/*La funzione choose() può essere lanciata al caricamento della pagina, per permettere di scegliere tra due endPoint diversi */
+//$(document).ready(choose);
+function choose(){
+	/*Creo le checbox per i filtri dei comuni*/
+	$("#filtri_comune").hide();
+	recupera_elenco_province();
+	recupera_elenco_comuni();
+	$("#bt_choose").trigger("click");
+	$("input[name='radio_choose']").click(function(){
+		var value = $(this).val();
+		$("#bt_scelta").removeAttr("disabled");
+	});
+	
+	$("#bt_scelta").click(function(){
+		var selected = $("input[name='radio_choose']:checked");
+		var val = selected.val();
+		if(val == "bologna"){
+			endpointURL = "http://localhost:3040/noProfit/";
+			//scelta="bolo";
+			$(".div_prov").hide();
+			$(".div_prov#BO").show();
+			
+		}
+		else{
+			endpointURL = "http://localhost:3030/noProfit-emr/";
+			//scelta = "emr";
+			$(".div_prov").show();
+		}	
+		$("#filtri_comune").show();
+		main();
+	});
+}
 
 
 function main(){
 	/*Visualizzo l'elenco completo della ssociazioni*/
 	get_associazioni();
+	/*Elenco Provincie e comuni [NB] Commenta se usi choose()*/
+	recupera_elenco_province();
+	recupera_elenco_comuni();
+	$("#filtri_comune").show();
 	/*Creo le checbox per i filtri delle categorie*/
 	crea_filtri_cat();
-	/*Creo le checbox per i filtri dei comuni*/
-	recupera_elenco_comuni();
 	/*Gestione seleziona/deseleziona tutto*/
 	gestione_check_all();
 	/*Gestione bottoni "esegui query"*/
@@ -121,6 +159,8 @@ function gestione_check_all(){
 				$("#com_sel_tutto").trigger('click');
         }
     });
+	
+	
 
 }
 
@@ -638,7 +678,6 @@ function crea_query_comuni(){
 	/*Se è stato selezionato qualcosa*/
 	if(filtro != ""){
 		filtro += ")";
-		$value = $("input[name='radio_cat']:checked").val();
 		var query = "SELECT ?nome_associazione ?link ?stato ?regione ?cap ?locality ?indirizzo\
 							(GROUP_CONCAT(DISTINCT ?email ; separator= ';') AS ?c_email)\
 							(GROUP_CONCAT(DISTINCT ?numero ; separator= ';') AS ?c_numeri)\
@@ -887,7 +926,7 @@ function count_telefono(){
 		return count;
 }
 
-/*Recupera l'elenco dei comuni relativamente alla provincia di Bologna*/
+/*Recupera l'elenco dei comuni relativamente alla regione Emilia Romagna*/
 function recupera_elenco_comuni(){
 	$.ajax({
         type: "GET",
@@ -895,6 +934,32 @@ function recupera_elenco_comuni(){
         dataType: "text",
         success: function(data) {crea_check_comuni(data);}
      });
+
+}
+
+/*Recupera l'elenco delle provincie relativamente alla regione Emilia Romagna*/
+function recupera_elenco_province(){
+	$.ajax({
+        type: "GET",
+        url: "./src/ripartizioni_regioni_province.csv",
+        dataType: "text",
+        success: function(data) {
+			var dataLines = data.split(/\r\n|\n/);
+			/*Headers del file .csv*/
+			var headers = dataLines[0].split(';');
+			for (var i=1; i<dataLines.length; i++) {
+				var data = dataLines[i].split(';');
+					for (var j=0; j<headers.length; j++) {
+						if(headers[j] == "regione" && data[j] == "Emilia-Romagna"){
+							var provincia = data[j+4];
+							var sigla = data[j+5];
+							var element = { prov: provincia, sig: sigla}
+							province.push(element);
+						}
+					}
+			}
+     }
+	 });
 
 }
 
@@ -911,11 +976,22 @@ function crea_check_comuni(data) {
         var data = dataLines[i].split(';');
         if (data.length == headers.length) {
             for (var j=0; j<headers.length; j++) {
-				/*Se il campo "Provincia" corrisponde a Bologna (BO) --> creo la checkbox*/
-				if(headers[j] == "Provincia" && data[j] == "BO"){
-					$id="check-"+data[j-1].replace(" ","_");
-					$check = '<input type="checkbox" class="check_cat" id="'+$id+'" value="'+data[j-1].replace("'","\\'")+'" name="check_com"/><span>'+data[j-1]+'</span>';
-					$("#filtri_comune").append("<p>"+$check+"</p>");
+				/*Se il campo "Regione" corrisponde a Bologna (EMR) --> creo la checkbox*/
+				if(headers[j] == "Regione" && data[j] == "EMR"){
+					var provincia = data[j-1];
+					var comune = data[j-2];
+					$id="check-"+data[j-2].replace(" ","_");
+					$check = '<input type="checkbox" class="check_com" id="'+$id+'" value="'+data[j-2].replace(/'/g,"\\'")+'" name="check_com"/><span>'+data[j-2]+' ('+data[j-1]+') </span>';
+					if($("#"+provincia).length){
+						$("#"+provincia).append("<p>"+$check+"</p>");
+					}
+					else{
+						var result = $.grep(province,function(e){ if(e.sig == provincia) return e.prov});
+						//console.log(provincia);
+						$id_all="check_prov-"+result[0].sig;
+						$check_all = '<input type="checkbox" class="check_prov" id="'+$id_all+'" value="'+result[0].sig+'" name="check_prov" onclick="deselect_prov(\''+result[0].sig+'\')"/><label class="lb_prov">'+result[0].prov+'</label>';
+						$("#filtri_comune").append("<div class='div_prov' id="+provincia+">"+$check_all+"<p>"+$check+"</p></div>");
+					}
 				}
 
             }
@@ -923,6 +999,22 @@ function crea_check_comuni(data) {
     }		
 }
 
+function deselect_prov(prov){
+	var id ="check_prov-"+prov;
+	if($("#check_prov-"+prov).is(":checked")) {
+		$("#"+prov+" input").each(function(){
+			if($(this).attr("id") != id)
+				$(this).trigger('click');
+		});
+	}
+	else{
+		$("#"+prov+" input").each(function(){
+		if($(this).attr("id") != id)
+			$(this).removeAttr('checked');
+		});
+	}
+
+}
 
 /*Riporta il focus sul top della pagina*/
 function scrollToTop() {

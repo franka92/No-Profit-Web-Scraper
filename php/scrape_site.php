@@ -6,8 +6,6 @@
 	require_once '../lib/parsecsv.lib.php';
 	# include Database Configuration and management class
 	require_once ("database_manager.php");
-	# include find category class
-	require_once ("trova_categorie.php");
 	
 	$db = new Db();
 	$file_content = file_get_contents("../src/pagina.html");
@@ -34,29 +32,27 @@
 				$div_anagrafica = $t->next_sibling();
 				$div_sito = $div_anagrafica->find("dt.web");
 				if(count($div_sito) == 0){
-					$associazione = prendi_dati($associazione,$div_anagrafica);
+					/*$associazione = prendi_dati($associazione,$div_anagrafica);
 					$associazione['categoria'] = array();
 					array_push($associazione['categoria'],"Associazione no profit");
 					array_push($elenco_associazioni,$associazione);
-					$count++;
+					$count++;*/
 				}
 				else{
+										$count_no++;
 					foreach($div_sito as $d){
 						$d_sito = $d->next_sibling();
 						$a_sito = $d_sito->first_child()->href;
 						$link_parse = parse_url($a_sito,PHP_URL_HOST);
-						$res = $db->select("SELECT *from elenco_siti where sito LIKE '%".$link_parse."%';");
-						if(count($res) >0){
-							$count_ok++;
-						}		
-						else{
-							$associazione['link'] = $a_sito;
+						echo "INSERT INTO elenco_siti VALUE('".$a_sito."',NULL);";
+						$res = $db->query("INSERT INTO elenco_siti VALUE('".$a_sito."',NULL);");	
+							/*$associazione['link'] = $a_sito;
 							$associazione = prendi_dati($associazione,$div_anagrafica);
 							$count_no++;	
 							$associazione['categoria'] = array();
 							array_push($associazione['categoria'],"Associazione no profit");
-							array_push($elenco_associazioni,$associazione);
-						}
+							array_push($elenco_associazioni,$associazione);*/
+
 					}
 				
 				}
@@ -65,9 +61,9 @@
 			
 		}
 	}
-	echo "Associazioni senza sito: ".$count."<br>";
+	/*echo "Associazioni senza sito: ".$count."<br>";*/
 	echo "Associazioni con sito: ".$count_no."<br>";
-	echo "Associazioni con sito gia' presenti: ".$count_ok."<br>";
+	//echo "Associazioni con sito gia' presenti: ".$count_ok."<br>";
 	
 	function prendi_dati($associazione, $div_anagrafica){
 		$div_indirizzo = $div_anagrafica->find("dt.indirizzo");

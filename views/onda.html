@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OnDa - Web</title>
+    <title>OnDa - Viewer</title>
 	<link rel="shortcut icon" href="img/logo_piccolo.png">
 
     <!-- Bootstrap -->
@@ -43,7 +43,9 @@
 			<li>
 				<a href="onda.html#panel_stat" id="bt_stat">Statistiche</a>
 			</li>
-			
+			<li>
+				<a href="#" data-toggle="modal" data-target="#choose" id="bt_choose">Cambia EndPoint</a>
+			</li>
 			<li>
 				<a href="#" data-toggle="modal" data-target="#about" id="bt_about">About</a>
 			</li>
@@ -247,6 +249,26 @@
 					<p></p><h4>Progetto realizzato per l'Università di Bologna</h4><p></p>
 					<p>Contatti:</p>
 					<p>Giulia Franchini <a href="mailto:giulia.franchini2@studio.unibo.it">giulia.franchini2@studio.unibo.it</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Choose -->
+	<div class="modal fade" id="choose" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="basicModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Scegli EndPoint</h4>
+				</div>
+				<div class="modal-body">
+					<p></p><h4>Scegli l'EndPoint da cui recuperare i dati:</h4><p></p>
+					<p><input type="radio" name="radio_choose" value="bologna">Provincia di Bologna<br>
+						<input type="radio" name="radio_choose" value="emr">Regione Emilia-Romagna
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" id="bt_scelta" data-dismiss="modal" disabled="disabled">Conferma</button>
 				</div>
 			</div>
 		</div>
