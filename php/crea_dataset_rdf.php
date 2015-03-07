@@ -31,11 +31,11 @@
 			$cur_cat = $row['categoria'];
 			if($cur_cat != $cat){
 				$parse_cat = str_replace(' ', '_', $cur_cat);
-				$categoria = $graph->resource('http://www.no-profit-data.it/cat-'.$parse_cat, 'skos:Concept');
+				$categoria = $graph->resource('http://www.cs.unibo.it/onda/category/'.$parse_cat, 'skos:Concept');
 				$categoria->set('rdfs:label',$cur_cat);
 			}
 		}
-		$categoria = $graph->resource('http://www.no-profit-data.it/cat-Associazione_no_profit', 'skos:Concept');
+		$categoria = $graph->resource('http://www.cs.unibo.it/onda/category/Associazione_no_profit', 'skos:Concept');
 		$categoria->set('rdfs:label',"Associazione no profit");
 	}
 	
@@ -45,7 +45,7 @@
 	*/
 	function crea_grafo($elenco_associazioni){
 		global $graph;
-		$prefix = "http://www.no-profit-data.it/";
+		$prefix = "http://www.cs.unibo.it/onda/";
 		$elenco_iri = array();
 		$count = 0;
 		foreach ($elenco_associazioni as $elenco){	
@@ -111,7 +111,7 @@
 				if(count($categorie) >0){
 					foreach($categorie as $cat){
 						
-						$associazione->addResource("org:purpose","http://www.no-profit-data.it/cat-".str_replace(" ","_",$cat));
+						$associazione->addResource("org:purpose","http://www.cs.unibo.it/onda/category/".str_replace(" ","_",$cat));
 					}
 				}
 
@@ -119,11 +119,11 @@
 				
 				/*Creo l'oggetto Site*/
 				if($email != null || $numeri != null || $luogo != null){
-					$iri_site = $prefix.'site-'.$parse_link.'_'.$count_site;
+					$iri_site = $prefix.'site/'.$parse_link.'_'.$count_site;
 					$site = $graph->resource($iri_site, 'org:Site');
 					
 					/*Creo l'oggetto Location*/
-					$iri_location = $prefix.'loc-'.$parse_link.'_'.$count_location;
+					$iri_location = $prefix.'locality/'.$parse_link.'_'.$count_location;
 					$location = $graph->resource($iri_location, 'vcard:Location');
 					
 					/*Imposto i predicati/proprietà per ogni oggetto*/
@@ -140,7 +140,7 @@
 							$num_type = $n[1];
 							$num_tel =  preg_replace('/\s/','',$n[0]);
 							$numero = $graph->resource("tel:".$num_tel);
-							$telefono = $graph->resource($prefix."number-".$num_tel,"vcard:Voice");
+							$telefono = $graph->resource($prefix."number/".$num_tel,"vcard:Voice");
 							$telefono->add('vcard:hasValue',$numero);
 							$location->addResource("vcard:hasTelephone",$telefono);
 						}
@@ -157,10 +157,10 @@
 							$indirizzo = trim($indirizzo," ");
 									
 							
-							$iri_address = $prefix.$indirizzo."_".$luogo['cap'];
+							$iri_address = $prefix."indirizzo/".$indirizzo."_".$luogo['cap'];
 						}
 						else{
-							$iri_address = $prefix.$luogo['cap'];
+							$iri_address = $prefix."indirizzo/".$luogo['cap'];
 						}
 						$address = $graph->resource($iri_address,"vcard:Work");
 						$address->set("vcard:country-name","Italia");
